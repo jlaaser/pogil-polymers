@@ -1,0 +1,125 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% (c) 2018 by Jennifer Laaser
+%
+% This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+%
+% The current source for these materials is accessible on Github: https://github.com/jlaaser/pogil-polymers
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letter,11pt,onecolumn]{memoir}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+%\usepackage{achemso}
+\usepackage[version=4]{mhchem} 
+\usepackage{graphicx}
+\usepackage{hyperref}
+%\usepackage{memh­fixc}
+\usepackage{enumitem}
+
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = blue, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor   = red %Colour of citations
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\figpath}{}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\thetitle}{POGIL Polymers}
+\newcommand{\versionno}{0.0.1}
+\date{\today}
+
+% title page from https://ctan.org/pkg/titlepages
+\newcommand*{\titlepage}{\begingroup% Story of Writing
+\raggedleft
+\vspace*{\baselineskip}
+{\Huge\itshape POGIL Polymers}\\[\baselineskip]
+{\large\itshape Guided-Inquiry Activities \\for Polymer Chemistry and Polymer Physics}\\[0.2\textheight]
+{\Large Jennifer Laaser}\par
+\vfill
+{\Large  University of Pittsburgh}
+\vspace*{\baselineskip}
+\endgroup}
+
+\newcommand*{\copyrightpage}{\begingroup
+\makeatother
+\vspace*{5in}
+\includegraphics[width=0.2\textwidth]{by-nc-sa}
+
+\vspace{0.2in}
+	\begin{minipage}{0.75\textwidth}
+		\textcopyright 2018 by Jennifer Laaser. \thetitle\ is made available under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: \url{http://creativecommons.org/licenses/by-nc-sa/4.0/}
+
+		\vspace{0.1in}
+
+		The current source for these materials is accessible on Github:\\ 		\url{https://github.com/jlaaser/pogil-polymers}
+	\end{minipage}
+\vfill
+\endgroup}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\frontmatter
+\pagestyle{empty}
+\titlepage
+\clearpage
+
+\copyrightpage
+\clearpage
+
+\tableofcontents*
+\clearpage
+
+%\chapter{Introduction}
+
+%\lipsum[1-12]
+
+\mainmatter
+
+\part{Introduction to Polymers}
+
+	\chapter{From Molecules to Polymers}
+
+\part{Polymer Chemistry}
+
+	\chapter{Fundamentals of Polymer Chemistry}
+
+	\chapter{Step-Growth Polymerizations}
+
+	\chapter{Free-Radical Polymerization}
+
+	\chapter{Controlled Polymerizations}
+
+	\chapter{Copolymers}
+
+\part{Polymer Physics}
+
+	\chapter{Conformations of Polymer Chains}
+
+	\chapter{Mechanical Properties of Polymers}
+
+	\chapter{Phase Behavior of Polymers \& Their Solutions}
+
+	\chapter{Thermal Properties of Polymers}
+
+
+%\appendix
+
+%\chapter{An Appendix Chapter}
+
+%\lipsum[1-15]
+
+\backmatter
+
+\end{document}
