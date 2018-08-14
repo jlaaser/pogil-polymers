@@ -34,7 +34,7 @@ Compiling the Exercises
  
 	- To compile the complete set of exercises, simply compile pogil-polymers.tex without any changes.
  
-	- To compile a subset of the exercises, comment out (put a % sign in front of) the "\include" statements for any exercises that you want to omit from the output before compiling the pdf.  You can also re-order the exercises, chapters, and sections by changing the order of the "\include" and "\chatper" commands in the document.
+	- To compile a subset of the exercises, comment out (put a % sign in front of) the "\include" statements for any exercises that you want to omit from the output before compiling the pdf.  You can also re-order the exercises, chapters, and sections by changing the order of the "\include" and "\chapter" commands in the document.
  
  - This project also contains a template for a single exercise, called "single-exercise.tex":
  
