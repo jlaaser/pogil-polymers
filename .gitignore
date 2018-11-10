@@ -240,3 +240,7 @@ TSWLatexianTemp*
 
 # generated if using elsarticle.cls
 *.spl
+
+content/polymchem/stepgrowth/equilib/figs/test_image\.pdf
+
+content/polymchem/stepgrowth/equilib/equilib\.tex
