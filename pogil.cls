@@ -30,6 +30,11 @@
 			\PassOptionsToClass{\CurrentOption}{article}
 		}
 	}
+	
+% default options
+	\ExecuteOptions{letter,11pt,onecolumn,twoside}
+	
+% process options
 	\ProcessOptions\relax
 	
 
@@ -64,6 +69,14 @@
 	}
 	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Store some user-defined information before \begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% set up copyright info
+	\newcommand{\copyrightfulltext}[1]{\csdef{copyfull}{#1}}
+	\newcommand{\copyrightshort}[1]{\csdef{copyshort}{#1}}
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Do some general formatting setup
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -92,6 +105,17 @@
 	}{%
 		\RequirePackage{fancyhdr}
 		\RequirePackage{lastpage}
+		
+		\pagestyle{fancy}
+		
+		\lhead{}
+		\chead{\rightmark}
+		\rhead{}
+		\lfoot{\csuse{copyshort}}
+		\cfoot{}
+		\rfoot{Page \thepage\ of \pageref{LastPage}}
+		\renewcommand{\headrulewidth}{1pt}
+		\renewcommand{\footrulewidth}{1pt}
 	}
 	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -114,6 +138,7 @@
     		\addcontentsline{toc}{section}{Activity~\arabic{activity}: \activitytitle}
     	}{%
     		\section*{\activitytitle}
+    		\markright{\activitytitle}
     	}
 	}{%
 		% after code:
