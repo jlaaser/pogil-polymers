@@ -57,6 +57,12 @@
 	\RequirePackage{xcolor}
 	\RequirePackage{mdframed}
 	
+	\ifbool{isbook}{%
+	}{%
+		\RequirePackage{fancyhdr}
+		\RequirePackage{lastpage}
+	}
+	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Do some general formatting setup
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -75,35 +81,143 @@
 	  citecolor   = red %Colour of citations
 	}
 	
+% create a useful command or two that we'll use in the exercise files
+
+	\newcommand{\figpath}{}
+	
+% format headers and footers:
+
+	\ifbool{isbook}{%
+		% set up formatting for memoir class here
+	}{%
+		\RequirePackage{fancyhdr}
+		\RequirePackage{lastpage}
+	}
+	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Set up environments for exercise formatting
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % mdframed documentation is here: http://ctan.math.washington.edu/tex-archive/macros/latex/contrib/mdframed/mdframed.pdf
 
+% set up environment for ACTIVITY
+
+	\newcounter{activity}
+
+	\newenvironment{activity}[1][]{%
+		% before code:
+		\newcommand{\activitytitle}{#1}
+		
+		\ifbool{isbook}{%
+			\refstepcounter{activity}
+			\section*{Activity~\arabic{activity}: \activitytitle}
+    		\addcontentsline{toc}{section}{Activity~\arabic{activity}: \activitytitle}
+    	}{%
+    		\section*{\activitytitle}
+    	}
+	}{%
+		% after code:
+		\clearpage
+	}
+
+% set up environment for INSTRUCTOR NOTES
+
+	\newenvironment{intructornotes}{%
+		% before code:
+	}{%
+		% after code:
+	}
+
+% set up environment for warmups
+
+	\newenvironment{warmup}{%
+		% before code:
+	}{%
+		% after code:
+	}
+
+
 % Set up environment for models
+
+	\newcounter{model}[activity]
+
+	\newenvironment{model}[1][]{%
+		% before code:
+		\refstepcounter{model}
+		\subsection*{Model~\arabic{model}: #1}
+		\begin{mdframed}[style=modelstyle]
+	}{%
+		% after code:
+		\end{mdframed}
+	}
 
 	\mdfdefinestyle{modelstyle}{%
 		linecolor=black,linewidth=1pt,%
-		frametitlerule=true,%
-		frametitlebackgroundcolor=blue!20,
-		frametitlefont=\normalfont\bfseries\large,
+		rightmargin=0.25in,leftmargin=0.25in,%
+		%frametitlerule=true,%
+		%frametitlebackgroundcolor=blue!20,
+		%frametitlefont=\normalfont\bfseries\large,
 		innertopmargin=\topskip,
 	}
 	
-	\mdtheorem[style=modelstyle]{model}{Model}
+% set up environment for critical thinking questions
+
+	\newcounter{ctqs}[activity]
+	\setcounter{ctqs}{1}
+
+	\newenvironment{ctqs}{%
+		% before code:
+		\newcommand{\question}{\refstepcounter{ctqs}\item}
+		
+		\subsection*{Critical Thinking Questions:}
+		\begin{enumerate}[start=\arabic{ctqs}]
+	}{%
+		% after code:
+		\end{enumerate}
+	}
 
 % Set up environment for infoboxes
 
+	\newenvironment{infobox}{%
+		% before code:
+		\subsection*{Information:}
+		\begin{mdframed}[style=infoboxstyle]
+	}{%
+		% after code:
+		\end{mdframed}
+	}
+
 	\mdfdefinestyle{infoboxstyle}{%
-		linecolor=blue!20,linewidth=1pt,
-		rightmargin=0.5in,%leftmargin=0.5in,
-		frametitlerule=false,
-		frametitlebackgroundcolor=blue!10,
-		frametitlealignment=\center,
+		linecolor=blue!30,linewidth=1pt,
+		rightmargin=0.25in,leftmargin=0.25in,
+		%frametitlerule=false,
+		%frametitlebackgroundcolor=blue!10,
+		%frametitlealignment=\center,
 		backgroundcolor=blue!10,
 		innertopmargin=\topskip,
-		frametitle={Information:},
+		%frametitle={Information:},
+	}
+	
+% set up environment for exercises
+
+	\newenvironment{exercises}{%
+		\newcommand{\exercise}{\item}
+		
+		\subsection*{Exercises:}
+		\begin{enumerate}
+	}{%
+		\end{enumerate}
+	}
+	
+% set up environment for problems
+
+	\newenvironment{problems}{%
+		\newcommand{\problem}{\item}
+		
+		\subsection*{Problems:}
+		\begin{enumerate}
+	}{%
+		\end{enumerate}
 	}
 	
 % long term goal: have answerspace break intelligently across pages, but for now, just use vspace
