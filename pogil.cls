@@ -313,7 +313,8 @@
 % set up environment for answer spaces
 
 	\newenvironment{solution}[1][]{%
-		\begin{minipage}[t][#1][c]{\textwidth}
+		\begin{minipage}[t][#1][c]{\linewidth}
+		\setlength{\parskip}{0.5em}
 		\ifbool{instructorguide}{%
 			\color{red}
 		}{%

@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="166.6759mm"
@@ -15,9 +16,16 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="Model1and2_blank.svg">
+   sodipodi:docname="Model1and2.svg">
   <defs
-     id="defs2" />
+     id="defs2">
+    <circle
+       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.38139644;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4519-4"
+       cx="148.69167"
+       cy="119.15096"
+       r="13.532325" />
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,9 +33,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.9304687"
-     inkscape:cx="315.98173"
-     inkscape:cy="176.6976"
+     inkscape:zoom="2.17"
+     inkscape:cx="279.9647"
+     inkscape:cy="232.70616"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -48,15 +56,17 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     inkscape:label="blank"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-22.435419,-77.945254)">
+     transform="translate(-22.435419,-77.945254)"
+     style="display:inline"
+     sodipodi:insensitive="true">
     <g
        id="g4515"
        transform="translate(0,0.277545)">
@@ -112,5 +122,39 @@
            height="423.21329"
            x="420.62323"
            y="265.21494" /></flowRegion><flowPara
-         id="flowPara4547"></flowPara></flowRoot>  </g>
+         id="flowPara4547" /></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="solution"
+     style="display:inline">
+    <text
+       transform="translate(1.5843583,-1.6184501)"
+       id="text4487-2-4-5-6"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0.5662083px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><textPath
+         xlink:href="#path4519"
+         id="textPath4531"><tspan
+   id="tspan4485-0-2-3-8"
+   style="letter-spacing:0.5662083px;fill:#ff0000;stroke-width:0.26458332">aabbaabbaabbaabb</tspan></textPath></text>
+    <circle
+       transform="translate(-22.435419,-77.945255)"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.38139644;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4519"
+       cx="148.69167"
+       cy="119.15096"
+       r="13.532325" />
+    <text
+       y="-21.715967"
+       x="-106.73766"
+       id="text4487-2-4-5-6-7"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0.5662083px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       transform="translate(-107.45013,-79.74099)"><textPath
+         style="stroke-width:0.26458332"
+         xlink:href="#path4519-4"
+         id="textPath4531-4">abababababababab<tspan
+   id="tspan4485-0-2-3-8-5"
+   style="letter-spacing:0.5662083px;fill:#ff0000;stroke-width:0.26458332" /></textPath></text>
+  </g>
 </svg>

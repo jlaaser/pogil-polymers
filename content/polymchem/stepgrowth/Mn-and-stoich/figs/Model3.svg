@@ -15,7 +15,7 @@
    version="1.1"
    id="svg4567"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="Model3_blank.svg">
+   sodipodi:docname="Model3.svg">
   <defs
      id="defs4561" />
   <sodipodi:namedview
@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.9304687"
-     inkscape:cx="171.71626"
-     inkscape:cy="70.127076"
+     inkscape:zoom="3.0603482"
+     inkscape:cx="135.69923"
+     inkscape:cy="148.54952"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      fit-margin-top="5"
      fit-margin-left="5"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,7 +56,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-7.8388961,-74.65933)">
+     transform="translate(-7.8388961,-74.65933)"
+     style="display:inline"
+     sodipodi:insensitive="true">
     <g
        transform="translate(-14.596523,-3.0083792)"
        id="g4515-2">
@@ -79,5 +81,34 @@
            id="tspan4487-5"
            sodipodi:role="line">Model 3</tspan></text>
     </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="solution">
+    <text
+       transform="translate(-7.8388961,-74.659331)"
+       id="text4487-5-9-7"
+       y="108.25524"
+       x="25.332609"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="fill:#ff0000;stroke-width:0.26458332"
+         y="108.25524"
+         x="25.332609"
+         id="tspan4485-54-6-5"
+         sodipodi:role="line">BbaabbaabB</tspan></text>
+    <text
+       transform="translate(-7.8388961,-74.659331)"
+       id="text4487-1-3-5-3"
+       y="132.41977"
+       x="34.930161"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="fill:#ff0000;stroke-width:0.26458332"
+         y="132.41977"
+         x="34.930161"
+         id="tspan4485-1-4-3-8"
+         sodipodi:role="line">BbaabB</tspan></text>
   </g>
 </svg>
