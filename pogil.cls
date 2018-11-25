@@ -332,3 +332,14 @@
 		}
 		\end{minipage}
 	}
+	
+	
+	
+	\newcommand{\answer}[1]{
+		\ifbool{instructorguide}{%
+			\color{red}%
+		}{%
+			\color{white}%
+		}%
+		#1\color{black}%
+	}
