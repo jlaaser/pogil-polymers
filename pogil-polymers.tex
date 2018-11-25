@@ -8,61 +8,23 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[letter,11pt,onecolumn]{memoir}
+\documentclass[book,instructor]{pogil}
 
-\usepackage[margin=1in]{geometry}
-\usepackage[english]{babel}
-\usepackage{amsmath}
-%\usepackage{achemso}
-\usepackage[version=4]{mhchem} 
-\usepackage{graphicx}
-\usepackage{hyperref}
-%\usepackage{memh­fixc}
-\usepackage{enumitem}
+%%%%%%%%%%%%%%%%% DOCUMENT INFORMATION %%%%%%%%%%%%%%%%%%%%%%%%
 
-\hypersetup{
-  colorlinks   = true, %Colours links instead of ugly boxes
-  urlcolor     = blue, %Colour for external hyperlinks
-  linkcolor    = blue, %Colour of internal links
-  citecolor   = red %Colour of citations
-}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\figpath}{}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\thetitle}{POGIL Polymers}
-\newcommand{\versionno}{0.0.1}
+\author{Jennifer Laaser}
+\institution{University of Pittsburgh}
+\title{POGIL Polymers}
+\subtitle{Guided-Inquiry Activities \\for Polymer Chemistry and Polymer Physics}
 \date{\today}
 
-% title page from https://ctan.org/pkg/titlepages
-\newcommand*{\titlepage}{\begingroup% Story of Writing
-\raggedleft
-\vspace*{\baselineskip}
-{\Huge\itshape POGIL Polymers}\\[\baselineskip]
-{\large\itshape Guided-Inquiry Activities \\for Polymer Chemistry and Polymer Physics}\\[0.2\textheight]
-{\Large Jennifer Laaser}\par
-\vfill
-{\Large  University of Pittsburgh}
-\vspace*{\baselineskip}
-\endgroup}
+\copyrightshort{\includegraphics[width=0.1\textwidth]{by-nc-sa} J. Laaser 2018}
+\copyrightfulltext{
+	\textcopyright 2018 by Jennifer Laaser. \thetitle\ is made available under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: \url{http://creativecommons.org/licenses/by-nc-sa/4.0/}
 
-\newcommand*{\copyrightpage}{\begingroup
-\makeatother
-\vspace*{5in}
-\includegraphics[width=0.2\textwidth]{by-nc-sa}
-
-\vspace{0.2in}
-	\begin{minipage}{0.75\textwidth}
-		\textcopyright 2018 by Jennifer Laaser. \thetitle\ is made available under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: \url{http://creativecommons.org/licenses/by-nc-sa/4.0/}
-
-		\vspace{0.1in}
-
-		The current source for these materials is accessible on Github:\\ 		\url{https://github.com/jlaaser/pogil-polymers}
-	\end{minipage}
-\vfill
-\endgroup}
+	The current source for these materials is accessible on Github:\\ 		\url{https://github.com/jlaaser/pogil-polymers}
+}
+\copyrightgraphic{by-nc-sa}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -86,10 +48,12 @@
 %\lipsum[1-12]
 
 \mainmatter
+\pagestyle{fancy}
 
 \part{Introduction to Polymers}
 
 	\chapter{From Molecules to Polymers}
+		\include{content/activity-template}
 
 \part{Polymer Chemistry}
 

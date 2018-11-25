@@ -1,0 +1,80 @@
+\ProvidesPackage{pogilutils}[11/18/18 - Utilities for Formatting POGIL Exercises]
+
+% Require general packages for document formatting
+%\RequirePackage[hidelinks]{hyperref}
+\RequirePackage[margin=1in]{geometry}
+\RequirePackage[english]{babel}
+\RequirePackage{amsmath}
+\RequirePackage[version=4]{mhchem} 
+\RequirePackage{graphicx}
+\RequirePackage{hyperref}
+\RequirePackage{enumitem}
+\RequirePackage{xcolor}
+\RequirePackage{mdframed}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% GENERAL SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% set up paragraph formatting
+
+	\setlength{\parindent}{0pt}
+	\setlength{\parskip}{0.5em}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% MDFRAMED SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% mdframed documentation is here: http://ctan.math.washington.edu/tex-archive/macros/latex/contrib/mdframed/mdframed.pdf
+
+% Set up environment for models
+
+	\mdfdefinestyle{modelstyle}{%
+		linecolor=black,linewidth=1pt,%
+		frametitlerule=true,%
+		frametitlebackgroundcolor=blue!20,
+		frametitlefont=\normalfont\bfseries\large,
+		innertopmargin=\topskip,
+	}
+	
+	\mdtheorem[style=modelstyle]{model}{Model}
+
+% Set up environment for infoboxes
+
+	\mdfdefinestyle{infoboxstyle}{%
+		linecolor=blue!20,linewidth=1pt,
+		rightmargin=0.5in,%leftmargin=0.5in,
+		frametitlerule=false,
+		frametitlebackgroundcolor=blue!10,
+		frametitlealignment=\center,
+		backgroundcolor=blue!10,
+		innertopmargin=\topskip,
+		frametitle={Information:},
+	}
+	
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% SECTIONING %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Set up environment for critical thinking questions
+
+	% want to make it be an enumerated list; numbering should restart with each section
+	% this answer may be useful: https://tex.stackexchange.com/questions/226081/enumitem-resume-reset-at-section
+	
+% Set up environment for exercises
+
+% set up environment for acitivity (? - does this need its own environment or should it just have 
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% ANSWER SPACE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% long term goal: have answerspace break intelligently across pages, but for now, just use vspace
+
+\newcommand{\answerspace}[1]{\vspace{#1}}
