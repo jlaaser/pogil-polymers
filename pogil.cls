@@ -52,7 +52,8 @@
 	\RequirePackage{xcolor}
 	\RequirePackage{mdframed}
 	\RequirePackage{fancyhdr}
-	\RequirePackage{memhfixc}	%fix hyperref in memoir class
+	\RequirePackage{memhfixc}	% fix hyperref in memoir class
+	\RequirePackage{comment}	% necessary for hiding answers in student version
 	
 	\ifbool{isbook}{%
 	}{%
@@ -170,6 +171,9 @@
 
 	\newenvironment{activity}[1][]{%
 		% before code:
+
+		\cleardoublepage		
+		
 		\newcommand{\activitytitle}{#1}
 		
 		\ifbool{isbook}{%
@@ -185,15 +189,30 @@
 		\setbool{restartctqs}{true}
 	}{%
 		% after code:
-		\clearpage
 	}
 
 % set up environment for INSTRUCTOR NOTES
 
-	\newenvironment{intructornotes}{%
+	\newenvironment{instructornotes}{%
 		% before code:
+		\color{red}
+		\subsection*{Instructor Notes:}
 	}{%
 		% after code:
+		\ifbool{instructorguide}{%
+			\clearpage
+			\color{black}
+			\ifbool{isbook}{%
+				\section*{Activity~\arabic{activity}: \activitytitle}
+    		}{%
+    			\section*{\activitytitle}
+    		}
+    	}{}
+	}
+	
+	\ifbool{instructorguide}{%
+	}{%
+		\excludecomment{instructornotes}
 	}
 
 % set up environment for warmups
@@ -291,6 +310,25 @@
 		\end{enumerate}
 	}
 	
-% long term goal: have answerspace break intelligently across pages, but for now, just use vspace
+% set up environment for answer spaces
 
-	\newcommand{\answerspace}[1]{\vspace{#1}}
+	\newenvironment{solution}[1][]{%
+		\begin{minipage}[t][#1][c]{\textwidth}
+		\ifbool{instructorguide}{%
+			\color{red}
+		}{%
+			\color{white}
+		}
+		
+		\newcommand{\studentdisplay}[1]{\csdef{showstudent}{##1}}
+		\newcommand{\instructordisplay}[1]{\csdef{showinstructor}{##1}}
+	}{%
+		\ifbool{instructorguide}{%
+			\csuse{showinstructor}
+			\color{black}
+		}{%
+			\color{black}
+			\csuse{showstudent}
+		}
+		\end{minipage}
+	}
