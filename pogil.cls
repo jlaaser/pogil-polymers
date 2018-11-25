@@ -12,47 +12,37 @@
 	\setbool{isbook}{false}
 	
 	\DeclareOption{handout}{}
-	\DeclareOption{book}{\setbool{isbook}{false}}
+	\DeclareOption{book}{\setbool{isbook}{true}}
 
 % option: student vs. instructor (default: student)
 	\newbool{instructorguide}
 	\setbool{instructorguide}{false}
 	
 	\DeclareOption{student}{}
-	\DeclareOption{instructor}{\setbool{instructorguide}{false}}
+	\DeclareOption{instructor}{\setbool{instructorguide}{true}}
 
 % unknown options
 	
-	\DeclareOption*{%
-		\ifbool{isbook}{%
-			\PassOptionsToClass{\CurrentOption}{memoir}
-		}{%
-			\PassOptionsToClass{\CurrentOption}{article}
-		}
-	}
+	\DeclareOption*{\PassOptionsToClass{\CurrentOption}{memoir}}
 	
 % default options
-	\ExecuteOptions{letter,11pt,onecolumn,twoside}
+	\ExecuteOptions{letter,11pt,onecolumn,twoside,openright}
 	
 % process options
 	\ProcessOptions\relax
 	
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Load appropriate base class
+%%% Load memoir as base class
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-	\ifbool{isbook}{%
-		\LoadClass{memoir}
-	}{%
-		\LoadClass{article}
-	}
+	\LoadClass{memoir}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Load required packages
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-	\RequirePackage[margin=1in]{geometry}
+	%\RequirePackage[margin=1in]{geometry}
 	\RequirePackage[english]{babel}
 	\RequirePackage{amsmath}
 	\RequirePackage[version=4]{mhchem} 
@@ -61,10 +51,11 @@
 	\RequirePackage{enumitem}
 	\RequirePackage{xcolor}
 	\RequirePackage{mdframed}
+	\RequirePackage{fancyhdr}
+	\RequirePackage{memhfixc}	%fix hyperref in memoir class
 	
 	\ifbool{isbook}{%
 	}{%
-		\RequirePackage{fancyhdr}
 		\RequirePackage{lastpage}
 	}
 	
@@ -75,15 +66,33 @@
 % set up copyright info
 	\newcommand{\copyrightfulltext}[1]{\csdef{copyfull}{#1}}
 	\newcommand{\copyrightshort}[1]{\csdef{copyshort}{#1}}
+	\newcommand{\copyrightgraphic}[1]{\csdef{copygraphic}{#1}}
+	
+% set up author, title, etc. info
+	\renewcommand{\author}[1]{\csdef{author}{#1}}
+	\newcommand{\institution}[1]{\csdef{institution}{#1}}
+	\renewcommand{\title}[1]{\csdef{title}{#1}}
+	\newcommand{\subtitle}[1]{\csdef{subtitle}{#1}}
+	\newcommand{\version}{0.0.1}
+	\renewcommand{\date}[1]{\csdef{date}{#1}}
+	
+	\newcommand{\thetitle}{\csuse{title}}
 	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Do some general formatting setup
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% set up page margins
+
+	\setlrmarginsandblock{1in}{1in}{*}
+	\setulmarginsandblock{1.25in}{1.25in}{*}
+	\checkandfixthelayout 
+
 % set up paragraph formatting
 
 	\setlength{\parindent}{0pt}
 	\setlength{\parskip}{0.5em}
+	\setaftersubsecskip{1.5em}
 	
 % set up hyperref link styles
 
@@ -100,23 +109,51 @@
 	
 % format headers and footers:
 
+	\copypagestyle{fancy}{ruled}
+	\makeheadrule{fancy}{\textwidth}{\normalrulethickness}
+	\makefootrule{fancy}{\textwidth}{\normalrulethickness}{\footruleskip}
+	
 	\ifbool{isbook}{%
-		% set up formatting for memoir class here
+		\makeoddhead{fancy}{}{}{\rightmark}
+		\makeevenhead{fancy}{\rightmark}{}{}
+		\makeoddfoot{fancy}{\csuse{copyshort}}{}{\thepage}
+		\makeevenfoot{fancy}{\thepage}{}{\csuse{copyshort}}
 	}{%
-		\RequirePackage{fancyhdr}
-		\RequirePackage{lastpage}
+		\makeoddhead{fancy}{}{\rightmark}{}
+		\makeevenhead{fancy}{}{\rightmark}{}
+		\makeoddfoot{fancy}{\csuse{copyshort}}{}{Page \thepage\ of \pageref{LastPage}}
+		\makeevenfoot{fancy}{Page \thepage\ of \pageref{LastPage}}{}{\csuse{copyshort}}
 		
-		\pagestyle{fancy}
-		
-		\lhead{}
-		\chead{\rightmark}
-		\rhead{}
-		\lfoot{\csuse{copyshort}}
-		\cfoot{}
-		\rfoot{Page \thepage\ of \pageref{LastPage}}
-		\renewcommand{\headrulewidth}{1pt}
-		\renewcommand{\footrulewidth}{1pt}
+		\AtBeginDocument{\pagestyle{fancy}}
 	}
+
+	
+% format title page:
+
+	% title page from https://ctan.org/pkg/titlepages - Story of Writing
+	\newcommand*{\titlepage}{\begingroup
+		\raggedleft
+		\vspace*{\baselineskip}
+		{\Huge\itshape \csuse{title}}\\[\baselineskip]
+		{\large\itshape \csuse{subtitle}}\\[0.2\textheight]
+		{\Large \csuse{author}}\par
+		\vfill
+		{\Large  \csuse{institution}}
+		\vspace*{\baselineskip}
+	\endgroup}
+	
+% format copyright page:
+	\newcommand*{\copyrightpage}{\begingroup
+		\makeatother
+		\vspace*{5in}
+		\includegraphics[width=0.2\textwidth]{\csuse{copygraphic}}
+
+		\vspace{0.2in}
+		\begin{minipage}{0.75\textwidth}
+			\csuse{copyfull}
+		\end{minipage}
+		\vfill
+	\endgroup}
 	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Set up environments for exercise formatting
@@ -127,6 +164,9 @@
 % set up environment for ACTIVITY
 
 	\newcounter{activity}
+	\newcounter{ctqs}[activity]	% counter for critical thinking questions
+
+	\newbool{restartctqs}
 
 	\newenvironment{activity}[1][]{%
 		% before code:
@@ -136,10 +176,13 @@
 			\refstepcounter{activity}
 			\section*{Activity~\arabic{activity}: \activitytitle}
     		\addcontentsline{toc}{section}{Activity~\arabic{activity}: \activitytitle}
+    		\markright{Activity~\arabic{activity}: \activitytitle}
     	}{%
     		\section*{\activitytitle}
     		\markright{\activitytitle}
     	}
+    	
+		\setbool{restartctqs}{true}
 	}{%
 		% after code:
 		\clearpage
@@ -157,6 +200,7 @@
 
 	\newenvironment{warmup}{%
 		% before code:
+		\subsection*{Warmup:}
 	}{%
 		% after code:
 	}
@@ -178,7 +222,7 @@
 
 	\mdfdefinestyle{modelstyle}{%
 		linecolor=black,linewidth=1pt,%
-		rightmargin=0.25in,leftmargin=0.25in,%
+		innermargin=0.25in,outermargin=0.25in,%
 		%frametitlerule=true,%
 		%frametitlebackgroundcolor=blue!20,
 		%frametitlefont=\normalfont\bfseries\large,
@@ -187,12 +231,14 @@
 	
 % set up environment for critical thinking questions
 
-	\newcounter{ctqs}[activity]
-	\setcounter{ctqs}{1}
-
 	\newenvironment{ctqs}{%
 		% before code:
 		\newcommand{\question}{\refstepcounter{ctqs}\item}
+		
+		\ifbool{restartctqs}{%
+			\global\boolfalse{restartctqs}
+			\refstepcounter{ctqs}
+		}{}
 		
 		\subsection*{Critical Thinking Questions:}
 		\begin{enumerate}[start=\arabic{ctqs}]
@@ -214,7 +260,7 @@
 
 	\mdfdefinestyle{infoboxstyle}{%
 		linecolor=blue!30,linewidth=1pt,
-		rightmargin=0.25in,leftmargin=0.25in,
+		innermargin=0.25in,outermargin=0.25in,
 		%frametitlerule=false,
 		%frametitlebackgroundcolor=blue!10,
 		%frametitlealignment=\center,
