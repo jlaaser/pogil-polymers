@@ -341,6 +341,7 @@
 			\color{red}%
 		}{%
 			\color{white}%
+			\renewcommand{\includegraphics}[2][]{~}
 		}%
 		#1\color{black}%
 	}
