@@ -10,7 +10,7 @@
 
 \renewcommand{\figpath}{content/polymchem/stepgrowth/stepgrowth-chemistries/figs}
 
-\begin{activity}[Condensation Polymerizations]
+\begin{activity}[Chemistries of Step-Growth Polymerizations]
 
 \begin{instructornotes}
 
@@ -251,8 +251,9 @@ A polymerization reaction is called a \emph{condensation} polymerization if the 
 \end{ctqs}
 
 \begin{model}[Other Chemistries used for Step-Growth Polymerization]
+\label{model:otherstepgrowthchems}
 
-Shown below are reactions used to produce a variety of other commercially-important polymers by step-growth polymerization:
+Shown below are synthetic schemes for a variety of other commercially-important polymers produced by step-growth polymerization:
 
 \vspace{0.1in}
 
@@ -323,7 +324,7 @@ Shown below are reactions used to produce a variety of other commercially-import
 			\end{center}
 			
 		\vspace{0.25in}
-		\question Which of the above polymerization reactions would you classify as condensation polymerizations?
+		\question Which of the above polymerization reactions would you classify as condensation polymerizations?  Briefly explain your answer in 1-2 complete sentences.
 			
 				\begin{solution}[2in]
 					All of the reactions except for the epoxy reaction form a small-molecule byproduct, so all of the reactions except for the epoxy reaction are condensation polymerizations.
@@ -335,15 +336,76 @@ Shown below are reactions used to produce a variety of other commercially-import
 \clearpage
 \begin{exercises}
 
-		\exercise (other esterification chemistries)
+		%\exercise (alternate esterification and amidation chemistries? see H&L Tables 2.3 and 2.4)
 		
-		\exercise (difference in polymer structures formed by AB vs AA+BB reactions?)
+		\exercise \label{exc:AABBester} Although the polymers formed by AB-type and AA+BB-type step-growth polymerizations are similar, there are some subtle but important differences.
+			Consider the synthesis of a polyester from the following two monomers:
+			
+			\centerline{\includegraphics[width=0.6\textwidth]{\figpath/exercises_polyester-AABB-monomers.pdf}}	
+			
+			\begin{enumerate}
+				\item Draw the structure of the polymer that would be formed from this pair of monomers.
+					
+					\begin{solution}\instructordisplay{
+						\centerline{\includegraphics[width=0.4\textwidth]{\figpath/exercises_polyester-AABB-shorthand.pdf}}
+					}\end{solution}
+					
+				\item Compare this structure to the polymer produced from the AB-type monomer in Model 1 (hint: you may find it useful to explicitly draw out a few repeat units).  Are they the same, or different?  If they are different, briefly describe what is different about the two structures.
+					
+					\begin{solution}\instructordisplay{
+						If we explicitly draw out two repeat units of the polymer produced from the AA+BB type monomers, we get something like this:
+						
+						\centerline{\includegraphics[width=0.7\textwidth]{\figpath/exercises_polyester-AABB-4oligo.pdf}}
+						
+						On the other hand, if we explicitly draw out the polymer produced from the AB-type monomers, we get
+						
+						\centerline{\includegraphics[width=0.7\textwidth]{\figpath/exercises_polyester-AB-4oligo.pdf}}
+						
+						These structures are very similar; however, as you will notice, the orientation of the ester groups is slightly different: in the polymer produced from AB-type monomers, every ester group is oriented in the same direction, while in the polymer produced from the AA+BB-type monomers, they alternate.
+						
+						Another consequence is that the effective spacing between carbonyl groups is constant in the polymer produced from AB-type monomers (there are 6 atoms separating each \ce{C=0}), while it varies in the polymer produced from AA+BB-type monomers (where the spacing alternates between 6 and 8 atoms separating each \ce{C=O} group).
+						These differences will affect the physical properties of the polymers by changing - among other things - how easy it is for the chains to pack or align with each other.
+						
+					}\end{solution}
+					
+			\end{enumerate}
 		
-		\exercise (H-bonded structure of polyesters vs. polyamides - justify difference in properties?)
+		\exercise One of the reasons that polyamides have such useful properties is that the amide groups can form hydrogen bonds between chains, as shown below:
+			
+			\centerline{\includegraphics[width=0.7\textwidth]{\figpath/exercises_nylon-network-Hbond.pdf}}	
 		
-		\exercise (phosgene alternatives for polycarbonate synthesis?)
+			These inter-chain hydrogen bonds significantly improve the mechanical properties (e.g. stiffness, resilience, etc.) of the material.
+			
+			Draw an analogous structure for the AA+BB-type polyester that you drew in Exercise \ref{exc:AABBester}.  Can this polymer form inter-chain hydrogen bonds?  Briefly explain your answer, and discuss how you expect the physical properties of the polyester to compare to those of the polyamide.
+			
+			\begin{solution}\instructordisplay{	
+				The analogous structure for the AA+BB-type polyester is
+			
+			\centerline{\includegraphics[width=0.8\textwidth]{\figpath/exercises_polyester-network.pdf}}	
+			
+				While the polyamide was able to form hydrogen bonds because amide \ce{NH} bond (which is polar, and has a partial positive charge on the hydrogen atom which can interact with the partial negative charge on the adjacent chain's carbonyl groups), the polyester lacks this feature - there is no \ce{OH} or \ce{NH} functionality, and it cannot form hydrogen bonds.
+				
+				Because the polyester does not form inter-chain hydrogen bonds, we should expect it to be much less mechanically stable - it will probably be softer and less robust.
+				}\end{solution}
 		
-		\exercise (epoxidation reaction formed a linear polymer with secondary amines.  however, secondary amines can also attack epoxides.  What type of polymer structure would be formed in this case?)
+		%\exercise (phosgene alternatives for polycarbonate synthesis?)
+		
+		\exercise The epoxidation reaction shown in Model \ref{model:otherstepgrowthchems} formed a linear polymer with secondary amines.  However, secondary amines can also attack epoxides.  Draw out the polymer structure that you would expect to generate if this occurs.  How would you describe this polymer architecture?
+		
+			\begin{solution}\instructordisplay{
+				If the secondary amines can also attack epoxides, they will generate branched polymers, as shown below:
+			
+			\centerline{\includegraphics[width=0.4\textwidth]{\figpath/exercises_epoxy-branched.pdf}}	
+				
+				Note that the polymer chain can keep growing from this branch point, hence the parentheses on the branch as well as the main chain.			
+				Eventually, this branch main react with another growing polymer chain, so if this process continues, we will eventually end up with a crosslinked polymer network.
+				
+				Note that most commercially available epoxy resins use amines with more than two nitrogens, so the monomer is not just a ``BB-type'' monomer, but may be a \ce{B3} or \ce{B4}-type monomer (where the subscript indicates the number of reactive B functional groups, or in this case, the number of amines).
+				Similarly, while students were only asked to consider linear polyurethanes in this activity, commercial polyurethane foams typically contain ``polyols'' with 3 or more hydroxyl groups to promote crosslinking.
+				
+				The formation of networks from multi-functional monomers will be considered in more detail in a later activity.
+				
+			}\end{solution}
 		
 \end{exercises}
 	
