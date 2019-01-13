@@ -8,7 +8,7 @@ Copyright and License
 
 Current version (c) 2018 Jennifer Laaser
 
-This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+Except where otherwise noted, this work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
 The current source for these materials is accessible on Github: https://github.com/jlaaser/pogil-polymers
 
@@ -49,7 +49,7 @@ Contact
 Questions?  Interested in contributing?  You can reach the author at:
 
 E-mail: j.laaser@pitt.edu
-Web:	www.pitt.edu/~jel183
+Web:	http://laaserlab.chem.pitt.edu/
 Github:	github.com/jlaaser
 
 
