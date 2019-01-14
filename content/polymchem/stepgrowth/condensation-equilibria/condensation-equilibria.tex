@@ -9,8 +9,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \renewcommand{\figpath}{content/polymchem/stepgrowth/condensation-equilibria/figs}
+\renewcommand{\labelbase}{condequilib}
 
-\begin{activity}[Condensation Polymerizations]
+\begin{activity}[Equilibrium in Condensation Polymerizations]
 
 \begin{instructornotes}
 
@@ -34,7 +35,7 @@
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
-				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): section X.X
+				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): Not covered in detail, but some information in sections 2.5 and 2.6
 			\end{itemize}
 	\end{itemize}
 
@@ -42,40 +43,107 @@
 
 	%\textbf{Focus question:} Put a central question for the students to consider through this exercise here.
 
-\begin{model}[Chemistries of Step-Growth Polymerizations]
+\begin{model}[Equilibria in Condensation Reactions]
 
-	(examples of step-growth polymerizations used to produce commercially-important polymers)
+	So far, we have written all reactions as unidirectional, proceeding only from \emph{reactants} to \emph{products}.
+	However, in reality, the reactions used to produce polymers by step-growth polymerization are typically reversible, and proceed under equilibrium conditions.
+	
+	This issue is particularly important for condensation reactions, which produce a small-molecule byproduct.
+	Consider the reaction of an ``A'' functional group with a ``B'' functional group to produce an ``ab'' bond:
+	
+		%\centerline{\includegraphics[width=0.5\textwidth]{\figpath/model1_.pdf}}
+	
+	Here, we have included the small molecule byproduct, ``SM'' on the right side of the reaction.
+	We have also written the reaction arrow as a double arrow ($\leftrightharpoons$) to indicate that the reaction is reversible.
 
 \end{model}
 
 
 \begin{ctqs}
 
-	\question (analysis)
+	\question \label{\labelbase:ctq:Keq} Write an expression for the equilibrium constant for this reaction, $K_{eq}$, in terms of the concentrations of A groups ([A]), B groups ([B]), ab bonds ([ab]), and released small molecules ([SM]):
+	
+		\begin{solution}[1.5in]
+			\begin{equation*}
+				K_{eq} = \frac{[ab][SM]}{[A][B]}
+			\end{equation*}
+		\end{solution}
+	
+	\question \label{\labelbase:ctq:ICE} Suppose we start with $v_A^0$ A groups.  If the reaction is stoichiometrically balanced, that means we also start with $v_A^0$ B groups.
+	
+		Using this information, complete the following ICE table:
+		\begin{center}
+			\renewcommand{\arraystretch}{4}
+			\begin{tabular}{|c|c|c|c|c|}
+				\hline
+				~ & ~~~~~~~\textbf{A}~~~~~~~ & ~~~~~~~\textbf{B}~~~~~~~ & ~~~~~~~\textbf{ab}~~~~~~~ & ~~~~~~~\textbf{SM}~~~~~~~\\\hline
+				\textbf{Initial} & $v_A^0$ & $v_A^0$ & 0 & 0 \\\hline
+				\textbf{Change} & $-x$ & \answer{$-x$} & \answer{$+x$} & \answer{$+x$} \\\hline
+				\textbf{Equilibrium} & \answer{$v_A^0 - x$} & $v_A^0-x$ & \answer{$x$} & \answer{$x$} \\\hline
+			\end{tabular}
+		\end{center}
+		
+	\question Plug your values from the equilibrium line of this table into your expression from question \ref{\labelbase:ctq:Keq} to find an expression for $K_{eq}$ in terms of $v_A^0$ and $x$.
+	
+		%\emph{Note: your expression from question \ref{\labelbase:ctq:Keq} is written in terms of concentrations, while the values in the table in question \ref{\labelbase:ctq:ICE} are written in terms of numbers of molecules. However, }
+	
+		\begin{solution}[1.5in]
+			\begin{equation*}
+				K_{eq} = \frac{x^2}{(v_A^0-x)^2}
+			\end{equation*}
+		\end{solution}
 		
 \end{ctqs}
 
 \begin{infobox}
 
-(Definition of condensation polymerizations)
+	CONNECT TO POLYMERS/DEGREE OF POLYMERIZATION
+	
+	When the extent of reaction is equal to $p$, the number of $A$ groups that we have reacted is $pV_A^0$, so $x=pV_A^0$. 
 
 \end{infobox}
 
 \begin{ctqs}
+	
+	\question  Using this information, rewrite $K_{eq}$ only in terms of $p$.
 		
-		\question (identifying polymerizations from model 1 as condensation vs. not)
+		\begin{solution}[1.5in]
+			\begin{equation*}
+				K_{eq} = \frac{(pV_A^0)^2}{(v_A^0 - pv_A^0)^2} = \frac{p^2}{(1-p)^2}
+			\end{equation*}
+		\end{solution}
+	
+	
+	\question Finally, recalling that the number-average degree of polymerization is related to $p$ by $N_n = \frac{1}{1-p}$, show that 
+		\begin{equation*}
+			N_n = \sqrt{K_{eq}} + 1
+		\end{equation*}
+		
+		\emph{Hint: you will probably find it easiest to just plug your expression for $K_{eq}$ into the right-hand side of this equation and simplify.}
+		
+		\begin{solution}[1.5in]
+			$\sqrt{K_{eq}} = \frac{p}{1-p}$ so $\sqrt{K_{eq}}+1 = \frac{p}{1-p} + 1 = \frac{p}{1-p} + \frac{1-p}{1-p} = \frac{p + 1 -p}{1-p} = \frac{1}{1-p} = N_n$
+		\end{solution}
 		
 \end{ctqs}
 	
 
 \begin{model}[Equilibrium in Condensation Polymerizations]
 
-(example using esters)
+Polyesters and polyamides are two important classes of polymers formed by condensation polymerization.
+
+Shown below are the bond-forming reactions and equilibrium constants for typical esterification and amidation reactions:
+
+(FIGURE)
 
 \end{model}
 
 \begin{ctqs}
-		\question (analysis)
+		\question Calculate the expected value of $N_n$ for a polyester synthesized under equilibrium conditions.
+		
+		\question Calculate the expected value of $N_n$ for a polyamide synthesized under equilibrium conditions.
+		
+		\question Commercially applications of polyesters and polyamides typically require degrees of polymerization of 100 or more.  Can these polymers be produced under equilibrium conditions?  Why or why not?
 			
 \end{ctqs}
 	
