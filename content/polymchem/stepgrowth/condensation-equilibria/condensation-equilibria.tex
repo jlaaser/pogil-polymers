@@ -51,7 +51,8 @@
 	This issue is particularly important for condensation reactions, which produce a small-molecule byproduct.
 	Consider the reaction of an ``A'' functional group with a ``B'' functional group to produce an ``ab'' bond:
 	
-		%\centerline{\includegraphics[width=0.5\textwidth]{\figpath/model1_.pdf}}
+		\vspace{0.1in}
+		\centerline{\includegraphics[width=0.9\textwidth]{\figpath/model1-rxnscheme.pdf}}
 	
 	Here, we have included the small molecule byproduct, ``SM'' on the right side of the reaction.
 	We have also written the reaction arrow as a double arrow ($\leftrightharpoons$) to indicate that the reaction is reversible.
@@ -63,7 +64,7 @@
 
 	\question \label{\labelbase:ctq:Keq} Write an expression for the equilibrium constant for this reaction, $K_{eq}$, in terms of the concentrations of A groups ([A]), B groups ([B]), ab bonds ([ab]), and released small molecules ([SM]):
 	
-		\begin{solution}[1.5in]
+		\begin{solution}[1in]
 			\begin{equation*}
 				K_{eq} = \frac{[ab][SM]}{[A][B]}
 			\end{equation*}
@@ -85,96 +86,261 @@
 		
 	\question Plug your values from the equilibrium line of this table into your expression from question \ref{\labelbase:ctq:Keq} to find an expression for $K_{eq}$ in terms of $v_A^0$ and $x$.
 	
-		%\emph{Note: your expression from question \ref{\labelbase:ctq:Keq} is written in terms of concentrations, while the values in the table in question \ref{\labelbase:ctq:ICE} are written in terms of numbers of molecules. However, }
+		\emph{Note: your expression from question \ref{\labelbase:ctq:Keq} is written in terms of concentrations, while the values in the table in question \ref{\labelbase:ctq:ICE} are written in terms of numbers of molecules.  In this problem, however, you can just plug the values from question \ref{\labelbase:ctq:ICE} into the expression from question \ref{\labelbase:ctq:Keq} directly.}
 	
-		\begin{solution}[1.5in]
+		\begin{solution}[1.25in]
 			\begin{equation*}
 				K_{eq} = \frac{x^2}{(v_A^0-x)^2}
 			\end{equation*}
 		\end{solution}
-		
-\end{ctqs}
-
-\begin{infobox}
-
-	CONNECT TO POLYMERS/DEGREE OF POLYMERIZATION
 	
-	When the extent of reaction is equal to $p$, the number of $A$ groups that we have reacted is $pV_A^0$, so $x=pV_A^0$. 
-
-\end{infobox}
-
-\begin{ctqs}
-	
-	\question  Using this information, rewrite $K_{eq}$ only in terms of $p$.
+	\question  When the extent of reaction is equal to $p$, the number of $A$ groups that have reacted is $pV_A^0$, so $x=pV_A^0$.   Using this information, rewrite $K_{eq}$ only in terms of $p$.
 		
-		\begin{solution}[1.5in]
+		\begin{solution}[1.25in]
 			\begin{equation*}
 				K_{eq} = \frac{(pV_A^0)^2}{(v_A^0 - pv_A^0)^2} = \frac{p^2}{(1-p)^2}
 			\end{equation*}
 		\end{solution}
+		
+	\question Solve for $p$ in terms of $K_{eq}$.
+		
+		\emph{Hint: start by taking the square root of both sides of the equation.}
+	
+		\begin{solution}[3.5in]
+			\begin{equation*}
+				\sqrt{K_{eq}} = \sqrt{\frac{p^2}{(1-p)^2}} = \frac{p}{1-p}
+			\end{equation*}
+			so
+			\begin{align*}
+				(1-p)\sqrt{K_{eq}} &= p\\
+				\sqrt{K_{eq}} &= p + p\sqrt{K_{eq}}  \\
+				p &= \frac{\sqrt{K_{eq}}}{1+\sqrt{K_{eq}}}
+			\end{align*}
+		\end{solution}
 	
 	
-	\question Finally, recalling that the number-average degree of polymerization is related to $p$ by $N_n = \frac{1}{1-p}$, show that 
-		\begin{equation*}
-			N_n = \sqrt{K_{eq}} + 1
-		\end{equation*}
+	\question Finally, recalling that the number-average degree of polymerization is related to $p$ by $N_n = \frac{1}{1-p}$, find an expression for $N_n$ in terms of $K_{eq}$.
 		
-		\emph{Hint: you will probably find it easiest to just plug your expression for $K_{eq}$ into the right-hand side of this equation and simplify.}
-		
-		\begin{solution}[1.5in]
-			$\sqrt{K_{eq}} = \frac{p}{1-p}$ so $\sqrt{K_{eq}}+1 = \frac{p}{1-p} + 1 = \frac{p}{1-p} + \frac{1-p}{1-p} = \frac{p + 1 -p}{1-p} = \frac{1}{1-p} = N_n$
+		\begin{solution}[4.5in]
+			\begin{align*}
+				N_n &= \frac{1}{1-p} \\
+				&= \frac{1}{1-\frac{\sqrt{K_{eq}}}{1+\sqrt{K_{eq}}}}\\
+				&= \frac{1+\sqrt{K_{eq}}}{1+\sqrt{K_{eq}} - \sqrt{K_{eq}}}\\
+				&= 1+ \sqrt{K_{eq}}
+			\end{align*}
 		\end{solution}
 		
 \end{ctqs}
 	
-
+\clearpage % otherwise, this begins awkwardly at the end of one page
 \begin{model}[Equilibrium in Condensation Polymerizations]
+\label{\labelbase:mdl:K}
 
 Polyesters and polyamides are two important classes of polymers formed by condensation polymerization.
 
-Shown below are the bond-forming reactions and equilibrium constants for typical esterification and amidation reactions:
-
-(FIGURE)
+Shown below are the bond-forming reactions and range of equilibrium constants for typical esterification and amidation reactions:
+	
+		\vspace{0.1in}
+		\centerline{\includegraphics[width=0.9\textwidth]{\figpath/model2-esteramide.pdf}}
 
 \end{model}
 
 \begin{ctqs}
-		\question Calculate the expected value of $N_n$ for a polyester synthesized under equilibrium conditions.
+		\question Calculate the range of $N_n$ values you would expect for a polyester synthesized under equilibrium conditions.
 		
-		\question Calculate the expected value of $N_n$ for a polyamide synthesized under equilibrium conditions.
-		
-		\question Commercially applications of polyesters and polyamides typically require degrees of polymerization of 100 or more.  Can these polymers be produced under equilibrium conditions?  Why or why not?
+			\begin{solution}[2in]
 			
+				When $K_{eq}=1$, $N_n = 1+ \sqrt{1} = 2$.
+			
+				When $K_{eq}=10$, $N_n = 1+ \sqrt{10} = 4.2$.
+				
+				Thus for a polyester synthesized under equilibrium conditions, we would expect to achieve a degree of polymerization of only about 2-4 (which is hardly a polymer!).			
+			
+			\end{solution}
+		
+		\question Calculate the range of $N_n$ values you would expect for a polyamide synthesized under equilibrium conditions.
+		
+			\begin{solution}[2in]
+			
+				When $K_{eq}=100$, $N_n = 1+ \sqrt{100} = 11$.
+			
+				When $K_{eq}=1000$, $N_n = 1+ \sqrt{1000} = 33$.
+				
+				Thus for a polyamide synthesized under equilibrium conditions, we would expect to achieve a degree of polymerization somewhere between 10 and 30.
+			\end{solution}
+		
 \end{ctqs}
-	
+
 \begin{infobox}
 
-(reminder of Le Chatelier's principle)
+	Commercial applications of polyesters and polyamides typically require degrees of polymerization of 100 or more.  
 
 \end{infobox}
-	
+
 \begin{ctqs}
-		\question (analysis)
+		
+		\question Can commercial polyesters and polyamides be produced under equilibrium conditions?  Why or why not?
+		
+			\begin{solution}[2in]
+			
+				No. As seen above, synthesizing these polymers under equilibrium conditions results in degrees of polymerization of less than 50.  This is not long enough for commercial applications requiring degrees of polymerization of 100 or more.
+			
+			\end{solution}
+			
+		\question Propose at least one way that you could increase the degree of polymerization for polymers produced using the reactions shown in Model \ref{\labelbase:mdl:K}.  Explain your proposed solution in 2-3 complete sentences.
+		
+			\emph{Hint: you will probably want to think about this question in the context of Le Chatelier's principle.}
+		
+			\begin{solution}[2.5in]
+			
+				Le Chatelier's principle tells us that if a system in dynamic equilibrium is subjected to some stress, then the equilibrium will shift to relieve that stress.
+				
+				Practically speaking, that means that if we want to push the reaction toward the products (which will help us achieve a higher extent of reaction, and thus produce longer polymer chains), we should remove the small molecule byproduct as it is produced.
+				
+				The easiest way to do this will be to (1) run the reaction in an open system, and (2) run it at high temperature so that the small molecule byproduct (e.g. water) is vaporized and can escape.
+			
+			\end{solution}
 		
 \end{ctqs}
 
+\clearpage
 \begin{model}[Synthesis of Polyethylene Terephthalate]
+\label{\labelbase:mdl:PET}
 
-(Synthetic scheme for PET)
+One commercially-important polyester produced by condensation polymerization is polyethylene terephthalate, or PET.
+PET is produced in quantities of more than 9 billion pounds per year, and is used in drink bottles, plastic films, and many other products.
+
+PET is produced in a two-step transesterification process, as shown below:
+	
+		\vspace{0.1in}
+		\centerline{\includegraphics[width=\textwidth]{\figpath/model3-PETsynthesis.pdf}}
 
 \end{model}
 
 \begin{ctqs}
-
-		\question (analysis)
+		
+		%\question To what general class of polymers (e.g. polyester, polyamide, polyurethane, etc.) does PET belong?
+		
+		%\question Would you classify the reaction shown in Step 1 as an ``AB-type'' or an ``AA+BB-type'' polymerization?  Briefly justify your answer.
+		
+		%\question Why does the reaction in step 1 produce only a ``trimer'' rather than full polymer chains?
+		
+		\question What types of functional groups are on the two monomers used in Step 1?
+		
+			\begin{solution}[1.5in]
+				\instructordisplay{The functional groups are:
+				
+				\centerline{\includegraphics[width=0.4\textwidth]{\figpath/model3-fxngrps.pdf}}}
+			\end{solution}
+		
+		\question What type of bond is formed in the reaction in Step 1?
+		
+			\begin{solution}[1.5in]
+				An ester bond is formed.
+			\end{solution}
+		
+		\question Why do you think this reaction is referred to as a ``transesterification'' reaction?  Briefly describe your answer in 1-2 complete sentences.
+		
+			\begin{solution}[1.75in]
+				This reaction is referred to as a transesterification because the total number of ester groups does not change, but the ester ``swaps'' partners.
+			\end{solution}
+		
+		\question Is the reaction in Step 2 also a transesterification reaction?  Why or why not?
+		
+			\begin{solution}[1.5in]
+				Yes, the reaction in Step 2 is also a transesterification reaction.  Again, the total number of ester bonds does not change, but the esters swap partners with the hydroxyl termini of the oligomers produced in Step 1.
+			\end{solution}
 			
+		\question What small molecule is released in the transesterification reaction shown in Step 1?
+		
+			\begin{solution}[1in]
+				Methanol (\ce{CH3OH})
+			\end{solution}
+		
+		\question What small molecule is released in the transesterification reaction shown in Step 2?
+		
+			\begin{solution}[1in]
+				\instructordisplay{Ethylene glycol (\ce{HOCH2CH2OH}):
+				
+				\centerline{\includegraphics[width=0.15\textwidth]{\figpath/model3-glycol-red.pdf}}
+				}
+			\end{solution}
+			
+\end{ctqs}
+
+\begin{infobox}
+	
+	The boiling point of methanol is 64.7${}^\circ$C.
+	
+	The boiling point of ethylene glycol (\ce{HOCH2CH2OH}) is 196${}^\circ$C.
+	
+\end{infobox}
+
+\begin{ctqs}
+	
+	\question Why is the reaction in Step 1 carried out between 150 and 190${}^\circ$C?  Briefly explain your answer in 1-2 complete sentences.
+	
+		\begin{solution}[2in]
+			The reaction in Step 1 is carried out between 150 and 190${}^\circ$C so that the methanol produced in the reaction will boil off/exit the system and help push the reaction toward the oligomer product.
+		\end{solution}
+	
+	\question Why is the reaction in Step 2 carried out at 280${}^\circ$C?  Briefly explain your answer in 1-2 complete sentences.
+	
+		\begin{solution}[2in]
+			The reaction in Step 2 is carried out at 280${}^\circ$C so that the ethylene glycol produced in the reaction will boil off/exit the system and help push the reaction toward the polymer product.
+		\end{solution}
+	
+	\question If we attempted to run the reaction in Step 1 at 280${}^\circ$C, would we form the desired polymer? Why or why not?
+	
+		\begin{solution}[2in]
+			We probably would not form the desired polymer product; this temperature is high enough that much of the ethylene glycol starting material would likely boil off before the reaction could progress significantly toward the desired product.
+		\end{solution}
+		
 \end{ctqs}
 	
 
 
 \begin{exercises}
 
-		\exercise (extension to other polymer systems?)
+		\exercise Both of the reactions shown in Model \ref{\labelbase:mdl:K} produced water (\ce{H2O}) as the small-molecule byproduct.  However, if we had started with acid chloride reagents, we might instead produce \ce{HCl} as the small-molecule byproduct:
+		
+		\centerline{\includegraphics[width=0.8\textwidth]{\figpath/exercises-amidewithchloride.pdf}}
+		
+		Explain why, in this case, adding a stoichiometric amount of triethylamine should help promote formation of high molecular weight products.
+		
+			\begin{solution}
+				Write this.
+			\end{solution}
+		
+		\exercise Why does the first reaction in Model \ref{\labelbase:mdl:PET} (i.e. ``Step 1'') produce only a small oligomer rather than a large polymer chain?  Explain your answer in terms of the reaction stoichiometry.
+		
+			\begin{solution}
+				Write this.
+			\end{solution}
+		
+	
+		\exercise The reactions in Model \ref{\labelbase:mdl:PET} produce PET by transesterification of AA and BB-type monomers.
+		
+			Propose alternate monomers that could be used to produce the same polymer by (a) esterification of AA and BB-type monomers, and (b) esterification of AB-type monomers.  Why do you think neither of these routes is commercially viable?  (Hint: think about the solubility and/or difficulty of preparing the monomers you propose!)
+		
+			\begin{solution}
+				Write this.
+			\end{solution}
+		
+		\exercise Although our focus in this exercise was on how to increase the degree of polymerization by removing the small-molecule byproduct, it is sometimes advantageous to push the equilibrium in the other direction.
+		
+			If you were to take a sample of PET and heat it in the presence of a large excess of water, what products would you expect to result?  Propose at least one application in which this process might be useful.
+		
+			\begin{solution}
+				Write this.
+			\end{solution}
+			
+		%\exercise The polymerization of PET is an example of a \emph{transesterification} reaction.
+		%	In Model \ref{\labelbase:mdl:PET}, we used transesterification of small molecule monomers to form a polymer.
+		%	However, transesterification reactions can also take place between polymer chains, as well.
+			
+		%	What product would you expect to result from transesterification of the following two polymers?
+		
 \end{exercises}
 	
 \end{activity}
