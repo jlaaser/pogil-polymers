@@ -8,7 +8,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\renewcommand{\figpath}{content/polymphys/solutino-thermo/flory-huggins/figs}
+\renewcommand{\figpath}{content/polymphys/solution-thermo/flory-huggins/figs}
 
 \begin{activity}[Regular Solutions \& Flory-Huggins Theory]
 
@@ -46,7 +46,11 @@ A simple model for mixing of two small-molecule liquids is shown below.  In this
 
 Initially, the molecules of each type are isolated in their own containers:
 
-After combining the two containers, the molecules may mix together:
+\centerline{\includegraphics[width=0.6\textwidth]{\figpath/model1-initial}}
+
+After combining the two containers, the molecules mix together:
+
+\centerline{\includegraphics[width=0.3\textwidth]{\figpath/model1-mixed}}
 
 The critical elements of this model are that
 \begin{enumerate}[itemsep=0pt,topsep=-6pt]
@@ -63,26 +67,85 @@ The critical elements of this model are that
 
 	\question Consider a simple, specific case of this model, as shown below:
 
+\centerline{\includegraphics[width=0.7\textwidth]{\figpath/model1-simplified}}
+
 		Here, $m_1=2$ (there are two molecules of type 1, shown as open circles) and $m_2=2$ (there are two molecules of type 2, shown as filled circles).
 	
 		\begin{enumerate}
 			\item How many different ways can you distribute the two molecules of type 1 in their initial box, assuming the molecules are indistinguishable (you can't tell them apart)?  Sketch the possible configurations below.  Note that you may not need to use all of the boxes; cross off any you don't need.
+			
+				\begin{solution}
+					\studentdisplay{
+
+\centerline{\includegraphics[width=0.6\textwidth]{\figpath/model1-2blank}}
+
+						\vspace{0.1in}
+						\centerline{Number of configurations ($\Omega_1$) = $\rule{1cm}{0.15mm}$}
+					}
+					\instructordisplay{
+
+\centerline{\includegraphics[width=0.6\textwidth]{\figpath/model1-2blank}}
+
+						\vspace{0.1in}
+						\centerline{Number of configurations ($\Omega_1$) = $\rule{1cm}{0.15mm}$}
+					}
+				\end{solution}
 		
 			\item How many different ways can you distribute the two molecules of type 2 in their initial box, assuming the molecules are indistinguishable (you can't tell them apart)?  Sketch the possible configurations below. Again, you may not need to use all of the boxes.
 			
-			\item How many different ways can you distribute the four molecules in the final mixture, assuming that you can't distinguish type-1 molecules from other type-1 molecules, but you can distinguish type-1 molecules from type-2 molecules, and vice versa?  Again, you may not need to use all of the boxes.
+				\begin{solution}
+					\studentdisplay{
+
+\centerline{\includegraphics[width=0.6\textwidth]{\figpath/model1-2blank}}
+
+						\vspace{0.1in}
+						\centerline{Number of configurations ($\Omega_2$) = $\rule{1cm}{0.15mm}$}
+					}
+					\instructordisplay{
+
+\centerline{\includegraphics[width=0.6\textwidth]{\figpath/model1-2blank}}
+
+						\vspace{0.1in}
+						\centerline{Number of configurations ($\Omega_2$) = $\rule{1cm}{0.15mm}$}
+					}
+				\end{solution}
+			
+			\item How many different ways can you distribute the four molecules in the final mixture, assuming that you can't distinguish molecules of the same type from each other?  Again, you may not need to use all of the boxes.
+			
+				\begin{solution}
+					\studentdisplay{
+
+\centerline{\includegraphics[width=0.6\textwidth]{\figpath/model1-4blank}}
+
+						\vspace{0.1in}
+						\centerline{Number of configurations ($\Omega_{mixed}$) = $\rule{1cm}{0.15mm}$}
+					}
+					\instructordisplay{
+
+\centerline{\includegraphics[width=0.6\textwidth]{\figpath/model1-4blank}}
+
+						\vspace{0.1in}
+						\centerline{Number of configurations ($\Omega_{mixed}$) = $\rule{1cm}{0.15mm}$}
+					}
+				\end{solution}
 		\end{enumerate}
 		
 	\question Recall that if $\Omega$ is the number of ways that the molecules in the system can be arranged, then the entropy of that system is given by
 		\begin{equation*}
 			S = k \ln \Omega
 		\end{equation*} 
-		where $k$ is the Boltzmann constant.  Using this information, and your answers from question 1, calculate
+		where $k$ is the Boltzmann constant.  Using this relationship, and your answers from question 1, calculate
 			
 		\begin{enumerate}
-			\item the entropy of the initial state ($S_{initial} = S_1 + S_2$):
+			\item the entropy of the initial state ($S_{initial} = S_1 + S_2$, where $S_1 = k\ln \Omega_1$ and $S_2 = k \ln \Omega_2$):
+				\begin{solution}[1.25in]
+				\end{solution}
 			\item the entropy of the final (mixed) state, $S_{mixed}$):
+				\begin{solution}[1in]
+				\end{solution}
 			\item the change in entropy upon mixing ($\Delta S_{mix} = S_{mixed} - S_{initial}$): 
+				\begin{solution}[1in]
+				\end{solution}
 		\end{enumerate}
 		
 \end{ctqs}
@@ -112,15 +175,15 @@ The critical elements of this model are that
 					
 				\item Using the mathematical expression given above, calculate $\Omega_1$, the number of configurations accessible to the type-1 molecules in the initial state.
 				
-					\begin{solution}[0.75in]
+					\begin{solution}[1.5in]
 						\begin{equation*}
 							\Omega_1 = {m_1 \choose m_1} = \frac{m_1!}{m_1! 0!} = 1
 						\end{equation*}
 					\end{solution}
 				
-				\item What do you expect $\Omega_2$, the number of configurations accessible to the type-2 molecules in the initial state, to be?
+				\item Similarly, what is $\Omega_2$, the number of configurations accessible to the type-2 molecules in the initial state?
 				
-					\begin{solution}[0.75in]
+					\begin{solution}[1in]
 						$\Omega_2$ should also equal 1.
 					\end{solution}
 					
@@ -187,6 +250,9 @@ The critical elements of this model are that
 \begin{ctqs}
 	\question As written, is $\Delta S_{mix}$ an \emph{extensive} property (which depends on the total number of molecules in the system) or an \emph{intensive} property (which does not depend on the total number of molecules present)?  Briefly explain your answer in 1-2 complete sentences.
 	
+		\begin{solution}[1.5in]
+		\end{solution}
+	
 	\question Usually, it is most convenient to divide by the total number of molecules, which leaves us with an intensive expression for the entropy,
 		\begin{equation*}
 			\Delta S_{mix}^{(int)} = \frac{1}{m} \Delta S_{mix}
@@ -217,10 +283,22 @@ The critical elements of this model are that
 	\question The mole fractions, $x_1$ and $x_2$, must both be between 0 and 1.  In this case,
 		\begin{enumerate}
 			\item Will $\ln x_1$ (and $\ln x_2$) be positive or negative?
+	
+				\begin{solution}[1in]
+				\end{solution}
+				
 			\item Will $\Delta S_{mix}^{(int)}$ be positive or negative? \label{ctq:Spositive}
+	
+				\begin{solution}[1in]
+				\end{solution}
+				
 		\end{enumerate}
 		
-	\question Explain, in 1-2 complete sentences, why we say that mixing is an \emph{entropy-driven} process.
+	\question Explain, in 1-2 complete sentences, why we say that ideal mixing is an \emph{entropy-driven} process.
+	
+		\begin{solution}[1.5in]
+		\end{solution}
+		
 \end{ctqs}
 	
 
@@ -231,180 +309,124 @@ In real mixtures, however, molecules do interact with each other, and we must ta
 
 To incorporate the energetics of intermolecular interactions into our model, we must make two key assumptions:
 \begin{enumerate}
-	\item First, we assume that molecules interact only with their immediate neighbors, and that each interaction involves only two molecules.  The interaction energy between different types of pairs are as follows:
+	\item First, we assume that molecules interact only with their immediate neighbors, and that each interaction involves only two molecules.  The interaction energies between different types of pairs are as follows:
+
+\centerline{\includegraphics[width=0.5\textwidth]{\figpath/model2-interactions}}
 	
-	IMAGE HERE
-	
-	\item Second, we assume that each molecule has some number of neighbors, $z$, which we refer to as the ``coordination number''.  For example,
-		\begin{itemize}
-			\item in a one-dimensional lattice, each molecule has exactly two neighbors, so $z=2$;
-	
-	IMAGE HERE
-	
-			\item in a two-dimensional lattice, each molecule has four immediate neighbors, so $z=4$;
-	
-	IMAGE HERE
-	
-			\item in a three-dimensional lattice, each molecule has six immediate neighbors, so $z=6$.
-	
-	IMAGE HERE
-		\end{itemize}
+	\item Second, we assume that each molecule has some number of neighbors, $z$, which we refer to as the ``coordination number''.  For example, the central molecule shown below has 4 nearest neighbors, so its coordination number is 4:
+
+\centerline{\includegraphics[width=0.18\textwidth]{\figpath/model2-coordnum}}
+
+		%Note that when drawing the molecules on a square lattice like this, we do not count molecules positioned diagonally from each other as being ``neighbors''.
+
 \end{enumerate}
 
 \end{model}
 
 \begin{ctqs}
 
-		\question Let's again start by consdering just the initial state of the system shown in Model 1, before any mixing takes place.
+	\question In the initial state (before mixing), 
+		\begin{itemize}[itemsep=0pt,topsep=3pt]
+			\item there are $m_1$ molecules of type 1 that each have $z$ neighbors of type 1, for a total interaction energy of $H_{1} = m_1 z w_{11}$
+			\item there are also $m_2$ molecules of type 2 that each have $z$ neighbors of type 2, for a total interaction energy of $H_{2} = m_2 z w_{22}$.
+		\end{itemize}
 		
-			\begin{enumerate}
-				\item Consider the following type-1 molecule in its intial state, where it is surrounded only by other type-1 molecules:
-		
-		What is the total energy of the intermolecular interactions involving the central molecule?
-		
-					\begin{solution}[0.75in]
-						Four surrounding molecules -> four interactions of strength $w_{11}$ -> total energy is $4 w_{11}$.
-					\end{solution}
-		
-				\item More generally, if a molecule of type 1 is surrounded by $z$ other molecules of type 1, what is the total energy of the intermolecular interactions involving that molecule?
-				
-					\begin{solution}[0.75in]
-						$z w_{11}$
-					\end{solution}
-		
-				\item If the initial state contains $m_1$ such molecules, what is the total energy of the intermolecular interactions involving \emph{all} type-1 molecules in the initial state?
-				
-					\begin{solution}[0.75in]
-						$m_1 z w_{11}$
-					\end{solution}
-		
-				\item Similarly, if there are initially $m_2$ type-2 molecules, each surrounded by $z$ other type-2 molecules, what is the total energy of the intermolecular interactions involving \emph{all} type-2 molecules in the initial state?
-				
-					\begin{solution}[0.75in]
-						$m_2 z w_{22}$
-					\end{solution}
-		
-				\item What is the total energy (enthalpy) of the intermolecular interactions in the initial state, including contributions from both type-1 and type-2 molecules? \label{ctq:Hinitial}
-				
-					\begin{solution}[0.75in]
-						$H_{initial} = m_1 z w_{11} + m_2 z w_{22}$
-					\end{solution}
-			\end{enumerate}
-		
-		\question Now, consider the mixed state, where a molecule of type-1 might be surrounded by some molecules of type 1 and some molecules of type 2, e.g.
-		
-			\begin{enumerate}
-				\item If a molecule of type 1 is surrounded by $z$ other molecules, how many of those surrounding molecules are also type-1 molecules, assuming the mole fraction of molecules that are type 1 is $x_1$?
-				
-					\begin{solution}[0.75in]
-						$z x_1$
-					\end{solution}
-				
-				\item What is the total energy of interaction of the central molecule with its type-1 neighbors?
-				
-					\begin{solution}[0.75in]
-						$z x_1 w_{11}$
-					\end{solution}
-				
-				\item Similarly, how many of the molecule's neighbors are type-2 molecules, if the mole fraction of molecules that are type 2 is $x_2$?
-				
-					\begin{solution}[0.75in]
-						$z x_2$
-					\end{solution}
-				
-				\item What is the total energy of interaction of the central molecule with its type-2 neighbors?
-				
-					\begin{solution}[0.75in]
-						$z x_2 w_{12}$
-					\end{solution}
-				
-				\item What is the total energy of interaction of the central molecule with \emph{all} of its neighbors?
-				
-					\begin{solution}[0.75in]
-						$z x_1 w_{11} + z x_2 w_{12}$
-					\end{solution}
-				
-				\item If there are $m_1$ molecules of type 1 in the mixture, what is their total interaction energy with all of their neighbors?
-				
-					\begin{solution}[0.75in]
-						$m_1(z x_1 w_{11} + z x_2 w_{12}) = m_1 z( x_1 w_{11} + x_2 w_{12})$
-					\end{solution}
-				
-				\item By analogy, what is the total interaction energy of the $m_2$ type-2 molecules with all of their neighbors?
-				
-					\begin{solution}[0.75in]
-					Swap the 1's and the 2's in the subscripts:
-						$m_2(z x_2 w_{22} + z x_1 w_{12}) = m_2 z (x_2 w_{22} + x_1 w_{12})$
-					\end{solution}
-				
-				\item Finally, what is the total energy (enthalpy) of the intermolecular interactions in the mixed state?\label{ctq:hmixed}
-				
-					\begin{solution}[1in]
-						\begin{equation*}
-							H_{mixed} = m_1 z( x_1 w_{11} + x_2 w_{12} + m_2 z (x_2 w_{22} + x_1 w_{12})
-						\end{equation*}
-					\end{solution}
-
-			\end{enumerate}
+		\begin{enumerate}
+			\item Why is the total energy for all of the type-1 molecules interacting with their neighbors in the initial state $m_1 z w_{11}$?  Explain your reasoning in 1-2 complete sentences.
 			
-		\question Combining the answers to questions \ref{ctq:Hinitial} and \ref{ctq:hmixed}, and doing a bit of algebra, we find that 
-						\begin{align*}
-							\Delta H_{mix} &= H_{initial} - H_{mixed} \\
-								&= \frac{m_1 m_2}{m} z (2 w_{12} - w_{11} - w_{22})
-						\end{align*}
+				\begin{solution}[1.5in]
+				\end{solution}
+				
+			\item What is the total energy (enthalpy) of the initial state, $H_{initial} = H_1 + H_2$?
 		
-				Note that this procedure, however, led us to double-count most of the interactions, so we need to divide by 2 to correct for this.  As with the entropy, it will also be useful to divide by $m$ to obtain an \emph{intensive} expression for the enthalpy of mixing.
-		
-			Make these two adjustments to write an expression for $\Delta H_{mix}^{(int)}$ in terms of $x_1$, $x_2$, $z$, $w_{11}$, $w_{22}$, and $w_{12}$.
+			\begin{solution}[0.75in]
+				$H_{initial} = m_1 z w_{11} + m_2 z w_{22}$
 			
-			\begin{solution}[1.75in]
-				\begin{align*}
-					\Delta H_{mix}^{(int)} &= \frac{1}{2m}\frac{m_1 m_2}{m} z (2 w_{12} - w_{11} - w_{22})\\
-						&= \frac{m_1}{m}\frac{m_2}{m} z \left( w_{12} - \frac{w_{11}}{2} - \frac{w_{22}}{2}\right)\\
-						&= x_1 x_2 z \left( w_{12} - \frac{w_{11}}{2} - \frac{w_{22}}{2}\right)
-				\end{align*}
+				Note to instructors: this value is actually off by a factor of two, because we are double-counting most of the interactions; we will correct for this later on in the critical thinking questions. 
 			\end{solution}
+			
+		\end{enumerate}
+
+	\question In the final state (after mixing),
+	
+		\begin{itemize}[topsep=3pt,itemsep=0pt]
+			\item Each of the $m_1$ type-1 molecules is surrounded by $x_1 z$ type-1 molecules and $x_2 z$ type-2 molecules
+			\item Each of the $m_2$ type-2 molecules is surrounded by $x_2 z$ type-2 molecules and $x_1 z$ type-1 molecules.
+		\end{itemize}
+		
+		\begin{enumerate}
+			\item What is the total energy of the interactions between type-1 molecules and their neighbors?
+			
+				\begin{solution}[1in]
+				\end{solution}
+				
+			\item What is the total energy of the interactions between type-2 molecules and their neighbors?
+			
+				\begin{solution}[1in]
+				\end{solution}
+				
+			\item What is the total energy (enthalpy) of the mixed state, $H_{mixed}$?
+			
+				\begin{solution}[1in]
+				\end{solution}
+				
+		\end{enumerate}
+		
+	\question Finally, what is the enthalpy of mixing, $\Delta H_{mix} = H_{mixed} - H_{initial}$?
+	
+		\begin{solution}[1 in]
+		\end{solution}
+		
+	\question The procedure we have just followed led us to double-count most of the interactions, so we need to divide by 2 to correct for this.  As with the entropy, it is also useful to divide by $m$ to obtain an \emph{intensive} expression for the enthalpy of mixing.
+	
+		Doing so, and working through the algebra, we find
+		\begin{align*}
+			\Delta H_{mix}^{(int)} &= \frac{m_1}{m}\frac{m_2}{m} z \left( w_{12} - \frac{w_{11}}{2} - \frac{w_{22}}{2}\right) \\
+				&= x_1 x_2 z \Delta w
+		\end{align*}
+		where $x_1$ and $x_2$ are the mole fractions of type-1 and type-2 molecules, respectively, and $\Delta w$ is the exchange energy
+		\begin{equation*}
+			\Delta w = w_{12} - \frac{w_{11}}{2} - \frac{w_{22}}{2}
+		\end{equation*}
+		
+		From a molecular perspective, how would you interpret the exchange energy, $\Delta w$?  Explain your answer in 1-2 complete sentences.
+		
+		\begin{solution}[2in]
+		\end{solution}
 			
 \end{ctqs}
 	
 \begin{infobox}
 
-The $w_{12}$, $w_{11}$, and $w_{22}$ terms can be combined into an \emph{exchange energy}, $\Delta w$, reflecting the aount of energy it takes to break up two sets of interactions between molecules of the same type and form new interactions between molecules of different types.
-
-When $\Delta w$ is defined as
-\begin{equation*}
-	\Delta w = w_{12} - \frac{w_{11}}{2} - \frac{w_{22}}{2}
-\end{equation*}
-$\Delta H_{mix}^{(int)}$ can be written
-\begin{equation*}
-	\Delta H_{mix}^{(int)} = x_1 x_2 z \Delta w
-\end{equation*}
-
-Additionally, we typically normalize the total interaction energy between a particle and its neighbors ($z\Delta w$) by the thermal energy, $kT$.  This normalized quantity is defined as the \emph{interaction parameter}, $\chi$:
+It is typically most useful to normalize the total interaction energy between a particle and its neighbors ($z\Delta w$) by the thermal energy, $kT$.  This normalized quantity is defined as the \emph{interaction parameter}, $\chi$:
 \begin{equation*}
 	\chi = \frac{z\Delta w}{kT}
-\end{equation*}
-In terms of the interaction parameter, $\Delta H_{mix}^{(int)}$ can be written
-\begin{equation*}
-	\Delta H_{mix}^{(int)} = x_1 x_2 \chi kT
 \end{equation*}
 
 \end{infobox}
 	
 \begin{ctqs}
+		\question Find an expression for $\Delta H_{mix}^{(int)}$ in terms of $x_1$, $x_2$, $\chi$, $k$, and $T$.
+		
+			\begin{solution}[0.75in]
+				\begin{equation*}
+					\Delta H_{mix}^{(int)} = x_1 x_2 \chi kT
+				\end{equation*}
+			\end{solution}
+
 		\question Recalling that $\Delta G = \Delta H - T\Delta S$, combine this expression with your answer from question \ref{ctq:Smixed} to find an expression for $\Delta G_{mix}^{(int)}$.
 			
-			\begin{solution}[1in]
+			\begin{solution}[0.75in]
 				\begin{align*}
-					\Delta G_{mix}^{(int)} &= x_1 x_2 \chi kT - T(x_1 \ln x_1 + x_2 \ln x_2)
+					\Delta G_{mix}^{(int)} &= x_1 x_2 \chi kT - kT(x_1 \ln x_1 + x_2 \ln x_2)
 				\end{align*}
 			\end{solution}
 			
 		\question In question \ref{ctq:Spositive}, we noted that $\Delta S_{mix}^{(int)}$ is always positive, so the entropic term \emph{always} favors mixing.
 		
-			Given that $\chi$ is \emph{usually} (although not always) positive, does the enthalpic term generally favor mixing, or oppose it?  Briefly explain your answer in 1-2 complete sentences.
+			Given that $\chi$ is \emph{usually} (although not always) positive, does the enthalpic term usually favor mixing, or oppose it?  Briefly explain your answer in 1-2 complete sentences.
 			
-			\begin{solution}[1in]
+			\begin{solution}[1.5in]
 			\end{solution}
 \end{ctqs}
 
@@ -431,9 +453,17 @@ are the \emph{volume fractions} of sites occupied by solvent (1) and polymer (2)
 
 \begin{ctqs}
 
-		\question The contribution of the polymer molecules to the total entropy is $\frac{\phi_2}{N} \ln \phi_2$.  Is this term larger or smaller than the equivalent term in the small-molecule case when $x_1 = \phi_1$ and $x_2 = \phi_2$?
+		\question Qualitatively, why is the entropic contribution from the polymer molecules reduced by a factor of $1/N$? Explain your answer in 1-2 complete sentences.
 		
-		\question Qualitatively, do you expect this $1/N$ term to make mixing more or less favorable than in the small-molecule case?
+			\begin{solution}[1.75in]
+			\end{solution}
+
+		%\question The contribution of the polymer molecules to the total entropy is $\frac{\phi_2}{N} \ln \phi_2$.  Is this term larger or smaller than the equivalent term in the small-molecule case when $x_1 = \phi_1$ and $x_2 = \phi_2$?
+		
+		\question Qualitatively, do you expect this $1/N$ term to make mixing more or less favorable than in the small-molecule case?  Explain your answer in 1-2 complete sentences.
+		
+			\begin{solution}[1.75in]
+			\end{solution}
 			
 \end{ctqs}
 
@@ -441,7 +471,7 @@ are the \emph{volume fractions} of sites occupied by solvent (1) and polymer (2)
 
 		\exercise Stirling's approximation (page \pageref{eqn:stirling}) is very useful in polymer physics and statistical mechanics.  Derive this formula by doing the following:
 			\begin{enumerate}
-				\item Rewrite $\ln N!$ as a summation of logarithms of individual numbers.  Remember that $\ln (a\cdot b) = \ln a + \ln b$, and write your answer in the form $\ln N!\sum_{i=1}^N \dots$.
+				\item Rewrite $\ln N!$ as a summation of logarithms of individual numbers.  Remember that $\ln (a\cdot b) = \ln a + \ln b$, and write your answer in the form $\ln N! = \sum_{i=1}^N \dots$.
 				\item Use the trick $\sum_{i=1}^{N} f(i) \approx \int_1^N f(i)\,di$ to rewrite your expression as an integral.
 				\item Evaluate the integral.
 				\item Your answer won't agree exactly with the form of Stirling's approximation given in the exercise.  Why, in the limit that $N$ is very large, doesn't the discrepancy matter?
