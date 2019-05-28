@@ -45,6 +45,7 @@
 	%\RequirePackage[margin=1in]{geometry}
 	\RequirePackage[english]{babel}
 	\RequirePackage{amsmath}
+	\RequirePackage{amssymb}
 	\RequirePackage[version=4]{mhchem} 
 	\RequirePackage{graphicx}
 	\RequirePackage{hyperref}
@@ -107,6 +108,7 @@
 % create a useful command or two that we'll use in the exercise files
 
 	\newcommand{\figpath}{}
+	\newcommand{\labelbase}{}
 	
 % format headers and footers:
 
