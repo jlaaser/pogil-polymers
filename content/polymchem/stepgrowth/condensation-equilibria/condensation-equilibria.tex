@@ -31,7 +31,7 @@
 		\item \textbf{Content goals:} Equilibrium effects in condensation polymerizations
 		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
 			written communication, critical thinking, information processing
-		\item \textbf{Duration:} TBD %approx. 45 minutes without class discussion
+		\item \textbf{Duration:} approx. 45 minutes
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
@@ -86,15 +86,17 @@
 		
 	\question Plug your values from the equilibrium line of this table into your expression from question \ref{\labelbase:ctq:Keq} to find an expression for $K_{eq}$ in terms of $v_A^0$ and $x$.
 	
-		\emph{Note: your expression from question \ref{\labelbase:ctq:Keq} is written in terms of concentrations, while the values in the table in question \ref{\labelbase:ctq:ICE} are written in terms of numbers of molecules.  In this problem, however, you can just plug the values from question \ref{\labelbase:ctq:ICE} into the expression from question \ref{\labelbase:ctq:Keq} directly.}
+		\emph{Note: your expression from question \ref{\labelbase:ctq:Keq} is written in terms of concentrations, while the values in the table in question \ref{\labelbase:ctq:ICE} are written in terms of numbers of molecules.  In this problem, however, it turns out that everything cancels such that you can just plug the values from question \ref{\labelbase:ctq:ICE} into the expression from question \ref{\labelbase:ctq:Keq} directly.}
 	
-		\begin{solution}[1.25in]
+		\begin{solution}[1.05in]
 			\begin{equation*}
 				K_{eq} = \frac{x^2}{(v_A^0-x)^2}
 			\end{equation*}
 		\end{solution}
 	
-	\question  When the extent of reaction is equal to $p$, the number of $A$ groups that have reacted is $pV_A^0$, so $x=pV_A^0$.   Using this information, rewrite $K_{eq}$ only in terms of $p$.
+	\question  When the extent of reaction is equal to $p$, the number of $A$ groups that have reacted is $pv_A^0$, so $x=pv_A^0$.   Using this information, rewrite $K_{eq}$ only in terms of $p$.
+	
+		\emph{Hint: to make question \ref{\labelbase:ctq:Keq} easier, leave the denominator in the form $(1-p)^2$ instead of multiplying it out.}
 		
 		\begin{solution}[1.25in]
 			\begin{equation*}
@@ -103,10 +105,11 @@
 		\end{solution}
 		
 	\question Solve for $p$ in terms of $K_{eq}$.
+	\label{\labelbase:ctq:Keq}
 		
 		\emph{Hint: start by taking the square root of both sides of the equation.}
 	
-		\begin{solution}[3.5in]
+		\begin{solution}[3.25in]
 			\begin{equation*}
 				\sqrt{K_{eq}} = \sqrt{\frac{p^2}{(1-p)^2}} = \frac{p}{1-p}
 			\end{equation*}
@@ -219,47 +222,17 @@ PET is produced in a two-step transesterification process, as shown below:
 
 \begin{ctqs}
 		
-		%\question To what general class of polymers (e.g. polyester, polyamide, polyurethane, etc.) does PET belong?
-		
-		%\question Would you classify the reaction shown in Step 1 as an ``AB-type'' or an ``AA+BB-type'' polymerization?  Briefly justify your answer.
-		
-		%\question Why does the reaction in step 1 produce only a ``trimer'' rather than full polymer chains?
-		
-		\question What types of functional groups are on the two monomers used in Step 1?
-		
-			\begin{solution}[1.5in]
-				\instructordisplay{The functional groups are:
-				
-				\centerline{\includegraphics[width=0.4\textwidth]{\figpath/model3-fxngrps.pdf}}}
-			\end{solution}
-		
-		\question What type of bond is formed in the reaction in Step 1?
-		
-			\begin{solution}[1.5in]
-				An ester bond is formed.
-			\end{solution}
-		
-		\question Why do you think this reaction is referred to as a ``transesterification'' reaction?  Briefly describe your answer in 1-2 complete sentences.
-		
-			\begin{solution}[1.75in]
-				This reaction is referred to as a transesterification because the total number of ester groups does not change, but the ester ``swaps'' partners.
-			\end{solution}
-		
-		\question Is the reaction in Step 2 also a transesterification reaction?  Why or why not?
-		
-			\begin{solution}[1.5in]
-				Yes, the reaction in Step 2 is also a transesterification reaction.  Again, the total number of ester bonds does not change, but the esters swap partners with the hydroxyl termini of the oligomers produced in Step 1.
-			\end{solution}
+
 			
 		\question What small molecule is released in the transesterification reaction shown in Step 1?
 		
-			\begin{solution}[1in]
+			\begin{solution}[0.75in]
 				Methanol (\ce{CH3OH})
 			\end{solution}
 		
 		\question What small molecule is released in the transesterification reaction shown in Step 2?
 		
-			\begin{solution}[1in]
+			\begin{solution}[0.75in]
 				\instructordisplay{Ethylene glycol (\ce{HOCH2CH2OH}):
 				
 				\centerline{\includegraphics[width=0.15\textwidth]{\figpath/model3-glycol-red.pdf}}
@@ -309,30 +282,99 @@ PET is produced in a two-step transesterification process, as shown below:
 		Explain why, in this case, adding a stoichiometric amount of triethylamine should help promote formation of high molecular weight products.
 		
 			\begin{solution}
-				Write this.
+				\instructordisplay{
+					Triethylamine will react with the \ce{HCl} product to form triethylammonium chloride.  This effectively removes the \ce{HCl} product from the reaction, helping pull the equilibrium toward the products.  This increases the overall extent of reaction and increases the molecular weight of the products.
+				}
+			\end{solution}
+			
+		\exercise Explain, in complete sentences, why the reactions shown in Model \ref{\labelbase:mdl:PET} are both referred to as ``trans-esterification'' reactions.
+		
+			\emph{Hint: what types of bonds are broken in each reaction, and what types of bonds are formed?  How does this differ from the other esterification reactions you have studied in this class?}
+			
+			\begin{solution}
+				\instructordisplay{
+				In both reactions, both the reagents and the products contain an ester bond and an alcohol (or hydroxyl).  When these reagents undergo transesterification, the initial ester is broken apart, and a new ester is formed with a different hydroxyl-bearing compound.
+				
+				By contrast, in the other esterification reactions we have seen so far in these activities, an ester is formed from a carboxylic acid and an alcohol (or an acid chloride and an alcohol); there are no esters in the starting materials.
+				}
 			\end{solution}
 		
 		\exercise Why does the first reaction in Model \ref{\labelbase:mdl:PET} (i.e. ``Step 1'') produce only a small oligomer rather than a large polymer chain?  Explain your answer in terms of the reaction stoichiometry.
 		
 			\begin{solution}
-				Write this.
+				\instructordisplay{
+				This reaction produces only small oligomers because the dihydroxy compound (ethylene glycol) is present in a large excess.  Qualitatively, the ethylene glycol effectively ``caps'' off each of the initial esters and stops them from reacting further.
+				
+				More quantitatively, if the ester groups are the ``A'' groups and the hydroxyls are the ``B'' groups, the stoichiometric imbalance is
+				\begin{equation*}
+					r=  \frac{v_A^0}{v_B^0} = \frac{2n}{4n} = \frac{1}{2}
+				\end{equation*}
+				and the maximum number-average degree of polymerization achievable (when $p=1$) is thus
+				\begin{equation*}
+					N_n = \frac{1+r}{1+r-2pr} = \frac{1 + \frac{1}{2}}{1 + \frac{1}{2} - 2\times1\times\frac{1}{2}} = 3
+				\end{equation*}
+				which is what we would expect given that the oligomer on the product side of Step 1 is comprised of 3 monomers (2 ethylene glycols and 1 dimethylterephthalate).
+				
+				Note: while not strictly necessary for this problem, it is important to remember that $N_n$ is an \emph{average} - while the oligomers will, on average, contain 3 monomers, there will be both some slightly longer chains and some unreacted monomers remaining in the reaction mixture.
+				}
 			\end{solution}
 		
 	
 		\exercise The reactions in Model \ref{\labelbase:mdl:PET} produce PET by transesterification of AA and BB-type monomers.
 		
-			Propose alternate monomers that could be used to produce the same polymer by (a) esterification of AA and BB-type monomers, and (b) esterification of AB-type monomers.  Why do you think neither of these routes is commercially viable?  (Hint: think about the solubility and/or difficulty of preparing the monomers you propose!)
+			Propose alternate monomers that could be used to produce the same polymer by...
+			
+				\begin{enumerate}
+					\item ... esterification of AA and BB-type monomers:
 		
 			\begin{solution}
-				Write this.
+				\instructordisplay{
+				A pair of monomers that could be used to produce PET by esterification of AA and BB-type monomers is
+		
+		\centerline{\includegraphics[width=0.5\textwidth]{\figpath/exercises-AABBesterification.pdf}}
+		
+				Here, we have taken the monomers shown in Step 1 of Model \ref{\labelbase:mdl:PET} and just replaced the methyl esters with carboxylic acids so that the reaction will be an esterification reaction rather than a trans-esterification reaction.
+				}
+				
 			\end{solution}
+			
+			\item ... transesterification of an AB-type monomer:
+			
+			\begin{solution}
+				\instructordisplay{
+		
+				A monomer that could be used to produce PET by transesterification of an AB-type monomer is
+		
+		\centerline{\includegraphics[width=0.3\textwidth]{\figpath/exercises-ABtransesterification.pdf}}
+		
+				Here, we have kept the methyl ester on the left-hand side, and linked on a single ethylene glycol unit to put a hydroxyl on the right-hand side.		
+				}
+			\end{solution}
+			
+			\item Both the AA+BB-type trans-esterification shown in Model \ref{\labelbase:mdl:PET} and the AA+BB-type esterification you drew in part (a) of this problem are used commercially to produce PET.  However, PET is never (or only rarely) produced from AB-type monomers.  Why do you think this is true?
+			
+				\begin{solution}
+				\instructordisplay{
+					The AB-type monomer shown in the solution to part (b) of this question is difficult to prepare in high purity, because the reagents have different reactive functional groups on both ends.  Preparing this monomer requires extra purification steps, which are generally too costly to make them industrially viable.
+					}
+				\end{solution}
+			
+			\end{enumerate}
 		
 		\exercise Although our focus in this exercise was on how to increase the degree of polymerization by removing the small-molecule byproduct, it is sometimes advantageous to push the equilibrium in the other direction.
 		
 			If you were to take a sample of PET and heat it in the presence of a large excess of water, what products would you expect to result?  Propose at least one application in which this process might be useful.
 		
 			\begin{solution}
-				Write this.
+				\instructordisplay{
+				If PET is heated in the presence of water, we would expect the ester bonds to hydrolyze, forming terepthalic acid and ethylene glycol:
+		
+		\centerline{\includegraphics[width=\textwidth]{\figpath/exercises-PEThydrolysis.pdf}}
+				
+				When \emph{making} PET and using it to form new products, manufacturers typically try to avoid this reaction by thoroughly drying the polymer before molding it (which requires elevated temperatures). At the end of the life of a PET-based product, however, this sort of depolymerization can be used to recycle the plastic by recovering the starting materials.
+				
+				Note: most PET is not actually recycled by depolymerization - the polymer is instead cleaned, shredded, and re-molded into new products.  This process is typically more cost-competitive than chemical recycling.  However, similar hydrolysis reactions are used for other polyesters, and are also important for applications like controlled drug delivery (where slow degradation of a polyester in the presence of water facilitates slow release of a pharmaceutical compound - see e.g. \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3347861/}.)
+				}
 			\end{solution}
 			
 		%\exercise The polymerization of PET is an example of a \emph{transesterification} reaction.
@@ -340,6 +382,8 @@ PET is produced in a two-step transesterification process, as shown below:
 		%	However, transesterification reactions can also take place between polymer chains, as well.
 			
 		%	What product would you expect to result from transesterification of the following two polymers?
+		
+		%	% Would be excellent to relate this to a result from the literature!
 		
 \end{exercises}
 	
