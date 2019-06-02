@@ -36,6 +36,10 @@
 			\begin{itemize}
 				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): section 2.4
 			\end{itemize}
+		\item \textbf{Facilitation notes:}
+			\begin{itemize}
+				\item The process described in Model 1 depicts step-growth polymerizations as a monomer-by-monomer addition process.  Although this simplification was necessary to make the model accessible to students, it is not strictly accurate, since oligomers can react with each other in step-growth polymerizations (and not just with monomers).
+			\end{itemize}
 	\end{itemize}
 
 \end{instructornotes}
@@ -44,76 +48,110 @@
 
 \begin{model}[Probabilities of Forming Different Chain Lengths]
 
-Suppose we perform a step-growth polymerization of AB-type monomers and stop the polymerization at extent of reaction $p$ (i.e. we stop the polymerization when the fraction of A groups that have reacted is equal to $p$).
+To determine the \emph{distribution} of chain lengths formed in a step-growth polymerization, it is useful to calculate the probability of forming each different chain length.
 
-Suppose we then select a single molecule from this reaction mixture.  This molecule will have an unreacted A group on one end, and an unreacted B group on the other.
+The following diagram summarizes the steps that lead to different chain lengths in a step-growth polymerization of AB-type monomers at extent of reaction $p$:
 
-Consider the following argument:
-\begin{enumerate}
-\item The unreacted `B' group was originally part of an `AB' monomer. Of these AB monomers ($i=1$),
-\begin{itemize}
-	\item The fraction in which the A group monomer did \textit{not} react, and the molecule remained an AB monomer, is $1-p$.
+\vspace{0.1in}
+\centerline{\includegraphics[width=0.9\textwidth]{\figpath/model1-fulltree}}
 
-	\item The fraction in which the A group \textit{did} react, and the selected molecule is at least an AbaB dimer, is $p$.
-\end{itemize}
-
-\item Of the molecules that reacted to form AbaB dimers ($i=2$),
-\begin{itemize}
-	\item The fraction \emph{of dimers} in which the A group did not react, and the molecule remained an AbaB dimer, is $1-p$. The total fraction \emph{of molecules} that are AbaB dimers is thus 
-	\begin{gather*}(\text{\small fraction of molecules that form dimers})\cdot(\text{\small fraction of dimers that don't react further})\\ =p(1-p)\end{gather*}
-
-	\item The fraction \emph{of dimers} in which the A group did react, and the selected molecule is at least an AbabaB trimer, is $p$. The total fraction \emph{of molecules} that form at least an AbabaB trimer is thus 
-	\begin{gather*}(\text{\small fraction of molecules that form dimers})\cdot(\text{\small fraction of dimers that react further}) \\= p\cdot p=p^2 \end{gather*}
-\end{itemize}
-
-\item Of the molecules that reacted to form AbabaB trimers ($i=3$),
-\begin{itemize}
-	\item The fraction \emph{of trimers} in which the A group did not react, and the molecule remained an AbabaB trimer, is $1-p$. The total fraction \emph{of molecules} that are AbabaB trimers is thus 
-	\begin{gather*}(\text{\small fraction of molecules that form trimers})\cdot(\text{\small fraction of trimers that don't react further})\\ =p^2(1-p)\end{gather*}
-
-	\item The fraction \emph{of trimers} in which the A group did react, and the selected molecule is at least an AbababaB tetramer, is $p$. The total fraction \emph{of molecules} that form at least an AbababaB tetramer ($i=4$) is thus 
-	\begin{gather*}(\text{\small fraction of molecules that form trimers})\cdot(\small \text{fraction of trimers that react further}) \\= p^2\cdot p=p^3 \end{gather*}
-\end{itemize}
-
-%We can represent this tree of probabilities graphically as follows:
-\end{enumerate}
-
-%\vspace{0.1in}
-%\centerline{\includegraphics[width=0.6\textwidth]{\figpath/ABrxn.pdf}}
+In this diagram, the different \textbf{states} of the polymer chain are written in bold text.  They are connected by arrows describing the \textbf{processes} that take the chain from one state to the next; the text \emph{above} each arrow describes which process takes place, while the expression \emph{under} each arrow gives the probability of that process occurring.
 
 \end{model}
 
 \vspace{0.05in}
 \begin{ctqs}
-
-	\question Following this reasoning, 
+	
+	\question What is the probability that...
 	
 		\begin{enumerate}
-			\item How would you calculate the fraction of \emph{molecules} that \emph{remain} as AbababaB tetramers ($i=4$)?  Write your answer in both words and symbols.
+			\item ... an AB monomer does not react, and remains an AB monomer?
 	
-				\begin{solution}[1.25in]
-					The fraction of molecules that remain as tetramers is
-	\begin{gather*}(\text{\small fraction of molecules that form tetramers})\cdot(\text{\small fraction of tetramers that don't react further})\\ =p^3(1-p)\end{gather*}
-				\end{solution}
-			
-			\item How would you calculate the fraction of molecules that react further to form at least an AbabababaB pentamer ($i=5$)? Write your answer in both words and symbols.
-			
-				\begin{solution}[1.25in]
-					The fraction of molecules that reacted to form at least a pentamer is 
-	\begin{gather*}(\text{\small fraction of molecules that form tetramer})\cdot(\small \text{fraction of tetramers that react further}) \\= p^3\cdot p=p^4 \end{gather*}
-				\end{solution}
+			\begin{solution}[0.25in]
+				$1-p$
+			\end{solution}
+
+		\item ... an AB monomer reacts to form an AbaB dimer?
+	
+			\begin{solution}[0.25in]
+				$p$
+			\end{solution}
 		
-		\end{enumerate}
+		\item ... an AbaB dimer does not react, and remains an AbaB dimer?
 	
-	\question Using the information in the model, and your answers to the previous question, fill in the following table:
+			\begin{solution}[0.25in]
+				$1-p$
+			\end{solution}
+	
+		
+		\item ... an AbaB dimer reacts to form an AbabaB trimer?
+	
+			\begin{solution}[0.25in]
+				$p$
+			\end{solution}
+			
+		\end{enumerate}	
+		
+	\question For \emph{any} molecule with $n$ monomers, what is the probability that it reacts to form a molecule with $n+1$ monomers?
+	
+			\begin{solution}[0.25in]
+				$p$
+			\end{solution}
+	
+	\question Is your answer to the previous question consistent with the definition of the extent of reaction $p$?  Briefly explain your answer in 1-2 complete sentences.
+	
+		\begin{solution}[2in]
+			Yes, it is.  The extent of reaction, $p$, is the fraction of ``A'' groups that have reacted.  Since each molecule has exactly 1 ``A'' group, the fraction of molecules that reach length $n$ whose ``A'' groups react to form chains with $n+1$ monomers is $p$.  This fraction is equivalent to the probability that the chain grows from $n$ to $n+1$ monomers.
+		\end{solution}
+	
+\end{ctqs}
+
+\begin{infobox}
+
+	For a process with a \textbf{single} step, the overall probability of reaching the final state is just the probability of that step.
+	
+	For example, the series of steps that leads to a chain with exactly one monomer (i.e. an AB monomer that does not react) is shown below:
+	
+	\vspace{0.1in}
+	\centerline{\includegraphics[width=0.3\textwidth]{\figpath/model1-AB}}
+	
+	Since there is only a single step in this process, the overall probability of obtaining a chain with exactly 1 monomer is just the probability of this step, or $1-p$.
+	
+	\vspace{0.1in}
+	For processes with \textbf{multiple} steps, the overall probability of reaching the final state is the \emph{product} of the probabilities for each step in the process.
+	
+	For example, the series of steps takes us from an initial AB monomer to an AbaB chain that does not react further (remains a chain with exactly 2 monomers) is:
+	
+	\vspace{0.1in}
+	\centerline{\includegraphics[width=0.6\textwidth]{\figpath/model1-AbaB}}
+	
+	The first step occurs with probability $p$, while the second step occurs with probability $1-p$; the total probability of obtaining a chain with exactly 2 monomers is the product of these probabilities, or $p(1-p)$.
+	
+\end{infobox}
+
+\begin{ctqs}
+
+	\question Diagram the series of steps that lead to formation of a chain with 3 monomers that does not react any further:
+	
+		\begin{solution}[1in]\instructordisplay{
+			\centerline{ \includegraphics[width=0.8\textwidth]{\figpath/model1-AbabaB-answer}}
+		}\end{solution}
+	
+	\question Based on your diagram, what is the overall probability of obtaining a chain with exactly 3 monomers?
+	
+		\begin{solution}[1in]
+			$p \cdot p \cdot (1-p) = p^2(1-p)$
+		\end{solution}
+	
+	\question Building on this process, fill in the blanks in the following table:
 	
 		\begin{center}
-			\renewcommand{\arraystretch}{3.5}
+			\renewcommand{\arraystretch}{3}
 			\begin{tabular}{|c|c|}
 				\hline
-				\textbf{~~i~~} & {\renewcommand{\arraystretch}{1}\begin{tabular}{c}\textbf{Fraction of molecules that contain}\\\textbf{exactly $i$ monomers}\end{tabular} }\\\hline
-				1 & \answer{$1-p$}\\\hline
-				2 & \answer{$p(1-p)$}\\\hline
+				\textbf{~~i~~} & {\renewcommand{\arraystretch}{1}\begin{tabular}{c}\textbf{Probability that a molecule is composed}\\\textbf{of exactly $i$ monomers}\end{tabular} }\\\hline
+				1 & $1-p$\\\hline
+				2 & $p(1-p)$\\\hline
 				3 & \answer{$p^2(1-p)$}\\\hline
 				4 & \answer{$p^3(1-p)$}\\\hline
 				5 & \answer{$p^4(1-p)$}\\\hline
@@ -130,6 +168,25 @@ Consider the following argument:
 	
 	\question Complete the following statement:
 	
+		``The probability that a molecule is composed of exactly $i$ monomers is \line(1,0){50}.''
+	
+		\begin{solution}[0.5in]
+		
+			$p^{i-1}(1-p)$
+			
+		\end{solution}
+		
+\end{ctqs}
+
+\begin{infobox}
+	The \emph{probability} that a molecule is composed of exactly $i$ monomers is the same as the \emph{fraction of molecules} that are composed of exactly $i$ monomers.
+\end{infobox}
+
+
+\begin{ctqs}
+	
+	\question Complete the following statement:
+	
 		``The fraction of molecules, $x_i$, that are composed of exactly $i$ monomers is \line(1,0){50}.''
 	
 		\begin{solution}[0.5in]
@@ -141,7 +198,7 @@ Consider the following argument:
 	\question Using this expression, calculate the fraction of molecules that have exactly length $i$ for both $p=0.5$ and $p=0.9$ at the following values of $i$:
 	
 		\begin{center}
-			\renewcommand{\arraystretch}{4}
+			\renewcommand{\arraystretch}{3}
 			\begin{tabular}{|c|c|c|}
 				\hline
 				\textbf{~~$i$~~} & ~~~$x_i$ when $p=0.5$~~~ & ~~~$x_i$ when $p=0.9$~~~ \\\hline
@@ -201,7 +258,7 @@ Consider the following argument:
 	
 	If we started with $v_A^0$ monomers, then when the extent of reaction is equal to $p$, there will be $(1-p)v_A^0$ unreacted A groups left.  Recalling that the number of unreacted A groups is equal to the number of molecules in the reaction mixture, this lets us write
 	\begin{align*}
-		n_i &= \text{(fraction of molecules that have length }i\text{) x (number of molecules in reaction mixture)}\\
+		n_i = \text{(fraction of molecules that }&\text{have length }i\text{) x (number of molecules in reaction mixture)}\\
 			%&= (x_i)((1-p)v_A^0)\\
 			&= \left(p^{i-1}(1-p)\right)\left((1-p)v_A^0\right)\\
 			&= p^{i-1}(1-p)^2v_A^0
@@ -216,7 +273,7 @@ Consider the following argument:
 	
 	\vspace{0.25in}
 	
-	Evaluating these sums is a bit tedious, but if we do so, we obtain
+	If we evaluate these sums, we obtain
 	\begin{align*}
 		M_n = \frac{M_0}{1-p} && \text{or} && N_n = \frac{M_n}{M_0} = \frac{1}{1-p}
 	\end{align*}
@@ -297,6 +354,92 @@ Consider the following argument:
 						\end{equation*}
 					}
 					\end{solution}
+			\end{enumerate}
+			
+		\exercise Show that the summation expression for $M_n$ given in Model 2 simplifies to the expected result by doing the following:
+		
+			\begin{enumerate}
+				\item First, show that the summation expression for $M_n$ given in Model 2 can be rewritten
+					\begin{equation*}
+						M_n = M_0 \frac{{\sum_i i p^{i-1}}}{\frac{1}{p}\sum_i p^i}
+					\end{equation*}
+					
+					\begin{solution}\instructordisplay{
+						In Model 2, $M_n$ was written as
+						\begin{equation*}
+							M_n = M_0\frac{\sum_i p^{i-1}(1-p)^2 i }{\sum_i p^{i-1}(1-p)^2}
+						\end{equation*}
+						We can simplify this by realizing that any multiplicative terms that do not depend on $i$ can be pulled out of the sum:
+						\begin{equation*}
+							M_n = M_0\frac{(1-p)^2\sum_i p^{i-1} i }{(1-p)^2\sum_i p^{i-1}} = M_0\frac{\sum_i p^{i-1} i }{\sum_i p^{i-1}}
+						\end{equation*}
+						Similarly, using $p^{i-1} = p^i/p$,
+						\begin{equation*}
+							M_n = M_0\frac{\sum_i p^{i-1} i }{\sum_i p^{i-1}} = M_0\frac{\sum_i p^{i-1} i }{\frac{1}{p}\sum_i p^{i}}
+						\end{equation*}
+						
+					}\end{solution}
+					
+				\item The denominator of this expression is just a geometric series.  Recall that if $p < 1$, then 
+		
+			\begin{equation*}
+				\sum_{i=1}^{\infty} p^i = \frac{p}{1-p}
+			\end{equation*}
+			
+					Substitute this expression into your equation for $M_n$ and simplify.
+					
+					\begin{solution}\instructordisplay{
+						\begin{align*}
+							M_n &= M_0\frac{\sum_i p^{i-1} i }{\frac{1}{p}\sum_i p^{i}}\\
+								&= M_0\frac{\sum_i p^{i-1} i }{\frac{1}{p}\frac{p}{1-p}}\\
+								&= M_0 (1-p)\sum_i p^{i-1} i 
+						\end{align*}
+						
+					}\end{solution}
+			
+				\item The remaining sum can be calculated by differentiating both sides of the equation for $\sum_i p^i$.  Carry out this differentiation to show that
+						\begin{equation*}
+							\sum_{i=1}^{\infty} ip^{i-1} = \frac{1}{(1-p)^2}
+						\end{equation*}
+				
+					\begin{solution}\instructordisplay{
+						Left-hand side:
+						\begin{align*}
+							\frac{d}{dp} \sum_{i=1}^{\infty} p^i &= \sum_{i=1}^{\infty} \frac{d}{dp} p^i\\
+							&= \sum_{i=1}^{\infty} ip^{i-1}
+						\end{align*}
+						Note that the derivative can move through the sum since the derivative depends only on $p$, not $i$.
+						
+						Right-hand side:
+						\begin{align*}
+							\frac{d}{dp} \frac{p}{1-p} &= \frac{d}{dp} p(1-p)^{-1}\\
+							&= p\frac{d}{dp}(1-p)^{-1} + (1-p)^{-1}\frac{d}{dp} p\\
+							&= p(1-p)^{-2} + (1-p)^{-1}\\
+							&= \frac{1}{1-p}\left(\frac{p}{1-p} + 1\right)\\
+							&= \frac{1}{1-p}\left(\frac{p + 1 - p}{1-p}\right)\\
+							&= \frac{1}{1-p}\left(\frac{1}{1-p}\right)\\
+							&= \frac{1}{(1-p)^2}
+						\end{align*}
+						
+						Setting them equal, we obtain:
+						\begin{equation*}
+							\sum_{i=1}^{\infty} ip^{i-1} = \frac{1}{(1-p)^2}
+						\end{equation*}
+						
+					}\end{solution}
+					
+				\item Finally, substitute this expression into $M_n$ and show that you obtain the expected solution.
+				
+				
+					\begin{solution}\instructordisplay{
+						\begin{align*}
+							M_n &= M_0 (1-p)\sum_i p^{i-1} i \\
+								&= M_0 (1-p)\frac{1}{(1-p)^2} \\
+								&= M_0 \frac{1}{1-p}
+						\end{align*}
+						as expected.
+					}\end{solution}
+				
 			\end{enumerate}
 			
 \end{exercises}
