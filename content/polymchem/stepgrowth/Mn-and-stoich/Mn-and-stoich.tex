@@ -30,7 +30,7 @@
 		\item \textbf{Content goals:} Stoichiometry and degree of polymerization in step-growth polymerizations
 		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
 			written communication, critical thinking, information processing
-		\item \textbf{Duration:} approx. 45 minutes without class discussion
+		\item \textbf{Duration:} approx. 55 minutes including class discussion
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
@@ -57,15 +57,17 @@ For example, for a simple reaction mixture containing 8 ``AB''-type monomers, th
 \vspace{0.1in}
 \centerline{\includegraphics[width=0.9\textwidth]{\figpath/ABpolym.pdf}}
 
+In this diagram, each string of letters represents one molecule; each molecule may be either an unreacted monomer (``AB'') or a growing polymer chain (e.g. ``AbaB'', ``AbabaB'', etc.).
+
 \end{model}
 
 \vspace{0.05in}
 \begin{ctqs}
 
-	\question \label{ctq:ABtable} For the reaction mixture shown in Model 1, fill out the following table.  When counting the number of molecules, make sure to count \emph{both} the unreacted monomers and the growing oligomer/polymer chains (that is, you should count each `AB', `AbaB', `AbabaB', etc. as one molecule).
+	\question \label{ctq:ABtable} Fill out the following table for the reaction mixture shown in Model 1:
 	
 			\begin{center}
-				\renewcommand{\arraystretch}{3}
+				\renewcommand{\arraystretch}{3.25}
 				\begin{tabular}{|c|c|c|}
 					\hline
 					\textbf{Step} &  \textbf{Number of unreacted ``A'' groups} & \textbf{Number of molecules} \\\hline
@@ -161,7 +163,7 @@ When the fraction of ``A'' groups that \emph{have} reacted is $p$, the fraction 
 Now, let's consider a slightly more complicated reaction, with two different types of monomers that each have \emph{either} two ``A'' reactive groups \emph{or} two ``B'' type reactive groups.
 We call monomers with two ``A'' groups ``AA''-type monomers, and we call monomers with two ``B'' groups ``BB''-type monomers.
 
-Suppose we start with 4 ``AA''-type monomers and 4 ``BB''-type monomers.
+Suppose we start with 8 monomers, 4 of which are ``AA''-type monomers and 4 of which are ``BB''-type monomers.
 In this case, the evolution of the reaction mixture might look something like this:
 
 \vspace{0.1in}
@@ -292,7 +294,13 @@ In this model, consider a reaction mixture that starts with 3 AA-type monomers a
 			\emph{``When drawing the structure of a polymer produced by a step-growth polymerization, we should always make sure that we draw end groups consistent with whichever reactive species was present in excess.''}
 		
 		\begin{solution}[1.85in]
-			DEFEND: in a step growth polymerization, all of the molecules have either `A' groups or `B' groups on either end.  If there is an excess of `B' groups, the reaction will (ideally) go until all of the `A' groups have been used up, leaving only `B' groups on the ends of all of the polymer chains.
+			\instructordisplay{DEFEND: in a step growth polymerization, all of the molecules have either `A' groups or `B' groups on either end.  If there is an excess of `B' groups, the reaction will (ideally) go until all of the `A' groups have been used up, leaving only `B' groups on the ends of all of the polymer chains.
+			
+			Students may find an explicit example useful; one possibility is shown below:
+			
+			\centerline{\includegraphics[width=0.8\textwidth]{\figpath/model3-endgrpexample}}			
+			
+			Here, the diamine is present in excess, so the polymer (Nomex) has amine groups on both ends.}
 		\end{solution}
 			
 \end{ctqs}
@@ -334,7 +342,7 @@ In stoichiometrically-imbalanced step-growth polymerizations with an excess of B
 		
 			\emph{``Achieving high molecular weights in step-growth polymerizations requires both very precise measurement of the reagents, and reaction conditions which strongly favor the bond-forming reaction.''}
 			
-			\begin{solution}[1.5in]
+			\begin{solution}[2.5in]
 				DEFEND: As we can see from the table in the previous question, achieving a large degree of polymerization requires \emph{both} $r$ and $p$ to be close to $1$.
 				Since $r$ reflects the reagent ratio, this means that we must measure the reagents very precisely to get as close to perfect stoichiometric balance as possible.
 				Since $p$ reflects the extent of reaction, or the fraction of reactive groups that have reacted, getting $p$ close to 1 requires being able to push the $A+B\to ab$ reaction as far toward the products as possible.
@@ -343,6 +351,87 @@ In stoichiometrically-imbalanced step-growth polymerizations with an excess of B
 \end{ctqs}
 
 \begin{exercises}
+
+		\exercise Often, when calculating extents of reaction and degrees of polymerization, our usual rules regarding significant figures don't work well.  To see why, do the following:  
+		
+			\begin{enumerate}
+				\item Rearranging our equation for $N_n$ for a stoichiometrically-balanced reaction and solving for $p$, we find that $p = \frac{N_n-1}{N_n} = 1-\frac{1}{N_n}$.
+				
+					Using this equation, calculate the extent of reaction necessary to reach each of the following degrees of polymerization.  Write out as many digits as your calculator gives you.
+				
+			\begin{center}
+				\renewcommand{\arraystretch}{3}
+				\begin{tabular}{|c|c|}
+					\hline
+					$N_n$ &  ~~~~~~~~~~~~~~$p$~~~~~~~~~~~~~~ \\\hline
+					10 & \answer{0.9} \\\hline
+					100 & \answer{0.99} \\\hline
+					300 & \answer{0.996666666...} \\\hline
+					320 & \answer{0.996875} \\\hline
+					1000 & \answer{0.999}  \\\hline
+					10000 & \answer{0.9999} \\\hline
+				\end{tabular}
+			\end{center}
+				
+				\item How many significant figures are given in each of the $N_n$ values in the preceding problem?  What value(s) would you get for $p$ if you round your answer following the usual sig fig rules?
+				
+					\begin{solution}
+						\instructordisplay{
+							\emph{Most students} will likely apply the rule that the answer should be rounded to the same number of digits given in $N_n$.  In this case, they will conclude that:
+						
+							\begin{itemize}
+								\item Each of the $N_n$ values in part (a) had exactly one significant figure, and
+							
+								\item rounding the calculated $p$ values to one sig-fig yields $p=0.9$ for $N_n=10$ and $p=1$ for all of the larger $N_n$ values.
+							\end{itemize}
+							
+							\emph{Some students} may catch that since $p = 1-\frac{1}{N_n}$, $\frac{1}{N_n}$ should be have the same number of sig figs as given in $N_n$; since 1 is an exact number, putting it into the subtraction step as 1.00000000000$\dots$ then means that $p$ should be reported out to the decimal place corresponding to the last significant figure in $\frac{1}{N_n}$.  They will then answer as follows:
+				
+			\begin{center}
+				\begin{tabular}{|c|c|c|c|}
+					\hline
+					$N_n$ & Number of sig figs & $\frac{1}{N_n}$ & $p=1.00000000\dots-\frac{1}{N_n}$ \\\hline
+					10 & 1 & 0.1 & 0.9 \\\hline
+					100 & 1 & 0.01 & 0.99 \\\hline
+					300 & 1 & 0.003 & 0.997 \\\hline
+					320 & 2 & 0.0031 & 0.9969 \\\hline
+					1000 & 1 & 0.001 & 0.999  \\\hline
+					10000 & 1 & 0.0001 & 0.9999 \\\hline
+				\end{tabular}
+			\end{center}
+			
+			where the two right-most columns have been rounded following the correct sig fig rules.
+			
+			However, in the author's experience, it is rare for students to catch this subtlety, and most will attempt to round directly to the number of sig figs given in $N_n$.
+						}
+					\end{solution}
+				
+				\item In the context of your results, does the ``usual'' rule for sig figs make sense when calculating extents of reactions?  Explain  your reasoning in 1-2 complete sentences.
+				
+					\begin{solution}
+						\instructordisplay{
+							Students who rounded to the number of sig figs given in $N_n$ should answer \emph{no}: the usual sig fig rule for division, of rounding to the least number of sig figs present in the numbers going into the calculation, does not work, because it makes it impossible to distinguish extents of reaction corresponding to very different degrees of polymerization (ones that differ by several orders of magnitude or more!).
+							
+							Students who followed the more rigorous approach described above may answer \emph{yes}.
+						}
+					\end{solution}
+				
+				\item Propose an alternate sig fig rule that would make more sense for calculating extents of reaction.
+				
+					\begin{solution}
+						\instructordisplay{
+							Student answers may vary.
+							
+							The most \emph{rigorous} answer is that if $N_n$ is given with $x$ significant figures, then $p$ should be reported with $x$ digits following the initial string of 9's.  For example, in the table given above, for $N_n=300$ (1 sig fig), $p$ should be reported as 0.997, while for $N_n = 320$ (2 sig figs), $p$ should be reported as 0.9969.  The exception is that when $N_n$ 10, 100, 1000, etc., the last 9 is the significant digit and no further digits should be reported.
+							
+							Conversely, when calculating $N_n$ from a given value for $p$, the number of significant figures in $N_n$ should be the number of digits following the leading string of 9's in $p$; if there are no digits following the leading string of 9's, then $N_n$ should be reported to one significant figure.
+							
+							Note that this rule follows directly from a rigorous treatment of the significant figures as described in the answer to part (b), above.
+							
+							The author has found that many students find this rule confusing, however, and has instead adopted the following simpler version in her classes: \emph{$p$ should be reported to the first digit that is not a 9}.
+						}
+					\end{solution}
+			\end{enumerate}
 
 		\exercise In the stoichiometrically-balanced reactions in models 1 and 2, the number of molecules was equal to the number of unreacted `A' groups in each step.  Is the same thing true for the stoichiometrically-imbalanced reaction in Model 3? Why or why not? % if not, how could you modify?
 		
@@ -428,7 +517,7 @@ In stoichiometrically-imbalanced step-growth polymerizations with an excess of B
 				\item Monofunctional reagents are a common impurity in supplies of difunctional monomers. Briefly explain why this means it is necessary to rigorously purify the starting materials used in step-growth polymerizations.
 				
 					\begin{solution}\instructordisplay{
-						As seen above, monofunctional molecules are very effective at capping polymer chains and preventing the reaction from going further.  In a stoichiometrically-balanced reaction, if even just 5\% of the `B' groups come from monofunctional reagents, the average degree of polymerization will be capped at about 40 monomers, which is too short to be of much use in practical applications.
+						As seen above, monofunctional molecules are very effective at capping polymer chains and preventing the reaction from going further.  In a stoichiometrically-balanced reaction, if even just 5\% of the `B' groups come from monofunctional reagents, the average degree of polymerization will be capped at about 40 monomers, which is too short to be of much use in practical applications.  Rigorously purifying the reagents to remove monofunctional impurities is thus critical for achieving molecular weights high enough for most practical applications.
 					}\end{solution}
 			\end{enumerate}
 \end{exercises}
