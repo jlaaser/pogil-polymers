@@ -9,6 +9,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \renewcommand{\figpath}{content/polymchem/stepgrowth/dispersity/figs}
+\renewcommand{\labelbase}{step-dispersity}
 
 \begin{activity}[Molecular Weight Distributions in Step-Growth Polymerizations]
 
@@ -47,139 +48,89 @@
 	%\textbf{Focus question:} Put a central question for the students to consider through this exercise here.
 
 \begin{model}[Probabilities of Forming Different Chain Lengths]
+\label{\labelbase:mdl:probabilities}
 
-To determine the \emph{distribution} of chain lengths formed in a step-growth polymerization, it is useful to calculate the probability of forming each different chain length.
+Recall that in a step-growth polymerization of AB-type monomers, the extent of reaction $p$ gives the fraction of `A' groups that have reacted.
 
-The following diagram summarizes the steps that lead to different chain lengths in a step-growth polymerization of AB-type monomers at extent of reaction $p$:
+In terms of probabilities, the \emph{probability} that a particular `A' group reacts (turns into an `a' group) is $p$, while the probability that it \emph{does not} react (remains an `A' group) is $1-p$:
 
-\vspace{0.1in}
-\centerline{\includegraphics[width=0.9\textwidth]{\figpath/model1-fulltree}}
+	\centerline{\includegraphics[width=0.7\textwidth]{\figpath/model1-rxn}}
 
-In this diagram, the different \textbf{states} of the polymer chain are written in bold text.  They are connected by arrows describing the \textbf{processes} that take the chain from one state to the next; the text \emph{above} each arrow describes which process takes place, while the expression \emph{under} each arrow gives the probability of that process occurring.
+	Each molecule has some combination of unreacted `A' groups and reacted `a' groups, each of which occurs with probability $p$ or $(1-p)$ as appropriate:
+
+	\centerline{\includegraphics[width=0.5\textwidth]{\figpath/model1-molecule}}
+	
+	The \emph{total} probability of forming this molecule is just the product of the probabilities for each group:
+	\begin{equation*}
+		P(molecule) = \underbrace{(p \times p \times p \times \dots)}_{\text{one factor of p for each reacted `a' group}} \times \underbrace{((1-p) \times (1-p) \times \dots)}_{\text{one factor of (1-p) for each unreacted `A' group}} 
+	\end{equation*}
+or, more concisely,
+	\begin{equation*}
+		P(molecule) = p^\text{(number of reacted `a' groups)}\times(1-p)^\text{(number of unreacted `A' groups)}
+	\end{equation*}
+
 
 \end{model}
 
 \vspace{0.05in}
 \begin{ctqs}
 	
-	\question What is the probability that...
+	\question Consider an AbabaB trimer:
+		\begin{enumerate}
+			\item How many monomers came together to form this molecule (that is, what is its degree of polymerization)?
+			
+				\begin{solution}[0.5in]
+					3
+				\end{solution}
+				
+			\item How many \emph{unreacted} `A' groups are in this molecule?
+			
+				\begin{solution}[0.5in]
+					1
+				\end{solution}
+				
+			\item How many \emph{reacted} `a' groups are in this molecule?
+			
+				\begin{solution}[0.5in]
+					2
+				\end{solution}
+				
+			\item What is the probability of forming an AbabaB trimer?
+			
+				\begin{solution}[0.5in]
+					$P(AbabaB) = p^\text{number of reacted a groups}(1-p)^\text{number of unreacted A groups} = p^2(1-p)^1 = p^2(1-p)$
+				\end{solution}
+				
+		\end{enumerate}
+		
+	\question More generally, consider a molecule with degree of polymerization $i$ (that is, a molecule that was made by linking together $i$ AB-type monomers).
 	
 		\begin{enumerate}
-			\item ... an AB monomer does not react, and remains an AB monomer?
-	
-			\begin{solution}[0.25in]
-				$1-p$
-			\end{solution}
-
-		\item ... an AB monomer reacts to form an AbaB dimer?
-	
-			\begin{solution}[0.25in]
-				$p$
-			\end{solution}
 		
-		\item ... an AbaB dimer does not react, and remains an AbaB dimer?
-	
-			\begin{solution}[0.25in]
-				$1-p$
-			\end{solution}
-	
-		
-		\item ... an AbaB dimer reacts to form an AbabaB trimer?
-	
-			\begin{solution}[0.25in]
-				$p$
-			\end{solution}
+			\item How many \emph{unreacted} `A' groups are in this molecule?
 			
-		\end{enumerate}	
-		
-	\question For \emph{any} molecule with $n$ monomers, what is the probability that it reacts to form a molecule with $n+1$ monomers?
-	
-			\begin{solution}[0.25in]
-				$p$
-			\end{solution}
-	
-	\question Is your answer to the previous question consistent with the definition of the extent of reaction $p$?  Briefly explain your answer in 1-2 complete sentences.
-	
-		\begin{solution}[2in]
-			Yes, it is.  The extent of reaction, $p$, is the fraction of ``A'' groups that have reacted.  Since each molecule has exactly 1 ``A'' group, the fraction of molecules that reach length $n$ whose ``A'' groups react to form chains with $n+1$ monomers is $p$.  This fraction is equivalent to the probability that the chain grows from $n$ to $n+1$ monomers.
-		\end{solution}
-	
-\end{ctqs}
-
-\begin{infobox}
-
-	For a process with a \textbf{single} step, the overall probability of reaching the final state is just the probability of that step.
-	
-	For example, the series of steps that leads to a chain with exactly one monomer (i.e. an AB monomer that does not react) is shown below:
-	
-	\vspace{0.1in}
-	\centerline{\includegraphics[width=0.3\textwidth]{\figpath/model1-AB}}
-	
-	Since there is only a single step in this process, the overall probability of obtaining a chain with exactly 1 monomer is just the probability of this step, or $1-p$.
-	
-	\vspace{0.1in}
-	For processes with \textbf{multiple} steps, the overall probability of reaching the final state is the \emph{product} of the probabilities for each step in the process.
-	
-	For example, the series of steps takes us from an initial AB monomer to an AbaB chain that does not react further (remains a chain with exactly 2 monomers) is:
-	
-	\vspace{0.1in}
-	\centerline{\includegraphics[width=0.6\textwidth]{\figpath/model1-AbaB}}
-	
-	The first step occurs with probability $p$, while the second step occurs with probability $1-p$; the total probability of obtaining a chain with exactly 2 monomers is the product of these probabilities, or $p(1-p)$.
-	
-\end{infobox}
-
-\begin{ctqs}
-
-	\question Diagram the series of steps that lead to formation of a chain with 3 monomers that does not react any further:
-	
-		\begin{solution}[1in]\instructordisplay{
-			\centerline{ \includegraphics[width=0.8\textwidth]{\figpath/model1-AbabaB-answer}}
-		}\end{solution}
-	
-	\question Based on your diagram, what is the overall probability of obtaining a chain with exactly 3 monomers?
-	
-		\begin{solution}[1in]
-			$p \cdot p \cdot (1-p) = p^2(1-p)$
-		\end{solution}
-	
-	\question Building on this process, fill in the blanks in the following table:
-	
-		\begin{center}
-			\renewcommand{\arraystretch}{3}
-			\begin{tabular}{|c|c|}
-				\hline
-				\textbf{~~i~~} & {\renewcommand{\arraystretch}{1}\begin{tabular}{c}\textbf{Probability that a molecule is composed}\\\textbf{of exactly $i$ monomers}\end{tabular} }\\\hline
-				1 & $1-p$\\\hline
-				2 & $p(1-p)$\\\hline
-				3 & \answer{$p^2(1-p)$}\\\hline
-				4 & \answer{$p^3(1-p)$}\\\hline
-				5 & \answer{$p^4(1-p)$}\\\hline
-			\end{tabular}
-		\end{center}
-	
-	\question What pattern do you notice in these values?  Briefly describe your observations in 1-2 complete sentences.
-	
-		\begin{solution}[1in]
-		
-			The values acquire an additional factor of $p$ for each additional monomer in the chain.
-		
-		\end{solution}
-	
-	\question Complete the following statement:
-	
-		``The probability that a molecule is composed of exactly $i$ monomers is \line(1,0){50}.''
-	
-		\begin{solution}[0.5in]
-		
-			$p^{i-1}(1-p)$
+				\begin{solution}[0.5in]
+					1
+				\end{solution}
+				
+			\item How many \emph{reacted} `a' groups are in this molecule?
 			
-		\end{solution}
+				\begin{solution}[0.5in]
+					i-1
+				\end{solution}
+				
+			\item What is the probability of forming a molecule with degree of polymerization $i$?
+			
+				\begin{solution}[1in]
+					$P(i-mer) = p^\text{number of reacted a groups}(1-p)^\text{number of unreacted A groups} = p^{i-1}(1-p)^1 = p^{i-1}(1-p)$
+				\end{solution}
+			
+		\end{enumerate}
 		
 \end{ctqs}
 
 \begin{infobox}
-	The \emph{probability} that a molecule is composed of exactly $i$ monomers is the same as the \emph{fraction of molecules} that are composed of exactly $i$ monomers.
+	The \emph{probability} that a molecule is has degree of polymerization $i$ is the same as the \emph{fraction of molecules} that have degree of polymerization $i$.
 \end{infobox}
 
 
@@ -187,43 +138,54 @@ In this diagram, the different \textbf{states} of the polymer chain are written 
 	
 	\question Complete the following statement:
 	
-		``The fraction of molecules, $x_i$, that are composed of exactly $i$ monomers is \line(1,0){50}.''
+		``The fraction of molecules, $x_i$, that have degree of polymerization $i$ is \line(1,0){50}.''
 	
 		\begin{solution}[0.5in]
 		
 			$x_i = p^{i-1}(1-p)$
 			
 		\end{solution}
-	
-	\question Using this expression, calculate the fraction of molecules that have exactly length $i$ for both $p=0.5$ and $p=0.9$ at the following values of $i$:
+		
+\end{ctqs}
+
+\begin{model}[Chain Length Distributions]
+\label{\labelbase:mdl:dist}
+
+	The following table gives selected values of $x_i$ calculated at two different extents of reaction, $p$, using the expression you derived in Model \ref{\labelbase:mdl:probabilities}:
 	
 		\begin{center}
-			\renewcommand{\arraystretch}{3}
-			\begin{tabular}{|c|c|c|}
+			\renewcommand{\arraystretch}{1.5}
+			\begin{tabular}{ccc}
 				\hline
 				\textbf{~~$i$~~} & ~~~$x_i$ when $p=0.5$~~~ & ~~~$x_i$ when $p=0.9$~~~ \\\hline
-				1 & \answer{0.5} & \answer{0.1} \\\hline
-				2 & \answer{0.25} & \answer{0.09} \\\hline
-				3 & \answer{0.125} & \answer{0.08} \\\hline
-				5 & \answer{0.0313} & \answer{0.065} \\\hline
-				10 & \answer{9.7x10$^{-4}$} & \answer{0.0387} \\\hline
-				15 & \answer{3.1x10$^{-5}$} & \answer{0.0229} \\\hline
-				20 & \answer{9.5x10$^{-7}$} & \answer{0.0135} \\\hline
+				1 & 0.5 & 0.1 \\
+				2 & 0.25 & 0.09 \\
+				3 & 0.125 & 0.08 \\
+				5 & 0.0313 & 0.065 \\
+				10 & 9.7x10$^{-4}$ & 0.0387 \\
+				15 & 3.1x10$^{-5}$ & 0.0229 \\
+				20 & 9.5x10$^{-7}$ & 0.0135 \\\hline
 			\end{tabular}
 		\end{center}
 		
-		\clearpage
-	\question Plot your results on the following axes.  Make sure to use a different symbol for points corresponding to $p=0.5$ than for the points corresponding to $p=0.9$.
+		\vspace{0.1in}
+
+\end{model}
 	
-		\begin{solution}[2.75in]
+\begin{ctqs}
+
+	\question Plot the data given in Model \ref{\labelbase:mdl:dist} on the following axes.  Make sure to use a different symbol for points corresponding to $p=0.5$ than for the points corresponding to $p=0.9$.
+	
+		\begin{solution}[3.25in]
 			\studentdisplay{
-				\centerline{\includegraphics[width=0.7\textwidth]{\figpath/model1-xi-axes.pdf}}
+				\centerline{\includegraphics[width=0.8\textwidth]{\figpath/model2-xi-axes.pdf}}
 			}
 			\instructordisplay{
-				\centerline{\includegraphics[width=0.7\textwidth]{\figpath/model1-xi-plotted.pdf}}
+				\centerline{\includegraphics[width=0.8\textwidth]{\figpath/model2-xi-plotted.pdf}}
 			}
 		\end{solution}
 	
+	\clearpage
 	\question How are the plots for $p=0.5$ and $p=0.9$ similar, and how are they different?  Briefly describe your observations in 2-3 complete sentences.
 	
 		\begin{solution}[1.5in]
@@ -231,15 +193,15 @@ In this diagram, the different \textbf{states} of the polymer chain are written 
 			Both of these plots decrease exponentially toward zero with increasing values of $i$.  However, the plot for $p=0.5$ decreases much faster, and a higher fraction of the molecules have very short chain lengths, than in the case where $p=0.9$.
 		\end{solution}
 	
-	\question What is the \emph{most probable} chain length for each value of $p$?
+	\question What is the \emph{most probable} chain length for each value of $p$?  Briefly explain your answer in 1-2 complete sentences.
 	
-		\begin{solution}[0.5in]
+		\begin{solution}[1.5in]
 		
-			The most probable chain length is just the one with the highest value of $x_i$.  Thus, the most probably chain length is $i=1$ for both values of $p$.
+			The most probable chain length is just the one with the highest value of $x_i$.  Thus, the most probable chain length is $i=1$ for both values of $p$.
 		
 		\end{solution}
 	
-	\question Can the fraction of chains with length $i+1$ ever be \emph{greater} than the fraction of chains with length $i$?  Justify your answer in 1-2 complete sentences.
+	\question Can the fraction of chains with length $i+1$ ever be \emph{greater} than the fraction of chains with length $i$?  Justify your answer in 2-3 complete sentences.
 	
 		\begin{solution}[1.5in]
 		
@@ -251,8 +213,9 @@ In this diagram, the different \textbf{states} of the polymer chain are written 
 	
 \end{ctqs}
 
-
+\clearpage
 \begin{model}[$M_n$ and $M_w$ for Step-Growth Polymerizations]
+\label{\labelbase:mdl:MwMn}
 
 	To calculate $M_n$ and $M_w$, we need to know $n_i$, or the total number of chains with $i$ monomers.
 	
@@ -273,14 +236,14 @@ In this diagram, the different \textbf{states} of the polymer chain are written 
 	
 	\vspace{0.25in}
 	
-	If we evaluate these sums, we obtain
+	Evaluating these sums (see Exercise \ref{labelbase:exc:Mn}), we obtain
 	\begin{align*}
 		M_n = \frac{M_0}{1-p} && \text{or} && N_n = \frac{M_n}{M_0} = \frac{1}{1-p}
 	\end{align*}
-	which is exactly what we expected (whew - our math worked!).
+	which is exactly what we came up with in our previous activity on degree of polymerization.
 	
 	\vspace{0.25in}
-	Similarly, if we plug this expression into our equation for $M_w$ and work through the sums, we get
+	Similarly, plugging the above expression for $n_i$ into our expression for $M_w$ and evaluating the sums, we obtain
 	\begin{align*}
 		M_w = \frac{\sum_i n_i M_i^2}{\sum_i n_i M_i} = M_0\frac{1+p}{1-p} && \text{or} && N_w = \frac{M_w}{M_0} = \frac{1+p}{1-p}
 	\end{align*}
@@ -302,7 +265,7 @@ In this diagram, the different \textbf{states} of the polymer chain are written 
 		
 			\begin{solution}[1.5in]
 			
-				When $p=0$, $\text{\DJ}=1+0 = 1$.  This does make sense: when the extent of reaction is zero, no reactions have taken place, and the reaction mixture contains only monomers.  Since all of the molecules in the mixture are thus identcail (and exactly the same size), the dispersity is 1 - the mixture is monodisperse.
+				When $p=0$, $\text{\DJ}=1+0 = 1$.  This does make sense: when the extent of reaction is zero, no reactions have taken place, and the reaction mixture contains only monomers.  Since all of the molecules in the mixture are thus identical (and exactly the same size), the dispersity is 1 - the mixture is perfectly monodisperse.
 			
 			\end{solution}
 			
@@ -317,7 +280,7 @@ In this diagram, the different \textbf{states} of the polymer chain are written 
 			
 			
 			
-		\question Can the dispersity of a polymer produced by step-growth polymerization ever be greater than 2?  Briefly defend your answer in 1-2 complete sentences.
+		\question Can the dispersity of a polymer produced by a step-growth polymerization ever be greater than 2?  Briefly defend your answer in 1-2 complete sentences.
 		
 			\begin{solution}[1.5in]
 			
@@ -356,16 +319,16 @@ In this diagram, the different \textbf{states} of the polymer chain are written 
 					\end{solution}
 			\end{enumerate}
 			
-		\exercise Show that the summation expression for $M_n$ given in Model 2 simplifies to the expected result by doing the following:
+		\exercise Show that the summation expression for $M_n$ given in Model \ref{\labelbase:mdl:MwMn} simplifies to the expected result by doing the following: \label{labelbase:exc:Mn}
 		
 			\begin{enumerate}
-				\item First, show that the summation expression for $M_n$ given in Model 2 can be rewritten
+				\item First, show that the summation expression for $M_n$ given in Model \ref{\labelbase:mdl:MwMn} can be rewritten
 					\begin{equation*}
 						M_n = M_0 \frac{{\sum_i i p^{i-1}}}{\frac{1}{p}\sum_i p^i}
 					\end{equation*}
 					
 					\begin{solution}\instructordisplay{
-						In Model 2, $M_n$ was written as
+						In Model \ref{\labelbase:mdl:MwMn}, $M_n$ was written as
 						\begin{equation*}
 							M_n = M_0\frac{\sum_i p^{i-1}(1-p)^2 i }{\sum_i p^{i-1}(1-p)^2}
 						\end{equation*}
