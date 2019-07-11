@@ -9,6 +9,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \renewcommand{\figpath}{content/polymphys/mechanical-properties/viscoelasticity/figs}
+\newcommand{\labelbase}{}
+\renewcommand{\labelbase}{viscoelasticity}
 
 \begin{activity}[Viscoelasticity of Polymeric Materials]
 
@@ -50,203 +52,161 @@
 	
 	Do the following experiments, and note your observations about how the material responds:
 	
-	\begin{itemize}
-		\item Place a small ball of putty on a table, and hit it sharply with your hand.
+	\begin{enumerate}
+		\item Place a small ball of putty on a table, and hit it quickly with your hand.
 			\begin{itemize}
 				\item Observations:
 				
-				\vspace{1in}
+				\begin{solution}[0.75in]
+				
+					The putty mostly retains its shape.
+					
+				\end{solution}
 			\end{itemize}
 		
 		\item Place a small ball of putty on your desk, and let it sit without touching it for 1-2 minutes.
 			\begin{itemize}
 				\item Observations:
 				
-				\vspace{1in}
+				\begin{solution}[0.75in]
+				
+					The putty initially retains its shape, but over time, slowly begins to flow and flatten out.
+					
+				\end{solution}
 			\end{itemize}
 		
 		\item Take a small piece of putty and stretch it between your hands.  Vary the rate at which you stretch it (quickly vs. slowly).
 			\begin{itemize}
 				\item Observations:
 				
-				\vspace{1.25in}
+				\begin{solution}[1in]
+				
+					When the putty is pulled slowly, it stretches like taffy.
+					
+					When the putty is pulled quickly, it may break.
+					
+				\end{solution}
 			\end{itemize}
 		
-	\end{itemize}
+	\end{enumerate}
 
 \end{model}
 
 
 \begin{ctqs}
 
-	\question In which of your experiments would you say the putty behaved more like a solid?  Briefly explain your reasoning.
+	\question In which of your experiments would you say the putty behaved more like an \emph{elastic solid}?  Briefly explain your reasoning.
 	
-		\begin{solution}[1in]
+		\begin{solution}[1.25in]
+		
+			In experiment (1), the putty retains its shape, and is thus more solid-like.
+			
+			In experiment (3), when pulled quickly, the putty ``breaks'', which is also a solid-like behavior.
+		
 		\end{solution}
 	
-	\question In which of your experiments would you say the putty behaved more like a liquid?  Briefly explain your reasoning.
+	\question In which of your experiments would you say the putty behaved more like a \emph{viscous liquid}?  Briefly explain your reasoning.
 	
 		\begin{solution}[1in]
+		
+			In experiment (2), the putty flowed to match the shape of the surface it was sitting on, which is a liquid-like behavior.
+		
 		\end{solution}
 	
-	\question How did your observation of solid-like or liquid-like properties depend on how quickly you deformed or manipulated the putty?
+	\question How did your observation of solid-like or liquid-like properties depend on the rate of deformation (i.e. how quickly you deformed or manipulated the putty)?
 	
 		\begin{solution}[1in]
+		
+			When the rate of deformation was high, the putty behaved more like a solid.
+			
+			When the rate of deformation was low, the putty behaved more like a liquid.
+			
 		\end{solution}
 		
+	\question Explain, in one or two complete sentences, why you think we might describe this putty as a ``viscoelastic'' material.
+	
+			\begin{solution}[1.5in]
+			
+				We describe this putty as a viscoelastic material because it  has some properties of both elastic solids (elasticity, ability to hold its shape) and of viscous liquids (ability to flow).  The properties that we observe depend on the timescale of the observation.
+				
+			\end{solution}
+		
+\end{ctqs}
+
+\begin{model}[Step-Strain Experiments on Liquids and Solids]
+
+	explain a step-strain experiment
+	
+\end{model}
+
+\begin{ctqs}
+	\question WALK STUDENTS THROUGH ELASTIC SOLID (BY ANALOGY TO RUBBER BAND)
+	
+	\question  WALK STUDENTS THROUGH VISCOUS LIQUID (BY ANALOGY TO MOVING HAND THROUGH WATER)
+	
 \end{ctqs}
 
 \begin{infobox}
 
-	Solid-like materials are typically described in terms of their \emph{modulus}, G.  For an elastic solid subjected to a strain (deformation) of size $\gamma$, the resulting stress (force), $\sigma$, is given by
-	\begin{equation*}
-		\sigma = G\gamma
-	\end{equation*}
+	Solid-like materials are typically described in terms of their \emph{modulus}, E (for extensional strain) or G (for shear strain).  For an elastic solid subjected to a strain of size $\epsilon$ (for extensional strain) or $\gamma$ (for shear strain), the resulting stress, $\sigma$, is directly proportional to the strain:
+	\begin{align*}
+		\sigma &= E\epsilon\,\,\,\,\,\,\,\text{(extensional strain)}\\
+		%&\text{or}\\
+		\text{or}\,\,\,\,\,\,\sigma &= G\gamma\,\,\,\,\,\,\,\text{(shear strain)}
+	\end{align*}
 	
-	Liquid-like materials are typically described in terms of their \emph{viscosity}, $\eta$.  For a liquid subjected to a strain $\gamma$, the resulting stress is 
-	\begin{equation*}
-		\sigma = \eta \frac{d\gamma}{dt} = \eta \dot\gamma
-	\end{equation*}
+	Liquid-like materials are typically described in terms of their \emph{viscosity}, $\eta$.  For a liquid, the stress is proportional to the strain \emph{rate}:
+	\begin{align*}
+		\sigma &= \eta\frac{d\epsilon}{dt}=\eta\dot\epsilon\,\,\,\,\,\,\,\text{(extensional strain)}\\
+		%&\text{or}\\
+		\text{or}\,\,\,\,\,\,\sigma &= \eta\frac{d\gamma}{dt}=\eta\dot\gamma\,\,\,\,\,\,\,\text{(shear strain)}
+	\end{align*}
 
 \end{infobox}
 
 \begin{ctqs}
-		
-		\question In which of your experiments on the silicone putty was the strain rate, $d\gamma/dt$, ...
-			\begin{enumerate}
-				\item ... large?
+	\question PLOT STRESS PROFILES FOR STEP-STRAIN
 	
-					\begin{solution}[1in]
-					\end{solution}
-				
-				\item ... small?
-			
-					\begin{solution}[1in]
-					\end{solution}
-			\end{enumerate}
-		
-		\question Explain, in two or three complete sentences, how the properties you observed were related to the strain rate.
-	
-			\begin{solution}[1.5in]
-			\end{solution}
-		
-		\question Explain, in one or two complete sentences, why you think we might describe this putty as a ``viscoelastic'' material.
-	
-			\begin{solution}[1.5in]
-			\end{solution}
-	
-		
+	\question ARE THEY CONSISTENT WITH PREDICTIONS?
 \end{ctqs}
 	
 
 \begin{model}[The Maxwell Model]
+\label{\labelbase:mdl:maxwell}
 
 	One of the simplest models we can use to describe viscoelasticity of polymeric materials is the \emph{Maxwell model}.
 	
-	In this model, we imagine the response of the material as being represented by a spring and ``dashpot'' connected in series:
+	In this model, we imagine the response of the material as being represented by a spring \emph{and} a dashpot, connected in series:
 	
 	\centerline{\includegraphics[width=0.5\textwidth]{\figpath/model2-maxwellelement}}
 	
-	The spring ($\sigma = G_0\gamma$) reflects the elastic component of the response, while the dashpot ($\sigma = \eta_0\dot\gamma$) reflects the viscous component of the response.
-
 \end{model}
 
+	
 \begin{ctqs}
-		\question Start by considering \emph{only} the spring:
-		
-			\begin{enumerate}
-				\item If I pull downward to extend the spring, hold onto it for some time, and then release it again, what do you expect to happen?  Briefly describe your prediction in 1-2 complete sentences.
+	\question (GET THEM TO REASON THROUGH EXPONENTIAL DECAY)
 	
-					\begin{solution}[1.5in]
+					\begin{solution}[2.5in]
 					\end{solution}
-				
-				\item The strain profile for the experiment described in this question is shown below:
-				
-					\centerline{\includegraphics[width=0.5\textwidth]{\figpath/model2-stepstrains}}
-				
-					On the following axes, sketch the stress that you would expect to measure over the course of this experiment.
-				
-					\centerline{\includegraphics[width=0.5\textwidth]{\figpath/model2-stressresponse}}
-				
-				\item Why might we say that the spring ``stores'' energy? sentences.
-	
-					\begin{solution}[1.5in]
-					\end{solution}
-			\end{enumerate}
-			
-		
-		\question Next, consider \emph{only} the dashpot:
-		
-			\begin{enumerate}
-				\item If I pull downward on the bottom of the dashpot, hold on for some time, and then release it again, what do you expect to happen?  Briefly describe your prediction in 1-2 complete sentences.
-	
-					\begin{solution}[1.5in]
-					\end{solution}
-				
-				\item The strain profile for this experiment is the same as in the preceding question.  On the following axes, sketch the stress that you would expect to measure over the course of this experiment.
-				
-					\centerline{\includegraphics[width=0.5\textwidth]{\figpath/model2-stressresponse}}
-				
-				\item Why might we say that the dashpot ``dissipates'' energy?
-	
-					\begin{solution}[1.5in]
-					\end{solution}
-			\end{enumerate}
-			
-		\question Finally, consider the entire Maxwell element, with the spring and dashpot in series:
-		
-			\begin{enumerate}
-				\item If I pull downward on the bottom of the Maxwell element, hold onto it for some time, and then release it again, what do you expect to happen?
-	
-					\begin{solution}[1.5in]
-					\end{solution}
-				
-				\item The strain profile for this experiment is the same as in the preceding questions.  On the following axes, sketch the stress that you would expect to measure over the course of this experiment.
-				
-					\centerline{\includegraphics[width=0.5\textwidth]{\figpath/model2-stressresponse}}
-			\end{enumerate}
-			
+					
 \end{ctqs}
-	
-\vspace{-0.25in}
-\begin{infobox}
 
-	The experiments described in the preceding questions are \emph{step-strain} experiments, in which we quickly pull the material from its equilibrium position to a new position and hold it in place.  A step-strain experiment has the following strain profile:
-	
-	In a step-strain experiment, at times $t>0$, the total strain is constant, but how much of that strain is taken up by the spring and how much by the dashpot can change over time.
-	The forces across the spring and dashpot, on the other hand, must be equal.
-	Thus, at any point in the experiment,
-	\begin{equation*}
-		\gamma_0 = \gamma_{spring}(t) + \gamma_{dashpot}(t)
-	\end{equation*}
-	\begin{equation*}
-		\sigma(t) = \sigma_{spring}(t) + \sigma_{dashpot}(t)
-	\end{equation*}
-	and 
-	Because $\gamma_0$ is constant,
-	\begin{align*}
-		\frac{d\gamma_0}{dt} = 0 &= \frac{d\gamma_{spring}}{dt} + \frac{d\gamma_{dashpot}}{dt}\\
-		&= \dot\gamma_{spring} + \dot\gamma_{dashpot}
-	\end{align*}
-	Substituting in $\gamma_{spring} = \sigma/G_0$ and $\dot \gamma_{dashpot} = \sigma/\eta_0$, we find
-	\begin{equation*}
-		0 = \frac{1}{G_0}\dot\sigma + \frac{1}{\eta_0}\sigma
-	\end{equation*}
-	Finally, solving this differential equation yields
+\begin{infobox}
+	As shown in Exercise \ref{\labelbase:exc:maxwell}, the time-dependent stress for a step-strain experiment on the Maxwell model works out to be:
 	\begin{align*}
 		\sigma(t) = \sigma_0 e^{-t G_0/\eta_0}  && \text{or} && \sigma(t) = \sigma_0 e^{-t /\tau}
 	\end{align*}
 	where $\tau = \eta_0/G_0$.
-
 \end{infobox}
-	
+
 \begin{ctqs}
-		\question As shown above, in a step-strain experiment, $\sigma$ decays exponentially with time.  Is this consistent with the qualitative prediction you made on the previous page?
 	
-					\begin{solution}[0.75in]
+	\question Is this equation consistent with your prediction from question  NNN?  Why or why not?
+	
+					\begin{solution}[1.5in]
 					\end{solution}
 		
-		\question At what time $t$ will $\sigma(t)$ drop to 1/e of its initial value?
+	\question At what time $t$ will $\sigma(t)$ drop to 1/e of its initial value?
 	
 					\begin{solution}[1.5in]
 					\end{solution}
@@ -255,38 +215,6 @@
 	
 					\begin{solution}[1.5in]
 					\end{solution}
-		
-		\question For a highly crosslinked polymeric material, we expect $G_0$ to be large and $\eta_0$ to be small.
-			\begin{enumerate}
-				\item In this case, will $\tau$ be (relatively) large or small?  
-	
-					\begin{solution}[1in]
-					\end{solution}
-				\item In this case, will the stress $\sigma(t)$ decay (relatively) slowly, or quickly?
-	
-					\begin{solution}[1.25in]
-					\end{solution}
-				\item Is your prediction qualitatively consistent with your expectations for a mostly elastic solid?
-	
-					\begin{solution}[1in]
-					\end{solution}
-			\end{enumerate}
-		
-		\question For an un-crosslinked polymeric material above its glass transition temperature, we expect $G_0$ to be small and $\eta_0$ to be large.
-			\begin{enumerate}
-				\item In this case, will $\tau$ be large or small?  
-	
-					\begin{solution}[1.25in]
-					\end{solution}
-				\item In this case, will the stress $\sigma(t)$ decay (relatively) slowly, or quickly?
-	
-					\begin{solution}[1.25in]
-					\end{solution}
-				\item Is your prediction qualitatively consistent with your expectations for a mostly elastic solid?
-	
-					\begin{solution}[1.5in]
-					\end{solution}
-			\end{enumerate}
 		
 \end{ctqs}
 
@@ -310,34 +238,49 @@
 %\vspace{0.25in}
 \begin{ctqs}
 		
-		\question Which coefficient, $G'$ or $G''$, tells you how much of the response is directly proportional to the applied strain?
+		\question In this experiment, the strain is proportional to $\sin(\omega t)$.  
+			\begin{enumerate}
+				\item Which coefficient, $G'$ or $G''$, tells you how much of the response is directly proportional to the applied strain?
 	
-					\begin{solution}[1.1in]
+					\begin{solution}[1in]
+						$G'$ is in the term that goes as $\sin(\omega t)$, so $G'$ is the coefficient that tells us how much of the response is directly proportional to the applied strain.
 					\end{solution}
 		
-		\question Does this coefficient tell you about the elastic response of the material, or the viscous response of the material?
+		\item Does this coefficient tell you about the elastic response of the material, or the viscous response of the material?
 	
-					\begin{solution}[1.1in]
+					\begin{solution}[1in]
+						The elastic response is directly proportional to the applied strain, so this coefficient tells us about the elastic response.
+					\end{solution}
+					
+			\end{enumerate}
+			
+		\question Since $\frac{d}{dt}\sin(\omega t) \sim \cos(\omega t)$, the strain \emph{rate} in this experiment is proportional to $\cos(\omega t)$.
+		
+			\begin{enumerate}
+		
+				\item Which coefficient, $G'$ or $G''$, tells you how much of the response is proportional to the strain rate?
+	
+					\begin{solution}[1in]
+						The $G''$ term is proportional to $\cos(\omega t)$, so $G''$ tells us about the portion of the response that is proportional to strain rate.
 					\end{solution}
 		
-		\question For an applied strain $\gamma(t) = \gamma_0 \sin(\omega t)$, what is the strain \emph{rate}, $d\gamma/dt$?
+				\item Does this coefficient tell you about the elastic response of the material, or the viscous response of the material?
 	
-					\begin{solution}[1.1in]
+					\begin{solution}[1in]
+					
+						The viscous response is proportional to the strain rate, so this coefficient tells us about the viscous repsonse.
+					
 					\end{solution}
-		
-		\question Which coefficient, $G'$ or $G''$, tells you how much of the response is proportional to the strain rate?
-	
-					\begin{solution}[1.1in]
-					\end{solution}
-		
-		\question Does this coefficient tell you about the elastic response of the material, or the viscous response of the material?
-	
-					\begin{solution}[1.1in]
-					\end{solution}
+					
+			\end{enumerate}
 		
 		\question Remembering that elastic responses store energy, and viscous responses dissipate energy, explain why we call $G'$ the ``storage modulus'' and $G''$ the ``loss modulus'' of the material.
 	
 					\begin{solution}[2in]
+					
+						$G'$ gives information about the elastic response, which stores energy, so $G'$ is called the storage modulus.
+						
+						$G''$ gives information about the viscous response, which dissipates energy, so $G''$ is called the loss modulus.
 					\end{solution}
 			
 \end{ctqs}
@@ -348,43 +291,73 @@
 		G' = G_0 \frac{\omega^2 \tau^2}{\omega^2 \tau^2 + 1} && \text{and} && G'' = G_0 \frac{\omega \tau}{\omega^2 \tau^2 + 1}
 	\end{align*}
 	
-	Plotting the moduli as a function of frequency yields plots that look something like the following:
-				
-		\centerline{\includegraphics[width=0.4\textwidth]{\figpath/model3-maxwellplot}}
-	
-	Note that both axes of this graph are plotted on a log scale, and the x axis has been scaled by the characteristic relaxation time, $\tau$.
-	
 \end{infobox}
 
 \clearpage
 \begin{ctqs}
-	\question At low frequencies, which is greater, the storage modulus or the loss modulus?  Is this consistent with your expectations?
+	
+	\question A plot of the storage and loss moduli as a function of frequency is shown below:
+				
+		\centerline{\includegraphics[width=0.4\textwidth]{\figpath/model3-maxwellplot}}
+	
+	Note that both axes of this graph are plotted on a log scale, and the x axis has been scaled by the characteristic relaxation time, $\tau$. 
+	Using this graph, answer the following questions:
+	
+	\begin{enumerate}
+		\item  At low frequencies (corresponding to long observation timescales), which is greater, the storage modulus or the loss modulus?  Is this consistent with your expectations?  Briefly explain your answer in 1-2 complete sentences.
 	
 					\begin{solution}[1.1in]
+					
+						At low frequencies, the loss modulus is greater.  This makes sense, because on long timescales, the material should be mostly liquid-like.
+					
 					\end{solution}
 	
-	\question At high frequencies, which is greater, the storage modulus or the loss modulus?  Is this consistent with your expectations?
+		\item At high frequencies (corresponding to short observation timescales), which is greater, the storage modulus or the loss modulus?  Is this consistent with your expectations?  Briefly explain your answer in 1-2 complete sentences.
 	
 					\begin{solution}[1.1in]
+					
+						At high frequencies, the storage modulus is greater.  This makes sense, because on long timescales, the material should be mostly solid-like.
 					\end{solution}
+	\end{enumerate}
 
 	\question At what frequency is the storage modulus exactly equal to the loss modulus?  Give your answer in terms of the characteristic relaxation time, $\tau$.
 	
 		\emph{Note: you can answer this using either the graph or the equations, but you will probably find it easier to work from the equations.}
 	
 					\begin{solution}[1.75in]
+					
+						Setting the equations for $G'$ and $G''$ equal to each other, we have
+						\begin{align*}
+							G' &= G''\\
+							G_0 \frac{\omega^2 \tau^2}{\omega^2 \tau^2 + 1} &= G_0 \frac{\omega \tau}{\omega^2 \tau^2 + 1}\\
+							\omega^2 \tau^2 &= \omega \tau\\
+							\omega\tau &= 1\\
+							\omega &= \frac{1}{\tau}
+						\end{align*}
 					\end{solution}
 	
 	\question Rearrange your answer to the previous question to find an expression for the characteristic relaxation time in terms of the crossover frequency.
 	
-					\begin{solution}[1.25in]
+					\begin{solution}[1in]
+					
+						\begin{align*}
+							\tau = \frac{1}{\omega_c}
+						\end{align*}
 					\end{solution}
 	
-	\question Using your answer to the previous question, find the characteristic relaxation time of the polymer characterized in the plot below:
+	\question The following plot shows the dynamic moduli of a material similar to the silicone putty you experimented with at the beginning of this activity:
 				
 		\centerline{\includegraphics[width=0.6\textwidth]{\figpath/model3-maxwellexample.jpg}}
+		
+			Using this plot and your answer to the previous question, find the characteristic relaxation time of this polymer.
 	
 					\begin{solution}[1.5in]
+					
+						The storage and loss moduli are equal when $\omega=10^{-3}\text{ s}^{-1}$.  Thus the characteristic relaxation time is
+						
+						\begin{equation*}
+							\tau = \frac{1}{\omega_c} = \frac{1}{10^{-3}\text{ s}^{-1}} = 1000\text{ s} \approx 17\text{ min}
+						\end{equation*}
 					\end{solution}
 	
 	\question If you were to pick up a sample of this polymer, would you expect it to feel more like a liquid or more like a solid?  Briefly justify your answer in 2-3 complete sentences.
@@ -413,17 +386,19 @@
 		\exercise In our discussion of the Maxwell Model, we considered a step-strain experiment, where we pulled the material to a set distance and then held it there.
 		
 			Another type of experiment we could conduct is a ``step-stress'' experiment, in which we simply begin pulling on the material with a constant force.  Make plots of (a) the applied stress and (b) the resulting strain that you would expect for this experiment.
+			
+		\exercise \label{\labelbase:exc:maxwell} DERIVE STEP-STRESS RESPONSE FOR MAXWELL MODEL
 		
 		\exercise The Maxwell Model is one simple model that yields viscoelastic behavior.  Another model that gives viscoelastic behavior is the Voigt model, in which the spring and dashpot are connected in parallel rather than in series:
 		
 			\centerline{\includegraphics[width=0.25\textwidth]{\figpath/exercises-voigtelement}}
 			
-			In this case, the total \emph{stress} is the sum of the stresses across the two copmonents, while the total \emph{strain} is identical for each component.
+			In this case, the total \emph{stress} is the sum of the stresses across the two components, while the total \emph{strain} is identical for each component.
 			
 			\begin{enumerate}
 				\item Express the above statement using appropriate mathematical equations.  Then, find an expression for the total stress in terms of $G_0$, $\eta_0$, and $\gamma$.
 				\item Qualitatively, how would you expect the Voigt element to respond to (a) a step strain experiment, and (b) a step stress experiment?  Plot the expected response for each case.
-				\item Find a functional form for the strain, $\gamma(t)$, that results from a step stress of magnitude $\sigma_0$ (note: this is challenging, and requires some knowledge of differential equations).
+				%\item Find a functional form for the strain, $\gamma(t)$, that results from a step stress of magnitude $\sigma_0$ (note: this is challenging, and requires some knowledge of differential equations).
 					%Note: should coach this one more!
 			\end{enumerate}
 		
