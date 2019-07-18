@@ -9,6 +9,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \renewcommand{\figpath}{content/polymphys/solution-thermo/flory-huggins/figs}
+\newcommand{\labelbase}{flory-huggins}
 
 \begin{activity}[Regular Solutions \& Flory-Huggins Theory]
 
@@ -18,7 +19,9 @@
 	
 	After completing this activity, students will be able to:
 			\begin{enumerate}
-				\item ...
+				\item Explain why mixing is said to be an entropy-driven process (ideal solutions)
+				\item Explain how enthalpic interactions change the free energy of mixing (regular solutions)
+				\item Explain the origin of the $1/N$ term in the Flory-Huggins free energy of mixing for polymer solutions
 			\end{enumerate}
 	This activity will prepare students for follow-up activities on phase diagrams for polymer solutions.
 			
@@ -27,8 +30,16 @@
 		\item \textbf{Activity type:} Learning Cycle
 		\item \textbf{Content goals:} Ideal mixing, regular solution theory, and Flory-Huggins theory
 		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
-			written communication, critical thinking, information processing
-		\item \textbf{Duration:} TBD
+			\begin{itemize}
+				\item Interpreting equations and figures
+				\item Applying equations to describe a model
+				\item Written communication of a reasoning process
+			\end{itemize}
+		\item \textbf{Duration:} approx. 75 minutes, including class discussion
+		
+			\emph{Note: this activity is long, and can be split across two days if necessary.  The best split point is at the end of Model 2; in this case, Models 1 \& 2 take approximately 30 minutes on the first day, and Models 3 \& 4 take approximately 40-45 minutes on the second day.}
+			
+			\emph{Alternatively, students can be asked to complete Model 1 before class as a warm-up exercise, and Models 2-4 can then be completed in class in approx. 60 minutes.}
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
@@ -40,7 +51,8 @@
 
 	%\textbf{Focus question:} Put a central question for the students to consider through this exercise here.
 
-\begin{model}[Ideal Mixtures: Entropy of Mixing]
+\begin{model}[Ideal Mixtures: A Toy Model]
+\label{\labelbase:mdl:idealtoy}
 
 A simple model for mixing of two small-molecule liquids is shown below.  In this model, each molecule is shown as a circle, and we place them in a grid where each molecule takes up exactly one ``space'' in the grid.
 
@@ -50,6 +62,7 @@ Initially, the molecules of each type are isolated in their own containers:
 
 After combining the two containers, the molecules mix together:
 
+\vspace{6pt}
 \centerline{\includegraphics[width=0.3\textwidth]{\figpath/model1-mixed}}
 
 The critical elements of this model are that
@@ -65,11 +78,7 @@ The critical elements of this model are that
 \vspace{0.05in}
 \begin{ctqs}
 
-	\question Consider a simple, specific case of this model, as shown below:
-
-\centerline{\includegraphics[width=0.7\textwidth]{\figpath/model1-simplified}}
-
-		Here, $m_1=2$ (there are two molecules of type 1, shown as open circles) and $m_2=2$ (there are two molecules of type 2, shown as filled circles).
+	\question Consider the simple system shown in Model \ref{\labelbase:mdl:idealtoy}, which contains two molecules of type 1 molecules and two molecules of type 2:
 	
 		\begin{enumerate}
 			\item How many different ways can you distribute the two molecules of type 1 in their initial box, assuming the molecules are indistinguishable (you can't tell them apart)?  Sketch the possible configurations below.  Note that you may not need to use all of the boxes; cross off any you don't need.
@@ -84,10 +93,10 @@ The critical elements of this model are that
 					}
 					\instructordisplay{
 
-\centerline{\includegraphics[width=0.6\textwidth]{\figpath/model1-2blank}}
+\centerline{\includegraphics[width=0.6\textwidth]{\figpath/model1-2solution-type1}}
 
 						\vspace{0.1in}
-						\centerline{Number of configurations ($\Omega_1$) = $\rule{1cm}{0.15mm}$}
+						\centerline{Number of configurations ($\Omega_1$) = 1}
 					}
 				\end{solution}
 		
@@ -103,14 +112,14 @@ The critical elements of this model are that
 					}
 					\instructordisplay{
 
-\centerline{\includegraphics[width=0.6\textwidth]{\figpath/model1-2blank}}
+\centerline{\includegraphics[width=0.6\textwidth]{\figpath/model1-2solution-type2}}
 
 						\vspace{0.1in}
-						\centerline{Number of configurations ($\Omega_2$) = $\rule{1cm}{0.15mm}$}
+						\centerline{Number of configurations ($\Omega_2$) = 1}
 					}
 				\end{solution}
 			
-			\item How many different ways can you distribute the four molecules in the final mixture, assuming that you can't distinguish molecules of the same type from each other?  Again, you may not need to use all of the boxes.
+			\item How many different ways can you distribute the four molecules in the final mixture, assuming that you can't distinguish molecules of the same type from each other?  Sketch them below.  Again, you may not need to use all of the boxes.
 			
 				\begin{solution}
 					\studentdisplay{
@@ -122,10 +131,10 @@ The critical elements of this model are that
 					}
 					\instructordisplay{
 
-\centerline{\includegraphics[width=0.6\textwidth]{\figpath/model1-4blank}}
+\centerline{\includegraphics[width=0.6\textwidth]{\figpath/model1-4solution}}
 
 						\vspace{0.1in}
-						\centerline{Number of configurations ($\Omega_{mixed}$) = $\rule{1cm}{0.15mm}$}
+						\centerline{Number of configurations ($\Omega_{mixed}$) = 6}
 					}
 				\end{solution}
 		\end{enumerate}
@@ -138,39 +147,92 @@ The critical elements of this model are that
 			
 		\begin{enumerate}
 			\item the entropy of the initial state ($S_{initial} = S_1 + S_2$, where $S_1 = k\ln \Omega_1$ and $S_2 = k \ln \Omega_2$):
-				\begin{solution}[1.25in]
-				\end{solution}
-			\item the entropy of the final (mixed) state, $S_{mixed}$):
+			
 				\begin{solution}[1in]
+					\begin{align*}
+						S_{initial} &= S_1 + S_2 \\
+							&= k\ln\Omega_1 + k\ln\Omega_2\\
+							&= k \ln 1 + k \ln 1 \\
+							&= k\cdot 0 + k\cdot 0 = 0
+					\end{align*}
 				\end{solution}
+				
+			\item the entropy of the final (mixed) state, $S_{mixed}$:
+			
+				\begin{solution}[0.75in]
+					\begin{align*}
+						S_{mixed} &= k\ln\Omega_{mixed} \\
+							&= k \ln 6
+					\end{align*}
+				\end{solution}
+				
 			\item the change in entropy upon mixing ($\Delta S_{mix} = S_{mixed} - S_{initial}$): 
-				\begin{solution}[1in]
+			
+				\begin{solution}[0.75in]
+					\begin{align*}
+						\Delta S_{mix} &= S_{mixed} - S_{initial} \\
+							&= k \ln 6 - 0\\
+							&= k \ln 6
+					\end{align*}
 				\end{solution}
+				
 		\end{enumerate}
 		
 \end{ctqs}
 
-\begin{infobox}
-	Mathematically, the number of ways to fill $N$ boxes with $n$ indistinguishable molecules of type 1 and $N-n$ indistinguishable molecules of type 2 is
+\begin{model}[Ideal Mixtures: The General Case]
+	\label{\labelbase:mdl:idealgeneral}
+
+	A more general case of the mixing process described in Model \ref{\labelbase:mdl:idealtoy} is shown below:
+	
+	\centerline{\includegraphics[width=\textwidth]{\figpath/model2-mixing}}
+	
+	As you analyze this general case, you will find it helpful to know that mathematically, the number of ways to fill $N$ boxes with $n$ items of one type and $N-n$ items of a second type is
 	\begin{equation*}
 		\Omega = {N \choose n} = \frac{N!}{n!(N-n)!}
 	\end{equation*}
 	where $n! = n\cdot(n-1)\cdot(n-2)\cdot\dots\cdot 2 \cdot 1$.
 	
 	Note that by definition, $0!=1$.
-\end{infobox}
+
+\end{model}
 
 \vspace{0.05in}
 \begin{ctqs}
 		
-		\question For the initial state of the system shown in Model 1,
+		\question Considering \emph{only} the type-1 molecules in the initial state, shown below,
+	
+	\vspace{6pt}
+	\centerline{\includegraphics[width=0.25\textwidth]{\figpath/model2-m1only}}
+	\vspace{-10pt}
+	
 			\begin{enumerate}
-				\item What are $N$ and $n$ for \emph{just} the type-1 molecules in the initial state?
+				\item What is $N$, the number of boxes?	\emph{(Note: Do not count the boxes - give your answer in terms of the variables $m_1$ and $m_2$.)}
 				
-					\begin{solution}[0.75in]
+					\begin{solution}[0.6in]
+						\vspace{-20pt}
 						\begin{align*}
-							N = m_1 && \text{and} && n = m_1
+							N = m_1
 						\end{align*}
+						Note: some students may answer $m_1+m_2$; remind them that they are considering \emph{only} the box initially containing the $m_1$ molecules here.
+					\end{solution}
+				
+				\item What is $n$, the number of type-1 molecules?  Give your answer in terms of $m_1$ and $m_2$.
+				
+					\begin{solution}[0.6in]
+						\begin{align*}
+							n = m_1
+						\end{align*}
+					\end{solution}
+				
+				\item What is $N-n$, the number of type-2 molecules? Give your answer in terms of $m_1$ and $m_2$.
+				
+					\begin{solution}[0.5in]
+						\vspace{-20pt}
+						\begin{align*}
+							N-n = m_1 - m_1 = 0
+						\end{align*}
+						Note: some students may answer $m_2$; remind them that they are considering \emph{only} the box initially containing the $m_1$ molecules here.
 					\end{solution}
 					
 				\item Using the mathematical expression given above, calculate $\Omega_1$, the number of configurations accessible to the type-1 molecules in the initial state.
@@ -183,7 +245,7 @@ The critical elements of this model are that
 				
 				\item Similarly, what is $\Omega_2$, the number of configurations accessible to the type-2 molecules in the initial state?
 				
-					\begin{solution}[1in]
+					\begin{solution}[0.75in]
 						$\Omega_2$ should also equal 1.
 					\end{solution}
 					
@@ -191,22 +253,39 @@ The critical elements of this model are that
 					
 					\begin{solution}[1in]
 						\begin{equation*}
-						S_{initial} = k \ln \Omega_1 + k \ln \Omega 2 = k \ln 1 + k \ln 1 = 0
+						S_{initial} = k \ln \Omega_1 + k \ln \Omega_2 = k \ln 1 + k \ln 1 = 0
 						\end{equation*}
 					\end{solution}
 			\end{enumerate}
 		
-		\question For the final (mixed) state of the system shown in Model 1, 
+		\question For the \emph{final} (mixed) state of the system shown in Model \ref{\labelbase:mdl:idealgeneral},
+		
 			\begin{enumerate}
-				\item What are $N$ and $n$ for the final (mixed) state?
+				\item What is $N$, the number of boxes?  Give your answer in terms of $m_1$ and $m_2$.
 				
-					\begin{solution}[0.75in]
+					\begin{solution}[0.5in]
 						\begin{align*}
-							N = m_1+m_2=m && \text{and} && n = m_1
+							N = m_1 + m_2
+						\end{align*}
+					\end{solution}
+				
+				\item What is $n$, the number of type-1 molecules?  Give your answer in terms of $m_1$ and $m_2$.
+				
+					\begin{solution}[0.5in]
+						\begin{align*}
+							n = m_1
+						\end{align*}
+					\end{solution}
+				
+				\item What is $N-n$, the number of type-2 molecules?  Give your answer in terms of $m_1$ and $m_2$.
+				
+					\begin{solution}[0.5in]
+						\begin{align*}
+							N-n = (m_1+m_2) - m_1 = m_2
 						\end{align*}
 					\end{solution}
 					
-				\item Write an expression for the number of configurations possible for the final (mixed) state in terms of $m_1$ and $m_2$.
+				\item Using your answers to the preceding three questions, calculate $\Omega_{mixed}$, the number of configurations possible for the final (mixed) state.
 				
 					\begin{solution}[1in]
 						\begin{equation*}
@@ -248,9 +327,30 @@ The critical elements of this model are that
 \end{infobox}
 
 \begin{ctqs}
-	\question As written, is $\Delta S_{mix}$ an \emph{extensive} property (which depends on the total number of molecules in the system) or an \emph{intensive} property (which does not depend on the total number of molecules present)?  Briefly explain your answer in 1-2 complete sentences.
+
+	\question If you were to double both $m_1$ and $m_2$ (thus doubling the total number of molecules, $m$, while keeping the ratio of type-1 and type-2 molecules the same), what would happen to the value of $\Delta S_{mix}$?
 	
-		\begin{solution}[1.5in]
+		\begin{solution}[1in]
+		
+			$\Delta S_{mix}$ would double.  If we replace $m_1$, $m_2$, and $m$ with twice their original values, $\Delta S_{mix}$ becomes
+			\vspace{-6pt}
+			\begin{align*}
+				\Delta S_{mix,doubled} &= -k\left(2m_1 \ln\left(\frac{2m_1}{2m}\right) + 2m_2 \ln\left(\frac{2m_2}{2m}\right) \right)\\
+				 &= -k\left(2m_1 \ln\left(\frac{m_1}{m}\right) + 2m_2 \ln\left(\frac{m_2}{m}\right) \right)\\
+				 %&= 2\left[-k\left(m_1 \ln\left(\frac{m_1}{m}\right) + m_2 \ln\left(\frac{m_2}{m}\right) \right)\right]\\
+				 &= 2\Delta S_{mix}
+			\end{align*}
+		\end{solution}
+	
+	
+	\question Recall that \emph{extensive} properties are properties that depend on the total number of molecules in the system, while \emph{intensive} properties do not depend on the total number of molecules present.
+	
+	Based on your answer to the previous question, is $\Delta S_{mix}$ an intensive or extensive property?
+	
+		\begin{solution}[0.75in]
+		
+			Extensive - the value of $\Delta S_{mix}$ changes when we change the total number of molecules present.
+		
 		\end{solution}
 	
 	\question Usually, it is most convenient to divide by the total number of molecules, which leaves us with an intensive expression for the entropy,
@@ -273,7 +373,7 @@ The critical elements of this model are that
 			x_1 = \frac{m_1}{m_1 + m_2} = \frac{m_1}{m} && \text{and} && x_2 = \frac{m_2}{m_1+m_2} = \frac{m_2}{m}
 		\end{align*}
 		
-			\begin{solution}[1in]
+			\begin{solution}[0.75in]
 			
 				\begin{equation*}
 					\Delta S_{mix}^{(int)} = -k\left(x_1 \ln x_1 + x_2 \ln x_2 \right)
@@ -285,37 +385,44 @@ The critical elements of this model are that
 			\item Will $\ln x_1$ (and $\ln x_2$) be positive or negative?
 	
 				\begin{solution}[1in]
+					negative
 				\end{solution}
 				
 			\item Will $\Delta S_{mix}^{(int)}$ be positive or negative? \label{ctq:Spositive}
 	
 				\begin{solution}[1in]
+					positive (there is a negative sign out front, which cancels the negative value of the logarithms)
 				\end{solution}
 				
 		\end{enumerate}
 		
 	\question Explain, in 1-2 complete sentences, why we say that ideal mixing is an \emph{entropy-driven} process.
 	
-		\begin{solution}[1.5in]
+		\begin{solution}[2.5in]
+		
+			As shown above, the entropy change upon mixing is positive.  Generally, processes that increase entropy are favorable, so the increase in entropy makes it favorable for mixing to occur.
+			
+			Students may also answer in terms of $\Delta G$: since $\Delta G = \Delta H - T\Delta S$, putting a positive value of $\Delta S$ in makes $\Delta G$ more negative, making the mixing process more favorable.
 		\end{solution}
 		
 \end{ctqs}
 	
 
 \begin{model}[Real Mixtures: Enthalpy of Mixing]
+\label{\labelbase:mdl:regular}
 
-In an \emph{ideal} mixture, the molecules do not interact with each other, and entropy is the only thermodynamic consideration that affects mixing.
-In real mixtures, however, molecules do interact with each other, and we must take those interactions into account when determining whether mixing is favorable or unfavorable.
+In \emph{ideal} mixtures, such as those described in Models \ref{\labelbase:mdl:idealtoy} and \ref{\labelbase:mdl:idealgeneral}, the molecules do not interact with each other, and entropy is the only thermodynamic consideration that affects mixing.
+In \emph{real} mixtures, however, molecules do interact with each other, and we must take those interactions into account when determining whether mixing is favorable or unfavorable.
 
 To incorporate the energetics of intermolecular interactions into our model, we must make two key assumptions:
 \begin{enumerate}
 	\item First, we assume that molecules interact only with their immediate neighbors, and that each interaction involves only two molecules.  The interaction energies between different types of pairs are as follows:
 
-\centerline{\includegraphics[width=0.5\textwidth]{\figpath/model2-interactions}}
+\centerline{\includegraphics[width=0.5\textwidth]{\figpath/model3-interactions}}
 	
-	\item Second, we assume that each molecule has some number of neighbors, $z$, which we refer to as the ``coordination number''.  For example, the central molecule shown below has 4 nearest neighbors, so its coordination number is 4:
+	\item Second, we assume that each molecule has some specific number of neighbors, $z$, which we refer to as the ``coordination number''.  For example, the central molecule shown below has 4 nearest neighbors, so its coordination number is 4:
 
-\centerline{\includegraphics[width=0.18\textwidth]{\figpath/model2-coordnum}}
+\centerline{\includegraphics[width=0.18\textwidth]{\figpath/model3-coordnum}}
 
 		%Note that when drawing the molecules on a square lattice like this, we do not count molecules positioned diagonally from each other as being ``neighbors''.
 
@@ -332,14 +439,17 @@ To incorporate the energetics of intermolecular interactions into our model, we 
 		\end{itemize}
 		
 		\begin{enumerate}
-			\item Why is the total energy for all of the type-1 molecules interacting with their neighbors in the initial state $m_1 z w_{11}$?  Explain your reasoning in 1-2 complete sentences.
+			\item Why is the total energy for all of the type-1 molecules interacting with their neighbors in the initial state $m_1 z w_{11}$?  Explain your reasoning in 2-3 complete sentences.
 			
-				\begin{solution}[1.5in]
+				\begin{solution}[2.5in]
+				
+					Each $m_1$ molecule has $z$ interactions with its neighbors, and the energy of each of those interactions is $w_{11}$.  So the energy for a single $m_1$ molecule interacting with its neighbors is $zw_{11}$.  To get the total energy of \emph{all} type-1 molecules interacting with their neighbors, we just multiply by the number of molecules, $m_1$, yielding a total interaction energy of $m_1 z w_{11}$.
+				
 				\end{solution}
 				
 			\item What is the total energy (enthalpy) of the initial state, $H_{initial} = H_1 + H_2$?
 		
-			\begin{solution}[0.75in]
+			\begin{solution}[1.25in]
 				$H_{initial} = m_1 z w_{11} + m_2 z w_{22}$
 			
 				Note to instructors: this value is actually off by a factor of two, because we are double-counting most of the interactions; we will correct for this later on in the critical thinking questions. 
@@ -357,112 +467,170 @@ To incorporate the energetics of intermolecular interactions into our model, we 
 		\begin{enumerate}
 			\item What is the total energy of the interactions between type-1 molecules and their neighbors?
 			
-				\begin{solution}[1in]
+				\begin{solution}[1.25in]
+					$m_1(x_1 z w_{11} + x_2 z w_{12}) = m_1 x_1 z w_{11} + m_1 x_2 z w_{12}$
 				\end{solution}
 				
 			\item What is the total energy of the interactions between type-2 molecules and their neighbors?
 			
-				\begin{solution}[1in]
+				\begin{solution}[1.25in]
+					$m_2(x_1 z w_{12} + x_2 z w_{22}) = m_2 x_1 z w_{12} + m_2 x_2 z w_{22}$
 				\end{solution}
 				
 			\item What is the total energy (enthalpy) of the mixed state, $H_{mixed}$?
 			
-				\begin{solution}[1in]
+				\begin{solution}[1.25in]
+				
+					$H_{mixed} = m_1 x_1 z w_{11} + m_1 x_2 z w_{12} + m_2 x_1 z w_{12} + m_2 x_2 z w_{22}$
+				
 				\end{solution}
 				
 		\end{enumerate}
 		
-	\question Finally, what is the enthalpy of mixing, $\Delta H_{mix} = H_{mixed} - H_{initial}$?
+	\question How would you find the enthalpy of mixing, $\Delta H_{mix}$?
 	
-		\begin{solution}[1 in]
+		\emph{Note: you do not need to write out a full expression in terms of $m_1$, $m_2$, $w_{11}$, etc. - it is long! - but clearly specify how you would calculate it.}
+	
+		\begin{solution}[1.25in]
+		
+			Subtract the enthalpy of the initial state from the enthalpy of the final state:
+			\begin{align*}
+				\Delta H_{mix} = H_{mixed} - H_{initial}
+			\end{align*}
+		
 		\end{solution}
 		
-	\question The procedure we have just followed led us to double-count most of the interactions, so we need to divide by 2 to correct for this.  As with the entropy, it is also useful to divide by $m$ to obtain an \emph{intensive} expression for the enthalpy of mixing.
+\end{ctqs}
+
+\begin{infobox}
+The procedure we have just followed led us to double-count most of the interactions, so we need to divide by 2 to correct for this.  As with the entropy, it is also useful to divide by $m$ to obtain an \emph{intensive} expression for the enthalpy of mixing.
 	
 		Doing so, and working through the algebra, we find
 		\begin{align*}
-			\Delta H_{mix}^{(int)} &= \frac{m_1}{m}\frac{m_2}{m} z \left( w_{12} - \frac{w_{11}}{2} - \frac{w_{22}}{2}\right) \\
-				&= x_1 x_2 z \Delta w
+			\Delta H_{mix}^{(int)} %&= \frac{m_1}{m}\frac{m_2}{m} z \left( w_{12} - \frac{w_{11}}{2} - \frac{w_{22}}{2}\right)  
+					= x_1 x_2 z \Delta w
 		\end{align*}
 		where $x_1$ and $x_2$ are the mole fractions of type-1 and type-2 molecules, respectively, and $\Delta w$ is the exchange energy
 		\begin{equation*}
 			\Delta w = w_{12} - \frac{w_{11}}{2} - \frac{w_{22}}{2}
 		\end{equation*}
+\end{infobox}
+
+\begin{ctqs}
 		
-		From a molecular perspective, how would you interpret the exchange energy, $\Delta w$?  Explain your answer in 1-2 complete sentences.
+	\question From a molecular perspective, how would you interpret the exchange energy, $\Delta w$?  Explain your answer in 2-3 complete sentences.
+	
+		\emph{Hint: when we mix the molecules, we break apart 1-1 interactions and 2-2 interactions, and form some number of new 1-2 interactions.  How much does the total interaction energy change as this process occurs?}
 		
-		\begin{solution}[2in]
+		\begin{solution}[3in]
+		
+			Imagine taking a pair of type 1 molecules, which initially have interaction energy $w_{11}$, and a pair of type-2 molecules, which initially have interaction energy $w_{22}$.  Upon mixing, we break up these interactions and form two new 1-2 interactions, each of which have energy $w_{12}$.
+			
+			The \emph{change} in the interaction energy is $energy_{final} - energy_{initial} = 2w_{12} - (w_{11} + w_{22}) = 2\Delta w$.  Thus we can interpret $\Delta w$ as the ``energy cost'' for breaking up 1-1 and 2-2 interactions in the initial materials and forming a 1-2 interaction in the mixed state.
+			
 		\end{solution}
 			
-\end{ctqs}
-	
-\begin{infobox}
 
-It is typically most useful to normalize the total interaction energy between a particle and its neighbors ($z\Delta w$) by the thermal energy, $kT$.  This normalized quantity is defined as the \emph{interaction parameter}, $\chi$:
-\begin{equation*}
-	\chi = \frac{z\Delta w}{kT}
-\end{equation*}
-
-\end{infobox}
+	\question It is common to normalize the total energy of the interaction energy between a particle and its neighbors ($z\Delta w$) by the thermal energy, $kT$.  This normalized quantity is defined as the \emph{interaction parameter}, $\chi$:
+		\begin{equation*}
+			\chi = \frac{z\Delta w}{kT}
+		\end{equation*}
 	
-\begin{ctqs}
-		\question Find an expression for $\Delta H_{mix}^{(int)}$ in terms of $x_1$, $x_2$, $\chi$, $k$, and $T$.
+		\begin{enumerate}
+			\item Find an expression for $\Delta H_{mix}^{(int)}$ in terms of $x_1$, $x_2$, $\chi$, $k$, and $T$.
 		
-			\begin{solution}[0.75in]
+			\begin{solution}[1in]
 				\begin{equation*}
 					\Delta H_{mix}^{(int)} = x_1 x_2 \chi kT
 				\end{equation*}
 			\end{solution}
 
-		\question Recalling that $\Delta G = \Delta H - T\Delta S$, combine this expression with your answer from question \ref{ctq:Smixed} to find an expression for $\Delta G_{mix}^{(int)}$.
+			\item Recalling that $\Delta G = \Delta H - T\Delta S$, combine this expression with your answer from question \ref{ctq:Smixed} to find an expression for $\Delta G_{mix}^{(int)}$.
 			
-			\begin{solution}[0.75in]
+			\begin{solution}[1in]
 				\begin{align*}
 					\Delta G_{mix}^{(int)} &= x_1 x_2 \chi kT - kT(x_1 \ln x_1 + x_2 \ln x_2)
 				\end{align*}
 			\end{solution}
+		\end{enumerate}
 			
 		\question In question \ref{ctq:Spositive}, we noted that $\Delta S_{mix}^{(int)}$ is always positive, so the entropic term \emph{always} favors mixing.
 		
 			Given that $\chi$ is \emph{usually} (although not always) positive, does the enthalpic term usually favor mixing, or oppose it?  Briefly explain your answer in 1-2 complete sentences.
 			
-			\begin{solution}[1.5in]
+			\begin{solution}[2in]
+			
+				If $\chi$ is positive, then $\Delta H_{mix}$ will also be positive.  This increases the value of $\Delta G_{mix}$, which makes the process \emph{less} favorable.    Thus, when $\chi$ is positive (as it usually - but not always! - is), the enthalpic term opposes mixing.
+				
 			\end{solution}
 \end{ctqs}
 
 \begin{model}[Polymer Solutions]
+\label{\labelbase:mdl:floryhuggins}
 
-In Models 1 and 2, we learned that, for mixtures in which each molecule had exactly the same volume,
-\begin{equation*}
-	\frac{\Delta G_{mix}^{(int)}}{kT} = \underbrace{x_1 x_2 \chi}_{\text{enthalpic}} + \underbrace{x_1 \ln x_1 + x_2 \ln x_2}_{\text{entropic}}
-\end{equation*}
-where $x_1$ and $x_2$ are the \emph{mole fractions} of molecules of types 1 and 2, respectively.
+In Models \ref{\labelbase:mdl:idealtoy} through \ref{\labelbase:mdl:regular}, we considered mixtures of small molecules, in which each molecule  was independent of the other molecules of the same type.
 
-For polymer solutions, however, the polymers have a much larger volume than the solvent.  Flory-Huggins theory allows us to correct for this difference by assuming that, on average, the conformations of the polymer chains do not change much between the bulk and the solution. In this case, we only have to worry about the entropy change from the center-of-mass placement of the polymer chains, not from the positions of the individual monomers.
+In polymers, however, this is no longer true: the monomers are linked together into polymer chains and must stay close to each other, as shown below: 
+	
+	\centerline{\includegraphics[width=\textwidth]{\figpath/model4-polymermixing}}
 
-In this case, for a solution of $m_1$ solvent molecules (each of which takes up 1 space), and $m_2$ polymer molecules (each of which take up $N$ spaces),  
-\begin{equation*}
-	\frac{\Delta G_{mix}^{(int)}}{kT} = \underbrace{\phi_1 \phi_2 \chi}_{\text{enthalpic}} + \underbrace{\phi_1 \ln \phi_1 + \frac{\phi_2}{N} \ln \phi_2}_{\text{entropic}}
-\end{equation*}
-where
-\begin{align*}
-	\phi_1 = \frac{m_1}{m_1 + N m_2} && \text{and} && \phi_2 = \frac{N m_2}{m_1 + N m_2}
-\end{align*}
-are the \emph{volume fractions} of sites occupied by solvent (1) and polymer (2).
 \end{model}
 
 \begin{ctqs}
 
-		\question Qualitatively, why is the entropic contribution from the polymer molecules reduced by a factor of $1/N$? Explain your answer in 1-2 complete sentences.
+	\question \emph{On average}, when the type-2 molecules are linked into chains...
+	
+		\begin{enumerate}
+			\item ... does it \emph{significantly} change the number of ways that the type-1 solvent molecules can be distributed in the final mixture?  Why or why not?
+				\label{\labelbase:ctq:FHtype1}
+			
+				\begin{solution}[1in]
+					No, linking the type-2 molecules into chains does not \emph{significantly} affect the number of ways that the type-1 (solvent) molecules can be distributed in the mixed state.  (The number of ways to distribute the type-1 molecules may change a little, but it is a small effect compared to the effect on the type-2 molecules addressed in the next question).
+				\end{solution}
+			
+			\item ... does \emph{significantly} change the number of ways that the type-2 monomers can be distributed in the final mixture?  Why or why not?
+				\label{\labelbase:ctq:FHtype2}
+			
+				\begin{solution}[0.9in]
+					Yes, linking the type-2 monomers into chains does  significantly affect the number of ways that the monomers molecules can be distributed in the mixed state - because they are linked together, they are restricted to staying near each other in the final solution.
+				\end{solution}
+			
+			\item ... does it \emph{significantly} change the total number of interactions between type-1 and type-2 molecules?  Why or why not?
+				\label{\labelbase:ctq:FHinteraction}
+			
+				\begin{solution}[0.9in]
+					No, linking the type-2 molecules into chains does not \emph{significantly} affect the number of interactions between type-1 and type-2 molecules in the mixed state.
+				\end{solution}
+				
+		\end{enumerate}
+	
+\end{ctqs}
+
+\begin{infobox}
+	Flory-Huggins theory states that for a solution of $m_1$ solvent molecules (each of which takes up 1 space) and $m_2$ polymer molecules (each of which take up $N$ spaces) the free-energy of mixing is given by
+	\begin{equation*}
+		\frac{\Delta G_{mix}^{(int)}}{kT} = \underbrace{\phi_1 \phi_2 \chi}_{\text{enthalpic}} + \underbrace{\phi_1 \ln \phi_1 + \frac{\phi_2}{N} \ln \phi_2}_{\text{entropic}}
+	\end{equation*}
+	Note that this expression is given in terms of the \emph{volume fractions} ($\phi_1$ and $\phi_2$) of each component.  As in Models \ref{\labelbase:mdl:idealtoy}-\ref{\labelbase:mdl:regular}, $\phi_1$ and $\phi_2$ represent the \emph{fraction of boxes} filled by each type of molecule; however, since each polymer chain (which we count as a single molecule) fills more than one box, the fraction of boxes is no longer the same as the the mole fraction, so we use a different variable to denote it.
+	
+\end{infobox}
+
+\begin{ctqs}
+
+		\question Based on your answers to questions \ref{\labelbase:ctq:FHtype1}-\ref{\labelbase:ctq:FHinteraction}, why is the entropic contribution from the polymer molecules reduced by a factor of $1/N$ relative to the small molecule case? Explain your answer in 1-2 complete sentences.
 		
 			\begin{solution}[1.75in]
+			
+				The entropic contribution from the polymer molecules is reduced by a factor of $1/N$ because linking the monomers together reduces the number of ways that they can be distributed in the final mixture, thus reducing their increase in entropy upon mixing.
+			
 			\end{solution}
-
-		%\question The contribution of the polymer molecules to the total entropy is $\frac{\phi_2}{N} \ln \phi_2$.  Is this term larger or smaller than the equivalent term in the small-molecule case when $x_1 = \phi_1$ and $x_2 = \phi_2$?
 		
 		\question Qualitatively, do you expect this $1/N$ term to make mixing more or less favorable than in the small-molecule case?  Explain your answer in 1-2 complete sentences.
 		
-			\begin{solution}[1.75in]
+			\begin{solution}[2in]
+			
+				Dividing by $N$ makes the entropic term for the polymer smaller.  Since the entropic terms always favor mixing, decreasing this entropic term will make mixing \emph{less} favorable in the polymer case than in the small-molecule case.
+			
 			\end{solution}
 			
 \end{ctqs}
@@ -472,14 +640,73 @@ are the \emph{volume fractions} of sites occupied by solvent (1) and polymer (2)
 		\exercise Stirling's approximation (page \pageref{eqn:stirling}) is very useful in polymer physics and statistical mechanics.  Derive this formula by doing the following:
 			\begin{enumerate}
 				\item Rewrite $\ln N!$ as a summation of logarithms of individual numbers.  Remember that $\ln (a\cdot b) = \ln a + \ln b$, and write your answer in the form $\ln N! = \sum_{i=1}^N \dots$.
-				\item Use the trick $\sum_{i=1}^{N} f(i) \approx \int_1^N f(i)\,di$ to rewrite your expression as an integral.
+				
+					\begin{solution}\instructordisplay{
+						\begin{align*}
+							N! &= 1\cdot 2 \cdot 3 \dots (N-2) \cdot (N-1) \cdot N \\
+							\ln N! &= \ln 1 + \ln 2 + \ln 3 + ... + \ln(N-2) + \ln(N-1) + \ln N\\
+							&= \sum_{i=1}^N \ln i
+						\end{align*}
+					}\end{solution}
+					
+				\item Use the trick $\sum_{i=1}^{N} f(i) \approx \int_1^N f(x)\,dx$ to rewrite your expression as an integral.
+				
+					\begin{solution}\instructordisplay{
+						Here, $f(i) = \ln i$ so
+						\begin{align*}
+							\ln N! \approx \int_1^N \ln x\,dx 
+						\end{align*}
+					}\end{solution}
+					
 				\item Evaluate the integral.
+				
+					\begin{solution}\instructordisplay{
+						The antiderivative of $\ln x$ is $x \ln x - x$ so
+						\begin{align*}
+							\ln N! &\approx (x \ln x - x)|_1^N \\
+								&= (N \ln N - N) - (1 \ln 1 - 1) \\
+								&= (N \ln N - N) - (1 \cdot 0 - 1) \\
+								&= N \ln N - N + 1
+						\end{align*}
+					}\end{solution}
+					
 				\item Your answer won't agree exactly with the form of Stirling's approximation given in the exercise.  Why, in the limit that $N$ is very large, doesn't the discrepancy matter?
+				
+					\begin{solution}\instructordisplay{
+						In the activity, we were told 
+						\begin{equation*}
+							\ln N! \approx N \ln N - N
+						\end{equation*}
+						This is the same as the expression from the previous problem, except that it does not have the $+1$ at the end.
+						
+						In the limit that N is large (say, 100 or 1000 or 10000 or larger), $N+1 \approx N$, so neglecting this term causes only a small error in the calculated value.
+					}\end{solution}
+					
 			\end{enumerate}
 			
-		\exercise In Model 3, we considered a polymer solution, in which a polymer with degree of polymerization $N$ is mixed with a small molecule solvent.
+		\exercise Recall from Model \ref{\labelbase:mdl:floryhuggins} that the \emph{volume fractions} $\phi_1$ and $\phi_2$ give the fraction of boxes filled by each type of molecule.
+		
+		Write expressions for $\phi_1$ and $\phi_2$ in terms of $m_1$ (the number of solvent molecules), $m_2$ (the number of polymer molecules) and $N$ (the number of monomers per polymer molecule).
+				
+					\begin{solution}\instructordisplay{
+						The solvent molecules fill $m_1$ boxes, while the polymer molecules fill $Nm_2$ boxes.  The total number of boxes is $m_1 + Nm_2$.  Thus the volume fractions are
+						\begin{align*}
+							\phi_1 = \frac{m_1}{m_1 + Nm_2} && \text{and} && \phi_2 = \frac{Nm_2}{m_1 + Nm_2}
+						\end{align*}
+					}\end{solution}
+			
+		\exercise In Model \ref{\labelbase:mdl:floryhuggins}, we considered a polymer solution in which a polymer with degree of polymerization $N$ is mixed with a small molecule solvent.
 		
 			What expression do you expect you would obtain for $\Delta G_{mix}^{(int)}/kT$ if we instead considered mixing of two polymers, one with degree of polymerization $N_1$ and the other with degree of polymerization $N_2$?
+				
+					\begin{solution}\instructordisplay{
+						We would likely end up with a factor of the appropriate $N$ value on each of the entropic terms, e.g.
+						\begin{equation*}
+							\frac{\Delta G_{mix}^{(int)}}{kT} = \underbrace{\phi_1 \phi_2 \chi}_{\text{enthalpic}} + \underbrace{\frac{\phi_1}{N_1} \ln \phi_1 + \frac{\phi_2}{N_2} \ln \phi_2}_{\text{entropic}}
+							\end{equation*}
+						
+					}\end{solution}
+					
 \end{exercises}
 	
 \end{activity}
