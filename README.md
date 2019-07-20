@@ -1,12 +1,12 @@
 # pogil-polymers
 POGIL Activities for Polymer Chemistry and Polymer Physics
-v0.0.1 - August 2018
+v0.1.0 - July 2019
 
 ----------------------------------------------------------
 Copyright and License
 ----------------------------------------------------------
 
-Current version (c) 2018 Jennifer Laaser
+Current version (c) 2019 Jennifer Laaser
 
 Except where otherwise noted, this work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
@@ -19,7 +19,9 @@ General Notes
 
  - POGIL Activities for Polymer Chemistry and Polymer Physics are intended for use in upper-level undergraduate or introductory graduate-level  courses in polymer science. These activities currently most closely track the presentation of material in Polymer Chemistry, 2nd Ed., by Paul C. Hiemenz and Timothy P. Lodge, but can easily be adapted for use with other textbooks.
  
- - This collection is a work in progress, and not all exercises have yet been evaluated in classroom use.  Every effort will be made to correct outstanding errors in these materials as they are found. However, if you find an issue that needs to be fixed, please create an issue in the GitHub issue tracker for this project: https://github.com/jlaaser/pogil-polymers/issues
+ - This collection is a work in progress, and not all exercises have yet been evaluated in classroom use.  A summary of the current revision status of each activity is included in the Release Notes, below.
+ 
+ - Every effort will be made to correct outstanding errors in these materials as they are found. However, if you find an issue that needs to be fixed, please create an issue in the GitHub issue tracker for this project: https://github.com/jlaaser/pogil-polymers/issues
  
  - Contributions are welcome! If you have an idea for a new exercise or want to improve an existing one, please post your suggestion in the issue tracker (above) or send me an email (below) so that we can coordinate.
  
@@ -39,6 +41,11 @@ Compiling the Exercises
  - This project also contains a template for a single exercise, called "single-exercise.tex":
  
 	- To compile a single exercise, put the path to the exercise you want to compile into the "\include" statement in "single-exercise.tex" and run LaTeX.
+	
+ - By default, the activities compile as printable handouts that are ready to give to students.  To instead compile the instructor guide (which includes both solutions and implementation notes for each activity), change the \documentclass line to:
+ 
+	- \documentclass[instructor,handout]{pogil}	% use this version to compile a single activity in single-exercise.tex
+	- \documentclass[instructor,book]{pogil}	% use this version to compile the full set of activities, in pogil-polymers.tex
 
  - Compiled PDFs of the full set of exercises will be uploaded with each official release; see https://github.com/jlaaser/pogil-polymers/releases
 
@@ -57,4 +64,23 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-None yet - check back after the first official release goes up.
+v0.1.0 - July 19, 2019
+
+	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
+	
+		Activity 1 - Chemistries of Step-Growth Polymerization
+		Activity 2 - Degree of Polymerization in Step-Growth Polymerizations
+		Activity 3 - Equilibrium in Condensation Polymerizations
+		Activity 4 - Molecular Weight Distributions in Step-Growth Polymerizations
+		Activity 5 - Viscoelasticity of Polymeric Materials
+		Activity 6 - Small-Amplitude Oscillatory Shear Rheology
+		Activity 7 - Regular Solutions and Flory-Huggins Theory
+		Activity 8 - Thermodynamics of Phase Separation
+	
+	The following activites are complete (including the instructor guide), but have not been classroom-tested:
+	
+		n/a - none in this release
+	
+	The following activities are included as ``working drafts'' which contain complete student handouts but no instructor guides, and have not been classroom-tested:
+	
+		n/a - none in this release
