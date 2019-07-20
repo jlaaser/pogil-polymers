@@ -1,0 +1,109 @@
+\question Let's again start by consdering just the initial state of the system shown in Model 1, before any mixing takes place.
+		
+			\begin{enumerate}
+				\item Consider the following type-1 molecule in its intial state, where it is surrounded only by other type-1 molecules:
+		
+		What is the total energy of the intermolecular interactions involving the central molecule?
+		
+					\begin{solution}[0.75in]
+						Four surrounding molecules -> four interactions of strength $w_{11}$ -> total energy is $4 w_{11}$.
+					\end{solution}
+		
+		\item More generally, if a molecule of type 1 is surrounded by $z$ other molecules of type 1, what is the total energy of the intermolecular interactions involving that molecule?
+				
+					\begin{solution}[0.75in]
+						$z w_{11}$
+					\end{solution}
+		
+				\item If the initial state contains $m_1$ such molecules, what is the total energy of the intermolecular interactions involving \emph{all} type-1 molecules in the initial state?
+				
+					\begin{solution}[0.75in]
+						$m_1 z w_{11}$
+					\end{solution}
+		
+				\item Similarly, if there are initially $m_2$ type-2 molecules, each surrounded by $z$ other type-2 molecules, what is the total energy of the intermolecular interactions involving \emph{all} type-2 molecules in the initial state?
+				
+					\begin{solution}[0.75in]
+						$m_2 z w_{22}$
+					\end{solution}
+		
+				\item What is the total energy (enthalpy) of the intermolecular interactions in the initial state, including contributions from both type-1 and type-2 molecules? \label{ctq:Hinitial}
+				
+					\begin{solution}[0.75in]
+						$H_{initial} = m_1 z w_{11} + m_2 z w_{22}$
+					\end{solution}
+			\end{enumerate}
+		
+		\question Now, consider the mixed state, where a molecule of type-1 might be surrounded by some molecules of type 1 and some molecules of type 2, e.g.
+		
+			\begin{enumerate}
+				\item If a molecule of type 1 is surrounded by $z$ other molecules, how many of those surrounding molecules are also type-1 molecules, assuming the mole fraction of molecules that are type 1 is $x_1$?
+				
+					\begin{solution}[0.75in]
+						$z x_1$
+					\end{solution}
+				
+				\item What is the total energy of interaction of the central molecule with its type-1 neighbors?
+				
+					\begin{solution}[0.75in]
+						$z x_1 w_{11}$
+					\end{solution}
+				
+				\item Similarly, how many of the molecule's neighbors are type-2 molecules, if the mole fraction of molecules that are type 2 is $x_2$?
+				
+					\begin{solution}[0.75in]
+						$z x_2$
+					\end{solution}
+				
+				\item What is the total energy of interaction of the central molecule with its type-2 neighbors?
+				
+					\begin{solution}[0.75in]
+						$z x_2 w_{12}$
+					\end{solution}
+				
+				\item What is the total energy of interaction of the central molecule with \emph{all} of its neighbors?
+				
+					\begin{solution}[0.75in]
+						$z x_1 w_{11} + z x_2 w_{12}$
+					\end{solution}
+				
+				\item If there are $m_1$ molecules of type 1 in the mixture, what is their total interaction energy with all of their neighbors?
+				
+					\begin{solution}[0.75in]
+						$m_1(z x_1 w_{11} + z x_2 w_{12}) = m_1 z( x_1 w_{11} + x_2 w_{12})$
+					\end{solution}
+				
+				\item By analogy, what is the total interaction energy of the $m_2$ type-2 molecules with all of their neighbors?
+				
+					\begin{solution}[0.75in]
+					Swap the 1's and the 2's in the subscripts:
+						$m_2(z x_2 w_{22} + z x_1 w_{12}) = m_2 z (x_2 w_{22} + x_1 w_{12})$
+					\end{solution}
+				
+				\item Finally, what is the total energy (enthalpy) of the intermolecular interactions in the mixed state?\label{ctq:hmixed}
+				
+					\begin{solution}[1in]
+						\begin{equation*}
+							H_{mixed} = m_1 z( x_1 w_{11} + x_2 w_{12} + m_2 z (x_2 w_{22} + x_1 w_{12})
+						\end{equation*}
+					\end{solution}
+
+			\end{enumerate}
+			
+		\question Combining the answers to questions \ref{ctq:Hinitial} and \ref{ctq:hmixed}, and doing a bit of algebra, we find that 
+						\begin{align*}
+							\Delta H_{mix} &= H_{initial} - H_{mixed} \\
+								&= \frac{m_1 m_2}{m} z (2 w_{12} - w_{11} - w_{22})
+						\end{align*}
+		
+				Note that this procedure, however, led us to double-count most of the interactions, so we need to divide by 2 to correct for this.  As with the entropy, it will also be useful to divide by $m$ to obtain an \emph{intensive} expression for the enthalpy of mixing.
+		
+			Make these two adjustments to write an expression for $\Delta H_{mix}^{(int)}$ in terms of $x_1$, $x_2$, $z$, $w_{11}$, $w_{22}$, and $w_{12}$.
+			
+			\begin{solution}[1.75in]
+				\begin{align*}
+					\Delta H_{mix}^{(int)} &= \frac{1}{2m}\frac{m_1 m_2}{m} z (2 w_{12} - w_{11} - w_{22})\\
+						&= \frac{m_1}{m}\frac{m_2}{m} z \left( w_{12} - \frac{w_{11}}{2} - \frac{w_{22}}{2}\right)\\
+						&= x_1 x_2 z \left( w_{12} - \frac{w_{11}}{2} - \frac{w_{22}}{2}\right)
+				\end{align*}
+			\end{solution}
