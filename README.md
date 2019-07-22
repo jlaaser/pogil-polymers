@@ -64,7 +64,7 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-unreleased - July 21, 2019
+unreleased - July 22, 2019
 
 	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
 	
@@ -84,3 +84,4 @@ unreleased - July 21, 2019
 	The following activities are included as ``working drafts'' which contain complete student handouts but no instructor guides, and have not been classroom-tested:
 	
 		Activity 1 - Molecular Weight and Dispersity
+		Activity 10 - Phase Diagrams of Polymer Solutions
