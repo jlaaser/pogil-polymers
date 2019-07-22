@@ -55,6 +55,7 @@
 	\RequirePackage{fancyhdr}
 	\RequirePackage{memhfixc}	% fix hyperref in memoir class
 	\RequirePackage{comment}	% necessary for hiding answers in student version
+	\RequirePackage[T1]{fontenc}	% necessary to display symbol for dispersity
 	
 	\ifbool{isbook}{%
 	}{%
@@ -347,3 +348,11 @@
 		}%
 		#1\color{black}%
 	}
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% SPECIAL SYMBOLS FOR USE IN EXERCISES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% dispersity symbol - calling it PDI for convenience in command naming
+	\newcommand{\PDItext}{\textit{\DH}}
+	\newcommand{\PDImath}{\text{\PDItext}}
