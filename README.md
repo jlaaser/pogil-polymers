@@ -64,18 +64,18 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-v0.1.0 - July 19, 2019
+unreleased - July 21, 2019
 
 	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
 	
-		Activity 1 - Chemistries of Step-Growth Polymerization
-		Activity 2 - Degree of Polymerization in Step-Growth Polymerizations
-		Activity 3 - Equilibrium in Condensation Polymerizations
-		Activity 4 - Molecular Weight Distributions in Step-Growth Polymerizations
-		Activity 5 - Viscoelasticity of Polymeric Materials
-		Activity 6 - Small-Amplitude Oscillatory Shear Rheology
-		Activity 7 - Regular Solutions and Flory-Huggins Theory
-		Activity 8 - Thermodynamics of Phase Separation
+		Activity 2 - Chemistries of Step-Growth Polymerization
+		Activity 3 - Degree of Polymerization in Step-Growth Polymerizations
+		Activity 4 - Equilibrium in Condensation Polymerizations
+		Activity 5 - Molecular Weight Distributions in Step-Growth Polymerizations
+		Activity 6 - Viscoelasticity of Polymeric Materials
+		Activity 7 - Small-Amplitude Oscillatory Shear Rheology
+		Activity 8 - Regular Solutions and Flory-Huggins Theory
+		Activity 9 - Thermodynamics of Phase Separation
 	
 	The following activites are complete (including the instructor guide), but have not been classroom-tested:
 	
@@ -83,4 +83,4 @@ v0.1.0 - July 19, 2019
 	
 	The following activities are included as ``working drafts'' which contain complete student handouts but no instructor guides, and have not been classroom-tested:
 	
-		n/a - none in this release
+		Activity 1 - Molecular Weight and Dispersity
