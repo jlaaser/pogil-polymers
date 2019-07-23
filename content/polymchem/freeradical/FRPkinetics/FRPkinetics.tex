@@ -1,0 +1,133 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% (c) 2019 by Jennifer Laaser
+%
+% This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+%
+% The current source for these materials is accessible on Github: https://github.com/jlaaser/pogil-polymers
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\figpath}{content}
+\renewcommand{\labelbase}{FRPkinetics}
+
+\begin{activity}[Kinetics of Free-Radical Polymerization]
+
+\begin{instructornotes}
+	This activity introduces students to concepts related to the kinetics of free-radical polymerization.
+	
+	After completing this activity, students will be able to:
+	\begin{enumerate}
+		\item Write kinetic equations for each of the major steps of a free-radical polymerization
+		\item Calculate the kinetic chain length for a free-radical polymerization
+	\end{enumerate}
+	
+	\subsection*{Activity summary:}
+	\begin{itemize}
+		\item \textbf{Activity type:} Learning Cycle
+		\item \textbf{Content goals:} Kinetics of free-radical polymerization
+		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
+			written communication, critical thinking, information processing
+		\item \textbf{Duration:} TBD
+		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
+		\item \textbf{Related textbook chapters:}
+			\begin{itemize}
+				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): section NNN
+			\end{itemize}
+		%\item \textbf{Facilitation notes:}
+		%	\begin{itemize}
+		%		\item \dots
+		%	\end{itemize}
+	\end{itemize}
+	
+\end{instructornotes}
+
+
+\begin{model}[Kinetic Equations]
+	\label{\labelbase:mdl:kineticeqns}
+
+	SUMMARIZE KINETICS EQUATIONS FOR FIRST ORDER, SECOND ORDER, ETC.
+
+\end{model}
+
+
+\begin{ctqs}
+
+	\question The first step in a free-radical polymerization is \emph{initiation}:
+	
+		Using the information in Model \ref{\labelbase:mdl:kineticeqns}, write an expression for the rate at which new initiator radicals are generated, $\frac{d[I^{\bullet}]}{dt}$, in terms of the concentration of initiator ($[Init]$) and dissociation constant $k_d$.
+		
+	\question Some of the initiator radicals then attack monomers to form growing polymer chains:
+	
+		If a fraction $f$ of the initiator radicals successfully generate new polymer chains, what is the overall initiation rate, $\frac{d[P^{\bullet}]}{dt}$?
+		
+	\question The second step in a free-radical polymerization is propagation:
+	
+		Write an expression for $-\frac{d[M]}{dt}$, the rate at which monomers are used up.
+		
+	\question The final step in a free-radical polymerization is termination:
+	
+		Write an expression for $-\frac{d[P^{\bullet}]}{dt}$, the rate at which polymer radicals are removed from the reaction.
+
+\end{ctqs}
+
+
+
+\begin{model}[Summary of Free-Radical Kinetics]
+\label{\labelbase:mdl:kineticssummary}
+
+	The major reaction steps in free-radical polymerization and their rate laws are summarized below:
+	
+	IMAGE
+
+\end{model}
+
+\begin{ctqs}
+
+	\question To simplify the kinetic equations shown in Model \ref{\labelbase:mdl:kineticeqns}, we assume that the concentration of radicals reaches a ``steady state'', where $[P^{\bullet}]$ is constant.
+	
+		\begin{enumerate}
+			\item One way to ensure that $[P^{\bullet}]$ reaches a steady state is to require that the rate at which radicals are generated is equal to the rate at which they are consumed.
+			
+				Which two rates ($R_i$, $R_p$, and/or $R_t$) must be equal in order for this to be true?
+				
+			\item Set the two rates identified in the previous question equal to each other and solve for $[P^{\bullet}]$ in terms of $f$, $k_d$, $k_t$, and $[Init]$.
+			
+			\item Finally, plug your answer into the equation for $R_p$ to find an expression for the polymerization rate, $R_p$, in terms of $f$, $k_d$, $k_p$, $k_t$, $[M]$, and $[Init]$.
+		\end{enumerate}
+	
+	\question WALK THROUGH KINETIC CHAIN LENGTH
+	
+\end{ctqs}
+
+		
+\begin{model}
+	Something about chain transfer?
+\end{model}
+
+
+
+\begin{exercises}
+
+	\exercise In Model \ref{\labelbase:mdl:kineticssummary}, you showed that
+		\begin{align*}
+			R_p = -\frac{d[M]}{dt} = k_p [M] \left(\frac{f k_d}{k_t}\right)^{1/2}[Init]^{1/2}
+		\end{align*}
+		Show that if the initial concentration of initiator is $[Init]_0$ and the initial concentration of monomer is $[M]_0$, then the time-dependent monomer concentration obeys
+		\begin{align*}
+			-\ln\frac{[M]}{[M]_0} = \left(\frac{k_p}{k_t^{1/2}}\right)\left(\frac{f[I]_0}{k_d}\right)^{1/2}\left(1 - e^{-k_d t/2}\right)
+		\end{align*}
+	
+\end{exercises}
+
+
+\begin{problems}
+
+	\problem First exercise
+	\problem Second exercise
+	
+\end{problems}
+
+
+	
+\end{activity}
