@@ -68,25 +68,22 @@
 
 \begin{ctqs}
 
-	\question The first step in a free-radical polymerization is \emph{initiation}.  First, an initiator molecule decomposes to create initiator radicals:
-		\begin{equation*}
-			\text{Init} \xlongrightarrow{k_d} \text{2 \ce{I^.}}
-		\end{equation*}	
-		Some of the initiator radicals then attack monomers to form propagating polymer chains:
-		\begin{equation*}
-			\text{\ce{I^.} + M} \xlongrightarrow{k_i} \text{\ce{P^.}}
-		\end{equation*}
+	\question The first step in a free-radical polymerization is \emph{initiation}.  
 		
 		\begin{enumerate}
 		
-			\item Write an expression for the rate at which new initiator radicals are generated, $\frac{d[\text{I}^{\bullet}]}{dt}$, in terms of the concentration of initiator, [Init], and dissociation constant, $k_d$.
+			\item First, an initiator molecule decomposes to create initiator radicals:
+				\begin{equation*}
+					\text{Init} \xlongrightarrow{k_d} \text{2 \ce{I^.}}
+				\end{equation*}	
+				Write an expression for the rate at which new initiator radicals are generated, $\frac{d[\text{I}^{\bullet}]}{dt}$, in terms of the concentration of initiator, [Init], and dissociation constant, $k_d$.
 		
-				\begin{solution}[1in]
+				\begin{solution}[1.25in]
 				\end{solution}
 		
-			\item If a fraction $f$ of the initiator radicals successfully generate new polymer chain radicals, what is the overall initiation rate of polymer chains, $\frac{d[\text{\ce{P^.}}]}{dt}$?
+			\item If a fraction $f$ of the initiator radicals successfully go on to generate new polymer chain radicals (\ce{P^.}), what is the overall initiation rate of polymer chains, $\frac{d[\text{\ce{P^.}}]}{dt}$?
 		
-				\begin{solution}[1in]
+				\begin{solution}[1.25in]
 				\end{solution}
 		
 		\end{enumerate}
@@ -198,7 +195,7 @@
 					\end{align*}
 				\end{solution}
 			
-			\item Finally, plug your answer into the equation for $R_p$ to find an expression for the polymerization rate, $R_p$, in terms of $f$, $k_d$, $k_p$, $k_t$, $[\text{M}]$, and $[\text{Init}]$.
+			\item Finally, use your answer to find an expression for the polymerization rate, $R_p$, in terms of $f$, $k_d$, $k_p$, $k_t$, $[\text{M}]$, and $[\text{Init}]$.
 			
 				\begin{solution}[1.5in]
 					\begin{align*}
@@ -209,7 +206,35 @@
 			
 		\end{enumerate}
 	
-	\question WALK THROUGH IDEA OF KINETIC CHAIN LENGTH
+	\question Consider a period of time, $\Delta t$, at the start of the reaction.
+	
+		\begin{enumerate}
+			
+			\item How many monomers do you expect to be incorporated into polymer chains in this time interval?  Give your answer in terms of $R_i$, $R_p$, $R_t$, and/or $\Delta t$.
+			
+				\begin{solution}[0.5in]
+				
+					$R_p \Delta t$
+					
+				\end{solution}
+			
+			\item How many new polymer chains do you expect to be generated in this time interval?  Give your answer in terms of $R_i$, $R_p$, $R_t$, and/or $\Delta t$.
+			
+				\begin{solution}[0.5in]
+				
+					$R_i \Delta t$
+					
+				\end{solution}
+			
+			\item Based on your answers to the preceding two questions, what should the average length of the polymer chains generated in this interval be?
+			
+				\begin{solution}[0.5in]
+				
+					Average length = $\frac{\text{number of monomers}}{\text{number of chains}} = \frac{R_p\Delta t}{R_i \Delta t} = \frac{R_p}{R_i}$				
+				
+				\end{solution}
+				
+		\end{enumerate}
 	
 \end{ctqs}
 
@@ -222,12 +247,38 @@
 
 \begin{ctqs}
 
-	\question Substitute in appropriate expressions for $R_p$ and $R_i$ to find an expression for $\bar v$ in terms of \dots
+	\question Substitute in appropriate expressions for $R_p$ and $R_i$ to find an expression for $\bar v$ in terms of the rate constants $k_d$, $k_p$, and $k_t$, and the concentrations of monomer and initiator.
+	
+		\begin{solution}[2.5in]
+		\end{solution}
+		
+	\question How do you expect the kinetic chain length to be related to...
+		
+		\begin{enumerate}
+		
+			\item ... the number-average degree of polymerization of polymers that terminate by disproportionation?
+			
+				\emph{Hint: does termination by disproportionation change the lengths of the chains?}
+				
+				\begin{solution}[1in]
+				\end{solution}
+			
+			\item ... the number-average degree of polymerization of polymers that terminate by combination?
+			
+				\emph{Hint: does termination by combination change the lengths of the chains?  If so, how?}
+				
+				\begin{solution}[1in]
+				\end{solution}
+		
+		\end{enumerate}
 
 \end{ctqs}
 
 		
-\begin{model}
+\clearpage
+\begin{model}[Chain Transfer]
+\label{\labelbase:mdl:chainxfer}
+
 	In Models \ref{\labelbase:mdl:kineticeqns} and \ref{\labelbase:mdl:kineticssummary}, we considered the intiation, propagation, and termination steps of a free-radical polymerization.  However, in practice, chain transfer often matters too.
 	
 	For a chain transfer reaction that transfers the propagating radical to some other species, RX,
@@ -236,26 +287,57 @@
 	\end{align*}
 	the chain-transfer rate obeys
 	\begin{align*}
-		EQN
-	\end{align*}
-	
-	Because chain transfer effectively terminates a propagating radical, the kinetic chain length becomes the ratio of the propagation rate to the \emph{sum} of the termination and chain transfer rates:
-	\begin{align*}
-		EQN
-	\end{align*}
-	As shown in Exercise NNN, $\bar v_{tr}$ is related to $\bar v$ (the kinetic chain length in the absence of chain transfer) by
-	\begin{align*}
-		EQN
-	\end{align*}
-	where
-	\begin{align*}
-		DEFINE C_{RX}
+		R_{tr} = -\frac{d\text{\ce{P^.}}}{dt} = k_{tr}\text{[\ce{P^.}][RX]}
 	\end{align*}
 	
 \end{model}
 
 \begin{ctqs}
-	\question Not sure what belongs here...
+	\question As shown in Model \ref{\labelbase:mdl:chainxfer}, chain-transfer \emph{effectively} terminates a polymer radical \ce{P^.}.
+		How could you adjust the equation for $\bar v$ to take this into account?
+		
+		\begin{solution}[2in]
+	
+			Because chain transfer effectively terminates a propagating radical, the kinetic chain length becomes the ratio of the propagation rate to the \emph{sum} of the termination and chain transfer rates:
+			\begin{align*}
+				\bar v_{tr} = \frac{R_p}{R_t + R_{tr}}
+			\end{align*}
+	
+		\end{solution}
+		
+\end{ctqs}
+
+\begin{infobox}
+\label{\labelbase:info:vtr}
+
+	It is possible to show (see Exercise \ref{\labelbase:exc:chainxfer}) that for a system that contains multiple species RX that can participate in chain-transfer reactions, the kinetic chain length in the presence of chain-transfer ($\bar v_{tr}$) is related to the kinetic chain length in the absence of chain transfer ($\bar v$) by
+	\begin{align*}
+		\frac{1}{\bar v_{tr}} = \frac{1}{\bar v} + \sum_{\text{all RX}} C_{RX}\frac{\text{[RX]}}{\text{[M]}}
+	\end{align*}
+	where
+	\begin{align*}
+		C_{RX} = \frac{k_{tr,R}}{k_p}
+	\end{align*}
+	is the ``chain transfer constant'' for the species RX.
+	
+\end{infobox}
+
+\begin{ctqs}
+
+	\question Will chain-transfer generally \emph{increase} or \emph{decrease} the length of the polymer chains?  Justify your answer in 1-2 complete sentences.
+	
+		\begin{solution}[2in]
+		\end{solution}
+		
+	\question If there is only a \emph{single} species RX that participates in chain-transfer, the equation for $v_{tr}$ simplifies to
+	\begin{align*}
+		\frac{1}{\bar v_{tr}} = \frac{1}{\bar v} + C_{RX}\frac{\text{[RX]}}{\text{[M]}}
+	\end{align*}
+		Propose an experiment that you could do to measure the chain-transfer constant, $C_{RX}$.
+		
+		\begin{solution}[2.5in]
+		\end{solution}
+	
 \end{ctqs}
 
 
@@ -270,6 +352,16 @@
 	\exercise In this activity, two major assumptions were made about the polymerization kinetics: first, that all propagating radicals are equivalent, regardless of chain length; and second, that the reaction reaches a steady-state radical concentration.
 	
 		Are these assumptions reasonable?  Justify your answer.
+		
+	\exercise Derive the expression for $\frac{1}{v_{tr}}$ given on page \pageref{\labelbase:info:vtr} by doing the following:
+	
+		\label{\labelbase:exc:chainxfer}
+		
+		\begin{enumerate}
+			\item Write an expression for the total chain-transfer rate, $R_{tr}$, as a sum over all species RX.
+			\item Substitute this expression, and appropriate expressions for $R_p$ and $R_t$, into $\bar v_{tr} = \frac{R_p}{R_t + R_{tr}}$.  Then calculate $\frac{1}{v_{tr}}$.
+			\item Finally, simplify your equation for $\frac{1}{v_{tr}}$ to obtain the expression on page \pageref{\labelbase:info:vtr}.
+		\end{enumerate}
 		
 %	\exercise A problem on radical lifetimes?	
 
