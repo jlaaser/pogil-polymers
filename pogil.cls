@@ -46,6 +46,8 @@
 	\RequirePackage[english]{babel}
 	\RequirePackage{amsmath}
 	\RequirePackage{amssymb}
+	\RequirePackage{extarrows}	% necessary to get decent reaction arrows
+	\RequirePackage{multirow}
 	\RequirePackage[version=4]{mhchem} 
 	\RequirePackage{graphicx}
 	\RequirePackage{hyperref}
