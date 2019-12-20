@@ -84,3 +84,9 @@ v0.1.0 - July 19, 2019
 	The following activities are included as ``working drafts'' which contain complete student handouts but no instructor guides, and have not been classroom-tested:
 	
 		n/a - none in this release
+		
+---------------------------------------------------------
+Acknowledgments
+---------------------------------------------------------
+
+This project is supported by the National Science Foundation under award DMR-POL 1846665.
