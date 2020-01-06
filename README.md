@@ -1,12 +1,12 @@
 # pogil-polymers
 POGIL Activities for Polymer Chemistry and Polymer Physics
-v0.1.0 - July 2019
+unreleased version - January 2020
 
 ----------------------------------------------------------
 Copyright and License
 ----------------------------------------------------------
 
-Current version (c) 2019 Jennifer Laaser
+Current version (c) 2020 Jennifer Laaser
 
 Except where otherwise noted, this work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
@@ -64,18 +64,18 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-unreleased - July 24, 2019
+unreleased - January 6, 2020
 
 	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
 	
-		Activity 2 - Chemistries of Step-Growth Polymerization
-		Activity 3 - Degree of Polymerization in Step-Growth Polymerizations
-		Activity 4 - Equilibrium in Condensation Polymerizations
-		Activity 5 - Molecular Weight Distributions in Step-Growth Polymerizations
-		Activity 7 - Viscoelasticity of Polymeric Materials
-		Activity 8 - Small-Amplitude Oscillatory Shear Rheology
-		Activity 9 - Regular Solutions and Flory-Huggins Theory
-		Activity 10 - Thermodynamics of Phase Separation
+		Activity 4 - Chemistries of Step-Growth Polymerization
+		Activity 5 - Degree of Polymerization in Step-Growth Polymerizations
+		Activity 6 - Equilibrium in Condensation Polymerizations
+		Activity 7 - Molecular Weight Distributions in Step-Growth Polymerizations
+		Activity 9 - Viscoelasticity of Polymeric Materials
+		Activity 10 - Small-Amplitude Oscillatory Shear Rheology
+		Activity 11 - Regular Solutions and Flory-Huggins Theory
+		Activity 12 - Thermodynamics of Phase Separation
 	
 	The following activites are complete (including the instructor guide), but have not been classroom-tested:
 	
@@ -83,6 +83,8 @@ unreleased - July 24, 2019
 	
 	The following activities are included as ``working drafts'' which contain complete student handouts but no instructor guides, and have not been classroom-tested:
 	
-		Activity 1 - Molecular Weight and Dispersity
-		Activity 6 - Kinetics of Free-Radical Polymerization
-		Activity 11 - Phase Diagrams of Polymer Solutions
+		Activity 1 - From Molecules to Polymers
+		Activity 2 - With Increasing Size Comes INcreasing Complexity
+		Activity 3 - Molecular Weight and Dispersity
+		Activity 8 - Kinetics of Free-Radical Polymerization
+		Activity 13 - Phase Diagrams of Polymer Solutions
