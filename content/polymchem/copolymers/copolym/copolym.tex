@@ -197,11 +197,136 @@
 
 \end{model}
 
+\begin{ctqs}
 
-%\begin{exercises}
-%	\exercise In practice, the relative probability of addding a monomer depends not only on the kinetics of addition, but also on the relative concentrations of the monomers.  If the monomer has a high tendency to react with itself but the concentration of the monomer is very low, for example, the “effective probability” of addition will be low.
+	\question Suppose a propagating chain has an $M_1^\bullet$ radical on its active end.  If $R_{p,11}>R_{p,12}$, will the chain be more likely to add an $M_1$ or an $M_2$ monomer next?
 	
-%\end{exercises}
+		\begin{solution}[0.5in]
+		\end{solution}
+	
+	\question Explain, in 1-2 complete sentences, how the ratio $R_{p,11}/R_{p,22}$ should be related to the relative probability for a chain ending in $M_1^\bullet$ to add another monomer of type $M_1$.
+	
+		\begin{solution}[1in]
+		\end{solution}
+	
+	\question The rates investigated in the previous question depend on the concentrations of the monomers.  If both monomers are present in equal concentration (i.e. $[M_1]=[M_2]$), what is the value of this ratio in terms of the rate constants $k_{11}$ and $k_{22}$?
+	
+		\begin{solution}[1in]
+		\end{solution}
+	
+	\question Explain, in 1-2 complete sentences, why the ratio $k_{11}/k_{12}$ is related to the relative \emph{preference} for a chain ending in $M_1^\bullet$ to add another monomer of type $M_1$.
+	
+		\begin{solution}[1.5in]
+		\end{solution}
+	
+\end{ctqs}
+
+\begin{infobox}
+
+	We typically  describe the relative reactivities of monomers 1 and 2 using \emph{reactivity ratios} $r_1$ and $r_2$, which are defined as
+	\begin{align*}
+		r_1 = \frac{k_{11}}{k_{12}} && r_2 = \frac{k_{22}}{k_{21}}
+	\end{align*}
+
+\end{infobox}
+
+\begin{ctqs}
+
+	\question In Model 1, the rates of each monomer addition were essentially the probabilities for adding each type of monomer.  Using this information, determine the reactivity ratios for each of the copolymerizations you carried out in Model \ref{\labelbase:mdl:simulation}:
+	
+		\begin{center}
+		\renewcommand{\arraystretch}{2.5}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\textbf{Simulation} & ~~~~~~$r_1$~~~~~~ & ~~~~~~$r_2$~~~~~~ \\\hline
+			\textbf{Model 1/CTQ 1} & & \\\hline
+			\textbf{CTQ 3} & & \\\hline
+			\textbf{CTQ 4} & & \\\hline
+			\textbf{CTQ 5} & & \\\hline
+		\end{tabular}
+		\end{center}
+
+	\question Based on what you learned in Model \ref{\labelbase:mdl:simulation}, what type of sequence (random, alternating, blocky, etc.) do you expect when...
+	
+		\begin{enumerate}
+			\item $r_1 = 1$ and $r_2$ = 1?
+			
+				\begin{solution}[0.25in]
+				\end{solution}
+			
+			\item $r_1 = r_2 \neq 1$?
+			
+				\begin{solution}[0.25in]
+				\end{solution}
+			
+			\item $r_1 < 0$ and $r_2 < 0$?
+			
+				\begin{solution}[0.25in]
+				\end{solution}
+			
+			\item $r_1 > 0$ and $r_2 > 0$?
+			
+				\begin{solution}[0.25in]
+				\end{solution}
+		\end{enumerate}
+
+\end{ctqs}
+
+\begin{model}[Feed Ratios]
+	\label{\labelbase:mdl:feedratios}
+	
+	Often, the most important thing for us to know is how the composition of the polymer being formed is related to the composition of the monomer mixture.
+	
+	Working through the kinetics, it is possible to show that if the fraction of unreacted monomers that are type $M_1$ is $f_1$, then the fraction of monomers that are incorporated into the polymer chain that are type $M_1$, $F_1$, is
+	\begin{equation*}
+		F_1 = \frac{r_1f_1^2 + f_1f_2}{r_1f_1^2+2f_1f_2 + r_2f_2^2}
+	\end{equation*}
+	where $f_2 = 1-f_1$.
+
+\end{model}
+
+\begin{ctqs}
+	\question A plot of $F_1$ vs. $f_1$ is shown below for $r_1 = 4$, $r_2=0.25$: \label{\labelbase:ctq:feedratplot}
+	
+		\centerline{\includegraphics[width=0.4\textwidth]{\figpath/Model3_r1-4_r2-0,25.pdf}}
+	
+		\begin{enumerate}
+			\item Qualitatively, why should $r_1 = 4$, $r_2=0.25$ generate this shape of plot?  Briefly explain your reasoning in 1-2 complete sentences.
+				
+				\begin{solution}[1.5in]
+				\end{solution}
+			
+			
+			\item Based on this plot, if the monomer mixture contains exactly 50\% $M_1$ monomers and 50\% $M_2$ monomers, what will the composition of the polymer being formed be? 
+			
+				\emph{(Hint: start by figuring out what $f_1$ is!)}
+				
+				\begin{solution}[0.5in]
+				\end{solution}
+			
+			\item As the reaction goes, what will happen to the concentration of monomer $M_1$ left in solution?
+				
+				\begin{solution}[1in]
+				\end{solution}
+			
+			\item Predict how the values of $f_1$ and $F_1$ are likely to change over time in this reaction.
+				
+				\begin{solution}[1in]
+				\end{solution}
+			
+			\item Briefly describe the overall type of sequence you expect to generate in polymers formed in this reaction.
+				
+				\begin{solution}[1in]
+				\end{solution}
+		\end{enumerate}
+\end{ctqs}
+
+
+\begin{exercises}
+
+	\exercise Make plots analogous to the plot in CTQ \ref{\labelbase:ctq:feedratplot} for (a) $r_1=1$, $r_2=1$, (b) $r_1=0.1$, $r_2=10$, (c) and $r_1=0.33$, $r_2 = 0.67$.  For each plot, explain why it has the shape that it does, and predict how the composition of the polymer would change with time for a polymerization that starts at $f_1=0.5$.
+	
+\end{exercises}
 
 
 %\begin{problems}
