@@ -58,6 +58,7 @@
 	\RequirePackage{memhfixc}	% fix hyperref in memoir class
 	\RequirePackage{comment}	% necessary for hiding answers in student version
 	\RequirePackage[T1]{fontenc}	% necessary to display symbol for dispersity
+	\RequirePackage{lmodern}	% fix use of bitmap fonts when runnign T1 encoding
 	
 	\ifbool{isbook}{%
 	}{%
