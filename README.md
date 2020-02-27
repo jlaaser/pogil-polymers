@@ -64,7 +64,7 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-unreleased - January 6, 2020
+unreleased - February 27, 2020
 
 	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
 	
@@ -72,16 +72,16 @@ unreleased - January 6, 2020
 		Activity 6 - Degree of Polymerization in Step-Growth Polymerizations
 		Activity 7 - Equilibrium in Condensation Polymerizations
 		Activity 8 - Molecular Weight Distributions in Step-Growth Polymerizations
-		Activity 11 - Viscoelasticity of Polymeric Materials
-		Activity 12 - Small-Amplitude Oscillatory Shear Rheology
-		Activity 13 - Regular Solutions and Flory-Huggins Theory
-		Activity 14 - Thermodynamics of Phase Separation
+		Activity 13 - Viscoelasticity of Polymeric Materials
+		Activity 14 - Small-Amplitude Oscillatory Shear Rheology
+		Activity 15 - Regular Solutions and Flory-Huggins Theory
+		Activity 16 - Thermodynamics of Phase Separation
 	
-	The following activites are complete (including the instructor guide), but have not been classroom-tested:
+	The following activites are complete (including the instructor guide), but have not been classroom-tested (or, have been classroom-tested but have not yet been updated following testing):
 	
 		n/a - none in this release
 	
-	The following activities are included as ``working drafts'' which contain complete student handouts but no instructor guides, and have not been classroom-tested:
+	The following activities are included as ``working drafts'' which contain complete student handouts but no instructor guides, and have not been classroom-tested (or, have been classroom-tested but have not yet been updated following testing):
 	
 		Activity 1 - From Molecules to Polymers
 		Activity 2 - With Increasing Size Comes Increasing Complexity
@@ -89,4 +89,6 @@ unreleased - January 6, 2020
 		Activity 4 - Chain-Growth and Step-Growth Polymerizations
 		Activity 9 - Chemistry of Free-Radical Polymerization
 		Activity 10 - Kinetics of Free-Radical Polymerization
-		Activity 15 - Phase Diagrams of Polymer Solutions
+		Activity 11 - Copolymerization
+		Activity 12 - Elasticity of Polymer Chains
+		Activity 17 - Phase Diagrams of Polymer Solutions
