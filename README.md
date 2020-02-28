@@ -72,10 +72,10 @@ unreleased - February 27, 2020
 		Activity 6 - Degree of Polymerization in Step-Growth Polymerizations
 		Activity 7 - Equilibrium in Condensation Polymerizations
 		Activity 8 - Molecular Weight Distributions in Step-Growth Polymerizations
-		Activity 13 - Viscoelasticity of Polymeric Materials
-		Activity 14 - Small-Amplitude Oscillatory Shear Rheology
-		Activity 15 - Regular Solutions and Flory-Huggins Theory
-		Activity 16 - Thermodynamics of Phase Separation
+		Activity 15 - Viscoelasticity of Polymeric Materials
+		Activity 16 - Small-Amplitude Oscillatory Shear Rheology
+		Activity 17 - Regular Solutions and Flory-Huggins Theory
+		Activity 18 - Thermodynamics of Phase Separation
 	
 	The following activites are complete (including the instructor guide), but have not been classroom-tested (or, have been classroom-tested but have not yet been updated following testing):
 	
@@ -91,4 +91,6 @@ unreleased - February 27, 2020
 		Activity 10 - Kinetics of Free-Radical Polymerization
 		Activity 11 - Copolymerization
 		Activity 12 - Elasticity of Polymer Chains
-		Activity 17 - Phase Diagrams of Polymer Solutions
+		Activity 13 - Synthesis of Polymer Networks
+		Activity 14 - Elasticity of Polymer Networks
+		Activity 19 - Phase Diagrams of Polymer Solutions
