@@ -1,0 +1,2561 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="45.6 16.62 434.45675 202.65328"
+   preserveAspectRatio="xMidYMid"
+   width="114.95002mm"
+   height="53.618679mm"
+   version="1.1"
+   id="svg1084"
+   sodipodi:docname="model1-figs.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata1090">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1088" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2736"
+     inkscape:window-height="1699"
+     id="namedview1086"
+     showgrid="false"
+     inkscape:zoom="1.9"
+     inkscape:cx="224.03248"
+     inkscape:cy="48.907706"
+     inkscape:window-x="-13"
+     inkscape:window-y="-13"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1084"
+     units="mm"
+     fit-margin-top="2"
+     fit-margin-left="2"
+     fit-margin-right="2"
+     fit-margin-bottom="2" />
+  <clipPath
+     id="402">
+    <rect
+       x="0.30000001"
+       y="0.30000001"
+       width="539.40002"
+       height="719.40002"
+       id="rect2" />
+  </clipPath>
+  <g
+     id="g11"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text9"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="120.43"
+         y="35.880001"
+         font-size="10"
+         id="tspan7"
+         style="font-size:10px;font-family:Arial;fill:#000000">R</tspan></text>
+  </g>
+  <g
+     id="g17"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text15"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="134.53"
+         y="35.880001"
+         font-size="10"
+         id="tspan13"
+         style="font-size:10px;font-family:Arial;fill:#ff0000">OH</tspan></text>
+  </g>
+  <g
+     id="Solid"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 128.3,32.28 v 0 -0.3 -0.3 h 5.2 v 0.3 0.3 z"
+       id="path19"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g26"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text24"
+       style="text-anchor:end;text-rendering:geometricPrecision"><tspan
+         x="201.3"
+         y="46.68"
+         font-size="10"
+         id="tspan22"
+         style="font-size:10px;font-family:Arial;fill:#0000ff">HO</tspan></text>
+  </g>
+  <g
+     id="g30"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 202.04,40.45 v 0 l -0.15,-0.26 -0.15,-0.26 8.13,-4.7 v 0.35 0.35 z"
+       id="path28"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g36"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text34"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="205.97"
+         y="25.08"
+         font-size="10"
+         id="tspan32"
+         style="font-size:10px;font-family:Arial;fill:#0000ff">O</tspan></text>
+  </g>
+  <g
+     id="g44"
+     transform="translate(-12.941729,-175.51578)">
+    <line
+       x1="208.57001"
+       y1="35.580002"
+       x2="208.57001"
+       y2="26.9"
+       id="line38"
+       style="stroke:#0000ff;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 210.87,35.81 v 0 l 0.6,0.35 V 26.9 h -0.6 z"
+       id="path40"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <path
+       d="m 208.27,36.16 v 0 l 0.6,-0.35 V 26.9 h -0.6 z"
+       id="path42"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g50"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text48"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="218.74001"
+         y="46.68"
+         font-size="10"
+         id="tspan46"
+         style="font-size:10px;font-family:Arial;fill:#000000">R'</tspan></text>
+  </g>
+  <g
+     id="g54"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 209.87,35.93 v 0 -0.35 -0.35 l 8.49,4.91 -0.15,0.26 -0.15,0.26 z"
+       id="path52"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g60"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text58"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="363.60001"
+         y="39.529999"
+         font-size="10"
+         id="tspan56"
+         style="font-size:10px;font-family:Arial;fill:#ff0000">H</tspan></text>
+  </g>
+  <g
+     id="g66"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text64"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="375.76999"
+         y="32.330002"
+         font-size="10"
+         id="tspan62"
+         style="font-size:10px;font-family:Arial;fill:#0000ff">O</tspan></text>
+  </g>
+  <g
+     id="g70"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 371.64,33.42 v 0 l -0.15,-0.26 -0.15,-0.26 3.62,-2.1 0.15,0.26 0.15,0.26 z"
+       id="path68"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g76"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text74"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="388.54001"
+         y="39.529999"
+         font-size="10"
+         id="tspan72"
+         style="font-size:10px;font-family:Arial;fill:#0000ff">H</tspan></text>
+  </g>
+  <g
+     id="g80"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 384.24,31.41 v 0 l 0.15,-0.26 0.15,-0.26 3.62,2.1 -0.15,0.26 -0.15,0.26 z"
+       id="path78"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g88"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text86"
+       style="text-anchor:end;text-rendering:geometricPrecision"><tspan
+         x="306.89999"
+         y="46.68"
+         font-size="10"
+         id="tspan82"
+         style="font-size:10px;font-family:Arial;fill:#000000">R</tspan><tspan
+         font-size="10"
+         id="tspan84"
+         style="font-size:10px;font-family:Arial;fill:#ff0000">O</tspan></text>
+  </g>
+  <g
+     id="g92"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 307.64,40.45 v 0 l -0.15,-0.26 -0.15,-0.26 8.13,-4.7 v 0.35 0.35 z"
+       id="path90"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g98"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text96"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="311.57001"
+         y="25.08"
+         font-size="10"
+         id="tspan94"
+         style="font-size:10px;font-family:Arial;fill:#0000ff">O</tspan></text>
+  </g>
+  <g
+     id="g106"
+     transform="translate(-12.941729,-175.51578)">
+    <line
+       x1="314.17001"
+       y1="35.580002"
+       x2="314.17001"
+       y2="26.9"
+       id="line100"
+       style="stroke:#0000ff;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 316.47,35.81 v 0 l 0.6,0.35 V 26.9 h -0.6 z"
+       id="path102"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <path
+       d="m 313.87,36.16 v 0 l 0.6,-0.35 V 26.9 h -0.6 z"
+       id="path104"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g112"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text110"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="324.34"
+         y="46.68"
+         font-size="10"
+         id="tspan108"
+         style="font-size:10px;font-family:Arial;fill:#000000">R'</tspan></text>
+  </g>
+  <g
+     id="g116"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 315.47,35.93 v 0 -0.35 -0.35 l 8.49,4.91 -0.15,0.26 -0.15,0.26 z"
+       id="path114"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g122"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text120"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="166.2"
+         y="34.900002"
+         font-size="10"
+         id="tspan118"
+         style="font-size:10px;font-family:Arial;fill:#000000">+</tspan></text>
+  </g>
+  <g
+     id="g128"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text126"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="342.60001"
+         y="34.900002"
+         font-size="10"
+         id="tspan124"
+         style="font-size:10px;font-family:Arial;fill:#000000">+</tspan></text>
+  </g>
+  <g
+     id="Arrow"
+     transform="translate(-12.941729,-175.51578)">
+    <line
+       x1="268.79001"
+       y1="32"
+       x2="238.8"
+       y2="32"
+       id="line130"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 279.6,32 -13.5,-3.38 c 2.12,1.9 2.12,4.86 0,6.76 z"
+       stroke-miterlimit="6.92897103804174"
+       id="path132"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:6.92897081;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g139"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text137"
+       style="text-anchor:end;text-rendering:geometricPrecision"><tspan
+         x="84.300003"
+         y="119.48"
+         font-size="10"
+         id="tspan135"
+         style="font-size:10px;font-family:Arial;fill:#000000">HO</tspan></text>
+  </g>
+  <g
+     id="g143"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 85.04,113.25 v 0 l -0.15,-0.26 -0.15,-0.26 8.13,-4.7 v 0.35 0.35 z"
+       id="path141"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g147"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 92.87,108.73 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path145"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g151"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 105.34,115.93 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path149"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g155"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 117.81,108.73 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path153"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g159"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 130.28,115.93 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path157"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g163"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 142.75,108.73 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path161"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g169"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text167"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="163.8"
+         y="112.28"
+         font-size="10"
+         id="tspan165"
+         style="font-size:10px;font-family:Arial;fill:#000000">OH</tspan></text>
+  </g>
+  <g
+     id="g173"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 155.22,115.93 v 0 -0.35 -0.35 l 7.74,-4.46 0.15,0.26 0.15,0.26 z"
+       id="path171"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g181"
+     transform="translate(-12.941729,-175.51578)">
+    <line
+       x1="91.57"
+       y1="108.38"
+       x2="91.57"
+       y2="99.699997"
+       id="line175"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 93.87,108.61 v 0 l 0.6,0.35 V 99.7 h -0.6 z"
+       id="path177"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <path
+       d="m 91.27,108.96 v 0 l 0.6,-0.35 V 99.7 h -0.6 z"
+       id="path179"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g187"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text185"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="88.970001"
+         y="97.879997"
+         font-size="10"
+         id="tspan183"
+         style="font-size:10px;font-family:Arial;fill:#000000">O</tspan></text>
+  </g>
+  <g
+     id="g193"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text191"
+       style="text-anchor:end;text-rendering:geometricPrecision"><tspan
+         x="308.70001"
+         y="116.9"
+         font-size="10"
+         id="tspan189"
+         style="font-size:10px;font-family:Arial;fill:#000000">HO</tspan></text>
+  </g>
+  <g
+     id="g197"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 309.44,110.67 v 0 l -0.15,-0.26 -0.15,-0.26 8.13,-4.7 v 0.35 0.35 z"
+       id="path195"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g201"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 317.27,106.15 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path199"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g205"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 329.74,113.35 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path203"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g209"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 342.21,106.15 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path207"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g213"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 354.68,113.35 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path211"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g217"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 367.15,106.15 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path215"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g223"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text221"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="388.20001"
+         y="109.7"
+         font-size="10"
+         id="tspan219"
+         style="font-size:10px;font-family:Arial;fill:#000000">O</tspan></text>
+  </g>
+  <g
+     id="g227"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 379.62,113.35 v 0 -0.35 -0.35 l 7.74,-4.46 0.15,0.26 0.15,0.26 z"
+       id="path225"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g235"
+     transform="translate(-12.941729,-175.51578)">
+    <line
+       x1="315.97"
+       y1="105.8"
+       x2="315.97"
+       y2="97.099998"
+       id="line229"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 318.27,106.03 v 0 l 0.6,0.35 V 97.1 h -0.6 z"
+       id="path231"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <path
+       d="m 315.67,106.38 v 0 l 0.6,-0.35 V 97.1 h -0.6 z"
+       id="path233"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g241"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text239"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="313.37"
+         y="95.300003"
+         font-size="10"
+         id="tspan237"
+         style="font-size:10px;font-family:Arial;fill:#000000">O</tspan></text>
+  </g>
+  <g
+     id="Bracket"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 398.4,99.59 a 15.81,15.81 0 0 1 0,15.81"
+       id="path243"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g248"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 313.8,115.4 a 15.81,15.81 0 0 1 0,-15.81"
+       id="path246"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g254"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text252"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="400.60001"
+         y="118.8"
+         dy="2.26"
+         font-size="7.5"
+         id="tspan250"
+         style="font-size:7.5px;font-family:Arial;fill:#000000">n</tspan></text>
+  </g>
+  <g
+     id="g264"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text262"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="465.60001"
+         y="107.7"
+         font-size="10"
+         id="tspan256"
+         style="font-size:10px;font-family:Arial;fill:#000000">H</tspan><tspan
+         dy="2.26"
+         font-size="7.5"
+         id="tspan258"
+         style="font-size:7.5px;font-family:Arial;fill:#000000">2</tspan><tspan
+         dy="-2.26"
+         font-size="10"
+         id="tspan260"
+         style="font-size:10px;font-family:Arial;fill:#000000">O</tspan></text>
+  </g>
+  <g
+     id="g270"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text268"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="45.599998"
+         y="107.7"
+         font-size="10"
+         id="tspan266"
+         style="font-size:10px;font-family:Arial;fill:#000000">n</tspan></text>
+  </g>
+  <g
+     id="g276"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text274"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="442.79999"
+         y="107.7"
+         font-size="10"
+         id="tspan272"
+         style="font-size:10px;font-family:Arial;fill:#000000">n-1</tspan></text>
+  </g>
+  <g
+     id="g282"
+     transform="translate(-12.941729,-175.51578)">
+    <line
+       x1="264.59"
+       y1="104.8"
+       x2="202.2"
+       y2="104.8"
+       id="line278"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 275.4,104.8 -13.5,-3.38 c 2.12,1.9 2.12,4.86 0,6.76 z"
+       stroke-miterlimit="6.92897103804174"
+       id="path280"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:6.92897081;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g288"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text286"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="219"
+         y="100.5"
+         font-size="10"
+         id="tspan284"
+         style="font-size:10px;font-family:Arial;fill:#000000">catalyst</tspan></text>
+  </g>
+  <g
+     id="g294"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text292"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="225"
+         y="116.1"
+         font-size="10"
+         id="tspan290"
+         style="font-size:10px;font-family:Arial;fill:#000000">heat</tspan></text>
+  </g>
+  <g
+     id="g300"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text298"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="420"
+         y="107.7"
+         font-size="10"
+         id="tspan296"
+         style="font-size:10px;font-family:Arial;fill:#000000">+</tspan></text>
+  </g>
+  <g
+     id="g306"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text304"
+       style="text-anchor:end;text-rendering:geometricPrecision"><tspan
+         x="80.300003"
+         y="229.08"
+         font-size="10"
+         id="tspan302"
+         style="font-size:10px;font-family:Arial;fill:#ff0000">HO</tspan></text>
+  </g>
+  <g
+     id="g310"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 81.04,222.85 v 0 l -0.15,-0.26 -0.15,-0.26 8.13,-4.7 v 0.35 0.35 z"
+       id="path308"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g314"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 88.87,218.33 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path312"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g318"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 101.34,225.53 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path316"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g322"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 113.81,218.33 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path320"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g326"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 126.28,225.53 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path324"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g330"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 138.75,218.33 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path328"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g334"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 151.22,225.53 v 0 -0.35 -0.35 l 7.74,-4.46 0.15,0.26 0.15,0.26 z"
+       id="path332"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g340"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text338"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="159.8"
+         y="221.88"
+         font-size="10"
+         id="tspan336"
+         style="font-size:10px;font-family:Arial;fill:#ff0000">OH</tspan></text>
+  </g>
+  <g
+     id="g348"
+     transform="translate(-12.941729,-175.51578)">
+    <line
+       x1="87.57"
+       y1="217.98"
+       x2="87.57"
+       y2="209.3"
+       id="line342"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 89.87,218.21 v 0 l 0.6,0.35 v -9.26 h -0.6 z"
+       id="path344"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <path
+       d="m 87.27,218.56 v 0 l 0.6,-0.35 v -8.91 h -0.6 z"
+       id="path346"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g354"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text352"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="84.970001"
+         y="207.48"
+         font-size="10"
+         id="tspan350"
+         style="font-size:10px;font-family:Arial;fill:#ff0000">O</tspan></text>
+  </g>
+  <g
+     id="g360"
+     style="fill:#0000ff;stroke:#0000ff"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text358"
+       style="text-anchor:end;fill:#0000ff;stroke:#0000ff;text-rendering:geometricPrecision"><tspan
+         x="235.89999"
+         y="229.08"
+         font-size="10"
+         id="tspan356"
+         style="font-size:10px;font-family:Arial;fill:#0000ff;stroke:#0000ff">HO</tspan></text>
+  </g>
+  <g
+     id="g364"
+     style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 236.64,222.85 v 0 l -0.15,-0.26 -0.15,-0.26 8.13,-4.7 v 0.35 0.35 z"
+       id="path362"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g368"
+     style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 244.47,218.33 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path366"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g372"
+     style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 256.94,225.53 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path370"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g376"
+     style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 269.41,218.33 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path374"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g380"
+     style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 281.88,225.53 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path378"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g384"
+     style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 294.35,218.33 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path382"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g388"
+     style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 306.82,225.53 v 0 -0.35 -0.35 l 7.74,-4.46 0.15,0.26 0.15,0.26 z"
+       id="path386"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g394"
+     style="fill:#0000ff;stroke:#0000ff"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text392"
+       style="text-anchor:start;fill:#0000ff;stroke:#0000ff;text-rendering:geometricPrecision"><tspan
+         x="315.39999"
+         y="221.88"
+         font-size="10"
+         id="tspan390"
+         style="font-size:10px;font-family:Arial;fill:#0000ff;stroke:#0000ff">OH</tspan></text>
+  </g>
+  <g
+     id="g402"
+     style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <line
+       x1="243.17"
+       y1="217.98"
+       x2="243.17"
+       y2="209.3"
+       id="line396"
+       style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:auto" />
+    <path
+       d="m 245.47,218.21 v 0 l 0.6,0.35 v -9.26 h -0.6 z"
+       id="path398"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+    <path
+       d="m 242.87,218.56 v 0 l 0.6,-0.35 v -8.91 h -0.6 z"
+       id="path400"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g408"
+     style="fill:#0000ff;stroke:#0000ff"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text406"
+       style="text-anchor:start;fill:#0000ff;stroke:#0000ff;text-rendering:geometricPrecision"><tspan
+         x="240.57001"
+         y="207.48"
+         font-size="10"
+         id="tspan404"
+         style="font-size:10px;font-family:Arial;fill:#0000ff;stroke:#0000ff">O</tspan></text>
+  </g>
+  <g
+     id="g414"
+     style="fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text412"
+       style="text-anchor:end;fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;text-rendering:geometricPrecision"><tspan
+         x="391.5"
+         y="229.08"
+         font-size="10"
+         id="tspan410"
+         style="font-size:10px;font-family:Arial;fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none">HO</tspan></text>
+  </g>
+  <g
+     id="g418"
+     style="fill:none;stroke:#008000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 392.24,222.85 v 0 l -0.15,-0.26 -0.15,-0.26 8.13,-4.7 v 0.35 0.35 z"
+       id="path416"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:0.40000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g422"
+     style="fill:none;stroke:#008000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 400.07,218.33 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path420"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:0.40000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g426"
+     style="fill:none;stroke:#008000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 412.54,225.53 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path424"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:0.40000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g430"
+     style="fill:none;stroke:#008000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 425.01,218.33 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path428"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:0.40000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g434"
+     style="fill:none;stroke:#008000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 437.48,225.53 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path432"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:0.40000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g438"
+     style="fill:none;stroke:#008000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 449.95,218.33 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path436"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:0.40000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g442"
+     style="fill:none;stroke:#008000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 462.42,225.53 v 0 -0.35 -0.35 l 7.74,-4.46 0.15,0.26 0.15,0.26 z"
+       id="path440"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:0.40000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g448"
+     style="fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text446"
+       style="text-anchor:start;fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;text-rendering:geometricPrecision"><tspan
+         x="471"
+         y="221.88"
+         font-size="10"
+         id="tspan444"
+         style="font-size:10px;font-family:Arial;fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none">OH</tspan></text>
+  </g>
+  <g
+     id="g454"
+     style="fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text452"
+       style="text-anchor:start;fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;text-rendering:geometricPrecision"><tspan
+         x="396.17001"
+         y="207.48"
+         font-size="10"
+         id="tspan450"
+         style="font-size:10px;font-family:Arial;fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none">O</tspan></text>
+  </g>
+  <g
+     id="g462"
+     style="fill:none;stroke:#008000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1"
+     transform="translate(-12.941729,-175.51578)">
+    <line
+       x1="398.76999"
+       y1="217.98"
+       x2="398.76999"
+       y2="209.3"
+       id="line456"
+       style="fill:none;stroke:#008000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:auto" />
+    <path
+       d="m 401.07,218.21 v 0 l 0.6,0.35 v -9.26 h -0.6 z"
+       id="path458"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:0.40000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:geometricPrecision" />
+    <path
+       d="m 398.47,218.56 v 0 l 0.6,-0.35 v -8.91 h -0.6 z"
+       id="path460"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:0.40000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g468"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text466"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="194.92"
+         y="217.3"
+         font-size="10"
+         id="tspan464"
+         style="font-size:10px;font-family:Arial;fill:#000000">+</tspan></text>
+  </g>
+  <g
+     id="g474"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text472"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="350.51999"
+         y="217.3"
+         font-size="10"
+         id="tspan470"
+         style="font-size:10px;font-family:Arial;fill:#000000">+</tspan></text>
+  </g>
+  <g
+     id="g480"
+     transform="translate(-12.941729,-175.51578)">
+    <line
+       x1="261.20001"
+       y1="266.79001"
+       x2="261.20001"
+       y2="244"
+       id="line476"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 261.2,277.6 3.38,-13.5 c -1.9,2.12 -4.86,2.12 -6.76,0 z"
+       stroke-miterlimit="6.92897103804176"
+       id="path478"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:6.92897081;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g490"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text488"
+       style="text-anchor:middle;text-rendering:geometricPrecision"><tspan
+         x="290.60001"
+         y="259.29999"
+         font-size="10"
+         id="tspan482"
+         style="font-size:10px;font-family:Arial;fill:#000000">catalyst,</tspan></text>
+  </g>
+  <g
+     id="g496"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text494"
+       style="text-anchor:end;text-rendering:geometricPrecision"><tspan
+         x="147.5"
+         y="322.29999"
+         font-size="10"
+         id="tspan492"
+         style="font-size:10px;font-family:Arial;fill:#ff0000">HO</tspan></text>
+  </g>
+  <g
+     id="g500"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 148.24,316.07 v 0 l -0.15,-0.26 -0.15,-0.26 8.13,-4.7 v 0.35 0.35 z"
+       id="path498"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g504"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 156.07,311.55 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path502"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g508"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 168.54,318.75 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path506"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g512"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 181.01,311.55 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path510"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g516"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 193.48,318.75 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path514"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g520"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 205.95,311.55 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path518"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g524"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 218.42,318.75 v 0 -0.35 -0.35 l 7.74,-4.46 0.15,0.26 0.15,0.26 z"
+       id="path522"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g530"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text528"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="227"
+         y="315.10001"
+         font-size="10"
+         id="tspan526"
+         style="font-size:10px;font-family:Arial;fill:#ff0000">O</tspan></text>
+  </g>
+  <g
+     id="g534"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 235.44,314.17 v 0 l 0.15,-0.26 0.15,-0.26 7.63,4.4 v 0.35 0.35 z"
+       id="path532"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g538"
+     style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 243.37,318.75 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path536"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g542"
+     style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 255.84,311.55 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path540"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g546"
+     style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 268.31,318.75 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path544"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g550"
+     style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 280.78,311.55 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path548"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g554"
+     style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 293.25,318.75 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path552"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g558"
+     style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 305.72,311.55 v 0 -0.35 -0.35 l 8.24,4.76 -0.15,0.26 -0.15,0.26 z"
+       id="path556"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g564"
+     style="fill:#0000ff;stroke:#0000ff"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text562"
+       style="text-anchor:start;fill:#0000ff;stroke:#0000ff;text-rendering:geometricPrecision"><tspan
+         x="314.29001"
+         y="322.29999"
+         font-size="10"
+         id="tspan560"
+         style="font-size:10px;font-family:Arial;fill:#0000ff;stroke:#0000ff">O</tspan></text>
+  </g>
+  <g
+     id="g568"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 322.84,316.06 v 0 l -0.15,-0.26 -0.15,-0.26 8.12,-4.69 v 0.35 0.35 z"
+       id="path566"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g572"
+     style="fill:none;stroke:#008000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 330.66,311.55 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path570"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:0.40000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g576"
+     style="fill:none;stroke:#008000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 343.13,318.75 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path574"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:0.40000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g580"
+     style="fill:none;stroke:#008000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 355.6,311.55 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path578"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:0.40000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g584"
+     style="fill:none;stroke:#008000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 368.07,318.75 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path582"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:0.40000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g588"
+     style="fill:none;stroke:#008000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 380.54,311.55 v 0 -0.35 -0.35 l 12.48,7.2 v 0.35 0.35 z"
+       id="path586"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:0.40000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g592"
+     style="fill:none;stroke:#008000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 393.02,318.75 v 0 -0.35 -0.35 l 7.74,-4.47 0.15,0.26 0.15,0.26 z"
+       id="path590"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:0.40000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g598"
+     style="fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text596"
+       style="text-anchor:start;fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;text-rendering:geometricPrecision"><tspan
+         x="401.59"
+         y="315.10001"
+         font-size="10"
+         id="tspan594"
+         style="font-size:10px;font-family:Arial;fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none">OH</tspan></text>
+  </g>
+  <g
+     id="g604"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text602"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="152.17"
+         y="300.70001"
+         font-size="10"
+         id="tspan600"
+         style="font-size:10px;font-family:Arial;fill:#ff0000">O</tspan></text>
+  </g>
+  <g
+     id="g612"
+     transform="translate(-12.941729,-175.51578)">
+    <line
+       x1="154.77"
+       y1="311.20001"
+       x2="154.77"
+       y2="302.5"
+       id="line606"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 157.07,311.43 v 0 l 0.6,0.35 v -9.28 h -0.6 z"
+       id="path608"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <path
+       d="m 154.47,311.78 v 0 l 0.6,-0.35 v -8.93 h -0.6 z"
+       id="path610"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g618"
+     style="fill:#0000ff;stroke:#0000ff"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text616"
+       style="text-anchor:start;fill:#0000ff;stroke:#0000ff;text-rendering:geometricPrecision"><tspan
+         x="239.47"
+         y="336.70001"
+         font-size="10"
+         id="tspan614"
+         style="font-size:10px;font-family:Arial;fill:#0000ff;stroke:#0000ff">O</tspan></text>
+  </g>
+  <g
+     id="g626"
+     style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <line
+       x1="244.67"
+       y1="318.39999"
+       x2="244.67"
+       y2="327.89999"
+       id="line620"
+       style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:auto" />
+    <path
+       d="m 242.37,318.17 v 0 l -0.6,-0.35 v 10.08 h 0.6 z"
+       id="path622"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+    <path
+       d="m 244.97,317.82 v 0 l -0.6,0.35 v 9.73 h 0.6 z"
+       id="path624"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g632"
+     style="fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text630"
+       style="text-anchor:start;fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;text-rendering:geometricPrecision"><tspan
+         x="326.76001"
+         y="300.70001"
+         font-size="10"
+         id="tspan628"
+         style="font-size:10px;font-family:Arial;fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none">O</tspan></text>
+  </g>
+  <g
+     id="g640"
+     style="fill:none;stroke:#008000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1"
+     transform="translate(-12.941729,-175.51578)">
+    <line
+       x1="329.35999"
+       y1="311.20001"
+       x2="329.35999"
+       y2="302.5"
+       id="line634"
+       style="fill:none;stroke:#008000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:auto" />
+    <path
+       d="m 331.66,311.43 v 0 l 0.6,0.35 v -9.28 h -0.6 z"
+       id="path636"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:0.40000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:geometricPrecision" />
+    <path
+       d="m 329.06,311.78 v 0 l 0.6,-0.35 v -8.93 h -0.6 z"
+       id="path638"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:0.40000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g646"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text644"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="214"
+         y="386.73001"
+         font-size="10"
+         id="tspan642"
+         style="font-size:10px;font-family:Arial;fill:#ff0000">H</tspan></text>
+  </g>
+  <g
+     id="g650"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 222.04,380.62 v 0 l -0.15,-0.26 -0.15,-0.26 3.62,-2.1 0.15,0.26 0.15,0.26 z"
+       id="path648"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g656"
+     style="fill:#0000ff;stroke:#0000ff"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text654"
+       style="text-anchor:start;fill:#0000ff;stroke:#0000ff;text-rendering:geometricPrecision"><tspan
+         x="226.17"
+         y="379.53"
+         font-size="10"
+         id="tspan652"
+         style="font-size:10px;font-family:Arial;fill:#0000ff;stroke:#0000ff">O</tspan></text>
+  </g>
+  <g
+     id="g660"
+     style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 234.64,378.61 v 0 l 0.15,-0.26 0.15,-0.26 3.62,2.1 -0.15,0.26 -0.15,0.26 z"
+       id="path658"
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g666"
+     style="fill:#0000ff;stroke:#0000ff"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text664"
+       style="text-anchor:start;fill:#0000ff;stroke:#0000ff;text-rendering:geometricPrecision"><tspan
+         x="238.94"
+         y="386.73001"
+         font-size="10"
+         id="tspan662"
+         style="font-size:10px;font-family:Arial;fill:#0000ff;stroke:#0000ff">H</tspan></text>
+  </g>
+  <g
+     id="g672"
+     style="fill:#0000ff;stroke:#0000ff"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text670"
+       style="text-anchor:start;fill:#0000ff;stroke:#0000ff;text-rendering:geometricPrecision"><tspan
+         x="311.60001"
+         y="386.73001"
+         font-size="10"
+         id="tspan668"
+         style="font-size:10px;font-family:Arial;fill:#0000ff;stroke:#0000ff">H</tspan></text>
+  </g>
+  <g
+     id="g676"
+     style="stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 319.64,380.62 v 0 l -0.15,-0.26 -0.15,-0.26 3.62,-2.1 0.15,0.26 0.15,0.26 z"
+       id="path674"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#0000ff;stroke-width:1.29999995;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g682"
+     style="fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text680"
+       style="text-anchor:start;fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;text-rendering:geometricPrecision"><tspan
+         x="323.76999"
+         y="379.53"
+         font-size="10"
+         id="tspan678"
+         style="font-size:10px;font-family:Arial;fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none">O</tspan></text>
+  </g>
+  <g
+     id="g686"
+     style="fill:none;stroke:#008000;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 332.24,378.61 v 0 l 0.15,-0.26 0.15,-0.26 3.62,2.1 -0.15,0.26 -0.15,0.26 z"
+       id="path684"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:0.40000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.80000001, 0.40000001;stroke-dashoffset:0;stroke-opacity:1;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g692"
+     style="fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text690"
+       style="text-anchor:start;fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;text-rendering:geometricPrecision"><tspan
+         x="336.54001"
+         y="386.73001"
+         font-size="10"
+         id="tspan688"
+         style="font-size:10px;font-family:Arial;fill:none;stroke:#008000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none">H</tspan></text>
+  </g>
+  <g
+     id="g698"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text696"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="275.60001"
+         y="360.79999"
+         font-size="10"
+         id="tspan694"
+         style="font-size:10px;font-family:Arial;fill:#000000">+</tspan></text>
+  </g>
+  <g
+     id="g702"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 257.35,622.64 v 0 l -0.15,-0.26 -0.15,-0.26 12.62,-7.29 v 0.35 0.35 z"
+       id="path700"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g706"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 269.67,615.53 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 l -0.3,0.17 z"
+       id="path704"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g710"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 282.44,622.55 v 0 l -0.3,-0.17 v -0.35 l 12.32,-7.11 0.15,0.26 0.15,0.26 z"
+       id="path708"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g714"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 281.84,622.55 v 0 l 0.3,-0.17 0.3,0.17 v 14.4 l -0.3,-0.17 -0.3,-0.17 z"
+       id="path712"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g718"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 281.84,636.61 v 0 l 0.3,0.17 0.3,0.17 -8.1,4.68 -0.15,-0.26 -0.15,-0.26 z"
+       id="path716"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g724"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text722"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="265.76999"
+         y="647.88"
+         font-size="10"
+         id="tspan720"
+         style="font-size:10px;font-family:Arial;fill:#000000">O</tspan></text>
+  </g>
+  <g
+     id="g732"
+     transform="translate(-12.941729,-175.51578)">
+    <line
+       x1="282.79001"
+       y1="635.65997"
+       x2="290.45999"
+       y2="640.09003"
+       id="line726"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 281.44,637.53 v 0 l -0.6,0.34 8.18,4.72 0.3,-0.52 z"
+       id="path728"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <path
+       d="m 282.44,635.11 v 0 0.69 l 7.87,4.55 0.3,-0.52 z"
+       id="path730"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g738"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text736"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="290.70999"
+         y="647.88"
+         font-size="10"
+         id="tspan734"
+         style="font-size:10px;font-family:Arial;fill:#000000">O</tspan></text>
+  </g>
+  <g
+     id="g742"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 269.37,649.7 v 0 h 0.3 0.3 v 8.68 h -0.3 -0.3 z"
+       id="path740"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g746"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 287.6,607.98 a 16,16 0 0 1 0,16"
+       id="path744"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g750"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 264.4,623.98 a 16,16 0 0 1 0,-16"
+       id="path748"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g756"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text754"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="290.79999"
+         y="625.58002"
+         dy="2.26"
+         font-size="7.5"
+         id="tspan752"
+         style="font-size:7.5px;font-family:Arial;fill:#000000">n</tspan></text>
+  </g>
+  <g
+     id="g762"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text760"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="118.8"
+         y="64.400002"
+         font-size="10"
+         id="tspan758"
+         style="font-size:10px;font-family:Arial;fill:#000000">alcohol</tspan></text>
+  </g>
+  <g
+     id="g768"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text766"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="198.8"
+         y="64.400002"
+         font-size="10"
+         id="tspan764"
+         style="font-size:10px;font-family:Arial;fill:#000000">acid</tspan></text>
+  </g>
+  <g
+     id="g774"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text772"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="302"
+         y="64.400002"
+         font-size="10"
+         id="tspan770"
+         style="font-size:10px;font-family:Arial;fill:#000000">ester</tspan></text>
+  </g>
+  <g
+     id="g780"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text778"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="367.60001"
+         y="64.400002"
+         font-size="10"
+         id="tspan776"
+         style="font-size:10px;font-family:Arial;fill:#000000">water</tspan></text>
+  </g>
+  <g
+     id="g786"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text784"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="74"
+         y="140.39999"
+         font-size="10"
+         id="tspan782"
+         style="font-size:10px;font-family:Arial;fill:#000000">6-hydroxycaproic acid</tspan></text>
+  </g>
+  <g
+     id="g792"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text790"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="286.79999"
+         y="140.39999"
+         font-size="10"
+         id="tspan788"
+         style="font-size:10px;font-family:Arial;fill:#000000">poly(6-hydroxycaproic acid)</tspan></text>
+  </g>
+  <g
+     id="g798"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text796"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="101.64"
+         y="522.12"
+         font-size="10"
+         id="tspan794"
+         style="font-size:10px;font-family:Arial;fill:#000000">H</tspan></text>
+  </g>
+  <g
+     id="g802"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 109.45,520.39 v 0 l 0.12,-0.28 0.12,-0.27 7.56,3.3 -0.12,0.28 -0.12,0.27 z"
+       id="path800"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g808"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text806"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="117.81"
+         y="529.32001"
+         font-size="10"
+         id="tspan804"
+         style="font-size:10px;font-family:Arial;fill:#000000">O</tspan></text>
+  </g>
+  <g
+     id="g812"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 126.34,523.1 v 0 l -0.15,-0.26 -0.15,-0.26 8.14,-4.71 v 0.35 0.35 z"
+       id="path810"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g816"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 134.18,518.57 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path814"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g820"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 146.65,525.77 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path818"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g824"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 159.12,518.57 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path822"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g828"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 171.59,525.77 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path826"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g832"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 184.06,518.57 v 0 -0.35 -0.35 l 12.49,7.21 -0.01,0.34 -0.01,0.34 z"
+       id="path830"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g838"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text836"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="207.50999"
+         y="522.12"
+         font-size="10"
+         id="tspan834"
+         style="font-size:10px;font-family:Arial;fill:#000000">OH</tspan></text>
+  </g>
+  <g
+     id="g842"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 196.53,525.76 v 0 l 0.01,-0.34 0.01,-0.34 9.98,-4.83 0.13,0.27 0.13,0.27 z"
+       id="path840"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g848"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text846"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="130.28"
+         y="507.72"
+         font-size="10"
+         id="tspan844"
+         style="font-size:10px;font-family:Arial;fill:#000000">O</tspan></text>
+  </g>
+  <g
+     id="g856"
+     transform="translate(-12.941729,-175.51578)">
+    <line
+       x1="132.88"
+       y1="518.21997"
+       x2="132.88"
+       y2="509.5"
+       id="line850"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 135.18,518.45 v 0 l 0.6,0.35 v -9.3 h -0.6 z"
+       id="path852"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <path
+       d="m 132.58,518.8 v 0 l 0.6,-0.35 v -8.95 h -0.6 z"
+       id="path854"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g862"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text860"
+       style="text-anchor:end;text-rendering:geometricPrecision"><tspan
+         x="301.09"
+         y="527.82001"
+         font-size="10"
+         id="tspan858"
+         style="font-size:10px;font-family:Arial;fill:#000000">HO</tspan></text>
+  </g>
+  <g
+     id="g866"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 301.84,521.58 v 0 l -0.15,-0.26 -0.15,-0.26 8.12,-4.69 v 0.35 0.35 z"
+       id="path864"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g870"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 309.66,517.07 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path868"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g874"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 322.13,524.27 v 0 -0.35 -0.35 l 12.48,-7.2 v 0.35 0.35 z"
+       id="path872"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g878"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 334.61,517.07 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path876"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g882"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 347.08,524.27 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path880"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g886"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 359.55,517.07 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path884"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g892"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text890"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="380.59"
+         y="520.62"
+         font-size="10"
+         id="tspan888"
+         style="font-size:10px;font-family:Arial;fill:#000000">O</tspan></text>
+  </g>
+  <g
+     id="g896"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 372.02,524.27 v 0 -0.35 -0.35 l 7.74,-4.47 0.15,0.26 0.15,0.26 z"
+       id="path894"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g900"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 389.04,519.69 v 0 l 0.15,-0.26 0.15,-0.26 7.62,4.4 v 0.35 0.35 z"
+       id="path898"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g904"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 396.96,524.27 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path902"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g908"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 409.43,517.07 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path906"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g912"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 421.9,524.27 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path910"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g916"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 434.37,517.07 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path914"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g920"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 446.84,524.27 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path918"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g928"
+     transform="translate(-12.941729,-175.51578)">
+    <line
+       x1="308.35999"
+       y1="516.71997"
+       x2="308.35999"
+       y2="508"
+       id="line922"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 310.66,516.95 v 0 l 0.6,0.35 V 508 h -0.6 z"
+       id="path924"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <path
+       d="m 308.06,517.3 v 0 l 0.6,-0.35 V 508 h -0.6 z"
+       id="path926"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g934"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text932"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="305.76001"
+         y="506.22"
+         font-size="10"
+         id="tspan930"
+         style="font-size:10px;font-family:Arial;fill:#000000">O</tspan></text>
+  </g>
+  <g
+     id="g940"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text938"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="393.06"
+         y="542.21997"
+         font-size="10"
+         id="tspan936"
+         style="font-size:10px;font-family:Arial;fill:#000000">O</tspan></text>
+  </g>
+  <g
+     id="g948"
+     transform="translate(-12.941729,-175.51578)">
+    <line
+       x1="398.26001"
+       y1="523.91998"
+       x2="398.26001"
+       y2="533.40002"
+       id="line942"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 395.96,523.69 v 0 l -0.6,-0.35 v 10.06 h 0.6 z"
+       id="path944"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <path
+       d="m 398.56,523.34 v 0 l -0.6,0.35 v 9.71 h 0.6 z"
+       id="path946"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g952"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 459.31,517.07 v 0 -0.35 -0.35 l 8.25,4.77 -0.15,0.26 -0.15,0.26 z"
+       id="path950"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g958"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text956"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="467.88"
+         y="527.82001"
+         font-size="10"
+         id="tspan954"
+         style="font-size:10px;font-family:Arial;fill:#000000">OH</tspan></text>
+  </g>
+  <g
+     id="g962"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 199.62,511.02 a 20.8,20.8 0 0 1 0,20.8"
+       id="path960"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g966"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 116.44,532.62 a 20.8,20.8 0 0 1 0,-20.8"
+       id="path964"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g970"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 425.16,510.32 a 19.2,19.2 0 0 1 0,19.2"
+       id="path968"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g974"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 340.38,529.52 a 19.2,19.2 0 0 1 0,-19.2"
+       id="path972"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g980"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text978"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="202.82001"
+         y="536.62"
+         dy="2.26"
+         font-size="7.5"
+         id="tspan976"
+         style="font-size:7.5px;font-family:Arial;fill:#000000">3</tspan></text>
+  </g>
+  <g
+     id="g986"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text984"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="427.56"
+         y="534.32001"
+         dy="2.26"
+         font-size="7.5"
+         id="tspan982"
+         style="font-size:7.5px;font-family:Arial;fill:#000000">2</tspan></text>
+  </g>
+  <g
+     id="g992"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text990"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="407.20001"
+         y="119.83"
+         font-size="10"
+         id="tspan988"
+         style="font-size:10px;font-family:Arial;fill:#000000">H</tspan></text>
+  </g>
+  <g
+     id="g996"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 396.66,108.61 v 0 l 0.15,-0.26 0.14,-0.26 9.79,5.3 -0.15,0.26 -0.14,0.26 z"
+       id="path994"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g1002"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text1000"
+       style="text-anchor:end;text-rendering:geometricPrecision"><tspan
+         x="235.12"
+         y="458.42001"
+         font-size="10"
+         id="tspan998"
+         style="font-size:10px;font-family:Arial;fill:#000000">HO</tspan></text>
+  </g>
+  <g
+     id="g1006"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 235.84,452.2 v 0 l -0.15,-0.26 -0.15,-0.26 8.15,-4.71 v 0.35 0.35 z"
+       id="path1004"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g1010"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 243.69,447.67 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path1008"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g1014"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 256.16,454.87 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path1012"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g1018"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 268.63,447.67 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path1016"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g1022"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 281.1,454.87 v 0 -0.35 -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path1020"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g1026"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 293.57,447.67 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 0.35 z"
+       id="path1024"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g1032"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text1030"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="314.60999"
+         y="451.22"
+         font-size="10"
+         id="tspan1028"
+         style="font-size:10px;font-family:Arial;fill:#000000">O</tspan></text>
+  </g>
+  <g
+     id="g1036"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 306.04,454.87 v 0 -0.35 -0.35 l 7.72,-4.46 0.15,0.26 0.15,0.26 z"
+       id="path1034"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g1042"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text1040"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="239.78999"
+         y="436.82001"
+         font-size="10"
+         id="tspan1038"
+         style="font-size:10px;font-family:Arial;fill:#000000">O</tspan></text>
+  </g>
+  <g
+     id="g1050"
+     transform="translate(-12.941729,-175.51578)">
+    <line
+       x1="242.39"
+       y1="447.32001"
+       x2="242.39"
+       y2="438.60001"
+       id="line1044"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 244.69,447.55 v 0 l 0.6,0.35 v -9.3 h -0.6 z"
+       id="path1046"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <path
+       d="m 242.09,447.9 v 0 l 0.6,-0.35 v -8.95 h -0.6 z"
+       id="path1048"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g1054"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 324.81,441.11 a 15.81,15.81 0 0 1 0,15.81"
+       id="path1052"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g1058"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 240.22,456.92 a 15.81,15.81 0 0 1 0,-15.81"
+       id="path1056"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g1064"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text1062"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="326.20999"
+         y="461.12"
+         dy="2.26"
+         font-size="7.5"
+         id="tspan1060"
+         style="font-size:7.5px;font-family:Arial;fill:#000000">3</tspan></text>
+  </g>
+  <g
+     id="g1068"
+     transform="translate(-12.941729,-175.51578)">
+    <path
+       d="m 323.06,450.12 v 0 l 0.15,-0.26 0.14,-0.26 9.89,5.34 -0.15,0.27 -0.14,0.26 z"
+       id="path1066"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g1074"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text1072"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="333.62"
+         y="461.34"
+         font-size="10"
+         id="tspan1070"
+         style="font-size:10px;font-family:Arial;fill:#000000">H</tspan></text>
+  </g>
+  <g
+     id="g1080"
+     transform="translate(-12.941729,-175.51578)">
+    <text
+       xml:space="preserve"
+       id="text1078"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="249.21001"
+         y="523.87"
+         font-size="10"
+         id="tspan1076"
+         style="font-size:10px;font-family:Arial;fill:#000000">or</tspan></text>
+  </g>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot6647"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     transform="translate(479.82882,-158.89578)"><flowRegion
+       id="flowRegion6649"><rect
+         id="rect6651"
+         width="145.93439"
+         height="79.376472"
+         x="-212.98531"
+         y="207.408" /></flowRegion><flowPara
+       id="flowPara6653"
+       style="font-size:10.66666698px">heat</flowPara></flowRoot></svg>
