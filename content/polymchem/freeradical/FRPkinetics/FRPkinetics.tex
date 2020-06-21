@@ -20,6 +20,7 @@
 	\begin{enumerate}
 		\item Write kinetic equations for each of the major steps of a free-radical polymerization
 		\item Calculate the kinetic chain length for a free-radical polymerization
+		\item Quantify how chain transfer changes the kinetic chain length in a free-radical polymerization
 	\end{enumerate}
 	
 	\subsection*{Activity summary:}
@@ -28,11 +29,11 @@
 		\item \textbf{Content goals:} Kinetics of free-radical polymerization
 		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
 			written communication, critical thinking, information processing
-		\item \textbf{Duration:} TBD
+		\item \textbf{Duration:} 60 minutes, including time for discussion
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
-				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): section NNN
+				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): sections 3.3.3, 3.4, 3.5.1, 3.8
 			\end{itemize}
 		%\item \textbf{Facilitation notes:}
 		%	\begin{itemize}
@@ -55,13 +56,12 @@
 			\hspace{2cm}\textbf{Reaction:}\hspace{2cm} & \multicolumn{3}{c}{\hspace{0.5cm}\textbf{Rate laws:}\hspace{0.5cm}} \\
 			$ \text{A} \xlongrightarrow{k} \text{B}$ & $\frac{d[\text{A}]}{dt} = -k[\text{A}]$ && $\frac{d[\text{B}]}{dt} = k[\text{A}]$ \\
 			$ \text{A} \xlongrightarrow{k} 2\text{ B}$ & $\frac{d[\text{A}]}{dt} = -k[\text{A}]$ && $\frac{d[\text{B}]}{dt} = 2k[\text{A}]$ \\
-			$\text{2 A} \xlongrightarrow{k} \text{B}$ & $\frac{d[\text{A}]}{dt} = -2k[\text{A}]^2$ && $\frac{d[\text{B}]}{dt} = k[\text{A}]^2$ \\
 			$\text{A + B} \xlongrightarrow{k} \text{C}$ & $\frac{d[\text{A}]}{dt} = -k[\text{A}][\text{B}]$ && $\frac{d[\text{C}]}{dt} = k[\text{A}][\text{B}]$ \\
-			$\text{A + B} \xlongrightarrow{k} \text{2 C}$ & $\frac{d[\text{A}]}{dt} = -k[\text{A}][\text{B}]$ && $\frac{d[\text{C}]}{dt} = 2 k[\text{A}][\text{B}]$ \\
-			$\text{A + B} \xlongrightarrow{k} \text{C + D}$ & $\frac{d[\text{A}]}{dt} = -k[\text{A}][\text{B}]$ && $\frac{d[\text{C}]}{dt} = k[\text{A}][\text{B}]$ \\
+			$\text{2 A} \xlongrightarrow{k} \text{B}$ & $\frac{d[\text{A}]}{dt} = -2k[\text{A}]^2$ && $\frac{d[\text{B}]}{dt} = k[\text{A}]^2$ \\
+			$\text{2 A} \xlongrightarrow{k} \text{2 B}$ & $\frac{d[\text{A}]}{dt} = -2k[\text{A}]^2$ && $\frac{d[\text{B}]}{dt} = 2 k[\text{A}]^2$ 
 		\end{tabular}
 	\end{center}
-	\vspace{6pt}
+	Use these rate laws to answer the following questions about the kinetics of free-radical polymerization.
 	
 \end{model}
 
@@ -72,19 +72,27 @@
 		
 		\begin{enumerate}
 		
-			\item First, an initiator molecule decomposes to create initiator radicals:
+			\item First, an initiator molecule decomposes to create initiator radicals: \label{\labelbase:ctq:initdecomp}
 				\begin{equation*}
 					\text{Init} \xlongrightarrow{k_d} \text{2 \ce{I^.}}
 				\end{equation*}	
 				Write an expression for the rate at which new initiator radicals are generated, $\frac{d[\text{I}^{\bullet}]}{dt}$, in terms of the concentration of initiator, [Init], and dissociation constant, $k_d$.
 		
-				\begin{solution}[1.25in]
-				\end{solution}
+				\begin{solution}[1in]\instructordisplay{
+					\begin{equation*}					
+						\frac{d[\text{I}^\bullet]}{dt} = 2k_d[\text{Init}]
+					\end{equation*}
+				}\end{solution}
 		
-			\item If a fraction $f$ of the initiator radicals successfully go on to generate new polymer chain radicals (\ce{P^.}), what is the overall initiation rate of polymer chains, $\frac{d[\text{\ce{P^.}}]}{dt}$?
+			\item If a fraction $f$ of the initiator radicals successfully go on to generate new polymer chain radicals (\ce{P^.}), how will the overall initiation rate of polymer chains, $\frac{d[\text{\ce{P^.}}]}{dt}$, be related to the rate of radical generation, $\frac{d[\text{I}^\bullet]}{dt}$?  Use your answer to write an expression for $\frac{d[\text{\ce{P^.}}]}{dt}$ in terms of $f$, $k_d$, and $[\text{Init}]$.
 		
-				\begin{solution}[1.25in]
-				\end{solution}
+				\begin{solution}[1.25in]\instructordisplay{
+					\begin{equation*}		
+					\frac{d[\text{\ce{P^.}}]}{dt} = f\frac{d[\text{I}^\bullet]}{dt} = 2fk_d[\text{Init}]
+					\end{equation*}
+					
+					Note: the initiator efficiency, $f$, is typically in the range of 0.3 to 0.8.
+				}\end{solution}
 		
 		\end{enumerate}
 		
@@ -101,8 +109,11 @@
 	
 		Write an expression for $-\frac{d[\text{M}]}{dt}$, the rate at which monomers are used up, in terms of the radical concentration, [\ce{P^.}], the monomer concentration, [M], and the propagation rate constant, $k_p$.
 		
-		\begin{solution}[1.25in]
-		\end{solution}
+		\begin{solution}[1.25in]\instructordisplay{
+			\begin{equation*}
+				-\frac{d[\text{M}]}{dt} = k_p [\text{\ce{P^.}}][\text{M}]
+			\end{equation*}
+		}\end{solution}
 		
 	\question The final step in a free-radical polymerization is termination:
 		\begin{align*}
@@ -113,18 +124,30 @@
 		\begin{enumerate}
 			\item For termination by combination, write an expression for $-\frac{d[\text{P}^{\bullet}]}{dt}$ in terms of the radical concentration, [\ce{P^.}], and the rate constant, $k_{t,c}$.
 			
-				\begin{solution}[0.75in]
-				\end{solution}
+				\begin{solution}[0.75in]\instructordisplay{
+					\begin{equation*}
+						\left(-\frac{d[\text{\ce{P^.}}]}{dt}\right)_c = 2k_{t,c}[\text{\ce{P^.}}]^2
+					\end{equation*}
+				}\end{solution}
 			
 			\item For termination by disproportionation, write an expression for $-\frac{d[\text{P}^{\bullet}]}{dt}$ in terms of the radical concentration, [\ce{P^.}], and the rate constant, $k_{t,d}$.
 			
-				\begin{solution}[0.75in]
-				\end{solution}
+				\begin{solution}[0.75in]\instructordisplay{
+					\begin{equation*}
+						\left(-\frac{d[\text{\ce{P^.}}]}{dt}\right)_d = 2k_{t,d}[\text{\ce{P^.}}]^2
+					\end{equation*}
+				}\end{solution}
 			
-			\item Combine your answers to the previous two questions to find an expression for the \emph{total} rate at which propagating radicals are removed from the reaction, in terms of the radical concentration, [\ce{P^.}], and the total termination rate constant, $k_t = k_{t,c} + k_{t,d}$.
+			\item Sum your answers to the previous two questions to find an expression for the \emph{total} rate at which propagating radicals are removed from the reaction, in terms of the radical concentration, [\ce{P^.}], and the total termination rate constant, $k_t = k_{t,c} + k_{t,d}$.
 			
-				\begin{solution}[0.75in]
-				\end{solution}
+				\begin{solution}[0.75in]\instructordisplay{
+					\begin{align*}
+						-\frac{d[\text{\ce{P^.}}]}{dt} &= \left(-\frac{d[\text{\ce{P^.}}]}{dt}\right)_c + \left(-\frac{d[\text{\ce{P^.}}]}{dt}\right)_d\\
+						&= 2k_{t,c}[\text{\ce{P^.}}]^2 + 2k_{t,d}[\text{\ce{P^.}}]^2\\
+						&= 2(k_{t,c} + k_{t,d})[\text{\ce{P^.}}]^2\\
+						&= 2k_t[\text{\ce{P^.}}]^2
+					\end{align*}
+				}\end{solution}
 				
 		\end{enumerate}
 
@@ -159,17 +182,20 @@
 		\begin{enumerate}
 			\item ... the rate at which new propagating polymer radicals are generated?
 			
-				\begin{solution}[0.5in]
+				\begin{solution}[0.4in]
+					$R_i$
 				\end{solution}
 				
 			\item ... the rate at which monomers are incorporated into polymer?
 			
-				\begin{solution}[0.5in]
+				\begin{solution}[0.4in]
+					$R_p$
 				\end{solution}
 				
 			\item ... the rate at which propagating polymer radicals are removed from the reaction?
 			
-				\begin{solution}[0.5in]
+				\begin{solution}[0.4in]
+					$R_t$
 				\end{solution}
 				
 		\end{enumerate}
@@ -182,9 +208,10 @@
 				Which two rates ($R_i$, $R_p$, and/or $R_t$) must be equal for this to be true?
 				
 				\begin{solution}[0.75in]
+					$R_i$ and $R_t$ (i.e. we need $R_i=R_t$)
 				\end{solution}
 				
-			\item Set the two rates identified in the previous question equal to each other and solve for $[\text{P}^{\bullet}]$ in terms of $f$, $k_d$, $k_t$, and $[\text{Init}]$.
+			\item Set the two rates identified in the previous question equal to each other and solve for the steady state radical concentration $[\text{P}^{\bullet}]$ in terms of $f$, $k_d$, $k_t$, and $[\text{Init}]$.
 			
 				\begin{solution}[2in]
 					\begin{align*}
@@ -195,14 +222,15 @@
 					\end{align*}
 				\end{solution}
 			
-			\item Finally, use your answer to find an expression for the polymerization rate, $R_p$, in terms of $f$, $k_d$, $k_p$, $k_t$, $[\text{M}]$, and $[\text{Init}]$.
+			\item Finally, use your answer to find an expression for the polymerization rate, $R_p$, in terms of $f$, $k_d$, $k_p$, $k_t$, $[\text{M}]$, and $[\text{Init}]$. \label{\labelbase:ctq:Rp}
 			
-				\begin{solution}[1.5in]
+				\begin{solution}[1.5in]\instructordisplay{
 					\begin{align*}
 						R_p &= k_p\text{[M][\ce{P^.}]}\\
 						&= k_p\text{[M]}\left(\frac{fk_d[Init]}{k_t}\right)^{1/2}
 					\end{align*}
-				\end{solution}
+					\emph{Note: the integrated form of this rate law is given in Exercise \ref{\labelbase:exc:integratedrate}.}
+				}\end{solution}
 			
 		\end{enumerate}
 	
@@ -238,7 +266,7 @@
 	
 \end{ctqs}
 
-\begin{infobox}
+\begin{infobox}\label{\labelbase:infobox:kineticchainlength}
 	The \emph{kinetic chain length}, $\bar v$, is the ratio of the propagation rate to the initiation (or termination) rate:
 	\begin{equation*}
 		\bar v = \frac{R_p}{R_i} = \frac{R_p}{R_t}
@@ -249,25 +277,35 @@
 
 	\question Substitute in appropriate expressions for $R_p$ and $R_i$ to find an expression for $\bar v$ in terms of the rate constants $k_d$, $k_p$, and $k_t$, and the concentrations of monomer and initiator.
 	
-		\begin{solution}[2.5in]
-		\end{solution}
+		\begin{solution}[2.5in]\instructordisplay{
+			\begin{align*}
+				\bar v &= \frac{R_p}{R_i} = \frac{k_p [M] \sqrt{f\frac{k_d}{k_t}[\text{Init}]}}{2fk_d[\text{Init}]}\\
+					&= \frac{k_p[\text{M}]}{2}\sqrt{\frac{1}{f k_d k_t [\text{Init}]}}
+			\end{align*}
+		}\end{solution}
 		
-	\question How do you expect the kinetic chain length to be related to...
+	\question Based on what you know about the relevant reactions, propose equations relating the final number-average degree of polymerization ($N_n$) of the terminated polymer chains to the kinetic chain length ($\bar v$) of the propagating radicals for...
 		
 		\begin{enumerate}
 		
-			\item ... the number-average degree of polymerization of polymers that terminate by disproportionation?
+			\item ... polymers that terminate by disproportionation:
 			
 				\emph{Hint: does termination by disproportionation change the lengths of the chains?}
 				
-				\begin{solution}[1in]
+				\begin{solution}[0.75in]
+					Termination by disproportionation does not change the length of the chains, so we should have 
+					
+					$N_n = \bar v$
 				\end{solution}
 			
-			\item ... the number-average degree of polymerization of polymers that terminate by combination?
+			\item ... polymers that terminate by combination:
 			
 				\emph{Hint: does termination by combination change the lengths of the chains?  If so, how?}
 				
-				\begin{solution}[1in]
+				\begin{solution}[0.75in]
+					Termination by combination effectively doubles the length of the chains, so we should have 
+					
+					$N_n = 2\bar v$
 				\end{solution}
 		
 		\end{enumerate}
@@ -287,14 +325,14 @@
 	\end{align*}
 	the chain-transfer rate obeys
 	\begin{align*}
-		R_{tr} = -\frac{d\text{\ce{P^.}}}{dt} = k_{tr}\text{[\ce{P^.}][RX]}
+		R_{tr} = -\frac{d[\text{\ce{P^.}}]}{dt} = k_{tr}\text{[\ce{P^.}][RX]}
 	\end{align*}
 	
 \end{model}
 
 \begin{ctqs}
 	\question As shown in Model \ref{\labelbase:mdl:chainxfer}, chain-transfer \emph{effectively} terminates a polymer radical \ce{P^.}.
-		How could you adjust the equation for $\bar v$ to take this into account?
+		How could you adjust the equation for $\bar v$ given in the information box on page \pageref{\labelbase:infobox:kineticchainlength} to take this into account?
 		
 		\begin{solution}[2in]
 	
@@ -324,9 +362,10 @@
 
 \begin{ctqs}
 
-	\question Will chain-transfer generally \emph{increase} or \emph{decrease} the length of the polymer chains?  Justify your answer in 1-2 complete sentences.
+	\question Does this equation tell you that chain-transfer will generally \emph{increase} or \emph{decrease} the length of the polymer chains?  Justify your answer in 1-2 complete sentences.
 	
 		\begin{solution}[2in]
+			This equation tells us that chain transfer should decrease the length of the polymer chains relative to the chain length that would be obtained in the absence of chain transfer.  The equation tells us that $1/\bar v_{tr}$ is larger than $1/\bar v$ (at least, as long as $C_{RX}$ is positive!), so $\bar v_{tr}$ will be smaller than $\bar v$.
 		\end{solution}
 		
 	\question If there is only a \emph{single} species RX that participates in chain-transfer, the equation for $v_{tr}$ simplifies to
@@ -336,22 +375,23 @@
 		Propose an experiment that you could do to measure the chain-transfer constant, $C_{RX}$.
 		
 		\begin{solution}[2.5in]
+			To measure the chain-transfer constant, $C_{RX}$, we could perform polymerizations with different amounts of the species RX (or, more generally, with different ratios of RX to monomer M).  Fitting $1/\bar v_{tr}$ vs. $[RX][M]$ would give a straight line whose slope is the the chain transfer constatn $C_{RX}$.
 		\end{solution}
 	
 \end{ctqs}
 
 
 \begin{exercises}
-
-	\exercise The initiator concentration obeys
-		\begin{align*}
-			\frac{d[\text{Init}]}{dt} = -k_d[\text{Init}]
-		\end{align*}
-		If the initial initiator concentration is $[\text{Init}]_0$, find an expression for $[\text{Init}]$ as a function of time.
 		
 	\exercise In this activity, two major assumptions were made about the polymerization kinetics: first, that all propagating radicals are equivalent, regardless of chain length; and second, that the reaction reaches a steady-state radical concentration.
 	
 		Are these assumptions reasonable?  Justify your answer.
+			
+				\begin{solution}\instructordisplay{
+					These assumptions are probably reasonable.  Regarding the equivalence of the propagating radicals, there may be some dependence of the propagation rates on the chain lengths, but the biggest differences occur when the chains are very short. Since free radical polymerizations typically reach very long chain lengths, most of the polymerization will be in the regime where it is reasonable to assume equal reactivity.
+					
+					Regarding the assumption of steady-state concentration, it typically only takes a few seconds for the reaction to approach its steady state radical concentration; so again, as long as the reaction time is long enough relative to this initial period, most of the reaction will be carried out in the steady state limit.  
+				}\end{solution}
 		
 	\exercise Derive the expression for $\frac{1}{v_{tr}}$ given on page \pageref{\labelbase:info:vtr} by doing the following:
 	
@@ -359,24 +399,141 @@
 		
 		\begin{enumerate}
 			\item Write an expression for the total chain-transfer rate, $R_{tr}$, as a sum over all species RX.
+			
+				\begin{solution}\instructordisplay{
+					\begin{equation*}
+						R_{tr} = \sum_{RX} k_{tr,RX}[\text{\ce{P^.}}][\text{RX}]
+					\end{equation*}
+				}\end{solution}
+				
 			\item Substitute this expression, and appropriate expressions for $R_p$ and $R_t$, into $\bar v_{tr} = \frac{R_p}{R_t + R_{tr}}$.  Then calculate $\frac{1}{v_{tr}}$.
+			
+				\begin{solution}\instructordisplay{
+					\begin{align*}
+						\bar v_{tr} = \frac{R_p}{R_t + R_{tr}}
+							&= \frac{R_p}{R_t + \sum_{RX} k_{tr,RX}[\text{\ce{P^.}}][\text{RX}]}\\
+						\frac{1}{v_{tr}} &= \frac{R_t + \sum_{RX} k_{tr,RX}[\text{\ce{P^.}}][\text{RX}]}{R_p}
+					\end{align*}
+				}\end{solution}
+				
 			\item Finally, simplify your equation for $\frac{1}{v_{tr}}$ to obtain the expression on page \pageref{\labelbase:info:vtr}.
+			
+				\emph{Hint: you will need the expression for $R_p$ from Model \ref{\labelbase:mdl:kineticssummary}.}
+			
+				\begin{solution}\instructordisplay{
+					\begin{align*}
+						\frac{1}{v_{tr}} &= \frac{R_t + \sum_{RX} k_{tr,RX}[\text{\ce{P^.}}][\text{RX}]}{R_p}\\
+							&= \frac{R_t}{R_p} + \frac{\sum_{RX} k_{tr,RX}[\text{\ce{P^.}}][\text{RX}]}{R_p}\\
+							&= \frac{1}{\bar v} + \sum_{RX} \frac{k_{tr,RX}}{R_p}[\text{\ce{P^.}}][\text{RX}]
+					\end{align*}
+					Recalling that $R_p = k_p [M][\text{\ce{P^.}}]$,
+					\begin{align*}
+						\frac{1}{v_{tr}} &= \frac{1}{\bar v} + \sum_{RX} \frac{k_{tr,RX}}{k_p [M][\text{\ce{P^.}}]}[\text{\ce{P^.}}][\text{RX}]\\
+							&= \frac{1}{\bar v} + \sum_{RX} \frac{k_{tr,RX}}{k_p} \frac{[\text{RX}]}{[\text{M}]}\\
+							&= \frac{1}{\bar v} + \sum_{RX} C_{RX} \frac{[\text{RX}]}{[\text{M}]}
+					\end{align*}
+					as desired.
+				}\end{solution}
+				
 		\end{enumerate}
 		
-%	\exercise A problem on radical lifetimes?	
+	\exercise In this activity, you explored the differential forms of the rate laws for free radical polymerization.   However, it is also useful to obtain explicit expressions for the amount of polymer generated as a function of time.
+	
+		\begin{enumerate}
+			\item In CTQ \ref{\labelbase:ctq:initdecomp}, you obtained an expression for $\frac{d[I^\bullet]}{dt}$.  Write an analogous expression for $\frac{d[\text{Init}]}{dt}$.  Then, assuming the initial initiator concentration is $[\text{Init}]_0$, derive an expression for $[\text{Init}]$ as a function of time.
+			
+				\begin{solution}\instructordisplay{
+					Referencing the table in Model \ref{\labelbase:mdl:kineticeqns}, we can write
+					\begin{equation*}
+						-\frac{d[\text{Init}]}{dt} = k_d[\text{Init}]
+					\end{equation*}
+					Rearranging and integrating, we find
+					\begin{align*}
+						\frac{1}{[\text{Init}]}\frac{d[\text{Init}]}{dt} &= -k_d\\
+							\frac{d(\ln [\text{Init}])}{dt} &= -k_d\\
+							\ln[\text{Init}] &= \int -k_d \, dt + C\\
+							\ln[\text{Init}] &= -k_d t + C\\
+							[\text{Init}] &= e^{-k_d t + C}\\
+								&= A e^{-k_d t}
+					\end{align*}
+					Since we are told that the initial initiator concentration is $[\text{Init}]_0$, we can solve for the integration constant $A$ using
+					\begin{align*}
+						[\text{Init}]_0 &= A e^{-k_d \cdot 0}\\
+						[\text{Init}]_0 &= A
+					\end{align*}
+					Thus, 
+					\begin{equation*}
+						[\text{Init}] = [\text{Init}]_0 e^{-k_d t}
+					\end{equation*}
+				}\end{solution}
+			
+			\item \label{\labelbase:exc:integratedrate} Combine this result with the expression for $R_p$ derived in CTQ \ref{\labelbase:ctq:Rp} and integrate the result to show that the fraction of monomer remaining at time $t$ obeys
+				\begin{equation*}
+					-\ln\left(\frac{[M]}{[M]_0}\right) = 2k_p\left(\frac{f[I]_0}{k_d k_t}\right)^{1/2}\left(1-e^{-k_d t/2}\right)
+				\end{equation*}
+				
+				\emph{Hint: you may find it useful to recall that $\frac{1}{x}\frac{dx}{dt} = \frac{d(\ln(x))}{dt}$.}
+			
+				\begin{solution}\instructordisplay{
+					As shown in CTQ \ref{\labelbase:ctq:Rp},
+					\begin{align*}
+						R_p = -\frac{d[\text{M}]}{dt} = k_p\text{[M]}\left(\frac{fk_d[Init]}{k_t}\right)^{1/2}
+					\end{align*}
+					Substituting in the above expression for $[\text{Init}]$, we obtain
+					\begin{align*}
+						-\frac{d[\text{M}]}{dt} = k_p\text{[M]}\left(\frac{fk_d[\text{Init}]_0 e^{-k_d t}}{k_t}\right)^{1/2}
+					\end{align*}
+					Again, rearranging to put all of the $[M]$'s on one side and all of the $t$'s on the other side, we obtain
+					\begin{align*}
+						\frac{1}{[M]}\frac{d[M]}{dt} &= -k_p\left(\frac{fk_d[\text{Init}]_0 e^{-k_d t}}{k_t}\right)^{1/2}\\
+						\frac{d(\ln [M])}{dt} &= -k_p\left(\frac{fk_d[\text{Init}]_0 }{k_t}\right)^{1/2}e^{-k_d t/2}
+					\end{align*}
+					Integrating, we obtain
+					\begin{align*}
+						\ln [M] &= -k_p\left(\frac{fk_d[\text{Init}]_0 }{k_t}\right)^{1/2} \int e^{-k_d t/2} \, dt + C\\
+						\ln [M] &= -k_p\left(\frac{fk_d[\text{Init}]_0 }{k_t}\right)^{1/2} \frac{-2}{k_d} e^{-k_d t/2} + C\\
+						\ln [M] &= 2k_p\left(\frac{f[\text{Init}]_0 }{k_t k_d}\right)^{1/2} e^{-k_d t/2} + C
+					\end{align*}
+					Finally, recognizing that the initial condition is that $[M] = [M]_0$ at $t=0$, we can solve for the integration constant $C$:
+					\begin{align*}
+						\ln [M]_0 &= 2k_p\left(\frac{f[\text{Init}]_0 }{k_t k_d}\right)^{1/2} e^{-k_d 0/2} + C\\
+						\ln [M]_0 &= 2k_p\left(\frac{f[\text{Init}]_0 }{k_t k_d}\right)^{1/2} + C\\
+						C &= \ln [M]_0 - 2k_p\left(\frac{f[\text{Init}]_0 }{k_t k_d}\right)^{1/2} 
+					\end{align*}
+					Combining these results, we obtain
+					\begin{align*}
+						\ln [M] &= 2k_p\left(\frac{f[\text{Init}]_0 }{k_t k_d}\right)^{1/2} e^{-k_d t/2} + \ln [M]_0 - 2k_p\left(\frac{f[\text{Init}]_0 }{k_t k_d}\right)^{1/2}\\
+						\ln[M]_0 - \ln[M] &= 2k_p\left(\frac{f[\text{Init}]_0 }{k_t k_d}\right)^{1/2} - 2k_p\left(\frac{f[\text{Init}]_0 }{k_t k_d}\right)^{1/2} e^{-k_d t/2} \\
+						-\ln\frac{[M]}{[M]_0} &= 2k_p\left(\frac{f[\text{Init}]_0 }{k_t k_d}\right)^{1/2} \left(1- e^{-k_d t/2} \right)
+					\end{align*}
+					as desired.
+				}\end{solution}
+				
+			\item Often, the progress of a reaction is reported as a ``percent conversion'', i.e. it is reported in terms of the percentage of monomers that have been converted to polymer.  Derive an expression for the percent conversion of a free-radical polymerization as a function of time in terms of the rate constants $k_p$, $k_d$, $k_t$, the initiator efficiency $f$, and the initial initiator concentration, $[\text{I}]_0$.
+			
+				\begin{solution}\instructordisplay{
+					The fraction of monomer remaining at time $t$ is
+					\begin{align*}
+						\text{fraction of monomer remaining} = \frac{[M]}{[M]_0}
+					\end{align*}
+					The fraction of monomer converted is just 1 minus this fraction
+					\begin{align*}
+						\text{fraction of monomer converted} &= 1- \frac{[M]}{[M]_0}\\
+						&= 1 - e^{- 2k_p\left(\frac{f[\text{Init}]_0 }{k_t k_d}\right)^{1/2} \left(1- e^{-k_d t/2} \right)}
+					\end{align*}
+					Finally, the percent conversion is just 100\% times this quantity.
+				}\end{solution}
+		\end{enumerate}
+		
+%	\exercise A problem on radical lifetimes?	-- Alternatively, could be an Extension activity, or a great exam problem!
+		% could essentially start by saying, rate at which monomer is incorp'd into ALL chains is k_p[M][P] if the conc. of propagataing chains is [P], what is the rate at which monomer is incorp'd into a single chain? (k_p [M]).  Then, how long does it take to reach kinetic chain length v?  And assuming chains terminate when they reach v, how long does an individual radical live for?  Finally, have them calculate based on reasonable constants for FRP and compare to step-growth.
 
-%	\exercise In Model \ref{\labelbase:mdl:kineticssummary}, you showed that
-%		\begin{align*}
-%			R_p = -\frac{d[\text{M}]}{dt} = k_p [\text{M}] \left(\frac{f k_d}{k_t}\right)^{1/2}[\text{Init}]^{1/2}
-%		\end{align*}
-%		Show that if the initial concentration of initiator is $[Init]_0$ and the initial concentration of monomer is $[M]_0$, then the time-dependent monomer concentration obeys
-%		\begin{align*}
-%			-\ln\frac{[\text{M}]}{[\text{M}]_0} = \left(\frac{k_p}{k_t^{1/2}}\right)\left(\frac{f[\text{Init}]_0}{k_d}\right)^{1/2}\left(1 - e^{-k_d t/2}\right)
-%		\end{align*}
-%
-%		NOTE TO SELF: REMOVING THIS ONE FOR NOW - THE CONNECTION IS NOT AS OBVIOUS AS IT LOOKS AND REQUIRES KNOWING SOMETHING ABOUT DECAY RATE OF INITIATOR
+	%\exercise a problem on temperature dependence of rates?  -- Alternatively, could be an extension activity
+
+	%\exercise some sort of qualitative question re. Trommsdorff effect?
 	
 \end{exercises}
+
 
 
 %\begin{problems}
