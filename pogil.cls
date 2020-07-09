@@ -170,28 +170,51 @@
 
 % set up environment for ACTIVITY
 
-	\newcounter{activity}
-	\newcounter{ctqs}[activity]	% counter for critical thinking questions
+	\newcounter{activity}[chapter]
+	\newcounter{extension}	% counter for extensions
+	\newcounter{model}		% counter for models within activity
+	\newcounter{ctqs}	% counter for critical thinking questions within activity
 
 	\newbool{restartctqs}
 
-	\newenvironment{activity}[1][]{%
+	\newenvironment{activity}[2][activity]{%
 		% before code:
 
 		\cleardoublepage		
 		
-		\newcommand{\activitytitle}{#1}
+		% check to see if we need to handle it as an extension
+		\newbool{isextension}
+		\ifstrequal{#1}{extension}
+			{\setbool{isextension}{true}}
+			{\setbool{isextension}{false}}
 		
-		\ifbool{isbook}{%
+		%set up the correct section headers and table of contents lines
+		\newcommand{\activitytitle}{#2}
+		
+		\newcommand{\activitylabel}{}
+		\ifbool{isextension}{%
+			% this is the case for extensions
+			\refstepcounter{extension}
+			\renewcommand{\activitylabel}{Extension~\arabic{chapter}.\arabic{activity}\alph{extension}}
+		}{%
+			% this is the case  for activities
 			\refstepcounter{activity}
-			\section*{Activity~\arabic{activity}: \activitytitle}
-    		\addcontentsline{toc}{section}{Activity~\arabic{activity}: \activitytitle}
-    		\markright{Activity~\arabic{activity}: \activitytitle}
+			\renewcommand{\activitylabel}{Activity~\arabic{chapter}.\arabic{activity}}
+			\setcounter{extension}{0}
+		}
+		
+		% write headers and TOC entries
+		\ifbool{isbook}{%
+			\section*{\activitylabel: \activitytitle}
+    		\addcontentsline{toc}{section}{\activitylabel: \activitytitle}
+    		\markright{\activitylabel: \activitytitle}
     	}{%
     		\section*{\activitytitle}
     		\markright{\activitytitle}
     	}
     	
+		\setcounter{model}{0}
+		\setcounter{ctqs}{0}
 		\setbool{restartctqs}{true}
 	}{%
 		% after code:
@@ -232,8 +255,6 @@
 
 
 % Set up environment for models
-
-	\newcounter{model}[activity]
 
 	\newenvironment{model}[1][]{%
 		% before code:

@@ -11,14 +11,16 @@
 \renewcommand{\figpath}{content/polymphys/mechanical-properties/elasticity/figs}
 \renewcommand{\labelbase}{elasticity}
 
-\begin{activity}[Elasticity of Polymer Networks]
+\begin{activity}{Elasticity of Polymer Networks}
 
 \begin{instructornotes}
 	This activity introduces students to concepts related to the tensile properties of polymer networks.
 	
 	After completing this activity, students will be able to:
 	\begin{enumerate}
-		\item \dots
+		\item Relate the macroscopic deformation of a polymeric material to deformation of individual chains
+		\item Calculate the force that it takes to extend a polymer network along a single axis
+		\item Express the force/extension relationship for a polymer network in terms of stress and strain
 	\end{enumerate}
 	
 	\subsection*{Activity summary:}
@@ -26,17 +28,20 @@
 		\item \textbf{Activity type:} Learning Cycle
 		\item \textbf{Content goals:} Tensile Properties of Polymer Networks
 		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
-			written communication, critical thinking, information processing
-		\item \textbf{Duration:} TBD
+			\begin{enumerate}
+				\item Linking concepts to derive a key result
+				\item Communication (written and oral) of reasoning
+			\end{enumerate}
+		\item \textbf{Duration:} 35-40 minutes, including time for class discussion
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
-				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): section NNN
+				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): section 10.5
 			\end{itemize}
-		%\item \textbf{Facilitation notes:}
-		%	\begin{itemize}
-		%		\item \dots
-		%	\end{itemize}
+		\item \textbf{Instructor notes:}
+			\begin{itemize}
+				\item In Model 2, the given relationships for stress and strain are the \emph{engineering} stress and engineering strain, not the true stress and true strain.
+			\end{itemize}
 	\end{itemize}
 	
 \end{instructornotes}
@@ -93,7 +98,7 @@
 			$L_0^3 = L_x L_y L_z$
 		\end{solution}
 		
-			\item Use this information in Model \ref{\labelbase:mdl:macrostretch} to rewrite your the relationship from CTQ \ref{\labelbase:ctq:equalvolumes} in terms of $\lambda_x$, $\lambda_y$, and $\lambda_z$, and simplify as much as possible.
+			\item Use the information in Model \ref{\labelbase:mdl:macrostretch} to rewrite your the relationship from CTQ \ref{\labelbase:ctq:equalvolumes} in terms of $\lambda_x$, $\lambda_y$, and $\lambda_z$, and simplify as much as possible. \label{\labelbase:ctq:equalvolumes2}
 	
 		\begin{solution}[1.5in]
 			\begin{align*}
@@ -104,39 +109,50 @@
 		\end{solution}
 		
 		\end{enumerate}
+		
+	\question The specific type of deformation illustrated in Model \ref{\labelbase:mdl:macrostretch} is an \emph{uniaxial} extension, in which the material is only stretched in on direction.
 	
-	\question Next, consider the properties of a single polymer strand within the material.
+		Suppose we stretch the material in the $x$ direction by ratio $\lambda_x \equiv \lambda$.  
+		
+			\begin{enumerate}
+				\item \emph{Qualitatively}, what must happen to the values of $\lambda_y$ and $\lambda_z$ to ensure that the volume of the material does not change?
+				
+					\begin{solution}[1in]
+						Qualitatively, if the material is stretched along the $x$ direction, its dimensions in the $y$ and $z$ directions must decrease to maintain a constant volume.
+					\end{solution}
+				
+				\item Assuming $\lambda_x \equiv \lambda$, find expressions for $\lambda_y$ and $\lambda_z$ (in terms of $\lambda$) that ensure that the equation you derived in CTQ \ref{\labelbase:ctq:equalvolumes2} is satisfied.
+		
+				\emph{Hint: you may assume that $\lambda_y = \lambda_z$.}
+				
+					\begin{solution}[1.5in]\instructordisplay{
+						\begin{align*}
+							1 &= \lambda_x \lambda_y \lambda_z\\
+							&= \lambda \lambda_y^2 \\
+							\lambda_y^2 &= \frac{1}{\lambda}\\
+							\lambda_y = \lambda_z &= \frac{1}{\sqrt{\lambda}}
+						\end{align*}
+					}\end{solution}
+				
+			\end{enumerate}
 	
-		\begin{enumerate}
-			
-			\item If the polymer strand initially has end-to-end vector $\vec h_0 = (x_0, y_0, z_0)$, what do you expect its final end-to-end vector $\vec h$ will be, if the polymer strand stretches by the same ratios that the macroscopic sample does?  
+	\question Finally, if the polymer strand initially has end-to-end vector $\vec h_0 = (x_0, y_0, z_0)$, what do you expect its final end-to-end vector $\vec h$ will be, if the polymer strand stretches by the same ratios that the macroscopic sample does?  \label{\labelbase:ctq:affinedef}
 			
 			\emph{(Note: this assumption, that the individual chains stretch by the same ratios as the macroscopic sample, is referred to as \emph{affine deformation}.)}
 		
-			\begin{solution}[1in]
-				$\vec h = (\lambda_x x_0, \lambda_y y_0, \lambda_z z_0)$
+			\begin{solution}[0.75in]
+				$\vec h = (\lambda x_0, \frac{y_0}{\sqrt{\lambda}}, \frac{z_0}{\sqrt{\lambda}})$
 			\end{solution}
-			
-			\item Recall that when a single strand of polymer is stretched from end-to-end distance $h$ to end-to-end distance $h_0$, its change in entropy is 
-			\begin{equation*}
-				\Delta S_{strand} = -k\left(\frac{3}{2Nb^2}\right)(h^2 - h_0^2)
-			\end{equation*}
-			 What is $\Delta S_{strand}$ in terms of $x_0$, $y_0$, $z_0$ and $\lambda_x$, $\lambda_y$, and $\lambda_z$?  Write out all of the terms, but do not worry about simplifying your answer.
-		
-				\begin{solution}[2.25in]
-					\begin{align*}
-						\Delta S_{strand} &= -k\left(\frac{3}{2Nb^2}\right)(h^2 - h_0^2)\\
-							&= -k\left(\frac{3}{2Nb^2}\right)\left(\left(((\lambda_x x_0)^2 + (\lambda_y y_0)^2 + (\lambda_z z_0)^2\right) - \left(x_0^2 + y_0^2 + z_0^2\right)\right)
-					\end{align*}
-				\end{solution}
-				
-		\end{enumerate}
 				
 \end{ctqs}
 
 \begin{infobox}
 
-	For the rest of this activity, we will consider \emph{uniaxial} extension, in which $\lambda_x \equiv \lambda$ and $\lambda_y = \lambda_z = \frac{1}{\sqrt{\lambda}}$ (these latter two relationships are necessary to ensure that the volume of the sample does not change, as you explored in CTQ \ref{\labelbase:ctq:equalvolumes}).  In this case, it is possible to show that
+	As you have learned, when a single strand of polymer is stretched from end-to-end distance $h_0$ to end-to-end distance $h$, its change in entropy is 
+			\begin{equation*}
+				\Delta S_{strand} = -k\left(\frac{3}{2Nb^2}\right)(h^2 - h_0^2)
+			\end{equation*}
+	Combining this result with your answer to CTQ \ref{\labelbase:ctq:affinedef}, it is possible to show that under uniaxial deformation,
 	
 		\begin{equation*}	
 				\Delta S_{strand} = -\frac{k}{2}\left(\lambda^2 + \frac{2}{\lambda} - 3\right)
@@ -149,7 +165,7 @@
 		
 	\question Suppose that there are a total of $v_e$ polymer strands that stretch when the material is stretched (we refer to these as ``elastically-effective'' strands). What will the total entropy change of the network ($\Delta S_{network}$) be, in terms of $v_e$, $\lambda$, and any other necessary constants?
 		
-			\begin{solution}[1.5in]
+			\begin{solution}[1.25in]
 				\begin{align*}
 					\Delta S_{network} &= v_e \Delta S_{strand}\\
 						&= -\frac{v_e k}{2}\left(\lambda^2 + \frac{2}{\lambda} - 3\right)
@@ -160,7 +176,7 @@
 	
 		\emph{Hint: Because $L = \lambda L_0$, we can also write $f$ as $f = -\frac{T}{L_0}\frac{\partial \Delta S}{\partial \lambda}$, which will be the easier form to use for this problem.}
 		
-			\begin{solution}[3in]
+			\begin{solution}[2.5in]
 			
 				\begin{align*}
 					f &= -\frac{T}{L_0}\frac{\partial}{\partial \lambda} \left(-\frac{v_e k}{2}\left(\lambda^2 + \frac{2}{\lambda} - 3\right)\right)\\
@@ -206,6 +222,8 @@
 	
 		Propose an equivalent relationship for stress and strain, using the \emph{Young's Modulus}, $E$, in place of the spring constant.
 		
+		\label{\labelbase:ctq:sigmaEeps}
+		
 			\begin{solution}[0.5in]
 			
 				$\sigma = E\epsilon$
@@ -218,6 +236,7 @@
 	For small deformations ($\lambda$ close to 1), it is possible to show that
 	\begin{equation*}
 		E \approx 3kT\frac{v_e}{V}
+		\label{\labelbase:eqn:youngsmodulus}
 	\end{equation*}
 	where $v_e$ is the total number of elastically-effective strands, and $V$ is the volume of the sample.
 \end{infobox}
@@ -278,6 +297,59 @@
 					\instructordisplay{$\frac{v_e}{V} = \frac{1}{V}\left(\frac{N_{av} \rho V}{M_x}\right) = \frac{N_{av} \rho}{M_x}$}
 				\end{solution}
 		\end{enumerate}
+		
+	\exercise Derive the expression for the Young's modulus given on page \pageref{\labelbase:eqn:youngsmodulus} by doing the following:
+		
+		\begin{enumerate}
+			\item Substitute appropriate expressions for $\sigma$ and $\epsilon$ into your equation from CTQ \ref{\labelbase:ctq:sigmaEeps} and rearrange to solve for $E$.
+			
+				\begin{solution}\instructordisplay{
+					\begin{equation*}
+						\sigma = kT\frac{v_e}{L_0^3}\left(\lambda - \frac{1}{\lambda^2}\right)
+					\end{equation*}
+					and
+					\begin{equation*}
+						\epsilon = \frac{L-L_0}{L_0} = \frac{L}{L_0} -1 = \lambda - 1
+					\end{equation*}
+					so
+					\begin{equation*}
+						E = \frac{\sigma}{\epsilon} = \frac{kT\frac{v_e}{L_0^3}\left(\lambda - \frac{1}{\lambda^2}\right)}{\lambda - 1}
+					\end{equation*}
+				}\end{solution}
+			
+			\item Use L'H\^opital's rule to find the limit of this value as $\lambda \to 1$, and show that it yields the same expression that was given on page \pageref{\labelbase:eqn:youngsmodulus}.
+			
+				\begin{solution}\instructordisplay{
+					\begin{align*}
+						\lim_{\lambda\to 1} E &= kT\frac{v_e}{L_0^3} \lim_{\lambda\to 1} \frac{\lambda - \frac{1}{\lambda^2}}{\lambda - 1}\\
+							&= kT\frac{v_e}{L_0^3} \lim_{\lambda\to 1} \frac{\lambda^3 - 1}{\lambda^3 - \lambda^2}
+					\end{align*}
+					If we simply substitute in $\lambda=1$, the fraction becomes $0/0$, which we can't evaluate.  Recalling that L'H\^opital's rule tells us that
+					\begin{equation*}
+						\lim_{x\to c} \frac{f(x)}{g(x)} = \lim_{x\to c} \frac{\frac{df}{dx}}{\frac{dg}{dx}}
+					\end{equation*}
+					we find
+					\begin{align*}
+						\lim_{\lambda\to 1} E &= kT\frac{v_e}{L_0^3} \lim_{\lambda\to 1} \frac{\frac{d}{d\lambda}\left(\lambda^3 - 1\right)}{\frac{d}{d\lambda}\left(\lambda^3 - \lambda^2\right)} \\
+							&= kT\frac{v_e}{L_0^3} \lim_{\lambda\to 1} \frac{3\lambda^2}{3\lambda^2 - 2\lambda}\\
+							&= kT\frac{v_e}{L_0^3} \lim_{\lambda\to 1} \frac{3\lambda}{3\lambda - 2}
+					\end{align*}
+				}\end{solution}
+				\begin{solution}\instructordisplay{
+					This final expression no longer has a denominator that goes to zero if we substitute in $\lambda =1$, so doing so, we obtain
+					\begin{align*}
+						\lim_{\lambda\to 1} E &= kT\frac{v_e}{L_0^3}\frac{3\lambda}{3 - 2}\\
+							&= 3kT\frac{v_e}{L_0^3}
+					\end{align*}
+					Finally, recalling that $V = L_0^3$, we obtain
+					\begin{align*}
+						\lim_{\lambda\to 1} E &= 3kT\frac{v_e}{V}
+					\end{align*}
+					as desired.
+				}\end{solution}
+		\end{enumerate}
+		
+	%\question Derive G for shear strain
 	
 \end{exercises}
 
