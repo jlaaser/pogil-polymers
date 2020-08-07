@@ -157,6 +157,7 @@
 
 		\vspace{0.2in}
 		\begin{minipage}{0.75\textwidth}
+			\setlength{\parskip}{6pt}
 			\csuse{copyfull}
 		\end{minipage}
 		\vfill
@@ -338,6 +339,9 @@
 	}
 	
 % set up environment for answer spaces
+		
+		\newcommand{\studentdisplay}[1]{\csdef{showstudent}{#1}}
+		\newcommand{\instructordisplay}[1]{\csdef{showinstructor}{#1}}
 
 	\newenvironment{solution}[1][]{%
 		\begin{minipage}[t][#1][c]{\linewidth}
@@ -347,9 +351,6 @@
 		}{%
 			\color{white}
 		}
-		
-		\newcommand{\studentdisplay}[1]{\csdef{showstudent}{##1}}
-		\newcommand{\instructordisplay}[1]{\csdef{showinstructor}{##1}}
 	}{%
 		\ifbool{instructorguide}{%
 			\csuse{showinstructor}
