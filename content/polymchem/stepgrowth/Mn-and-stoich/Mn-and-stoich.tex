@@ -9,6 +9,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \renewcommand{\figpath}{content/polymchem/stepgrowth/Mn-and-stoich/figs}
+\renewcommand{\labelbase}{Mn-and-stoich}
 
 \begin{activity}{Degree of Polymerization in Step-Growth Polymerizations}
 
@@ -43,6 +44,7 @@
 	%\textbf{Focus question:} Put a central question for the students to consider through this exercise here.
 
 \begin{model}[Polymerization of ``AB''-Type Monomers]
+\label{\labelbase:mdl:ABpolym}
 
 The simplest type of step-growth polymerization is one in which each monomer has one ``A''-type reactive group and one ``B''-type reactive group.
 These types of monomers are referred to as ``AB''-type monomers.
@@ -64,7 +66,7 @@ In this diagram, each string of letters represents one molecule; each molecule m
 \vspace{0.05in}
 \begin{ctqs}
 
-	\question \label{ctq:ABtable} Fill out the following table for the reaction mixture shown in Model 1:
+	\question \label{ctq:ABtable} Fill out the following table for the reaction mixture shown in Model \ref{\labelbase:mdl:ABpolym}:
 	
 			\begin{center}
 				\renewcommand{\arraystretch}{3.25}
@@ -97,7 +99,7 @@ At any given time, the number-average degree of polymerization, $N_n$, is the to
 \vspace{0.05in}
 \begin{ctqs}
 		
-		\question In Model 1, there were 8 monomers in the initial reaction mixture.  Using this information, calculate the number-average degree of polymerization for each step shown in Model 1.
+		\question In Model \ref{\labelbase:mdl:ABpolym}, there were 8 monomers in the initial reaction mixture.  Using this information, calculate the number-average degree of polymerization for each step shown in Model 1.
 		
 			\begin{center}
 				\renewcommand{\arraystretch}{4}
@@ -136,7 +138,7 @@ At any given time, the number-average degree of polymerization, $N_n$, is the to
 
 Usually, we find it more useful to work in terms of the \emph{fraction} of all ``A'' groups that have reacted, rather than the total \emph{number} of ``A'' groups that have reacted.
 
-In step-growth polymerizations, we refer to the fraction of ``A'' groups that have \emph{reacted} as the ``extent of reaction'', $p$.
+In step-growth polymerizations, we refer to the fraction of ``A'' groups that have reacted as the ``extent of reaction'', $p$.
 When the fraction of ``A'' groups that \emph{have} reacted is $p$, the fraction of ``A'' groups that have \emph{not} reacted is $1-p$.
 
 \end{infobox}
@@ -159,6 +161,7 @@ When the fraction of ``A'' groups that \emph{have} reacted is $p$, the fraction 
 
 \clearpage
 \begin{model}[Polymerization of ``AA'' and ``BB''-Type Monomers]
+\label{\labelbase:mdl:AABBpolym}
 
 Now, let's consider a slightly more complicated reaction, with two different types of monomers that each have \emph{either} two ``A'' reactive groups \emph{or} two ``B'' type reactive groups.
 We call monomers with two ``A'' groups ``AA''-type monomers, and we call monomers with two ``B'' groups ``BB''-type monomers.
@@ -172,7 +175,7 @@ In this case, the evolution of the reaction mixture might look something like th
 \end{model}
 
 \begin{ctqs}
-		\question \label{ctq:AABBtable} For the reaction mixture shown in Model 2, fill out the following table:
+		\question \label{ctq:AABBtable} For the reaction mixture shown in Model \ref{\labelbase:mdl:AABBpolym}, fill out the following table:
 		
 			\begin{center}
 				\renewcommand{\arraystretch}{3}
@@ -187,7 +190,7 @@ In this case, the evolution of the reaction mixture might look something like th
 				\end{tabular}
 			\end{center}
 			
-		\question Compare your answers in question \ref{ctq:AABBtable} with those from question \ref{ctq:ABtable}.  What similarities and/or differences do you notice?
+		\question Compare your answers in CTQ \ref{ctq:AABBtable} with those from CTQ \ref{ctq:ABtable}.  What similarities and/or differences do you notice?
 		
 			\begin{solution}[1in]
 				The numbers are exactly the same - the `AA+BB' reaction behaves exactly the same as the polymerization of `AB' monomers.
@@ -212,13 +215,13 @@ A reaction is \emph{stoichiometrically balanced} if the initial reaction mixture
 \end{infobox}
 	
 \begin{ctqs}
-		\question Are the reactions in Models 1 and 2 stoichiometrically balanced?  Briefly explain your answer in one or two complete sentences.
+		\question Are the reactions in Models \ref{\labelbase:mdl:ABpolym} and \ref{\labelbase:mdl:AABBpolym} stoichiometrically balanced?  Briefly explain your answer in one or two complete sentences.
 		
-		\begin{solution}[1in]
-			Yes, the reactions in Models 1 and 2 are stoichiometrically balanced.  Both reactions start with 8 `A' functional groups and 8 `B' functional groups.  Since the number of `A' groups equals the number of `B' groups, the reactions are stoichiometrically-balanced.
-		\end{solution}
+		\begin{solution}[1in]\instructordisplay{
+			Yes, the reactions in Models \ref{\labelbase:mdl:ABpolym} and \ref{\labelbase:mdl:AABBpolym} are stoichiometrically balanced.  Both reactions start with 8 `A' functional groups and 8 `B' functional groups.  Since the number of `A' groups equals the number of `B' groups, the reactions are stoichiometrically-balanced.
+		}\end{solution}
 		
-		\question Predict what the reaction mixtures in Models 1 and 2 might look like if you let them react until no more reactions could take place:
+		\question Predict what the reaction mixtures in Models \ref{\labelbase:mdl:ABpolym} and \ref{\labelbase:mdl:AABBpolym} might look like if you let them react until no more reactions could take place:
 		
 	\begin{solution}[2in]
 		\studentdisplay{\centerline{\includegraphics[width=0.6\textwidth]{\figpath/Model1and2_blank.pdf}}}
@@ -238,6 +241,7 @@ A reaction is \emph{stoichiometrically balanced} if the initial reaction mixture
 \end{ctqs}
 
 \begin{model}[A Stoichiometrically-Imbalanced Reaction Mixture]
+\label{\labelbase:mdl:stoichimbalance}
 
 Practically speaking, it is often very difficult to ensure that a reaction mixture is perfectly stoichiometrically-balanced, and there is often a small excess of one type of monomer or the other.
 
@@ -264,7 +268,7 @@ In this model, consider a reaction mixture that starts with 3 AA-type monomers a
 				Each step of the reaction uses up an equal number of `A' and `B' reactive groups. Since there are fewer `A' groups in the initial reaction mixture, the `A' reactive groups are the limiting reagent.
 			\end{solution}
 		
-		\question \label{ctq:nonstoichpredict} Predict what the reaction mixture in Model 3 might look like if you let it react until no more reactions could take place:
+		\question \label{\labelbase:ctq:nonstoichpredict} Predict what the reaction mixture in Model \ref{\labelbase:mdl:stoichimbalance} might look like if you let it react until no more reactions could take place:
 		
 \begin{solution}
 \studentdisplay{\centerline{\includegraphics[width=0.3\textwidth]{\figpath/Model3_blank.pdf}}}
@@ -277,13 +281,13 @@ In this model, consider a reaction mixture that starts with 3 AA-type monomers a
 			There are two molecules in the final reaction mixture, so the number-average degree of polymerization is $N_n = 8/2 = 4$.
 		\end{solution}
 		
-		\question Is the final degree of polymerization for this stoichiometrically-unbalanced reaction smaller than, equal to, or larger than the final degree of polymerization you calculated for the stoichiometrically-balanced reactions in Models 1 and 2?
+		\question Is the final degree of polymerization for this stoichiometrically-unbalanced reaction smaller than, equal to, or larger than the final degree of polymerization you calculated for the stoichiometrically-balanced reactions in Models \ref{\labelbase:mdl:ABpolym} and \ref{\labelbase:mdl:AABBpolym}?
 		
 		\begin{solution}[1in]
 			$N_n$ for the stoichiometrically-imbalanced reaction is \emph{smaller} than $N_n$ for the stoichiometrically-balanced reactions.
 		\end{solution}
 		
-		\question Which type of reactive group is on the ends of all of the chains you drew in question \ref{ctq:nonstoichpredict}?
+		\question Which type of reactive group is on the ends of all of the chains you drew in CTQ \ref{\labelbase:ctq:nonstoichpredict}?
 		
 		\begin{solution}[0.5in]
 			All of the chains have `B' groups on the ends.
@@ -433,20 +437,20 @@ In stoichiometrically-imbalanced step-growth polymerizations with an excess of B
 					\end{solution}
 			\end{enumerate}
 
-		\exercise In the stoichiometrically-balanced reactions in models 1 and 2, the number of molecules was equal to the number of unreacted `A' groups in each step.  Is the same thing true for the stoichiometrically-imbalanced reaction in Model 3? Why or why not? % if not, how could you modify?
+		\exercise In the stoichiometrically-balanced reactions in Models \ref{\labelbase:mdl:ABpolym} and \ref{\labelbase:mdl:AABBpolym}, the number of molecules was equal to the number of unreacted `A' groups in each step.  Is the same thing true for the stoichiometrically-imbalanced reaction in Model \ref{\labelbase:mdl:stoichimbalance}? Why or why not? % if not, how could you modify?
 		
 			\begin{solution}
-				\instructordisplay{No, the same is not true for the stoichiometrically-imbalanced reaction in Model 3.  
+				\instructordisplay{No, the same is not true for the stoichiometrically-imbalanced reaction in Model \ref{\labelbase:mdl:stoichimbalance}.  
 				
 				The key here is to realize that each step of the reaction does two things:
 				\begin{enumerate}
 					\item it uses up one `A' reactive group (and one `B' reactive group, but we're only counting `A' groups here)
 					\item it decreases the total number of molecules in the reaction by one (it takes two molecules and links them together to form one)
 				\end{enumerate}
-				In Models 1 and 2, the stoichiometric balance means that the initial number of `A' groups is equal to the intial number of molecules.
+				In Models \ref{\labelbase:mdl:ABpolym} and \ref{\labelbase:mdl:AABBpolym}, the stoichiometric balance means that the initial number of `A' groups is equal to the intial number of molecules.
 				In each step, both of the number of unreacted `A' groups and the number of molecules decrease by one, so the number of `A' groups is always exactly equal to the number of molecules.
 				
-				In Model 3, however, the stoichiometric imbalance means that the initial number of `A' groups is smaller than the initial number of molecules.
+				In Model \ref{\labelbase:mdl:stoichimbalance}, however, the stoichiometric imbalance means that the initial number of `A' groups is smaller than the initial number of molecules.
 				While the number of unreacted `A' groups and the number of molecules still both decrease by one in each step, they are not equal to each other since the initial values were not equal.}
 				
 			\end{solution}
@@ -455,7 +459,7 @@ In stoichiometrically-imbalanced step-growth polymerizations with an excess of B
 		
 			\begin{enumerate}
 			
-				\item In Model 1, we considered a reaction of AB-type monomers.  If each monomer had mass $m_{AB}$, how would you calculate the number-average molecular weight, $M_n$, of the polymer produced when the extent of reaction is equal to $p$?
+				\item In Model \ref{\labelbase:mdl:ABpolym}, we considered a reaction of AB-type monomers.  If each monomer had mass $m_{AB}$, how would you calculate the number-average molecular weight, $M_n$, of the polymer produced when the extent of reaction is equal to $p$?
 				
 					\begin{solution}\instructordisplay{
 						Recall that, in general,
@@ -470,7 +474,7 @@ In stoichiometrically-imbalanced step-growth polymerizations with an excess of B
 						\end{equation*}
 					}\end{solution}
 				
-				\item In Model 2, we considered a stoichiometrically-balanced reaction of AA- and BB-type monomers. If the AA-type monomers each had mass $m_{AA}$ and the BB-type monomers each had mass $m_{BB}$, how would you calculate the number-average molecular weight of the polymer produced when the extent of reaction is equal to $p$?
+				\item In Model \ref{\labelbase:mdl:AABBpolym}, we considered a stoichiometrically-balanced reaction of AA- and BB-type monomers. If the AA-type monomers each had mass $m_{AA}$ and the BB-type monomers each had mass $m_{BB}$, how would you calculate the number-average molecular weight of the polymer produced when the extent of reaction is equal to $p$?
 				
 					\emph{Note: this question is a little tricky - remember that $N_n$ counts \emph{monomers}, but in this reaction, not all of the monomers have the same molecular weight.  How might you be able to correct for this?}
 					
@@ -491,7 +495,7 @@ In stoichiometrically-imbalanced step-growth polymerizations with an excess of B
 				
 			\end{enumerate}
 		
-		\exercise In Model 3, we considered a stoichiometrically-imbalanced reaction of AA- and BB-type monomers.  However, another important limit occurs when we have equal numbers of AA- and BB-type monomers, but add in an extra monofunctional reagent ``Bx'' that can only react on one side.
+		\exercise In Model \ref{\labelbase:mdl:stoichimbalance}, we considered a stoichiometrically-imbalanced reaction of AA- and BB-type monomers.  However, another important limit occurs when we have equal numbers of AA- and BB-type monomers, but add in an extra monofunctional reagent ``Bx'' that can only react on one side.
 		
 			In this exercise, suppose that we have $v_A^0$ `A' groups from AA-type monomers, $v_B^0$ `B' groups from BB-type monomers, and $v_{B'}^0$ `B' groups from Bx-type molecules.
 		

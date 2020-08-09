@@ -71,10 +71,10 @@
 				\item Place two cups, each filled with a different color of beads, within reach of all members of your group.  Designate one color ``color A'' and the other ``color B''.
 				\item Open a random number generator app on your phone and set it to generate numbers between 0 and 1 to two decimal places.  \emph{Alternatively,} use a sheet of random numbers from Appendix \ref{appendix:randomnums}.
 			\end{enumerate}
-		\item Synthesize a random polymer chain by doing the following (note: each student should synthesize their own chain):
+		\item Synthesize a random polymer chain by doing the following (note: each member of the group should synthesize their own chain):
 			\begin{enumerate}
 				\item Pick up a bead of either color.
-				\item Generate a random number (or, read the next random number off the list).  Each student in the group should get a different random number.
+				\item Generate a random number (or, read the next random number off the list).  Each member of the group should get a different random number.
 				\item Add a new bead to the end of the chain according to the following rules:
 					\begin{center}
 					\renewcommand{\arraystretch}{1.5}
@@ -109,7 +109,7 @@
 				\centerline{\includegraphics[width=0.5\textwidth]{\figpath/Model1_random.pdf}}
 		}\end{solution}
 	
-	\question \label{\labelbase:ctq:sim-alternating} Repeat the process in Model 1 using the following rules:	\begin{center}
+	\question \label{\labelbase:ctq:sim-alternating} Repeat the process in Model \ref{\labelbase:mdl:simulation} using the following rules:	\begin{center}
 					\renewcommand{\arraystretch}{1.5}
 					\begin{tabular}{|c|c|c|}
 						\hline
@@ -138,7 +138,7 @@
 				
 		\end{enumerate}
 		
-		\question \label{\labelbase:ctq:sim-blocky} Repeat the process in Model 1 again, this time using the following rules:	\begin{center}
+		\question \label{\labelbase:ctq:sim-blocky} Repeat the process in Model \ref{\labelbase:mdl:simulation} again, this time using the following rules:	\begin{center}
 					\renewcommand{\arraystretch}{1.5}
 					\begin{tabular}{|c|c|c|}
 						\hline
@@ -166,7 +166,7 @@
 				}\end{solution}
 		\end{enumerate}
 		
-	\question \label{\labelbase:ctq:sim-biased} Repeat the process in Model 1 one final time using the following rules:	\begin{center}
+	\question \label{\labelbase:ctq:sim-biased} Repeat the process in Model \ref{\labelbase:mdl:simulation} one final time using the following rules:	\begin{center}
 					\renewcommand{\arraystretch}{1.5}
 					\begin{tabular}{|c|c|c|}
 						\hline
@@ -274,7 +274,7 @@
 
 \begin{infobox}
 
-	We typically  describe the relative reactivities of monomers 1 and 2 using \emph{reactivity ratios} $r_1$ and $r_2$, which are defined as
+	We typically  describe the relative reactivities of monomers 1 and 2 using \emph{reactivity ratios}, $r_1$ and $r_2$, which are defined as
 	\begin{align*}
 		r_1 = \frac{k_{11}}{k_{12}} && r_2 = \frac{k_{22}}{k_{21}}
 	\end{align*}
@@ -283,7 +283,7 @@
 
 \begin{ctqs}
 
-	\question In Model 1, the rates of each monomer addition were essentially the probabilities for adding each type of monomer.  Using this information, determine the reactivity ratios for each of the copolymerizations you carried out in Model \ref{\labelbase:mdl:simulation}:
+	\question In Model \ref{\labelbase:mdl:simulation}, the rates of each monomer addition were essentially the probabilities for adding each type of monomer.  Using this information, determine the reactivity ratios for each of the copolymerizations you carried out in Model \ref{\labelbase:mdl:simulation}:
 	
 		\begin{center}
 		\renewcommand{\arraystretch}{2.5}
@@ -405,7 +405,7 @@
 					This is a linear equation ($y=mx+b$), where the slope $m$ is $r_1$ and the intercept $b$ is $r_2$.
 				}\end{solution}
 			
-			\item Using your answer to the previous question, propose a method that you could use to determine the reactivity ratios for a pair of polymers if given values of $F_1$ corresponding to a range of different $f_1$ values.
+			\item Using your answer to the previous question, propose a method that you could use to determine the reactivity ratios for a pair of monomers if given values of $F_1$ corresponding to a range of different $f_1$ values.
 			
 				\begin{solution}[2in]\instructordisplay{
 					A simple way to find $r_1$ and $r_2$ would be to plot $\frac{f_1(1-2F_1)}{F_1(1-f_1)}$ vs  $\left(\frac{f_1^2(F_1-1)}{F_1(1-f_1)^2}\right)$ and fit the data to a line.  The slope of the line would be $r_1$ and the intercept would be $r_2$.
