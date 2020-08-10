@@ -1,6 +1,6 @@
 # pogil-polymers
-POGIL Activities for Polymer Chemistry and Polymer Physics
-unreleased version - January 2020
+Polymers: A Guided Inquiry
+August 2020
 
 ----------------------------------------------------------
 Copyright and License
@@ -17,7 +17,7 @@ The current source for these materials is accessible on Github: https://github.c
 General Notes
 ---------------------------------------------------------
 
- - POGIL Activities for Polymer Chemistry and Polymer Physics are intended for use in upper-level undergraduate or introductory graduate-level  courses in polymer science. These activities currently most closely track the presentation of material in Polymer Chemistry, 2nd Ed., by Paul C. Hiemenz and Timothy P. Lodge, but can easily be adapted for use with other textbooks.
+ - Polymers: A Guided Inquiry is intended for use in upper-level undergraduate or introductory graduate-level  courses in polymer science. These activities currently most closely track the presentation of material in Polymer Chemistry, 2nd Ed., by Paul C. Hiemenz and Timothy P. Lodge, but can easily be adapted for use with other textbooks.
  
  - This collection is a work in progress, and not all exercises have yet been evaluated in classroom use.  A summary of the current revision status of each activity is included in the Release Notes, below.
  
@@ -64,18 +64,29 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-unreleased - February 27, 2020
+Release 0.2.0 - August 10, 2020
 
 	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
 	
-		Activity 5 - Chemistries of Step-Growth Polymerization
-		Activity 6 - Degree of Polymerization in Step-Growth Polymerizations
-		Activity 7 - Equilibrium in Condensation Polymerizations
-		Activity 8 - Molecular Weight Distributions in Step-Growth Polymerizations
-		Activity 15 - Viscoelasticity of Polymeric Materials
-		Activity 16 - Small-Amplitude Oscillatory Shear Rheology
-		Activity 17 - Regular Solutions and Flory-Huggins Theory
-		Activity 18 - Thermodynamics of Phase Separation
+		Activity 1.1 - From Molecules to Polymers
+		Activity 1.2 - With Increasing Size Comes Increasing Complexity
+		Activity 1.3 - Molecular Weight and Dispersity
+		Activity 2.1 - Introduction to Polymerization Mechanisms
+		Activity 3.1 - Chemistries of Step-Growth Polymerizations
+		Activity 3.2 - Degree of Polymerization in Step-Growth Polymerizations
+		Extension 3.2a - Synthesis of Polymer Networks by Step-Growth Reactions
+		Activity 3.3 - Equilibrium in Condensation Polymerizations
+		Activity 3.4 - Molecular Weight Distributions in Step-Growth Polymerizations
+		Activity 4.1 - Chemistry of Free-Radical Polymerization
+		Activity 4.2 - Kinetics of Free-Radical Polymerization
+		Activity 6.1 - Copolymerization
+		Activity 7.1 - Elasticity of Polymer Chains
+		Activity 8.1 - Elasticity of Polymer Networks
+		Activity 8.2 - Viscoelasticity of Polymeric Materials
+		Extension 8.2a - Small-Amplitude Oscillatory Shear Rheology
+		Activity 9.1 - Regular Solutions & Flory-Huggins Theory
+		Activity 9.2 - Thermodynamics of Phase Separation
+		Activity 9.3 - Phase Diagrams of Polymer Solutions
 	
 	The following activites are complete (including the instructor guide), but have not been classroom-tested (or, have been classroom-tested but have not yet been updated following testing):
 	
@@ -83,14 +94,4 @@ unreleased - February 27, 2020
 	
 	The following activities are included as ``working drafts'' which contain complete student handouts but no instructor guides, and have not been classroom-tested (or, have been classroom-tested but have not yet been updated following testing):
 	
-		Activity 1 - From Molecules to Polymers
-		Activity 2 - With Increasing Size Comes Increasing Complexity
-		Activity 3 - Molecular Weight and Dispersity
-		Activity 4 - Chain-Growth and Step-Growth Polymerizations
-		Activity 9 - Chemistry of Free-Radical Polymerization
-		Activity 10 - Kinetics of Free-Radical Polymerization
-		Activity 11 - Copolymerization
-		Activity 12 - Elasticity of Polymer Chains
-		Activity 13 - Synthesis of Polymer Networks
-		Activity 14 - Elasticity of Polymer Networks
-		Activity 19 - Phase Diagrams of Polymer Solutions
+		n/a - none in this release
