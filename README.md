@@ -1,12 +1,12 @@
 # pogil-polymers
 POGIL Activities for Polymer Chemistry and Polymer Physics
-v0.1.0 - July 2019
+unreleased version - August 2020
 
 ----------------------------------------------------------
 Copyright and License
 ----------------------------------------------------------
 
-Current version (c) 2019 Jennifer Laaser
+Current version (c) 2020 Jennifer Laaser
 
 Except where otherwise noted, this work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
@@ -64,24 +64,17 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-v0.1.0 - July 19, 2019
+unreleased - August 10, 2020
 
 	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
 	
-		Activity 1 - Chemistries of Step-Growth Polymerization
-		Activity 2 - Degree of Polymerization in Step-Growth Polymerizations
-		Activity 3 - Equilibrium in Condensation Polymerizations
-		Activity 4 - Molecular Weight Distributions in Step-Growth Polymerizations
-		Activity 5 - Viscoelasticity of Polymeric Materials
-		Activity 6 - Small-Amplitude Oscillatory Shear Rheology
-		Activity 7 - Regular Solutions and Flory-Huggins Theory
-		Activity 8 - Thermodynamics of Phase Separation
+		All activities in collection
 	
-	The following activites are complete (including the instructor guide), but have not been classroom-tested:
+	The following activites are complete (including the instructor guide), but have not been classroom-tested (or, have been classroom-tested but have not yet been updated following testing):
 	
 		n/a - none in this release
 	
-	The following activities are included as ``working drafts'' which contain complete student handouts but no instructor guides, and have not been classroom-tested:
+	The following activities are included as ``working drafts'' which contain complete student handouts but no instructor guides, and have not been classroom-tested (or, have been classroom-tested but have not yet been updated following testing):
 	
 		n/a - none in this release
 		

@@ -11,7 +11,7 @@
 \renewcommand{\figpath}{content/polymphys/solution-thermo/flory-huggins/figs}
 \renewcommand{\labelbase}{flory-huggins}
 
-\begin{activity}[Regular Solutions \& Flory-Huggins Theory]
+\begin{activity}{Regular Solutions \& Flory-Huggins Theory}
 
 \begin{instructornotes}
 
@@ -39,7 +39,9 @@
 		
 			\emph{Note: this activity is long, and can be split across two days if necessary.  The best split point is at the end of Model 2; in this case, Models 1 \& 2 take approximately 30 minutes on the first day, and Models 3 \& 4 take approximately 40-45 minutes on the second day.}
 			
-			\emph{Alternatively, students can be asked to complete Model 1 before class as a warm-up exercise, and Models 2-4 can then be completed in class in approx. 60 minutes.}
+			\emph{Students can also be asked to complete Model 1 before class as a warm-up exercise, and Models 2-4 can then be completed in class in approx. 60 minutes.}
+			
+			\emph{Finally, if necessary, the time required for Model 2 can also be reduced by skipping CTQs 3-5 and taking the expression for $\Delta S_{mix}$ given on page \pageref{eqn:stirling} as the starting point for the remaining CTQs.}
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
@@ -78,7 +80,7 @@ The critical elements of this model are that
 \vspace{0.05in}
 \begin{ctqs}
 
-	\question Consider the simple system shown in Model \ref{\labelbase:mdl:idealtoy}, which contains two molecules of type 1 molecules and two molecules of type 2:
+	\question Consider the simple system shown in Model \ref{\labelbase:mdl:idealtoy}, which contains two molecules of type 1 molecules and two molecules of type 2: \label{\labelbase:ctq:toyconfigs}
 	
 		\begin{enumerate}
 			\item How many different ways can you distribute the two molecules of type 1 in their initial box, assuming the molecules are indistinguishable (you can't tell them apart)?  Sketch the possible configurations below.  Note that you may not need to use all of the boxes; cross off any you don't need.
@@ -143,7 +145,7 @@ The critical elements of this model are that
 		\begin{equation*}
 			S = k \ln \Omega
 		\end{equation*} 
-		where $k$ is the Boltzmann constant.  Using this relationship, and your answers from question 1, calculate
+		where $k$ is the Boltzmann constant.  Using this relationship, and your answers from CTQ \ref{\labelbase:ctq:toyconfigs}, calculate
 			
 		\begin{enumerate}
 			\item the entropy of the initial state ($S_{initial} = S_1 + S_2$, where $S_1 = k\ln \Omega_1$ and $S_2 = k \ln \Omega_2$):
@@ -207,7 +209,7 @@ The critical elements of this model are that
 	\vspace{-10pt}
 	
 			\begin{enumerate}
-				\item What is $N$, the number of boxes?	\emph{(Note: Do not count the boxes - give your answer in terms of the variables $m_1$ and $m_2$.)}
+				\item What is $N$, the number of boxes?	\emph{(Note: Do not actually count the boxes shown in this image - give your answer in terms of the variables $m_1$ and $m_2$.)}
 				
 					\begin{solution}[0.6in]
 						\vspace{-20pt}
@@ -531,7 +533,7 @@ The procedure we have just followed led us to double-count most of the interacti
 		\end{solution}
 			
 
-	\question It is common to normalize the total energy of the interaction energy between a particle and its neighbors ($z\Delta w$) by the thermal energy, $kT$.  This normalized quantity is defined as the \emph{interaction parameter}, $\chi$:
+	\question It is common to normalize the total energy of the interaction  between a particle and its neighbors ($z\Delta w$) by the thermal energy, $kT$.  This normalized quantity is defined as the \emph{interaction parameter}, $\chi$:
 		\begin{equation*}
 			\chi = \frac{z\Delta w}{kT}
 		\end{equation*}
@@ -568,9 +570,9 @@ The procedure we have just followed led us to double-count most of the interacti
 \begin{model}[Polymer Solutions]
 \label{\labelbase:mdl:floryhuggins}
 
-In Models \ref{\labelbase:mdl:idealtoy} through \ref{\labelbase:mdl:regular}, we considered mixtures of small molecules, in which each molecule  was independent of the other molecules of the same type.
+In Models \ref{\labelbase:mdl:idealtoy} through \ref{\labelbase:mdl:regular}, we considered mixtures of small molecules in which each molecule  was independent of the other molecules of the same type.
 
-In polymers, however, this is no longer true: the monomers are linked together into polymer chains and must stay close to each other, as shown below: 
+In polymers, however, this is no longer true: the monomers are linked together into polymer chains and must stay close to each other, as illustrated below: 
 	
 	\centerline{\includegraphics[width=\textwidth]{\figpath/model4-polymermixing}}
 

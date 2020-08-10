@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% (c) 2019 by Jennifer Laaser
+% (c) 2020 by Jennifer Laaser
 %
 % This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 %
@@ -14,15 +14,17 @@
 
 \author{Jennifer Laaser}
 \institution{University of Pittsburgh}
-\title{POGIL Polymers}
-\subtitle{Guided-Inquiry Activities \\for Polymer Chemistry and Polymer Physics}
+\title{Polymers: A Guided Inquiry}
+\subtitle{Activities for Polymer Chemistry and Polymer Physics}
 \date{\today}
 
-\copyrightshort{\includegraphics[width=0.1\textwidth]{by-nc-sa} J. Laaser 2019}
+\copyrightshort{\includegraphics[width=0.1\textwidth]{by-nc-sa} J. Laaser 2020}
 \copyrightfulltext{
-	\textcopyright 2019 by Jennifer Laaser. Except where otherwise noted, \thetitle\ is made available under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: \url{http://creativecommons.org/licenses/by-nc-sa/4.0/}
+	\textcopyright 2020 by Jennifer Laaser. Except where otherwise noted, \thetitle\ is made available under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License: \url{http://creativecommons.org/licenses/by-nc-sa/4.0/}
 
 	The current source for these materials is accessible on Github:\\ 		\url{https://github.com/jlaaser/pogil-polymers}
+	
+	This material is based upon work supported by the National Science Foundation under Grant Number (DMR-POL 1846665).  Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
 }
 \copyrightgraphic{by-nc-sa}
 
@@ -40,12 +42,14 @@
 \copyrightpage
 \clearpage
 
-\tableofcontents*
+\chapter{Preface}
+%\input{content/preface/general}
+%\input{content/preface/students}
+\input{content/preface/instructors}
 \clearpage
 
-%\chapter{Introduction}
-
-%\lipsum[1-12]
+\tableofcontents*
+\clearpage
 
 \mainmatter
 \pagestyle{fancy}
@@ -53,41 +57,55 @@
 \part{Introduction to Polymers}
 
 	\chapter{From Molecules to Polymers}
+		\include{content/intro/molecules-to-polymers/molecules-to-polymers}
+		\include{content/intro/size-and-complexity/size-and-complexity}
+		\include{content/intro/M-and-D/M-and-D}
 
 \part{Polymer Chemistry}
 
 	\chapter{Fundamentals of Polymer Chemistry}
+		\include{content/intro/chain-and-step/chain-and-step}
 
 	\chapter{Step-Growth Polymerizations}
 		\include{content/polymchem/stepgrowth/stepgrowth-chemistries/stepgrowth-chemistries}
 		\include{content/polymchem/stepgrowth/Mn-and-stoich/Mn-and-stoich}
+		\include{content/polymchem/networks/network-stepgrowth/network-stepgrowth}
 		\include{content/polymchem/stepgrowth/condensation-equilibria/condensation-equilibria}
 		\include{content/polymchem/stepgrowth/dispersity/dispersity}
 
 	\chapter{Free-Radical Polymerization}
+		\include{content/polymchem/freeradical/FRPchemistry/FRPchemistry}
+		\include{content/polymchem/freeradical/FRPkinetics/FRPkinetics}
+		%\include{content/polymchem/networks/network-chaingrowth/network-chaingrowth} %note: not complete - do not include!
 
 	\chapter{Controlled Polymerizations}
 
 	\chapter{Copolymers}
+		\include{content/polymchem/copolymers/copolym/copolym}
 
 \part{Polymer Physics}
 
 	\chapter{Conformations of Polymer Chains}
+		\include{content/polymphys/chain-confs/chain-elasticity/chain-elasticity}
 
-	\chapter{Mechanical Properties of Polymers}
+	\chapter{Materials Properties of Polymers}
+		\include{content/polymphys/mechanical-properties/elasticity/elasticity}
 		\include{content/polymphys/mechanical-properties/viscoelasticity/viscoelasticity}
 		\include{content/polymphys/mechanical-properties/SAOS/SAOS}
 
 	\chapter{Phase Behavior of Polymers \& Their Solutions}
 		\include{content/polymphys/solution-thermo/flory-huggins/flory-huggins}
 		\include{content/polymphys/solution-thermo/phase-sep/phase-sep}
+		\include{content/polymphys/solution-thermo/phase-diagrams/phase-diagrams}
 
 	\chapter{Thermal Properties of Polymers}
 
 
-%\appendix
+\part{Appendices}
 
-%\chapter{An Appendix Chapter}
+\appendix
+
+	\include{content/appendices/randomnums/randomnums}
 
 %\lipsum[1-15]
 

@@ -1,0 +1,2014 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="40.5 32.48 461.26755 82.409053"
+   preserveAspectRatio="xMidYMid"
+   width="122.04371mm"
+   height="21.804062mm"
+   version="1.1"
+   id="svg821"
+   sodipodi:docname="Model2-structures.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata827">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs825" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1710"
+     inkscape:window-height="1538"
+     id="namedview823"
+     showgrid="false"
+     fit-margin-top="1"
+     fit-margin-left="1"
+     fit-margin-right="1"
+     fit-margin-bottom="1"
+     units="mm"
+     inkscape:zoom="1.6302025"
+     inkscape:cx="208.57682"
+     inkscape:cy="97.284542"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg821" />
+  <clipPath
+     id="790">
+    <rect
+       x="0.30000001"
+       y="0.30000001"
+       width="1079.4"
+       height="719.40002"
+       id="rect2" />
+  </clipPath>
+  <g
+     id="Solid"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 116.48,160.98 v 0 l 0.15,-0.26 0.15,-0.26 12.62,7.29 -0.3,0.17 -0.3,0.17 z"
+       id="path7"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="115.33"
+       y1="162.96001"
+       x2="126.51"
+       y2="169.42"
+       id="line9"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g16"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text14"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="125.77"
+         y="186.22"
+         font-size="10"
+         id="tspan12"
+         style="font-size:10px;font-family:Arial;fill:#000000">X</tspan></text>
+  </g>
+  <g
+     id="g20"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 128.8,168.09 v 0 l 0.3,-0.17 0.3,-0.17 v 9.75 h -0.3 -0.3 z"
+       id="path18"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g26"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text24"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="220.17"
+         y="171.86"
+         font-size="10"
+         id="tspan22"
+         style="font-size:10px;font-family:Arial;fill:#000000">P</tspan></text>
+  </g>
+  <g
+     id="g30"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 227.94,165.75 v 0 l -0.15,-0.26 -0.15,-0.26 8.33,-4.82 v 0.35 0.35 z"
+       id="path28"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g34"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 235.97,161.11 v 0 -0.35 -0.35 l 12.77,7.38 -0.3,0.17 -0.3,0.17 z"
+       id="path32"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g40"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text38"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="245.12"
+         y="186.25999"
+         font-size="10"
+         id="tspan36"
+         style="font-size:10px;font-family:Arial;fill:#000000">X</tspan></text>
+  </g>
+  <g
+     id="g44"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 248.14,168.13 v 0 l 0.3,-0.17 0.3,-0.17 v 9.71 h -0.3 -0.3 z"
+       id="path42"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g50"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text48"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="71.57"
+         y="176.82001"
+         font-size="10"
+         id="tspan46"
+         style="font-size:10px;font-family:Arial;fill:#000000">P</tspan></text>
+  </g>
+  <g
+     id="g56"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text54"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="94.129997"
+         y="176.53999"
+         font-size="10"
+         id="tspan52"
+         style="font-size:10px;font-family:Arial;fill:#000000">+</tspan></text>
+  </g>
+  <g
+     id="Arrow"
+     transform="translate(-5.1919576,-321.94047)">
+    <line
+       x1="186.44"
+       y1="173.52"
+       x2="157.5"
+       y2="173.52"
+       id="line58"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 197.25,173.52 -13.5,-3.38 c 2.12,1.9 2.12,4.86 0,6.76 z"
+       stroke-miterlimit="6.92897103804176"
+       id="path60"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:6.92897081;shape-rendering:geometricPrecision" />
+  </g>
+  <circle
+     cx="74.438034"
+     cy="-153.74048"
+     r="0.83333331"
+     id="circle63"
+     style="fill:#000000;stroke:#000000;stroke-width:0" />
+  <circle
+     cx="246.02805"
+     cy="-153.95047"
+     r="0.83333331"
+     id="circle65"
+     style="fill:#000000;stroke:#000000;stroke-width:0" />
+  <g
+     id="g71"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 95.39,156.06 c -3.04,-3.83 -8.63,-4.48 -12.47,-1.43 -2.7,2.14 -3.94,5.92 -3.05,9.25"
+       id="path67"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:bevel;shape-rendering:geometricPrecision" />
+    <path
+       d="m 96.75,159.42 -0.99,-4.93 c -0.25,1.32 -1.03,1.25 -1.03,1.25 z"
+       stroke-miterlimit="5.8864222926684"
+       id="path69"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:5.88642216;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g77"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 132.45,163.65 c 0.28,-2.92 -1.87,-5.53 -4.8,-5.82 -1.56,-0.15 -3.17,0.43 -4.28,1.54"
+       id="path73"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:bevel;shape-rendering:geometricPrecision" />
+    <path
+       d="m 130.63,166.8 3.18,-3.9 c -1.17,0.65 -1.62,0 -1.62,0 z"
+       stroke-miterlimit="5.88642229266862"
+       id="path75"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:5.88642216;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g83"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 119.77,158.2 c 0,-4.85 -3.94,-8.79 -8.79,-8.79 -3.4,0 -6.69,2.15 -8.05,5.27"
+       id="path79"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:bevel;shape-rendering:geometricPrecision" />
+    <path
+       d="m 102.48,158.27 -0.31,-5.02 c 0.57,1.21 1.31,0.94 1.31,0.94 z"
+       stroke-miterlimit="5.88642229266848"
+       id="path81"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:5.88642216;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g89"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 119.85,45.48 v 0 l 0.15,-0.26 0.15,-0.26 12.62,7.29 -0.3,0.17 -0.3,0.17 z"
+       id="path85"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="118.7"
+       y1="47.459999"
+       x2="129.88"
+       y2="53.919998"
+       id="line87"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g93"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 132.17,52.59 v 0 l 0.3,-0.17 0.3,-0.17 V 62 h -0.3 -0.3 z"
+       id="path91"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g99"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text97"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="129.14999"
+         y="70.720001"
+         font-size="10"
+         id="tspan95"
+         style="font-size:10px;font-family:Arial;fill:#000000">X</tspan></text>
+  </g>
+  <g
+     id="g103"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 262.05,52.63 v 0 l -0.3,-0.17 v -0.35 l 12.47,-7.2 v 0.35 0.35 z"
+       id="path101"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g107"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 274.22,45.61 v 0 -0.35 -0.35 l 12.77,7.38 -0.3,0.17 -0.3,0.17 z"
+       id="path105"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g113"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text111"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="283.37"
+         y="70.760002"
+         font-size="10"
+         id="tspan109"
+         style="font-size:10px;font-family:Arial;fill:#000000">X</tspan></text>
+  </g>
+  <g
+     id="g117"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 286.39,52.63 v 0 l 0.3,-0.17 0.3,-0.17 V 62 h -0.3 -0.3 z"
+       id="path115"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g123"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text121"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="97.5"
+         y="61.040001"
+         font-size="10"
+         id="tspan119"
+         style="font-size:10px;font-family:Arial;fill:#000000">+</tspan></text>
+  </g>
+  <g
+     id="g129"
+     transform="translate(-5.1919576,-321.94047)">
+    <line
+       x1="189.82001"
+       y1="58.02"
+       x2="160.88"
+       y2="58.02"
+       id="line125"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 200.63,58.02 -13.5,-3.38 c 2.12,1.9 2.12,4.86 0,6.76 z"
+       stroke-miterlimit="6.92897103804184"
+       id="path127"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:6.92897081;shape-rendering:geometricPrecision" />
+  </g>
+  <circle
+     cx="284.27802"
+     cy="-269.45047"
+     r="0.83333331"
+     id="circle131"
+     style="fill:#000000;stroke:#000000;stroke-width:0" />
+  <g
+     id="g137"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 98.76,39.81 c -3.04,-3.83 -8.62,-4.47 -12.45,-1.43 -2.7,2.15 -3.94,5.92 -3.05,9.25"
+       id="path133"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:bevel;shape-rendering:geometricPrecision" />
+    <path
+       d="m 100.12,43.17 -0.99,-4.93 c -0.25,1.32 -1.03,1.25 -1.03,1.25 z"
+       stroke-miterlimit="5.89457784237493"
+       id="path135"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:5.89457798;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g143"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 135.83,47.4 c 0.28,-2.92 -1.87,-5.53 -4.8,-5.82 -1.56,-0.15 -3.17,0.43 -4.28,1.54"
+       id="path139"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:bevel;shape-rendering:geometricPrecision" />
+    <path
+       d="m 134.01,50.55 3.18,-3.9 c -1.17,0.65 -1.62,0 -1.62,0 z"
+       stroke-miterlimit="5.88642229266842"
+       id="path141"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:5.88642216;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g149"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 123.15,41.95 c 0,-4.86 -3.94,-8.8 -8.79,-8.8 -3.4,0 -6.69,2.15 -8.05,5.27"
+       id="path145"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:bevel;shape-rendering:geometricPrecision" />
+    <path
+       d="M 105.86,42.02 105.55,37 c 0.57,1.21 1.31,0.94 1.31,0.94 z"
+       stroke-miterlimit="5.89748360169011"
+       id="path147"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:5.89748383;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g153"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 54.53,52.72 v 0 L 54.38,52.46 54.23,52.2 66.85,44.91 v 0.35 0.35 z"
+       id="path151"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g157"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 66.85,45.61 v 0 -0.35 -0.35 l 12.77,7.38 -0.3,0.17 -0.3,0.17 z"
+       id="path155"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g161"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 79.02,52.63 v 0 l 0.3,-0.17 0.3,-0.17 V 62 h -0.3 -0.3 z"
+       id="path159"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g167"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text165"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="75.989998"
+         y="70.760002"
+         font-size="10"
+         id="tspan163"
+         style="font-size:10px;font-family:Arial;fill:#000000">X</tspan></text>
+  </g>
+  <circle
+     cx="76.898041"
+     cy="-269.45047"
+     r="0.83333331"
+     id="circle169"
+     style="fill:#000000;stroke:#000000;stroke-width:0" />
+  <g
+     id="g175"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text173"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="258.42001"
+         y="70.760002"
+         font-size="10"
+         id="tspan171"
+         style="font-size:10px;font-family:Arial;fill:#000000">X</tspan></text>
+  </g>
+  <g
+     id="g179"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 261.45,52.63 v 0 l 0.3,-0.17 0.3,0.17 V 62 h -0.3 -0.3 z"
+       id="path177"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g183"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 261.75,52.11 v 0 0.35 l -0.3,0.17 -12.17,-7.02 v -0.35 -0.35 z"
+       id="path181"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g187"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 249.28,44.91 v 0 0.35 0.35 l -12.32,7.11 -0.15,-0.26 -0.15,-0.26 z"
+       id="path185"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g193"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text191"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="109.13"
+         y="98.25"
+         font-size="10"
+         id="tspan189"
+         style="font-size:10px;font-family:Arial;fill:#000000">monomer</tspan></text>
+  </g>
+  <g
+     id="g199"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text197"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="40.5"
+         y="98.25"
+         font-size="10"
+         id="tspan195"
+         style="font-size:10px;font-family:Arial;fill:#000000">active chain</tspan></text>
+  </g>
+  <g
+     id="g205"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text203"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="236.25"
+         y="98.25"
+         font-size="10"
+         id="tspan201"
+         style="font-size:10px;font-family:Arial;fill:#000000">active chain</tspan></text>
+  </g>
+  <g
+     id="g211"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text209"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="114.38"
+         y="206.25"
+         font-size="10"
+         id="tspan207"
+         style="font-size:10px;font-family:Arial;fill:#000000">monomer</tspan></text>
+  </g>
+  <g
+     id="g217"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text215"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="45.75"
+         y="206.25"
+         font-size="10"
+         id="tspan213"
+         style="font-size:10px;font-family:Arial;fill:#000000">active chain</tspan></text>
+  </g>
+  <g
+     id="g223"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text221"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="207"
+         y="206.25"
+         font-size="10"
+         id="tspan219"
+         style="font-size:10px;font-family:Arial;fill:#000000">active chain</tspan></text>
+  </g>
+  <g
+     id="g229"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 90.6,282.48 v 0 l 0.15,-0.26 0.15,-0.26 12.62,7.29 -0.3,0.17 -0.3,0.17 z"
+       id="path225"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="89.449997"
+       y1="284.45999"
+       x2="100.63"
+       y2="290.92001"
+       id="line227"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g233"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 102.92,289.59 v 0 l 0.3,-0.17 0.3,-0.17 v 14.4 l -0.3,0.17 -0.3,-0.17 z"
+       id="path231"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g239"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text237"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="45.700001"
+         y="298.32001"
+         font-size="10"
+         id="tspan235"
+         style="font-size:10px;font-family:Arial;fill:#000000">P</tspan></text>
+  </g>
+  <g
+     id="g245"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text243"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="68.25"
+         y="298.04001"
+         font-size="10"
+         id="tspan241"
+         style="font-size:10px;font-family:Arial;fill:#000000">+</tspan></text>
+  </g>
+  <g
+     id="g251"
+     transform="translate(-5.1919576,-321.94047)">
+    <line
+       x1="154.75"
+       y1="295.01999"
+       x2="125.81"
+       y2="295.01999"
+       id="line247"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 165.56,295.02 -13.5,-3.38 c 2.12,1.9 2.12,4.86 0,6.76 z"
+       stroke-miterlimit="6.92897103804184"
+       id="path249"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:6.92897081;shape-rendering:geometricPrecision" />
+  </g>
+  <circle
+     cx="48.558044"
+     cy="-32.240471"
+     r="0.83333331"
+     id="circle253"
+     style="fill:#000000;stroke:#000000;stroke-width:0" />
+  <g
+     id="g259"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 69.51,277.56 c -3.04,-3.83 -8.62,-4.47 -12.45,-1.43 -2.7,2.15 -3.94,5.92 -3.05,9.25"
+       id="path255"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:bevel;shape-rendering:geometricPrecision" />
+    <path
+       d="m 70.87,280.92 -0.99,-4.93 c -0.25,1.32 -1.03,1.25 -1.03,1.25 z"
+       stroke-miterlimit="5.89457784237499"
+       id="path257"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:5.89457798;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g265"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 106.58,285.15 c 0.28,-2.92 -1.87,-5.53 -4.8,-5.82 -1.56,-0.15 -3.17,0.43 -4.28,1.54"
+       id="path261"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:bevel;shape-rendering:geometricPrecision" />
+    <path
+       d="m 104.76,288.3 3.18,-3.9 c -1.17,0.65 -1.62,0 -1.62,0 z"
+       stroke-miterlimit="5.88642229266848"
+       id="path263"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:5.88642216;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g271"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 93.9,279.7 c 0,-4.86 -3.94,-8.8 -8.79,-8.8 -3.4,0 -6.69,2.15 -8.05,5.27"
+       id="path267"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:bevel;shape-rendering:geometricPrecision" />
+    <path
+       d="m 76.61,279.77 -0.31,-5.02 c 0.57,1.21 1.31,0.94 1.31,0.94 z"
+       stroke-miterlimit="5.89748360169007"
+       id="path269"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:5.89748383;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g277"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 102.92,303.65 v 0 l 0.3,0.17 v 0.35 l -12.17,7.02 -0.3,-0.17 -0.3,-0.17 z"
+       id="path273"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="103.22"
+       y1="306.81"
+       x2="93.339996"
+       y2="312.51999"
+       id="line275"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g281"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 90.45,310.85 v 0 l 0.3,0.17 0.3,0.17 v 14.06 l -0.3,0.17 -0.3,0.17 z"
+       id="path279"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g287"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 90.45,325.59 v 0 l 0.3,-0.17 0.3,-0.17 12.17,7.02 v 0.35 0.35 z"
+       id="path283"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="93.339996"
+       y1="323.92001"
+       x2="103.22"
+       y2="329.63"
+       id="line285"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g291"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 103.22,332.97 v 0 -0.35 -0.35 l 12.17,-7.02 0.3,0.17 0.3,0.17 z"
+       id="path289"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g297"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 115.99,325.59 v 0 l -0.3,-0.17 -0.3,-0.17 v -14.06 l 0.3,-0.17 0.3,-0.17 z"
+       id="path293"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="113.1"
+       y1="323.92001"
+       x2="113.1"
+       y2="312.51999"
+       id="line295"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g301"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 115.99,310.85 v 0 l -0.3,0.17 -0.3,0.17 -12.17,-7.02 v -0.35 l 0.3,-0.17 z"
+       id="path299"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g305"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 93.55,380.75 v 0 l 0.3,0.17 0.3,0.17 v 14.06 l -0.3,0.17 -0.3,-0.17 z"
+       id="path303"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g311"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text309"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="48.700001"
+         y="392.07001"
+         font-size="10"
+         id="tspan307"
+         style="font-size:10px;font-family:Arial;fill:#000000">P</tspan></text>
+  </g>
+  <g
+     id="g317"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text315"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="71.25"
+         y="391.79001"
+         font-size="10"
+         id="tspan313"
+         style="font-size:10px;font-family:Arial;fill:#000000">+</tspan></text>
+  </g>
+  <g
+     id="g323"
+     transform="translate(-5.1919576,-321.94047)">
+    <line
+       x1="154.75"
+       y1="388.76999"
+       x2="125.81"
+       y2="388.76999"
+       id="line319"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 165.56,388.77 -13.5,-3.38 c 2.12,1.9 2.12,4.86 0,6.76 z"
+       stroke-miterlimit="6.92897103804184"
+       id="path321"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:6.92897081;shape-rendering:geometricPrecision" />
+  </g>
+  <circle
+     cx="51.558044"
+     cy="61.509533"
+     r="0.83333331"
+     id="circle325"
+     style="fill:#000000;stroke:#000000;stroke-width:0" />
+  <g
+     id="g331"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 72.51,371.31 c -3.04,-3.83 -8.62,-4.47 -12.45,-1.43 -2.7,2.15 -3.94,5.92 -3.05,9.25"
+       id="path327"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:bevel;shape-rendering:geometricPrecision" />
+    <path
+       d="m 73.87,374.67 -0.99,-4.93 c -0.25,1.32 -1.03,1.25 -1.03,1.25 z"
+       stroke-miterlimit="5.89457784237488"
+       id="path329"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:5.89457798;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g337"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 105.04,367.33 c -2.41,-1.26 -5.39,-0.33 -6.66,2.08 -0.63,1.2 -0.73,2.66 -0.28,3.94"
+       id="path333"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:bevel;shape-rendering:geometricPrecision" />
+    <path
+       d="m 107.19,370.26 -2.32,-4.46 c 0.14,1.33 -0.64,1.48 -0.64,1.48 z"
+       stroke-miterlimit="5.88642229266827"
+       id="path335"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:5.88642216;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g343"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 95.4,374.95 c 0,-4.86 -3.94,-8.8 -8.79,-8.8 -3.4,0 -6.69,2.15 -8.05,5.27"
+       id="path339"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:bevel;shape-rendering:geometricPrecision" />
+    <path
+       d="M 78.11,375.02 77.8,370 c 0.57,1.21 1.31,0.94 1.31,0.94 z"
+       stroke-miterlimit="5.89748360169007"
+       id="path341"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:5.89748383;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g349"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 93.55,395.15 v 0 l 0.3,0.17 v 0.35 l -12.18,7.02 -0.3,-0.17 -0.3,-0.17 z"
+       id="path345"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="93.849998"
+       y1="398.31"
+       x2="83.959999"
+       y2="404.01999"
+       id="line347"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g353"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 81.07,402.35 v 0 l 0.3,0.17 0.3,0.17 v 14.06 l -0.3,0.17 -0.3,0.17 z"
+       id="path351"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g359"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 81.07,417.09 v 0 l 0.3,-0.17 0.3,-0.17 12.18,7.02 v 0.35 0.35 z"
+       id="path355"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="83.959999"
+       y1="415.42001"
+       x2="93.849998"
+       y2="421.13"
+       id="line357"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g363"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 93.85,424.47 v 0 -0.35 -0.35 l 12.17,-7.02 0.3,0.17 0.3,0.17 z"
+       id="path361"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g369"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 106.62,417.09 v 0 l -0.3,-0.17 -0.3,-0.17 v -14.06 l 0.3,-0.17 0.3,-0.17 z"
+       id="path365"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="103.73"
+       y1="415.42001"
+       x2="103.73"
+       y2="404.01999"
+       id="line367"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g373"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 106.62,402.35 v 0 l -0.3,0.17 -0.3,0.17 -12.17,-7.02 v -0.35 l 0.3,-0.17 z"
+       id="path371"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g379"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 94.15,381.09 v 0 l -0.3,-0.17 -0.3,-0.17 12.62,-7.29 0.15,0.26 0.15,0.26 z"
+       id="path375"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="96.440002"
+       y1="382.42001"
+       x2="107.62"
+       y2="375.95999"
+       id="line377"
+       style="stroke:#000000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="Bracket"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 497.44,267 h 5.44 v 74.25 h -5.44"
+       id="path381"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g386"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 190.41,341.25 h -5.44 V 267 h 5.44"
+       id="path384"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g390"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 497.44,358.5 h 5.44 v 74.25 h -5.44"
+       id="path388"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g394"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 190.41,432.75 h -5.44 V 358.5 h 5.44"
+       id="path392"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60000002;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g398"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 55.09,601.96 v 0 l -0.15,-0.26 -0.15,-0.26 12.62,-7.29 v 0.35 0.35 z"
+       id="path396"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g402"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 67.41,594.85 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 l -0.3,0.17 z"
+       id="path400"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="Dash"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 82.35,600.62 v 0 l -0.3,-0.52 -2.17,1.25 v 0.35 l 0.3,0.17 z"
+       id="path404"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <path
+       d="m 90.18,596.1 v 0 l -0.3,-0.52 2.47,-1.43 v 0.35 0.35 z"
+       id="path406"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <path
+       d="m 85.18,598.98 v 0 l 2.17,-1.25 -0.3,-0.51 -2.17,1.25 z"
+       id="path408"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g413"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 92.35,594.85 v 0 -0.35 -0.35 l 12.47,7.2 v 0.35 l -0.3,0.17 z"
+       id="path411"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g417"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 105.12,601.87 v 0 l -0.3,-0.17 v -0.35 l 12.32,-7.11 0.15,0.26 0.15,0.26 z"
+       id="path415"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g421"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 79.58,601.87 v 0 l 0.3,-0.17 0.3,0.17 v 9.43 h -0.3 -0.3 z"
+       id="path419"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g427"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text425"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="76.550003"
+         y="620"
+         font-size="10"
+         id="tspan423"
+         style="font-size:10px;font-family:Arial;fill:#000000">X</tspan></text>
+  </g>
+  <g
+     id="g431"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 104.52,601.87 v 0 l 0.3,-0.17 0.3,0.17 v 9.43 h -0.3 -0.3 z"
+       id="path429"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g437"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text435"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="101.5"
+         y="620"
+         font-size="10"
+         id="tspan433"
+         style="font-size:10px;font-family:Arial;fill:#000000">X</tspan></text>
+  </g>
+  <g
+     id="g441"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 173.59,601.96 v 0 l -0.15,-0.26 -0.15,-0.26 12.62,-7.29 v 0.35 0.35 z"
+       id="path439"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g445"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 185.91,594.85 v 0 -0.35 -0.35 l 12.55,7.25 -0.08,0.3 -0.3,0.17 z"
+       id="path443"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g453"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 201.18,602 v 0 -0.6 h -2.72 l -0.08,0.3 0.3,0.3 z"
+       id="path447"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <path
+       d="m 209.98,602 v 0 -0.6 h 2.72 l 0.08,0.3 -0.3,0.3 z"
+       id="path449"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <path
+       d="m 204.33,602 v 0 h 2.5 v -0.6 h -2.5 z"
+       id="path451"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g457"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 213.08,601.87 v 0 l -0.3,-0.17 -0.08,-0.3 12.55,-7.25 v 0.35 0.35 z"
+       id="path455"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g461"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 225.25,594.85 v 0 -0.35 -0.35 l 12.62,7.29 -0.15,0.26 -0.15,0.26 z"
+       id="path459"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g465"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 198.08,601.87 v 0 l 0.3,-0.17 0.3,0.3 v 9.3 h -0.3 -0.3 z"
+       id="path463"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g471"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text469"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="195.05"
+         y="620"
+         font-size="10"
+         id="tspan467"
+         style="font-size:10px;font-family:Arial;fill:#000000">X</tspan></text>
+  </g>
+  <g
+     id="g477"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text475"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="209.45"
+         y="620"
+         font-size="10"
+         id="tspan473"
+         style="font-size:10px;font-family:Arial;fill:#000000">X</tspan></text>
+  </g>
+  <g
+     id="g481"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 212.48,602 v 0 l 0.3,-0.3 0.3,0.17 v 9.43 h -0.3 -0.3 z"
+       id="path479"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g485"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 304.61,601.85 v 0 l -0.3,-0.17 v -0.35 l 12.39,-7.15 0.08,0.3 0.08,0.3 z"
+       id="path483"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g489"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 304.31,601.33 v 0 0.35 l -0.3,0.17 -12.32,-7.11 0.15,-0.26 0.15,-0.26 z"
+       id="path487"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g497"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 319.36,594.78 v 0 -0.6 h -2.66 l 0.08,0.3 0.08,0.3 z"
+       id="path491"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <path
+       d="m 328.6,594.78 v 0 -0.6 h 2.66 l -0.08,0.3 -0.08,0.3 z"
+       id="path493"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <path
+       d="m 322.73,594.78 v 0 h 2.5 v -0.6 h -2.5 z"
+       id="path495"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g501"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 331.1,594.78 v 0 l 0.08,-0.3 0.08,-0.3 12.39,7.15 v 0.35 l -0.3,0.17 z"
+       id="path499"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g505"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 343.95,601.85 v 0 l -0.3,-0.17 v -0.35 l 12.32,-7.11 0.15,0.26 0.15,0.26 z"
+       id="path503"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g511"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text509"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="300.98999"
+         y="619.97998"
+         font-size="10"
+         id="tspan507"
+         style="font-size:10px;font-family:Arial;fill:#000000">X</tspan></text>
+  </g>
+  <g
+     id="g515"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 304.01,601.85 v 0 l 0.3,-0.17 0.3,0.17 v 9.45 h -0.3 -0.3 z"
+       id="path513"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g521"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text519"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="340.32999"
+         y="619.97998"
+         font-size="10"
+         id="tspan517"
+         style="font-size:10px;font-family:Arial;fill:#000000">X</tspan></text>
+  </g>
+  <g
+     id="g525"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 343.35,601.85 v 0 l 0.3,-0.17 0.3,0.17 v 9.45 h -0.3 -0.3 z"
+       id="path523"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g531"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text529"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="64.309998"
+         y="644.06"
+         font-size="10"
+         id="tspan527"
+         style="font-size:10px;font-family:Arial;fill:#000000">head-to-tail</tspan></text>
+  </g>
+  <g
+     id="g537"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text535"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="176.06"
+         y="644.06"
+         font-size="10"
+         id="tspan533"
+         style="font-size:10px;font-family:Arial;fill:#000000">head-to-head</tspan></text>
+  </g>
+  <g
+     id="g543"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text541"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="304.69"
+         y="644.06"
+         font-size="10"
+         id="tspan539"
+         style="font-size:10px;font-family:Arial;fill:#000000">tail-to-tail</tspan></text>
+  </g>
+  <g
+     id="g547"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 216.35,307.26 v 0 l 0.3,0.17 0.3,0.17 v 14.05 l -0.3,0.17 -0.3,0.17 z"
+       id="path545"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g553"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 216.35,321.99 v 0 l 0.3,-0.17 0.3,-0.17 12.18,7.02 v 0.35 0.35 z"
+       id="path549"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="219.24001"
+       y1="320.32001"
+       x2="229.13"
+       y2="326.03"
+       id="line551"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g557"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 229.13,329.37 v 0 -0.35 -0.35 l 12.17,-7.02 0.3,0.17 0.3,0.17 z"
+       id="path555"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g563"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 241.9,321.99 v 0 l -0.3,-0.17 -0.3,-0.17 V 307.6 l 0.3,-0.17 0.3,-0.17 z"
+       id="path559"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="239.00999"
+       y1="320.32001"
+       x2="239.00999"
+       y2="308.92999"
+       id="line561"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g567"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 241.9,307.26 v 0 l -0.3,0.17 -0.3,0.17 -12.17,-7.02 v -0.35 l 0.3,-0.17 z"
+       id="path565"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g573"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 228.83,300.06 v 0 l 0.3,0.17 v 0.35 l -12.18,7.02 -0.3,-0.17 -0.3,-0.17 z"
+       id="path569"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="229.13"
+       y1="303.22"
+       x2="219.24001"
+       y2="308.92999"
+       id="line571"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g577"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 229.43,300.06 v 0 l -0.3,0.17 -0.3,-0.17 V 286 l 0.3,-0.17 0.3,-0.17 z"
+       id="path575"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g581"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 229.43,285.66 v 0 l -0.3,0.17 -0.3,0.17 -12.18,-7.02 v -0.35 -0.35 z"
+       id="path579"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g585"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 216.65,278.28 v 0 0.35 0.35 l -8.01,4.62 -0.15,-0.26 -0.15,-0.26 z"
+       id="path583"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g591"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text589"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="200.86"
+         y="289.73001"
+         font-size="10"
+         id="tspan587"
+         style="font-size:10px;font-family:Arial;fill:#ff0000">P</tspan></text>
+  </g>
+  <circle
+     cx="226.70804"
+     cy="-36.090477"
+     r="0.83333331"
+     id="circle593"
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:0" />
+  <g
+     id="g597"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 294.35,307.25 v 0 l 0.3,0.17 0.3,0.17 v 14.06 l -0.3,0.17 -0.3,0.17 z"
+       id="path595"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g603"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 294.35,321.99 v 0 l 0.3,-0.17 0.3,-0.17 12.18,7.02 v 0.35 0.35 z"
+       id="path599"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="297.23999"
+       y1="320.32001"
+       x2="307.13"
+       y2="326.03"
+       id="line601"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g607"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 307.13,329.37 v 0 -0.35 -0.35 l 12.17,-7.02 0.3,0.17 0.3,0.17 z"
+       id="path605"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g613"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 319.9,321.99 v 0 l -0.3,-0.17 -0.3,-0.17 v -14.06 l 0.3,-0.17 0.3,-0.17 z"
+       id="path609"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="317.01001"
+       y1="320.32001"
+       x2="317.01001"
+       y2="308.92001"
+       id="line611"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g617"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 319.9,307.25 v 0 l -0.3,0.17 -0.3,0.17 -12.17,-7.02 v -0.35 l 0.3,-0.17 z"
+       id="path615"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g621"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 306.83,300.05 v 0 l 0.3,0.17 v 0.35 l -12.18,7.02 -0.3,-0.17 -0.3,-0.17 z"
+       id="path619"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g627"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 307.43,300.05 v 0 l -0.3,0.17 -0.3,-0.17 v -14.06 l 0.3,-0.17 0.3,-0.17 z"
+       id="path623"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="304.54001"
+       y1="298.72"
+       x2="304.54001"
+       y2="287.32001"
+       id="line625"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g631"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 307.43,285.65 v 0 l -0.3,0.17 -0.3,0.17 -12.18,-7.01 v -0.35 -0.35 z"
+       id="path629"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g635"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 294.65,278.28 v 0 0.35 0.35 l -8.01,4.62 -0.15,-0.26 -0.15,-0.26 z"
+       id="path633"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g641"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text639"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="278.85999"
+         y="289.73001"
+         font-size="10"
+         id="tspan637"
+         style="font-size:10px;font-family:Arial;fill:#ff0000">P</tspan></text>
+  </g>
+  <g
+     id="g647"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 372.35,307.25 v 0 l 0.3,0.17 0.3,0.17 v 14.06 l -0.3,0.17 -0.3,0.17 z"
+       id="path643"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="375.23999"
+       y1="308.92001"
+       x2="375.23999"
+       y2="320.32001"
+       id="line645"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g651"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 372.35,321.99 v 0 l 0.3,-0.17 0.3,-0.17 12.18,7.02 v 0.35 0.35 z"
+       id="path649"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g655"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 385.13,329.37 v 0 -0.35 -0.35 l 12.17,-7.02 0.3,0.17 0.3,0.17 z"
+       id="path653"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g661"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 397.9,321.99 v 0 l -0.3,-0.17 -0.3,-0.17 v -14.06 l 0.3,-0.17 0.3,-0.17 z"
+       id="path657"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="395.01001"
+       y1="320.32001"
+       x2="395.01001"
+       y2="308.92001"
+       id="line659"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g665"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 397.9,307.25 v 0 l -0.3,0.17 -0.3,0.17 -12.17,-7.02 v -0.35 l 0.3,-0.17 z"
+       id="path663"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g669"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 384.83,300.05 v 0 l 0.3,0.17 v 0.35 l -12.18,7.02 -0.3,-0.17 -0.3,-0.17 z"
+       id="path667"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g675"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 385.43,300.05 v 0 l -0.3,0.17 -0.3,-0.17 v -14.06 l 0.3,-0.17 0.3,-0.17 z"
+       id="path671"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="382.54001"
+       y1="298.72"
+       x2="382.54001"
+       y2="287.32001"
+       id="line673"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g679"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 385.43,285.65 v 0 l -0.3,0.17 -0.3,0.17 -12.18,-7.01 v -0.35 -0.35 z"
+       id="path677"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g685"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text683"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="356.85999"
+         y="289.73001"
+         font-size="10"
+         id="tspan681"
+         style="font-size:10px;font-family:Arial;fill:#ff0000">P</tspan></text>
+  </g>
+  <g
+     id="g689"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 372.65,278.28 v 0 0.35 0.35 l -8.01,4.62 -0.15,-0.26 -0.15,-0.26 z"
+       id="path687"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g695"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 450.35,307.25 v 0 l 0.3,0.17 0.3,0.17 v 14.06 l -0.3,0.17 -0.3,0.17 z"
+       id="path691"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="453.23999"
+       y1="308.92001"
+       x2="453.23999"
+       y2="320.32001"
+       id="line693"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g699"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 450.35,321.99 v 0 l 0.3,-0.17 0.3,-0.17 12.18,7.02 v 0.35 0.35 z"
+       id="path697"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g705"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 463.13,329.37 v 0 -0.35 -0.35 l 12.17,-7.02 0.3,0.17 0.3,0.17 z"
+       id="path701"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="463.13"
+       y1="326.03"
+       x2="473.01001"
+       y2="320.32001"
+       id="line703"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g709"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 475.9,321.99 v 0 l -0.3,-0.17 -0.3,-0.17 v -14.06 l 0.3,-0.17 0.3,-0.17 z"
+       id="path707"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g713"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 475.9,307.25 v 0 l -0.3,0.17 -0.3,0.17 -12.17,-7.02 v -0.35 l 0.3,-0.17 z"
+       id="path711"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g717"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 462.83,300.05 v 0 l 0.3,0.17 v 0.35 l -12.18,7.02 -0.3,-0.17 -0.3,-0.17 z"
+       id="path715"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g723"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 463.43,300.05 v 0 l -0.3,0.17 -0.3,-0.17 v -14.06 l 0.3,-0.17 0.3,-0.17 z"
+       id="path719"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="460.54001"
+       y1="298.72"
+       x2="460.54001"
+       y2="287.32001"
+       id="line721"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g727"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 463.43,285.65 v 0 l -0.3,0.17 -0.3,0.17 -12.18,-7.01 v -0.35 -0.35 z"
+       id="path725"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g733"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text731"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="434.85999"
+         y="289.73001"
+         font-size="10"
+         id="tspan729"
+         style="font-size:10px;font-family:Arial;fill:#ff0000">P</tspan></text>
+  </g>
+  <g
+     id="g737"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 450.65,278.28 v 0 0.35 0.35 l -8.01,4.62 -0.15,-0.26 -0.15,-0.26 z"
+       id="path735"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g745"
+     transform="translate(-5.1919576,-321.94047)">
+    <line
+       x1="269.88"
+       y1="304.5"
+       x2="258.13"
+       y2="304.5"
+       id="line739"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 274.13,304.5 -6,-1.5 c 1.19,0.84 1.19,2.16 0,3 z"
+       stroke-miterlimit="6.93525005514877"
+       id="path741"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:6.93525028;shape-rendering:geometricPrecision" />
+    <path
+       d="m 253.88,304.5 6,1.5 c -1.19,-0.84 -1.19,-2.16 0,-3 z"
+       stroke-miterlimit="6.93525005514877"
+       id="path743"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:6.93525028;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g753"
+     transform="translate(-5.1919576,-321.94047)">
+    <line
+       x1="350.88"
+       y1="304.5"
+       x2="339.13"
+       y2="304.5"
+       id="line747"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 355.13,304.5 -6,-1.5 c 1.19,0.84 1.19,2.16 0,3 z"
+       stroke-miterlimit="6.93525005514877"
+       id="path749"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:6.93525028;shape-rendering:geometricPrecision" />
+    <path
+       d="m 334.88,304.5 6,1.5 c -1.19,-0.84 -1.19,-2.16 0,-3 z"
+       stroke-miterlimit="6.93525005514877"
+       id="path751"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:6.93525028;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g761"
+     transform="translate(-5.1919576,-321.94047)">
+    <line
+       x1="427"
+       y1="304.5"
+       x2="415.25"
+       y2="304.5"
+       id="line755"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+    <path
+       d="m 431.25,304.5 -6,-1.5 c 1.19,0.84 1.19,2.16 0,3 z"
+       stroke-miterlimit="6.93525005514877"
+       id="path757"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:6.93525028;shape-rendering:geometricPrecision" />
+    <path
+       d="m 411,304.5 6,1.5 c -1.19,-0.84 -1.19,-2.16 0,-3 z"
+       stroke-miterlimit="6.93525005514877"
+       id="path759"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;stroke-miterlimit:6.93525028;shape-rendering:geometricPrecision" />
+  </g>
+  <circle
+     cx="286.68802"
+     cy="-14.490474"
+     r="0.83333331"
+     id="circle763"
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:0" />
+  <circle
+     cx="379.90802"
+     cy="9.8594942"
+     r="0.83333331"
+     id="circle765"
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:0" />
+  <circle
+     cx="473.17801"
+     cy="-14.490474"
+     r="0.83333331"
+     id="circle767"
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:0" />
+  <g
+     id="g773"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 215.6,401.76 v 0 l 0.3,0.17 0.3,0.17 v 14.05 l -0.3,0.17 -0.3,0.17 z"
+       id="path769"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="218.49001"
+       y1="403.42999"
+       x2="218.49001"
+       y2="414.82001"
+       id="line771"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g777"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 215.6,416.49 v 0 l 0.3,-0.17 0.3,-0.17 12.18,7.02 v 0.35 0.35 z"
+       id="path775"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g783"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 228.38,423.87 v 0 -0.35 -0.35 l 12.17,-7.02 0.3,0.17 0.3,0.17 z"
+       id="path779"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="228.38"
+       y1="420.53"
+       x2="238.25999"
+       y2="414.82001"
+       id="line781"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g787"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 241.15,416.49 v 0 l -0.3,-0.17 -0.3,-0.17 V 402.1 l 0.3,-0.17 0.3,-0.17 z"
+       id="path785"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g793"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 241.15,401.76 v 0 l -0.3,0.17 -0.3,0.17 -12.17,-7.02 v -0.35 l 0.3,-0.17 z"
+       id="path789"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+    <line
+       x1="238.25999"
+       y1="403.42999"
+       x2="228.38"
+       y2="397.72"
+       id="line791"
+       style="stroke:#ff0000;stroke-width:0.60000002;shape-rendering:auto" />
+  </g>
+  <g
+     id="g797"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 228.08,394.56 v 0 l 0.3,0.17 v 0.35 l -12.18,7.02 -0.3,-0.17 -0.3,-0.17 z"
+       id="path795"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g801"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 228.68,394.56 v 0 l -0.3,0.17 -0.3,-0.17 V 380.5 l 0.3,-0.17 0.3,0.17 z"
+       id="path799"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g807"
+     transform="translate(-5.1919576,-321.94047)">
+    <text
+       xml:space="preserve"
+       id="text805"
+       style="text-anchor:start;text-rendering:geometricPrecision"><tspan
+         x="212.58"
+         y="377.03"
+         font-size="10"
+         id="tspan803"
+         style="font-size:10px;font-family:Arial;fill:#ff0000">P</tspan></text>
+  </g>
+  <g
+     id="g811"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 228.38,379.98 v 0 0.35 l -0.3,0.17 -9.26,-5.34 0.15,-0.26 0.15,-0.26 z"
+       id="path809"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <g
+     id="g815"
+     transform="translate(-5.1919576,-321.94047)">
+    <path
+       d="m 228.68,380.5 v 0 l -0.3,-0.17 v -0.35 l 12.32,-7.11 0.15,0.26 0.15,0.26 z"
+       id="path813"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0;stroke-linejoin:miter;shape-rendering:geometricPrecision" />
+  </g>
+  <circle
+     cx="238.42804"
+     cy="51.209515"
+     r="0.83333331"
+     id="circle817"
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:0" />
+</svg>

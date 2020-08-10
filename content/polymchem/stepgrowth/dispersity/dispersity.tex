@@ -11,7 +11,7 @@
 \renewcommand{\figpath}{content/polymchem/stepgrowth/dispersity/figs}
 \renewcommand{\labelbase}{step-dispersity}
 
-\begin{activity}[Molecular Weight Distributions in Step-Growth Polymerizations]
+\begin{activity}{Molecular Weight Distributions in Step-Growth Polymerizations}
 
 \begin{instructornotes}
 
@@ -36,10 +36,6 @@
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
 				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): section 2.4
-			\end{itemize}
-		\item \textbf{Facilitation notes:}
-			\begin{itemize}
-				\item The process described in Model 1 depicts step-growth polymerizations as a monomer-by-monomer addition process.  Although this simplification was necessary to make the model accessible to students, it is not strictly accurate, since oligomers can react with each other in step-growth polymerizations (and not just with monomers).
 			\end{itemize}
 	\end{itemize}
 
@@ -188,14 +184,14 @@ or, more concisely,
 	\clearpage
 	\question How are the plots for $p=0.5$ and $p=0.9$ similar, and how are they different?  Briefly describe your observations in 2-3 complete sentences.
 	
-		\begin{solution}[1.5in]
+		\begin{solution}[2in]
 		
 			Both of these plots decrease exponentially toward zero with increasing values of $i$.  However, the plot for $p=0.5$ decreases much faster, and a higher fraction of the molecules have very short chain lengths, than in the case where $p=0.9$.
 		\end{solution}
 	
 	\question What is the \emph{most probable} chain length for each value of $p$?  Briefly explain your answer in 1-2 complete sentences.
 	
-		\begin{solution}[1.5in]
+		\begin{solution}[2in]
 		
 			The most probable chain length is just the one with the highest value of $x_i$.  Thus, the most probable chain length is $i=1$ for both values of $p$.
 		
@@ -217,46 +213,27 @@ or, more concisely,
 \begin{model}[$M_n$ and $M_w$ for Step-Growth Polymerizations]
 \label{\labelbase:mdl:MwMn}
 
-	To calculate $M_n$ and $M_w$, we need to know $n_i$, or the total number of chains with $i$ monomers.
+	The expression you derived for $x_i$ can be used to determine how $M_n$ and $M_w$ vary with the extent of reaction.
 	
-	If we started with $v_A^0$ monomers, then when the extent of reaction is equal to $p$, there will be $(1-p)v_A^0$ unreacted A groups left.  Recalling that the number of unreacted A groups is equal to the number of molecules in the reaction mixture, this lets us write
-	\begin{align*}
-		n_i = \text{(fraction of molecules that }&\text{have length }i\text{) x (number of molecules in reaction mixture)}\\
-			%&= (x_i)((1-p)v_A^0)\\
-			&= \left(p^{i-1}(1-p)\right)\left((1-p)v_A^0\right)\\
-			&= p^{i-1}(1-p)^2v_A^0
-	\end{align*}
-	
-	If we plug this expression into our equation for $M_n$, we get
-	\begin{equation*}
-		M_n = \frac{\sum_i n_i M_i}{\sum_i n_i} %= \frac{\sum_i p^{i-1}(1-p)^2 v_A^0 i M_0}{\sum_i p^{i-1}(1-p)^2 v_A^0} 
-		= M_0\frac{\sum_i p^{i-1}(1-p)^2 i }{\sum_i p^{i-1}(1-p)^2}
-	\end{equation*}
-	where $M_0$ is the molecular weight of the monomer ($M_i = M_0 i$).
-	
-	\vspace{0.25in}
-	
-	Evaluating these sums (see Exercise \ref{labelbase:exc:Mn}), we obtain
+	Working through the math (see Exercise \ref{labelbase:exc:MnMw}), we obtain
 	\begin{align*}
 		M_n = \frac{M_0}{1-p} && \text{or} && N_n = \frac{M_n}{M_0} = \frac{1}{1-p}
 	\end{align*}
-	which is exactly what we came up with in our previous activity on degree of polymerization.
-	
-	\vspace{0.25in}
-	Similarly, plugging the above expression for $n_i$ into our expression for $M_w$ and evaluating the sums, we obtain
+	and
 	\begin{align*}
 		M_w = \frac{\sum_i n_i M_i^2}{\sum_i n_i M_i} = M_0\frac{1+p}{1-p} && \text{or} && N_w = \frac{M_w}{M_0} = \frac{1+p}{1-p}
 	\end{align*}
+	Note that while this result for $M_w$ is new, the expression for $M_n$ is not - it is exactly what we came up with in our previous activity on degree of polymerization.
 
 \end{model}
 
 \begin{ctqs}
 		\question Calculate the dispersity for a step-growth reaction with extent of reaction $p$.
 		
-			\begin{solution}[1.95in]
+			\begin{solution}[1.25in]
 			
 				\begin{equation*}
-					\text{\DJ} = \frac{M_w}{M_n} = \frac{M_0\frac{1+p}{1-p}}{M_0\frac{1}{1-p}} = 1+p
+					\PDImath = \frac{M_w}{M_n} = \frac{M_0\frac{1+p}{1-p}}{M_0\frac{1}{1-p}} = 1+p
 				\end{equation*}
 			\end{solution}
 			
@@ -265,7 +242,7 @@ or, more concisely,
 		
 			\begin{solution}[1.5in]
 			
-				When $p=0$, $\text{\DJ}=1+0 = 1$.  This does make sense: when the extent of reaction is zero, no reactions have taken place, and the reaction mixture contains only monomers.  Since all of the molecules in the mixture are thus identical (and exactly the same size), the dispersity is 1 - the mixture is perfectly monodisperse.
+				When $p=0$, $\PDImath=1+0 = 1$.  This does make sense: when the extent of reaction is zero, no reactions have taken place, and the reaction mixture contains only monomers.  Since all of the molecules in the mixture are thus identical (and exactly the same size), the dispersity is 1 - the mixture is perfectly monodisperse.
 			
 			\end{solution}
 			
@@ -274,7 +251,7 @@ or, more concisely,
 		
 			\begin{solution}[1in]
 			
-				When $p=1$, $\text{DJ}=1+1=2$.  This is an important limit: the limiting dispersity for a step-growth polymerization is 2.
+				When $p=1$, $\PDImath=1+1=2$.  This is an important limit: the limiting dispersity for a step-growth polymerization is 2.
 			
 			\end{solution}
 			
@@ -319,20 +296,46 @@ or, more concisely,
 					\end{solution}
 			\end{enumerate}
 			
-		\exercise Show that the summation expression for $M_n$ given in Model \ref{\labelbase:mdl:MwMn} simplifies to the expected result by doing the following: \label{labelbase:exc:Mn}
+		\exercise Derive the expression for $M_n$ given in Model \ref{\labelbase:mdl:MwMn} by doing the following: \label{labelbase:exc:MnMw}
 		
 			\begin{enumerate}
-				\item First, show that the summation expression for $M_n$ given in Model \ref{\labelbase:mdl:MwMn} can be rewritten
+				\item First, show that the \emph{number} of chains with length $i$ ($n_i$) at extent of reaction $p$ is $p^{i-1}(1-p)^2v_A^0$.
+				
+					\emph{Hint: You will find it helpful to start by recognizing that}
+					\begin{equation*}
+						n_i = \text{(fraction of molecules that }\text{have length }i\text{) x (number of molecules in reaction mixture)}
+					\end{equation*}
+					\emph{One of these quantities was derived in this exercise - how can you obtain the other?  Think back to what you learned in your activity on degree of polymerization about how the number of molecules is related to number of unreacted A groups!}
+					
+					\begin{solution}\instructordisplay{
+					
+						The fraction of molecules that have length $i$ is just $x_i = \left(p^{i-1}(1-p)\right)$, as derived in this activity.
+						
+						The number of molecules in the reaction mixture is a little trickier.  If we started with $v_A^0$ monomers, then when the extent of reaction is equal to $p$, there will be $(1-p)v_A^0$ unreacted A groups left.  Recalling that the number of unreacted A groups is equal to the number of molecules in the reaction mixture, the number of molecules in the reaction mixture must be $\left((1-p)v_A^0\right)$.
+						
+						Putting these results together, we obtain
+	\begin{align*}
+		n_i = \text{(fraction of molecules that }&\text{have length }i\text{) x (number of molecules in reaction mixture)}\\
+			%&= (x_i)((1-p)v_A^0)\\
+			&= \left(p^{i-1}(1-p)\right)\left((1-p)v_A^0\right)\\
+			&= p^{i-1}(1-p)^2v_A^0
+	\end{align*}
+	
+					}\end{solution}
+					
+					
+				\item Next, plugging this expression into our equation for $M_n$, we obtain
+					\begin{equation*}
+						M_n = M_0 \frac{\sum_i n_i i}{\sum_i n_i} = M_0\frac{\sum_i p^{i-1}(1-p)^2 i }{\sum_i p^{i-1}(1-p)^2}
+					\end{equation*}
+					
+					Show that this expression can be rewritten as
 					\begin{equation*}
 						M_n = M_0 \frac{{\sum_i i p^{i-1}}}{\frac{1}{p}\sum_i p^i}
 					\end{equation*}
 					
 					\begin{solution}\instructordisplay{
-						In Model \ref{\labelbase:mdl:MwMn}, $M_n$ was written as
-						\begin{equation*}
-							M_n = M_0\frac{\sum_i p^{i-1}(1-p)^2 i }{\sum_i p^{i-1}(1-p)^2}
-						\end{equation*}
-						We can simplify this by realizing that any multiplicative terms that do not depend on $i$ can be pulled out of the sum:
+						We can simplify the expression for $M_n$ by realizing that any multiplicative terms that do not depend on $i$ can be pulled out of the sum:
 						\begin{equation*}
 							M_n = M_0\frac{(1-p)^2\sum_i p^{i-1} i }{(1-p)^2\sum_i p^{i-1}} = M_0\frac{\sum_i p^{i-1} i }{\sum_i p^{i-1}}
 						\end{equation*}
@@ -360,7 +363,7 @@ or, more concisely,
 						
 					}\end{solution}
 			
-				\item The remaining sum can be calculated by differentiating both sides of the equation for $\sum_i p^i$.  Carry out this differentiation to show that
+				\item The remaining sum can be calculated by differentiating both sides of the equation for $\sum_i p^i$ with respect to $p$.  Carry out this differentiation to show that
 						\begin{equation*}
 							\sum_{i=1}^{\infty} ip^{i-1} = \frac{1}{(1-p)^2}
 						\end{equation*}
