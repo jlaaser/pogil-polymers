@@ -53,7 +53,7 @@
 	
 	For example, a step-growth polymerization of a difunctional ``AA'' monomer with a trifunctional ``B$_3$'' monomer might yield a network as follows:
 	
-	\centerline{\includegraphics[width=0.7\textwidth]{\figpath/Model2_A2B3network.pdf}}
+	\centerline{\includegraphics[width=0.8\textwidth]{\figpath/Model2_A2B3network.pdf}}
 
 \end{model}
 
@@ -62,30 +62,37 @@
 	\question Suppose that you started this reaction with three AA-type monomers and two $B_3$ monomers, as shown below:
 	
 	\vspace{9pt}
-		\centerline{\includegraphics[width=0.4\textwidth]{\figpath/Model2_A2B3_initial.pdf}}
+		\centerline{\includegraphics[width=0.5\textwidth]{\figpath/Model2_A2B3_initial.pdf}}
 	
 		\begin{enumerate}
 			\item How many \emph{molecules} are present in the initial reaction mixture?
 			
-				\begin{solution}[0.25in]
+				\begin{solution}[0.5in]
 					5
 				\end{solution}
 			
 			\item How many \emph{reactive functional groups} are present in the initial reaction mixture?  For the purposes of this question, count both the A and B reactive groups.
 			
-				\begin{solution}[0.25in]
+				\begin{solution}[0.5in]
 					12 (6 from AA-type monomers, 6 from B3-type monomers)
+				\end{solution}
+				
+			\item What is the average number of functional groups \emph{per monomer} in this reaction mixture?
+			
+				\begin{solution}[0.5in]
+					12/5 = 2.4
 				\end{solution}
 			
 		\end{enumerate}
-		
+	
+	\clearpage
 	\question Now, suppose we move two ``steps'' forward in the reaction (i.e. we form two ``ab'' bonds).
 	
 		\begin{enumerate}
 		
 			\item Draw one possible reaction mixture that could occur after two bond-forming reactions have taken place:
 			
-				\begin{solution}[1.25in]
+				\begin{solution}[1.5in]
 				
 					(student answers may vary)
 					
@@ -95,22 +102,16 @@
 				\begin{solution}[0.5in]
 					3
 				\end{solution}
-			
-			\item How many functional groups had to \emph{react} to form the mixture you drew in part (a)?  For the purposes of this question, count both the a's and the b's.
-			
-				\begin{solution}[0.5in]
-					4
-				\end{solution}
 				
-			\item Recall that the extent of reaction, $p$, is the fraction of functional groups that have reacted at any given time.  Calculate the extent of reaction for the state of the reaction that you drew in part (a).
+			\item Recall that the extent of reaction, $p$, is the fraction of ``A'' groups that have reacted at any given time.  Calculate the extent of reaction for the state of the reaction that you drew in part (a).
 			
 				\begin{solution}[1.25in]
-					$p = \frac{\text{\# reacted}}{\text{initial \# of reactive groups}} = \frac{4}{12} = 0.33$
+					$p = \frac{\text{\# of a groups reacted}}{\text{initial \# of A groups}} = \frac{2}{6} = 0.33$
 				\end{solution}
 				
 			\item Calculate the number-average degree of polymerization by dividing the initial number of molecules by the number of molecules present at this point in the reaction.  Does your answer agree with the value you obtain using $N_n = \frac{1}{1-p}$?  If not, briefly suggest one possible reason for the discrepancy.
 			
-				\begin{solution}[2.25in]
+				\begin{solution}[2in]
 					$N_n = \frac{\text{initial \# of molecules}}{\text{final \# of molecules}} = \frac{5}{3} = 1.67$
 					
 					vs.
@@ -120,49 +121,13 @@
 					These values do not agree - the number-average degree of polymerization is higher for the case of multifunctional monomers.  Student reasoning may vary; reasonable answers include noting that not all of the functional groups on these monomers need to react to continue the polymer chain, or that the multifunctional reaction mixture had fewer molecules to start with than an AA+BB polymerzation would, so the same number of reaction steps incorporates a higher fraction of the molecules into the chains.
 				\end{solution}
 		\end{enumerate}
-
-	\question More generally, suppose that you initially have $n_0$ molecules that have an average of $\langle f\rangle$ reactive groups per monomer.  
-	
-		What is the \emph{total number} of reactive functional groups at the start of the reaction?
-			\begin{solution}[1in]
-				$n_0 \langle f \rangle$
-			\end{solution}
-	\question Suppose that at some time later, there are $n$ molecules in the reaction mixture.
-	
-		\begin{enumerate}
-		
-			\item How many bond-forming reactions must have occurred to reach this point?  \emph{(Hint: how much does the number of molecules in the reaction change each time a bond-forming reaction happens?)}
-			
-				\begin{solution}[0.5in]
-					$n_0 - n$ (each bond-forming reaction reduces the number of molecules by one, so if we have dropped from $n_0$ to $n$ molecules, we must have undergone $n_0-n$ bond-forming reactions)
-				\end{solution}
-		
-			\item How many functional groups must have reacted to reach this point?
-			
-				\begin{solution}[0.5in]
-					$2(n_0-n)$ (each bond-forming reaction uses up two reactive groups)
-				\end{solution}
-			
-			\question What is the number-average degree of polymerization at this point in the reaction?
-			
-				\begin{solution}[0.5in]
-					$N_n = \frac{n_0}{n}$
-				\end{solution}
-			
-			\question What is the extent of reaction at this point in the reaction?
-			
-				\begin{solution}[0.5in]
-					$p = \frac{2(n_0-n)}{n_0\langle f \rangle}$
-				\end{solution}
-		
-		\end{enumerate}
-	
 \end{ctqs}
 
+\clearpage
 \begin{infobox}
-	Combining the expressions you derived for $p$ and $N_n$, above, it is possible to show that
+	It is possible to show (see Exercise \ref{\labelbase:exc:Nn}) that for a reaction mixture with an average of $\langle f\rangle$ functional groups per monomer, the number-average degree of polymerization at extent of reaction $p$ is
 	\begin{equation*}
-		N_n = \frac{2}{2-p\langle f \rangle}
+		N_n = \frac{2}{2-p\langle f \rangle} \label{\labelbase:eqn:carothers}
 	\end{equation*}
 	This relationship is referred to as the \emph{Carothers equation}.
 \end{infobox}
@@ -215,6 +180,48 @@
 					When $\langle f\rangle = 2$, $N_n = \frac{2}{2-2p} = \frac{1}{1-p}$, which is the same result we obtained the the previous activity.
 				}\end{solution}
 		\end{enumerate}	
+		
+	\exercise \label{\labelbase:exc:Nn} Derive the relationship on page \pageref{\labelbase:eqn:carothers} by working through the following:
+	
+		\begin{enumerate}
+			\item Suppose that you initially have $n_0$ molecules that have an average of $\langle f\rangle$ reactive groups per monomer.  				Calculate the \emph{total} of reactive functional groups and the \emph{number of ``A'' groups} at the start of the reaction, assuming the reaction is stoichiometrically balanced.
+			
+			\begin{solution}\instructordisplay{
+				Total number of reactive groups: $n_0 \langle f \rangle$
+				
+				Total number of ``A'' groups: $n_0 \langle f \rangle /2$ (half of the reactive groups are ``A'' groups)
+			}\end{solution}
+			
+			\item Suppose that at some time later, there are $n$ molecules in the reaction mixture.  Determine how many bond-forming reactions must have occurred to reach this point.  \emph{(Hint: how much does the number of molecules in the reaction change each time a bond-forming reaction happens?)}
+			
+				\begin{solution}\instructordisplay{
+					$n_0 - n$ (each bond-forming reaction reduces the number of molecules by one, so if we have dropped from $n_0$ to $n$ molecules, we must have undergone $n_0-n$ bond-forming reactions)
+				}\end{solution}
+				
+			\item Determine how many ``A'' groups must have reacted to reach this point.
+			
+				\begin{solution}\instructordisplay{
+					$(n_0-n)$ (each bond-forming reaction uses up one ``A'' group)
+				}\end{solution}
+				
+			\item Determine the extent of reaction at this point in the reaction.
+			
+				\begin{solution}\instructordisplay{
+					$p = \frac{(n_0-n)}{n_0\langle f \rangle/2}$
+				}\end{solution}
+				
+			\item Determine the number-average degree of polymerization at this point in the reaction.
+			
+				\begin{solution}\instructordisplay{
+					$N_n = \frac{n_0}{n}$
+				}\end{solution}
+				
+			\item Finally, show that combining your answers to the previous two questions gives the Carothers equation, as desired.
+			
+				\begin{solution}\instructordisplay{
+					WRITE THIS
+				}\end{solution}
+		\end{enumerate}
 	
 \end{exercises}
 
