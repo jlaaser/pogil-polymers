@@ -1,12 +1,12 @@
 # pogil-polymers
 Polymers: A Guided Inquiry
-August 2020
+January 2022
 
 ----------------------------------------------------------
 Copyright and License
 ----------------------------------------------------------
 
-Current version (c) 2020 Jennifer Laaser
+Current version (c) 2022 Jennifer Laaser
 
 Except where otherwise noted, this work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
@@ -64,7 +64,7 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-Release 0.2.0 - August 10, 2020
+Unreleased - January 5, 2022
 
 	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
 	
@@ -79,6 +79,7 @@ Release 0.2.0 - August 10, 2020
 		Activity 3.4 - Molecular Weight Distributions in Step-Growth Polymerizations
 		Activity 4.1 - Chemistry of Free-Radical Polymerization
 		Activity 4.2 - Kinetics of Free-Radical Polymerization
+		Activity 5.1 - Atom Transfer Radical Polymerization
 		Activity 6.1 - Copolymerization
 		Activity 7.1 - Elasticity of Polymer Chains
 		Activity 8.1 - Elasticity of Polymer Networks
