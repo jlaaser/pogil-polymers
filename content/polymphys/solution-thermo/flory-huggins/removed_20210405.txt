@@ -1,0 +1,121 @@
+Considering \emph{only} the type-1 molecules in the initial state, shown below,
+	
+	\vspace{6pt}
+	\centerline{\includegraphics[width=0.25\textwidth]{\figpath/model2-m1only}}
+	\vspace{-10pt}
+	
+			\begin{enumerate}
+				\item What is $N$, the number of boxes?	\emph{(Note: Do not actually count the boxes shown in this image - give your answer in terms of the variables $m_1$ and $m_2$.)}
+				
+					\begin{solution}[0.6in]
+						\vspace{-20pt}
+						\begin{align*}
+							N = m_1
+						\end{align*}
+						Note: some students may answer $m_1+m_2$; remind them that they are considering \emph{only} the box initially containing the $m_1$ molecules here.
+					\end{solution}
+				
+				\item What is $n$, the number of type-1 molecules?  Give your answer in terms of $m_1$ and $m_2$.
+				
+					\begin{solution}[0.6in]
+						\begin{align*}
+							n = m_1
+						\end{align*}
+					\end{solution}
+				
+				\item What is $N-n$, the number of type-2 molecules? Give your answer in terms of $m_1$ and $m_2$.
+				
+					\begin{solution}[0.5in]
+						\vspace{-20pt}
+						\begin{align*}
+							N-n = m_1 - m_1 = 0
+						\end{align*}
+						Note: some students may answer $m_2$; remind them that they are considering \emph{only} the box initially containing the $m_1$ molecules here.
+					\end{solution}
+					
+				\item Using the mathematical expression given above, calculate $\Omega_1$, the number of configurations accessible to the type-1 molecules in the initial state.
+				
+					\begin{solution}[1.5in]
+						\begin{equation*}
+							\Omega_1 = {m_1 \choose m_1} = \frac{m_1!}{m_1! 0!} = 1
+						\end{equation*}
+					\end{solution}
+				
+				\item Similarly, what is $\Omega_2$, the number of configurations accessible to the type-2 molecules in the initial state?
+				
+					\begin{solution}[0.75in]
+						$\Omega_2$ should also equal 1.
+					\end{solution}
+					
+				\item What is the total entropy of the initial state?
+					
+					\begin{solution}[1in]
+						\begin{equation*}
+						S_{initial} = k \ln \Omega_1 + k \ln \Omega_2 = k \ln 1 + k \ln 1 = 0
+						\end{equation*}
+					\end{solution}
+			\end{enumerate}
+		
+		\question For the \emph{final} (mixed) state of the system shown in Model \ref{\labelbase:mdl:idealgeneral},
+		
+			\begin{enumerate}
+				\item What is $N$, the number of boxes?  Give your answer in terms of $m_1$ and $m_2$.
+				
+					\begin{solution}[0.5in]
+						\begin{align*}
+							N = m_1 + m_2
+						\end{align*}
+					\end{solution}
+				
+				\item What is $n$, the number of type-1 molecules?  Give your answer in terms of $m_1$ and $m_2$.
+				
+					\begin{solution}[0.5in]
+						\begin{align*}
+							n = m_1
+						\end{align*}
+					\end{solution}
+				
+				\item What is $N-n$, the number of type-2 molecules?  Give your answer in terms of $m_1$ and $m_2$.
+				
+					\begin{solution}[0.5in]
+						\begin{align*}
+							N-n = (m_1+m_2) - m_1 = m_2
+						\end{align*}
+					\end{solution}
+					
+				\item Using your answers to the preceding three questions, calculate $\Omega_{mixed}$, the number of configurations possible for the final (mixed) state.
+				
+					\begin{solution}[1in]
+						\begin{equation*}
+							\Omega_{mixed} = {(m_1+m_2) \choose m_1} = \frac{(m_1+m_2)!}{m_1! m_2!} = \frac{m!}{m_1! m_2!}
+						\end{equation*}
+					\end{solution}
+					
+				\item What is the entropy of the final (mixed) state?
+				
+					\begin{solution}[1in]
+						\begin{align*}
+							S_{mixed} &= k \ln \Omega_{mixed}\\
+							&= \ln m! - \ln m_1! - \ln m_2!
+						\end{align*}
+					\end{solution}
+				
+				
+			\end{enumerate}
+		\question What is the entropy of mixing, $\Delta S_{mix} = S_{mixed} - S_{initial}$, for the system shown in Model 1?
+				
+					\begin{solution}[1in]
+						\begin{align*}
+							\Delta S_{mix} &= S_{mixed} - S_{initial}\\
+							 &= \ln m! - \ln m_1! - \ln m_2! - 0 \\
+							 &= \ln m! - \ln m_1! - \ln m_2!
+						\end{align*}
+					\end{solution}
+\end{ctqs}
+
+\begin{infobox}
+	Logarithms of factorials can be approximated using Stirling's approximation,
+	\begin{equation*}
+		\ln N! \approx N \ln N - N \label{eqn:stirling}
+	\end{equation*}
+	Using this approximation, it is possible (after some algebra) to rewrite your expression for $\Delta S_{mix}$ as
