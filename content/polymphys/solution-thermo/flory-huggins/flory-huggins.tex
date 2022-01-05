@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% (c) 2019 by Jennifer Laaser
+% (c) 2022 by Jennifer Laaser
 %
 % This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 %
@@ -37,11 +37,10 @@
 			\end{itemize}
 		\item \textbf{Duration:} approx. 75 minutes, including class discussion
 		
-			\emph{Note: this activity is long, and can be split across two days if necessary.  The best split point is at the end of Model 2; in this case, Models 1 \& 2 take approximately 30 minutes on the first day, and Models 3 \& 4 take approximately 40-45 minutes on the second day.}
+			\emph{Note: this activity is long, and can be split across two days if necessary.  The best split point is at the end of Model 1; in this case, Model 1 takes approximately 30 minutes on the first day, and Models 2 \& 3 take approximately 30-40 minutes on the second day.}
 			
-			\emph{Students can also be asked to complete Model 1 before class as a warm-up exercise, and Models 2-4 can then be completed in class in approx. 60 minutes.}
+			\emph{Students can also be asked to complete CTQs 1 and 2 before class as a warm-up exercise, and the remainder of the activity can then be completed in class in approx. 50 minutes.}
 			
-			\emph{Finally, if necessary, the time required for Model 2 can also be reduced by skipping CTQs 3-5 and taking the expression for $\Delta S_{mix}$ given on page \pageref{eqn:stirling} as the starting point for the remaining CTQs.}
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
@@ -436,7 +435,7 @@ The procedure we have just followed led us to double-count most of the interacti
 \begin{model}[Polymer Solutions]
 \label{\labelbase:mdl:floryhuggins}
 
-In Models \ref{\labelbase:mdl:idealtoy} through \ref{\labelbase:mdl:regular}, we considered mixtures of small molecules in which each molecule  was independent of the other molecules of the same type.
+In Models \ref{\labelbase:mdl:ideal} and \ref{\labelbase:mdl:regular}, we considered mixtures of small molecules in which each molecule  was independent of the other molecules of the same type.
 
 In polymers, however, this is no longer true: the monomers are linked together into polymer chains and must stay close to each other, as illustrated below: 
 	
@@ -533,6 +532,25 @@ In polymers, however, this is no longer true: the monomers are linked together i
 			\begin{enumerate}
 				\item Determine the number of ways that the molecules can be distributed in each of the \emph{initial} states, and calculate the corresponding entropy.
 				
+					\begin{solution}
+					\instructordisplay{
+						There is only one way to distribute the molecules in each of the initial states.  The total entropy is thus
+						\begin{equation*}
+							S_{initial} = - k \ln 1 = 0
+						\end{equation*}
+						
+						Note: mathematically, this answer follows because the total number of configurations for the molecules of type 1 is
+						\begin{equation*}
+							\Omega_1 = {m_1 \choose m_1} = 1
+						\end{equation*}
+						so
+						\begin{equation*}
+							S_1 = - k \ln 1 = 0
+						\end{equation*}
+						and similar for the molecules of type 2.
+					}
+					\end{solution}
+				
 				\item Determine the number of ways that the molecules can be distributed in the final \emph{mixed} state, and calculate the corresponding entropy.
 				
 					\emph{Hint: you will find it helpful to know that mathematically, the number of ways to fill $N$ boxes with $n$ items of one type and $N-n$ items of a second type is}
@@ -540,14 +558,58 @@ In polymers, however, this is no longer true: the monomers are linked together i
 		\Omega = {N \choose n} = \frac{N!}{n!(N-n)!}
 	\end{equation*}
 	\emph{where $n! = n\cdot(n-1)\cdot(n-2)\cdot\dots\cdot 2 \cdot 1$.	Note that by definition, $0!=1$.}
+				
+					\begin{solution}
+					\instructordisplay{
+						In the final mixed state, there are $N=m_1+m_2$ boxes.  The number of ways to fill these boxes with $m_1$ molecules of type 1 and $m_2=N-m_1$ molecules of type 2 is
+						\begin{equation*}
+							\Omega_{mixed} = {{m_1+m_2} \choose m_1} = \frac{(m_1+m_2)!}{m_1! m_2!} = \frac{m!}{m_1! m_2!} 
+						\end{equation*}
+						where $m=m_1+m_2$
+						
+						The entropy of the mixed state is thus
+						\begin{align*}
+							S_{mixed} &= k \ln \Omega_{mixed}\\
+							&= -k(\ln m! - \ln m_1! - \ln m_2!)
+						\end{align*}
+					}
+					\end{solution}
 	
-				\item Determine the entropy of mixing for the process shown on \pageref{\labelbase:eqn:ideals}.  Give your answer in terms of $m_1!$, $m_2!$, and $m!$.
+				\item Determine the entropy of mixing for the process shown on page \pageref{\labelbase:eqn:idealS}.  Give your answer in terms of $m_1!$, $m_2!$, and $m!$.
+				
+					\begin{solution}
+					\instructordisplay{
+						\begin{align*}
+							\Delta S_{mix} &= S_{mixed} - S_{initial}\\
+							 &= k(\ln m! - \ln m_1! - \ln m_2! - 0) \\
+							 &= k(\ln m! - \ln m_1! - \ln m_2!)
+						\end{align*}
+					}
+					\end{solution}
 				
 				\item Recall that logarithms of factorials can be approximated using Stirling's approximation,
 	\begin{equation*}
 		\ln N! \approx N \ln N - N \label{eqn:stirling}
 	\end{equation*}
 					Using this approximation, show that your expression from the previous part simplifies to the expression shown on page \pageref{\labelbase:eqn:idealS}.
+				
+					\begin{solution}
+					\instructordisplay{
+						Rewriting the expression from the previous part using Stirling's approximation, we obtain
+						\begin{align*}
+							\Delta S_{mix} &= k((m \ln m - m) - (m_1 \ln m_1 -m_1) - (m_2 \ln m_2 - m_2))\\
+								&= k((m\ln m - m_1 \ln m_1 - m_2 \ln m_2) - (m - m_1 - m_2))
+						\end{align*}
+						Recalling that $m = m_1 + m_2$, the last term cancels and the remainder of the expression simplifies to
+						\begin{align*}
+							\Delta S_{mix} &= k((m_1 + m_2) \ln m - m_1 \ln m_1 - m_2 \ln m_2)\\
+								&= k(m_1(\ln m - \ln m_1) + m_2(\ln m - \ln m_2))\\
+								&= -k(m_1(\ln m_1 - \ln m) + m_2(\ln m_2 - \ln m))\\
+								&= -k\left( m_1 \ln \left(\frac{m_1}{m} \right) + m_2 \ln \left(\frac{m_2}{m}\right)\right) 
+						\end{align*}
+					}
+					\end{solution}
+					
 			\end{enumerate}
 
 
