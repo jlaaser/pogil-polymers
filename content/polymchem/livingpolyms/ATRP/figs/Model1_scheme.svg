@@ -7,14 +7,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="Model1_scheme.svg"
-   id="svg344"
-   version="1.1"
-   height="113.45193mm"
-   width="114.00101mm"
+   viewBox="29.44 13.17 387.27 299.04078"
    preserveAspectRatio="xMidYMid"
-   viewBox="29.44 13.17 430.86998 428.79467">
+   width="102.46518mm"
+   height="79.121208mm"
+   version="1.1"
+   id="svg344"
+   sodipodi:docname="Model1_scheme.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
   <metadata
      id="metadata350">
     <rdf:RDF>
@@ -30,976 +30,993 @@
   <defs
      id="defs348" />
   <sodipodi:namedview
-     inkscape:current-layer="svg344"
-     inkscape:window-maximized="1"
-     inkscape:window-y="-6"
-     inkscape:window-x="-6"
-     inkscape:cy="238.53726"
-     inkscape:cx="215.07757"
-     inkscape:zoom="1.3288656"
-     fit-margin-bottom="2"
-     fit-margin-right="2"
-     fit-margin-left="2"
-     fit-margin-top="2"
-     units="mm"
-     showgrid="false"
-     id="namedview346"
-     inkscape:window-height="850"
-     inkscape:window-width="1368"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     guidetolerance="10"
-     gridtolerance="10"
-     objecttolerance="10"
-     borderopacity="1"
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
      bordercolor="#666666"
-     pagecolor="#ffffff" />
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1368"
+     inkscape:window-height="850"
+     id="namedview346"
+     showgrid="false"
+     units="mm"
+     fit-margin-top="2"
+     fit-margin-left="2"
+     fit-margin-right="2"
+     fit-margin-bottom="2"
+     inkscape:zoom="1.3288656"
+     inkscape:cx="201.90844"
+     inkscape:cy="143.25919"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg344" />
   <clipPath
      id="436">
     <rect
-       id="rect2"
-       height="719.40002"
-       width="539.40002"
+       x="0.30000001"
        y="0.30000001"
-       x="0.30000001" />
+       width="539.40002"
+       height="719.40002"
+       id="rect2" />
   </clipPath>
   <g
-     transform="translate(6.7875702,9.757259)"
-     id="g13">
+     id="g13"
+     transform="translate(-37.21243,-56.242741)">
     <text
-       id="text11"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan7"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text11"><tspan
+         x="434.62"
          y="233.09"
-         x="434.62">P</tspan><tspan
-         id="tspan9"
+         font-family="Arial"
+         font-size="10px"
          fill="#000000"
-         font-size="7.5px"
+         id="tspan7">P</tspan><tspan
+         font-family="Arial"
          dy="2.26"
-         font-family="Arial">i</tspan></text>
+         font-size="7.5px"
+         fill="#000000"
+         id="tspan9">i</tspan></text>
   </g>
   <circle
-     id="circle15"
-     fill="#000000"
-     stroke-width="0"
-     stroke="#000000"
+     style="stroke-width:0.8;stroke-miterlimit:4;stroke-dasharray:none"
+     cx="407.91757"
+     cy="167.84726"
      r="0.83333331"
-     cy="233.84726"
-     cx="451.91757" />
+     stroke="#000000"
+     stroke-width="0"
+     fill="#000000"
+     id="circle15" />
   <g
-     transform="translate(6.7875702,9.757259)"
-     id="g21">
+     id="g21"
+     transform="translate(-29.21243,-56.242741)">
     <text
-       id="text19"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan17"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text19"><tspan
+         x="406.88"
          y="232.5"
-         x="406.88">+</tspan></text>
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan17">+</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,9.757259)"
-     id="g31">
+     id="g31"
+     transform="translate(-21.21243,-56.242741)">
     <text
-       id="text29"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan23"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text29"><tspan
+         x="349.88"
          y="233.25"
-         x="349.88">Cu</tspan><tspan
-         id="tspan25"
-         fill="#000000"
-         font-size="7.5px"
-         dy="-4.0700002"
-         font-family="Arial">(II)</tspan><tspan
-         id="tspan27"
-         fill="#000000"
+         font-family="Arial"
          font-size="10px"
+         fill="#000000"
+         id="tspan23">Cu</tspan><tspan
+         font-family="Arial"
+         dy="-4.0700002"
+         font-size="7.5px"
+         fill="#000000"
+         id="tspan25">(II)</tspan><tspan
+         font-family="Arial"
          dy="4.0700002"
-         font-family="Arial">X/L</tspan></text>
+         font-size="10px"
+         fill="#000000"
+         id="tspan27">X/L</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g39">
+     id="g39"
+     transform="translate(6.7875702,-60.242741)">
     <text
-       id="text37"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="end"
-       xml:space="preserve"><tspan
-         id="tspan33"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text37"><tspan
+         x="114.07"
          y="237.89999"
-         x="114.07">P</tspan><tspan
-         id="tspan35"
+         font-family="Arial"
+         font-size="10px"
          fill="#000000"
-         font-size="7.5px"
+         id="tspan33">P</tspan><tspan
+         font-family="Arial"
          dy="2.26"
-         font-family="Arial">i</tspan></text>
-  </g>
-  <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g45">
-    <text
-       id="text43"
-       text-rendering="geometricPrecision"
-       text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan41"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
-         y="237.89999"
-         x="124.32">X</tspan></text>
-  </g>
-  <g
-     transform="translate(6.7875702,5.7572591)"
-     id="Solid">
-    <path
-       id="path47"
-       shape-rendering="geometricPrecision"
-       fill="#000000"
-       stroke-linejoin="miter"
-       fill-rule="evenodd"
-       stroke-width="0"
-       stroke="#000000"
-       d="m 115.2,234.3 v 0 -0.3 -0.3 h 7.6 v 0.3 0.3 z" />
-  </g>
-  <g
-     transform="translate(6.7875702,9.757259)"
-     id="g58">
-    <text
-       id="text56"
-       text-rendering="geometricPrecision"
-       text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan50"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
-         y="234"
-         x="178.13">Cu</tspan><tspan
-         id="tspan52"
-         fill="#000000"
          font-size="7.5px"
-         dy="-4.0700002"
-         font-family="Arial">(I)</tspan><tspan
-         id="tspan54"
          fill="#000000"
-         font-size="10px"
-         dy="4.0700002"
-         font-family="Arial">/L</tspan></text>
+         id="tspan35">i</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g64">
+     id="g45"
+     transform="translate(6.7875702,-60.242741)">
     <text
-       id="text62"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan60"
-         fill="#000000"
-         font-size="10px"
+       text-rendering="geometricPrecision"
+       id="text43"><tspan
+         x="124.32"
+         y="237.89999"
          font-family="Arial"
-         y="237.75"
-         x="150">+</tspan></text>
+         font-size="10px"
+         fill="#000000"
+         id="tspan41">X</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,9.757259)"
-     id="Arrow">
+     id="Solid"
+     transform="translate(6.7875702,-60.242741)">
+    <path
+       d="m 115.2,234.3 v 0 -0.3 -0.3 h 7.6 v 0.3 0.3 z"
+       stroke="#000000"
+       stroke-width="0"
+       fill-rule="evenodd"
+       stroke-linejoin="miter"
+       fill="#000000"
+       shape-rendering="geometricPrecision"
+       id="path47" />
+  </g>
+  <g
+     id="g58"
+     transform="translate(-7.2124298,-56.242741)">
+    <text
+       xml:space="preserve"
+       text-anchor="start"
+       text-rendering="geometricPrecision"
+       id="text56"><tspan
+         x="178.13"
+         y="234"
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan50">Cu</tspan><tspan
+         font-family="Arial"
+         dy="-4.0700002"
+         font-size="7.5px"
+         fill="#000000"
+         id="tspan52">(I)</tspan><tspan
+         font-family="Arial"
+         dy="4.0700002"
+         font-size="10px"
+         fill="#000000"
+         id="tspan54">/L</tspan></text>
+  </g>
+  <g
+     id="g64"
+     transform="translate(0.78757021,-60.242741)">
+    <text
+       xml:space="preserve"
+       text-anchor="start"
+       text-rendering="geometricPrecision"
+       id="text62"><tspan
+         x="150"
+         y="237.75"
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan60">+</tspan></text>
+  </g>
+  <g
+     id="Arrow"
+     transform="translate(-15.21243,-56.242741)">
     <g
        id="Equilibrium Arrow">
       <line
-         id="line66"
-         shape-rendering="auto"
-         stroke-width="0.6"
-         stroke="#000000"
-         y2="230.39999"
-         x2="328.63"
+         x1="232.63"
          y1="230.39999"
-         x1="232.63" />
-      <line
-         id="line68"
-         shape-rendering="auto"
-         stroke-width="0.6"
+         x2="328.63"
+         y2="230.39999"
          stroke="#000000"
-         y2="228.60001"
-         x2="292.38"
+         stroke-width="0.6"
+         shape-rendering="auto"
+         id="line66" />
+      <line
+         x1="260.38"
          y1="228.60001"
-         x1="260.38" />
+         x2="292.38"
+         y2="228.60001"
+         stroke="#000000"
+         stroke-width="0.6"
+         shape-rendering="auto"
+         id="line68" />
     </g>
     <path
-       id="path71"
-       shape-rendering="geometricPrecision"
-       fill="#000000"
-       stroke-miterlimit="6.05526"
-       stroke-linejoin="miter"
-       fill-rule="evenodd"
-       stroke-width="0"
+       d="m 228.38,230.1 6,1.8 c -1.19,-1.01 -0.75,-1.8 -0.75,-1.8 z"
        stroke="#000000"
-       d="m 228.38,230.1 6,1.8 c -1.19,-1.01 -0.75,-1.8 -0.75,-1.8 z" />
+       stroke-width="0"
+       fill-rule="evenodd"
+       stroke-linejoin="miter"
+       stroke-miterlimit="6.05526"
+       fill="#000000"
+       shape-rendering="geometricPrecision"
+       id="path71" />
     <path
-       id="path73"
-       shape-rendering="geometricPrecision"
-       fill="#000000"
-       stroke-miterlimit="6.05526"
-       stroke-linejoin="miter"
-       fill-rule="evenodd"
-       stroke-width="0"
+       d="m 296.63,228.9 -6,-1.8 c 1.19,1.01 0.75,1.8 0.75,1.8 z"
        stroke="#000000"
-       d="m 296.63,228.9 -6,-1.8 c 1.19,1.01 0.75,1.8 0.75,1.8 z" />
+       stroke-width="0"
+       fill-rule="evenodd"
+       stroke-linejoin="miter"
+       stroke-miterlimit="6.05526"
+       fill="#000000"
+       shape-rendering="geometricPrecision"
+       id="path73" />
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g80">
+     id="g80"
+     transform="translate(-37.21243,-10.242741)">
     <text
-       id="text78"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan76"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text78"><tspan
+         x="431.72"
          y="75.220001"
-         x="431.72">R</tspan></text>
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan76">R</tspan></text>
   </g>
   <circle
-     id="circle82"
-     fill="#000000"
-     stroke-width="0"
-     stroke="#000000"
+     style="stroke-width:0.8;stroke-miterlimit:4;stroke-dasharray:none"
+     cx="405.28757"
+     cy="55.977257"
      r="0.83333331"
-     cy="71.977257"
-     cx="449.28757" />
+     stroke="#000000"
+     stroke-width="0"
+     fill="#000000"
+     id="circle82" />
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g88">
+     id="g88"
+     transform="translate(-29.21243,-10.242741)">
     <text
-       id="text86"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan84"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text86"><tspan
+         x="404.25"
          y="74.629997"
-         x="404.25">+</tspan></text>
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan84">+</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g98">
+     id="g98"
+     transform="translate(-21.21243,-10.242741)">
     <text
-       id="text96"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan90"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text96"><tspan
+         x="347.25"
          y="75.379997"
-         x="347.25">Cu</tspan><tspan
-         id="tspan92"
-         fill="#000000"
-         font-size="7.5px"
-         dy="-4.0700002"
-         font-family="Arial">(II)</tspan><tspan
-         id="tspan94"
-         fill="#000000"
-         font-size="10px"
-         dy="4.0700002"
-         font-family="Arial">X/L</tspan></text>
-  </g>
-  <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g104">
-    <text
-       id="text102"
-       text-rendering="geometricPrecision"
-       text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan100"
-         fill="#000000"
-         font-size="10px"
          font-family="Arial"
-         y="76.269997"
-         x="107.02">R</tspan></text>
+         font-size="10px"
+         fill="#000000"
+         id="tspan90">Cu</tspan><tspan
+         font-family="Arial"
+         dy="-4.0700002"
+         font-size="7.5px"
+         fill="#000000"
+         id="tspan92">(II)</tspan><tspan
+         font-family="Arial"
+         dy="4.0700002"
+         font-size="10px"
+         fill="#000000"
+         id="tspan94">X/L</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g108">
+     id="g104"
+     transform="translate(6.7875702,-10.242741)">
+    <text
+       xml:space="preserve"
+       text-anchor="start"
+       text-rendering="geometricPrecision"
+       id="text102"><tspan
+         x="107.02"
+         y="76.269997"
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan100">R</tspan></text>
+  </g>
+  <g
+     id="g108"
+     transform="translate(6.7875702,-10.242741)">
     <path
-       id="path106"
-       shape-rendering="geometricPrecision"
-       fill="#000000"
-       stroke-linejoin="miter"
-       fill-rule="evenodd"
-       stroke-width="0"
+       d="m 114.9,72.68 v 0 -0.3 -0.3 h 5.3 v 0.3 0.3 z"
        stroke="#000000"
-       d="m 114.9,72.68 v 0 -0.3 -0.3 h 5.3 v 0.3 0.3 z" />
+       stroke-width="0"
+       fill-rule="evenodd"
+       stroke-linejoin="miter"
+       fill="#000000"
+       shape-rendering="geometricPrecision"
+       id="path106" />
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g114">
+     id="g114"
+     transform="translate(6.7875702,-10.242741)">
     <text
-       id="text112"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan110"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text112"><tspan
+         x="121.7"
          y="76.269997"
-         x="121.7">X</tspan></text>
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan110">X</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g124">
+     id="g124"
+     transform="translate(-7.2124298,-10.242741)">
     <text
-       id="text122"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan116"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text122"><tspan
+         x="175.5"
          y="76.129997"
-         x="175.5">Cu</tspan><tspan
-         id="tspan118"
+         font-family="Arial"
+         font-size="10px"
          fill="#000000"
-         font-size="7.5px"
+         id="tspan116">Cu</tspan><tspan
+         font-family="Arial"
          dy="-4.0700002"
-         font-family="Arial">(I)</tspan><tspan
-         id="tspan120"
+         font-size="7.5px"
          fill="#000000"
-         font-size="10px"
-         dy="4.0700002"
-         font-family="Arial">/L</tspan></text>
-  </g>
-  <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g130">
-    <text
-       id="text128"
-       text-rendering="geometricPrecision"
-       text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan126"
-         fill="#000000"
-         font-size="10px"
+         id="tspan118">(I)</tspan><tspan
          font-family="Arial"
-         y="76.129997"
-         x="147.38">+</tspan></text>
+         dy="4.0700002"
+         font-size="10px"
+         fill="#000000"
+         id="tspan120">/L</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g142">
+     id="g130"
+     transform="translate(0.78757021,-10.242741)">
+    <text
+       xml:space="preserve"
+       text-anchor="start"
+       text-rendering="geometricPrecision"
+       id="text128"><tspan
+         x="147.38"
+         y="76.129997"
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan126">+</tspan></text>
+  </g>
+  <g
+     id="g142"
+     transform="translate(-15.21243,-10.242741)">
     <g
        id="g136">
       <line
-         id="line132"
-         shape-rendering="auto"
-         stroke-width="0.6"
-         stroke="#000000"
-         y2="72.529999"
-         x2="326.01001"
+         x1="230"
          y1="72.529999"
-         x1="230" />
-      <line
-         id="line134"
-         shape-rendering="auto"
-         stroke-width="0.6"
+         x2="326.01001"
+         y2="72.529999"
          stroke="#000000"
-         y2="70.730003"
-         x2="289.76001"
+         stroke-width="0.6"
+         shape-rendering="auto"
+         id="line132" />
+      <line
+         x1="257.75"
          y1="70.730003"
-         x1="257.75" />
+         x2="289.76001"
+         y2="70.730003"
+         stroke="#000000"
+         stroke-width="0.6"
+         shape-rendering="auto"
+         id="line134" />
     </g>
     <path
-       id="path138"
-       shape-rendering="geometricPrecision"
-       fill="#000000"
-       stroke-miterlimit="6.05526"
-       stroke-linejoin="miter"
-       fill-rule="evenodd"
-       stroke-width="0"
+       d="m 225.75,72.23 6,1.8 C 230.56,73.02 231,72.23 231,72.23 Z"
        stroke="#000000"
-       d="m 225.75,72.23 6,1.8 C 230.56,73.02 231,72.23 231,72.23 Z" />
+       stroke-width="0"
+       fill-rule="evenodd"
+       stroke-linejoin="miter"
+       stroke-miterlimit="6.05526"
+       fill="#000000"
+       shape-rendering="geometricPrecision"
+       id="path138" />
     <path
-       id="path140"
-       shape-rendering="geometricPrecision"
-       fill="#000000"
-       stroke-miterlimit="6.05526"
-       stroke-linejoin="miter"
-       fill-rule="evenodd"
-       stroke-width="0"
+       d="m 294.01,71.03 -6,-1.8 c 1.18,1.01 0.75,1.8 0.75,1.8 z"
        stroke="#000000"
-       d="m 294.01,71.03 -6,-1.8 c 1.18,1.01 0.75,1.8 0.75,1.8 z" />
+       stroke-width="0"
+       fill-rule="evenodd"
+       stroke-linejoin="miter"
+       stroke-miterlimit="6.05526"
+       fill="#000000"
+       shape-rendering="geometricPrecision"
+       id="path140" />
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g150">
+     id="g150"
+     transform="translate(6.7875702,-106.24274)">
     <text
-       id="text148"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan144"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text148"><tspan
+         x="117.75"
          y="392.92999"
-         x="117.75">P</tspan><tspan
-         id="tspan146"
+         font-family="Arial"
+         font-size="10px"
          fill="#000000"
-         font-size="7.5px"
+         id="tspan144">P</tspan><tspan
+         font-family="Arial"
          dy="2.26"
-         font-family="Arial">i</tspan></text>
+         font-size="7.5px"
+         fill="#000000"
+         id="tspan146">i</tspan></text>
   </g>
   <circle
-     id="circle152"
-     fill="#000000"
-     stroke-width="0"
-     stroke="#000000"
+     style="stroke-width:0.8;stroke-miterlimit:4;stroke-dasharray:none"
+     cx="135.03757"
+     cy="277.68726"
      r="0.83333331"
-     cy="389.68726"
-     cx="135.03757" />
+     stroke="#000000"
+     stroke-width="0"
+     fill="#000000"
+     id="circle152" />
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g160">
+     id="g160"
+     transform="translate(-7.2124298,-106.24274)">
     <text
-       id="text158"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan154"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text158"><tspan
+         x="174"
          y="392.92999"
-         x="174">P</tspan><tspan
-         id="tspan156"
+         font-family="Arial"
+         font-size="10px"
          fill="#000000"
-         font-size="7.5px"
+         id="tspan154">P</tspan><tspan
+         font-family="Arial"
          dy="2.26"
-         font-family="Arial">j</tspan></text>
+         font-size="7.5px"
+         fill="#000000"
+         id="tspan156">j</tspan></text>
   </g>
   <circle
-     id="circle162"
-     fill="#000000"
-     stroke-width="0"
-     stroke="#000000"
+     style="stroke-width:0.8;stroke-miterlimit:4;stroke-dasharray:none"
+     cx="177.28757"
+     cy="277.68726"
      r="0.83333331"
-     cy="389.68726"
-     cx="191.28757" />
+     stroke="#000000"
+     stroke-width="0"
+     fill="#000000"
+     id="circle162" />
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g168">
+     id="g168"
+     transform="translate(0.78757021,-106.24274)">
     <text
-       id="text166"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan164"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text166"><tspan
+         x="149.06"
          y="393.28"
-         x="149.06">+</tspan></text>
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan164">+</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g174">
+     id="g174"
+     transform="translate(6.7875702,5.7572591)">
     <text
-       id="text172"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan170"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text172"><tspan
+         x="29.440001"
          y="22.129999"
-         x="29.440001">Initiation:</tspan></text>
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan170">Initiation:</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g180">
+     id="g180"
+     transform="translate(6.7875702,-86.24274)">
     <text
-       id="text178"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan176"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text178"><tspan
+         x="30.940001"
          y="337.13"
-         x="30.940001">Termination:</tspan></text>
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan176">Termination:</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g186">
+     id="g186"
+     transform="translate(6.7875702,-40.242741)">
     <text
-       id="text184"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan182"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text184"><tspan
+         x="29.440001"
          y="180.38"
-         x="29.440001">Propagation:</tspan></text>
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan182">Propagation:</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g192">
+     id="g192"
+     transform="translate(6.7875702,-2.2427409)">
     <text
-       id="text190"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan188"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text190"><tspan
+         x="58.689999"
          y="48.380001"
-         x="58.689999">Initial Equilibrium:</tspan></text>
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan188">Initial Equilibrium:</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g198">
+     id="g198"
+     transform="translate(6.7875702,-20.242741)">
     <text
-       id="text196"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan194"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text196"><tspan
+         x="58.689999"
          y="111.38"
-         x="58.689999">Addition of First Monomer:</tspan></text>
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan194">Addition of First Monomer:</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g204">
+     id="g204"
+     transform="translate(6.7875702,-50.242741)">
     <text
-       id="text202"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan200"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text202"><tspan
+         x="57.939999"
          y="209.25"
-         x="57.939999">ATRP Equilibrium:</tspan></text>
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan200">ATRP Equilibrium:</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g210">
+     id="g210"
+     transform="translate(6.7875702,-76.242741)">
     <text
-       id="text208"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan206"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text208"><tspan
+         x="57.189999"
          y="276.38"
-         x="57.189999">Monomer Addition:</tspan></text>
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan206">Monomer Addition:</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g218">
+     id="g218"
+     transform="translate(6.7875702,-90.242741)">
     <text
-       id="text216"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan212"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text216"><tspan
+         x="106.12"
          y="312.22"
-         x="106.12">P</tspan><tspan
-         id="tspan214"
+         font-family="Arial"
+         font-size="10px"
          fill="#000000"
-         font-size="7.5px"
+         id="tspan212">P</tspan><tspan
+         font-family="Arial"
          dy="2.26"
-         font-family="Arial">i</tspan></text>
+         font-size="7.5px"
+         fill="#000000"
+         id="tspan214">i</tspan></text>
   </g>
   <circle
-     id="circle220"
-     fill="#000000"
-     stroke-width="0"
-     stroke="#000000"
+     style="stroke-width:0.8;stroke-miterlimit:4;stroke-dasharray:none"
+     cx="123.41756"
+     cy="212.59726"
      r="0.83333331"
-     cy="308.59726"
-     cx="123.41756" />
+     stroke="#000000"
+     stroke-width="0"
+     fill="#000000"
+     id="circle220" />
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g226">
+     id="g226"
+     transform="translate(0.78757021,-90.242741)">
     <text
-       id="text224"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan222"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text224"><tspan
+         x="150.94"
          y="312.75"
-         x="150.94">+</tspan></text>
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan222">+</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g232">
+     id="g232"
+     transform="translate(-7.2124298,-90.242741)">
     <text
-       id="text230"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan228"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text230"><tspan
+         x="189.19"
          y="312.75"
-         x="189.19">M</tspan></text>
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan228">M</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g238">
+     id="g238"
+     transform="translate(-15.21243,-90.242741)">
     <line
-       id="line234"
-       shape-rendering="auto"
-       stroke-width="0.6"
-       stroke="#000000"
-       y2="309.38"
-       x2="231.19"
+       x1="319.56"
        y1="309.38"
-       x1="319.56" />
-    <path
-       id="path236"
-       shape-rendering="geometricPrecision"
-       fill="#000000"
-       stroke-miterlimit="6.93086"
-       stroke-linejoin="miter"
-       fill-rule="evenodd"
-       stroke-width="0"
+       x2="231.19"
+       y2="309.38"
        stroke="#000000"
-       d="m 326.44,309.38 -9,-2.25 c 1.56,1.27 1.56,3.23 0,4.5 z" />
+       stroke-width="0.6"
+       shape-rendering="auto"
+       id="line234" />
+    <path
+       d="m 326.44,309.38 -9,-2.25 c 1.56,1.27 1.56,3.23 0,4.5 z"
+       stroke="#000000"
+       stroke-width="0"
+       fill-rule="evenodd"
+       stroke-linejoin="miter"
+       stroke-miterlimit="6.93086"
+       fill="#000000"
+       shape-rendering="geometricPrecision"
+       id="path236" />
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g246">
+     id="g246"
+     transform="translate(-21.21243,-90.242741)">
     <text
-       id="text244"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan240"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text244"><tspan
+         x="360.37"
          y="313.34"
-         x="360.37">P</tspan><tspan
-         id="tspan242"
+         font-family="Arial"
+         font-size="10px"
          fill="#000000"
-         font-size="7.5px"
+         id="tspan240">P</tspan><tspan
+         font-family="Arial"
          dy="2.26"
-         font-family="Arial">i+1</tspan></text>
+         font-size="7.5px"
+         fill="#000000"
+         id="tspan242">i+1</tspan></text>
   </g>
   <circle
-     id="circle248"
-     fill="#000000"
-     stroke-width="0"
-     stroke="#000000"
+     style="stroke-width:0.8;stroke-miterlimit:4;stroke-dasharray:none"
+     cx="350.41757"
+     cy="213.72726"
      r="0.83333331"
-     cy="309.72726"
-     cx="378.41757" />
+     stroke="#000000"
+     stroke-width="0"
+     fill="#000000"
+     id="circle248" />
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g256">
+     id="g256"
+     transform="translate(6.7875702,-32.242741)">
     <text
-       id="text254"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan250"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text254"><tspan
+         x="106.87"
          y="144.22"
-         x="106.87">P</tspan><tspan
-         id="tspan252"
+         font-family="Arial"
+         font-size="10px"
          fill="#000000"
-         font-size="7.5px"
+         id="tspan250">P</tspan><tspan
+         font-family="Arial"
          dy="2.26"
-         font-family="Arial">i</tspan></text>
+         font-size="7.5px"
+         fill="#000000"
+         id="tspan252">i</tspan></text>
   </g>
   <circle
-     id="circle258"
-     fill="#000000"
-     stroke-width="0"
-     stroke="#000000"
+     style="stroke-width:0.8;stroke-miterlimit:4;stroke-dasharray:none"
+     cx="124.16756"
+     cy="102.59726"
      r="0.83333331"
-     cy="140.59726"
-     cx="124.16756" />
+     stroke="#000000"
+     stroke-width="0"
+     fill="#000000"
+     id="circle258" />
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g264">
+     id="g264"
+     transform="translate(0.78757021,-32.242741)">
     <text
-       id="text262"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan260"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text262"><tspan
+         x="151.69"
          y="144.75"
-         x="151.69">+</tspan></text>
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan260">+</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g270">
+     id="g270"
+     transform="translate(-7.2124298,-32.242741)">
     <text
-       id="text268"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan266"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text268"><tspan
+         x="189.94"
          y="144.75"
-         x="189.94">M</tspan></text>
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan266">M</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g276">
+     id="g276"
+     transform="translate(-15.21243,-32.242741)">
     <line
-       id="line272"
-       shape-rendering="auto"
-       stroke-width="0.6"
-       stroke="#000000"
-       y2="141.38"
-       x2="231.94"
+       x1="320.31"
        y1="141.38"
-       x1="320.31" />
-    <path
-       id="path274"
-       shape-rendering="geometricPrecision"
-       fill="#000000"
-       stroke-miterlimit="6.93086"
-       stroke-linejoin="miter"
-       fill-rule="evenodd"
-       stroke-width="0"
+       x2="231.94"
+       y2="141.38"
        stroke="#000000"
-       d="m 327.19,141.38 -9,-2.25 c 1.56,1.27 1.56,3.23 0,4.5 z" />
+       stroke-width="0.6"
+       shape-rendering="auto"
+       id="line272" />
+    <path
+       d="m 327.19,141.38 -9,-2.25 c 1.56,1.27 1.56,3.23 0,4.5 z"
+       stroke="#000000"
+       stroke-width="0"
+       fill-rule="evenodd"
+       stroke-linejoin="miter"
+       stroke-miterlimit="6.93086"
+       fill="#000000"
+       shape-rendering="geometricPrecision"
+       id="path274" />
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g284">
+     id="g284"
+     transform="translate(-21.21243,-32.242741)">
     <text
-       id="text282"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan278"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text282"><tspan
+         x="361.12"
          y="145.34"
-         x="361.12">P</tspan><tspan
-         id="tspan280"
+         font-family="Arial"
+         font-size="10px"
          fill="#000000"
-         font-size="7.5px"
+         id="tspan278">P</tspan><tspan
+         font-family="Arial"
          dy="2.26"
-         font-family="Arial">i+1</tspan></text>
+         font-size="7.5px"
+         fill="#000000"
+         id="tspan280">i+1</tspan></text>
   </g>
   <circle
-     id="circle286"
-     fill="#000000"
-     stroke-width="0"
-     stroke="#000000"
+     style="stroke-width:0.8;stroke-miterlimit:4;stroke-dasharray:none"
+     cx="351.16757"
+     cy="103.72726"
      r="0.83333331"
-     cy="141.72726"
-     cx="379.16757" />
+     stroke="#000000"
+     stroke-width="0"
+     fill="#000000"
+     id="circle286" />
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g292">
-    <line
-       id="line288"
-       shape-rendering="auto"
-       stroke-width="0.6"
-       stroke="#000000"
-       y2="385.88"
-       x2="229.69"
-       y1="362.60999"
-       x1="316.53" />
-    <path
-       id="path290"
-       shape-rendering="geometricPrecision"
-       fill="#000000"
-       stroke-miterlimit="6.93086"
-       stroke-linejoin="miter"
-       fill-rule="evenodd"
-       stroke-width="0"
-       stroke="#000000"
-       d="m 323.17,360.83 -9.28,0.16 c 1.84,0.81 2.35,2.72 1.17,4.34 z" />
-  </g>
-  <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g298">
-    <line
-       id="line294"
-       shape-rendering="auto"
-       stroke-width="0.6"
-       stroke="#000000"
-       y2="394.13"
-       x2="229.69"
-       y1="416.94"
-       x1="314.82999" />
-    <path
-       id="path296"
-       shape-rendering="geometricPrecision"
-       fill="#000000"
-       stroke-miterlimit="6.93086"
-       stroke-linejoin="miter"
-       fill-rule="evenodd"
-       stroke-width="0"
-       stroke="#000000"
-       d="m 321.47,418.72 -8.11,-4.5 c 1.18,1.62 0.67,3.53 -1.17,4.34 z" />
-  </g>
-  <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g306">
+     id="g306"
+     transform="translate(-21.21243,-90.24274)">
     <text
-       id="text304"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan300"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text304"><tspan
+         x="366.75"
          y="362.56"
-         x="366.75">P</tspan><tspan
-         id="tspan302"
+         font-family="Arial"
+         font-size="10px"
          fill="#000000"
-         font-size="7.5px"
+         id="tspan300">P</tspan><tspan
+         font-family="Arial"
          dy="2.26"
-         font-family="Arial">i</tspan></text>
+         font-size="7.5px"
+         fill="#000000"
+         id="tspan302">i</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g314">
+     id="g314"
+     transform="translate(-37.21243,-90.24274)">
     <text
-       id="text312"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan308"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text312"><tspan
+         x="423"
          y="362.56"
-         x="423">P</tspan><tspan
-         id="tspan310"
+         font-family="Arial"
+         font-size="10px"
          fill="#000000"
-         font-size="7.5px"
+         id="tspan308">P</tspan><tspan
+         font-family="Arial"
          dy="2.26"
-         font-family="Arial">j</tspan></text>
+         font-size="7.5px"
+         fill="#000000"
+         id="tspan310">j</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g320">
+     id="g320"
+     transform="translate(-29.21243,-90.24274)">
     <text
-       id="text318"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan316"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text318"><tspan
+         x="398.06"
          y="362.91"
-         x="398.06">+</tspan></text>
+         font-family="Arial"
+         font-size="10px"
+         fill="#000000"
+         id="tspan316">+</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g328">
+     id="g328"
+     transform="translate(-21.21243,-126.24274)">
     <text
-       id="text326"
-       text-rendering="geometricPrecision"
+       xml:space="preserve"
        text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan322"
-         fill="#000000"
-         font-size="10px"
-         font-family="Arial"
+       text-rendering="geometricPrecision"
+       id="text326"><tspan
+         x="366.37"
          y="424.81"
-         x="366.37">P</tspan><tspan
-         id="tspan324"
+         font-family="Arial"
+         font-size="10px"
          fill="#000000"
-         font-size="7.5px"
+         id="tspan322">P</tspan><tspan
+         font-family="Arial"
          dy="2.26"
-         font-family="Arial">i+j</tspan></text>
+         font-size="7.5px"
+         fill="#000000"
+         id="tspan324">i+j</tspan></text>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g334">
-    <text
-       id="text332"
-       transform="rotate(-16,233.88,378.58)"
-       text-rendering="geometricPrecision"
-       text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan330"
+     transform="rotate(8.1235831,356.67315,121.80637)"
+     id="g183">
+    <g
+       transform="translate(6.7875702,-86.24274)"
+       id="g292">
+      <line
+         id="line288"
+         shape-rendering="auto"
+         stroke-width="0.6"
+         stroke="#000000"
+         y2="385.88"
+         x2="229.69"
+         y1="362.60999"
+         x1="316.53" />
+      <path
+         id="path290"
+         shape-rendering="geometricPrecision"
          fill="#000000"
-         font-size="10px"
-         font-family="Arial"
-         y="378.57999"
-         x="233.88">disproportionation</tspan></text>
+         stroke-miterlimit="6.93086"
+         stroke-linejoin="miter"
+         fill-rule="evenodd"
+         stroke-width="0"
+         stroke="#000000"
+         d="m 323.17,360.83 -9.28,0.16 c 1.84,0.81 2.35,2.72 1.17,4.34 z" />
+    </g>
+    <g
+       transform="translate(6.7875702,-86.24274)"
+       id="g334">
+      <text
+         id="text332"
+         transform="rotate(-16,233.88,378.58)"
+         text-rendering="geometricPrecision"
+         text-anchor="start"
+         xml:space="preserve"><tspan
+           id="tspan330"
+           fill="#000000"
+           font-size="10px"
+           font-family="Arial"
+           y="378.57999"
+           x="233.88">disproportionation</tspan></text>
+    </g>
   </g>
   <g
-     transform="translate(6.7875702,5.7572591)"
-     id="g340">
-    <text
-       id="text338"
-       transform="rotate(17,243.07,410.02)"
-       text-rendering="geometricPrecision"
-       text-anchor="start"
-       xml:space="preserve"><tspan
-         id="tspan336"
+     transform="rotate(-7.9306511,40.510815,466.16223)"
+     id="g191">
+    <g
+       transform="translate(6.7875702,-86.24274)"
+       id="g298">
+      <line
+         id="line294"
+         shape-rendering="auto"
+         stroke-width="0.6"
+         stroke="#000000"
+         y2="394.13"
+         x2="229.69"
+         y1="416.94"
+         x1="314.82999" />
+      <path
+         id="path296"
+         shape-rendering="geometricPrecision"
          fill="#000000"
-         font-size="10px"
-         font-family="Arial"
-         y="410.01999"
-         x="243.07001">combination</tspan></text>
+         stroke-miterlimit="6.93086"
+         stroke-linejoin="miter"
+         fill-rule="evenodd"
+         stroke-width="0"
+         stroke="#000000"
+         d="m 321.47,418.72 -8.11,-4.5 c 1.18,1.62 0.67,3.53 -1.17,4.34 z" />
+    </g>
+    <g
+       transform="translate(6.7875702,-86.24274)"
+       id="g340">
+      <text
+         id="text338"
+         transform="rotate(17,243.07,410.02)"
+         text-rendering="geometricPrecision"
+         text-anchor="start"
+         xml:space="preserve"><tspan
+           id="tspan336"
+           fill="#000000"
+           font-size="10px"
+           font-family="Arial"
+           y="410.01999"
+           x="243.07001">combination</tspan></text>
+    </g>
   </g>
 </svg>
