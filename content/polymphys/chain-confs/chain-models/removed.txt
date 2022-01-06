@@ -1,0 +1,39 @@
+\begin{infobox}
+
+A quantitative measure of a polymer's stiffness is its \emph{persistence length}, which tells you how far you have to go along the polymer backbone before the chain, on average, turns by 90$^\circ$.
+	
+		The persistence length is given by
+		\begin{equation*}
+			l_p = C_\infty \frac{l}{2}
+		\end{equation*}
+		
+\end{infobox}
+
+\question Is this information consistent with your answers to questions \ref{\labelbase:ctq:stiffness} and \ref{\labelbase:ctq:C}?
+	
+		\begin{solution}[0.75in]
+		\end{solution}
+		
+		
+		
+		
+		
+
+			
+			\item Combine your answers from parts \ref{\labelbase:ctq:Nb} and \ref{\labelbase:ctq:Nb2} to find expressions for $N$ and $b$ in terms of the characteristic ratio $C_\infty$, the number of bonds $n$, and the bond length $l$.
+	
+		\begin{solution}[1.25in]
+		\end{solution}
+		\end{enumerate}
+		
+		
+		\exercise In CTQ \ref{\labelbase:ctq:C}, you learned that
+		\begin{equation*}
+			\langle h^2 \rangle = C_\infty n l^2
+		\end{equation*}
+		
+		\begin{enumerate}
+			\item Combine this expression with your results from CTQs \ref{\labelbase:ctq:statseg}a and b to find an expression for the statistical segment length, $b$, in terms of $C_\infty$, $n$, $l$, and $R_{max}$.
+			
+			\item 
+		\end{enumerate}

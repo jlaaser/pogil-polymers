@@ -233,7 +233,7 @@
 			\clearpage
 			\color{black}
 			\ifbool{isbook}{%
-				\section*{Activity~\arabic{activity}: \activitytitle}
+				\section*{Activity~\arabic{chapter}.\arabic{activity}: \activitytitle}
     		}{%
     			\section*{\activitytitle}
     		}
