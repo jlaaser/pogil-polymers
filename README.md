@@ -64,7 +64,7 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-Unreleased - January 5, 2022
+Unreleased - January 6, 2022
 
 	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
 	
@@ -81,7 +81,8 @@ Unreleased - January 5, 2022
 		Activity 4.2 - Kinetics of Free-Radical Polymerization
 		Activity 5.1 - Atom Transfer Radical Polymerization
 		Activity 6.1 - Copolymerization
-		Activity 7.1 - Elasticity of Polymer Chains
+		Activity 7.1 - Models for Ideal Polymer Chains
+		Activity 7.2 - Elasticity of Polymer Chains
 		Activity 8.1 - Elasticity of Polymer Networks
 		Activity 8.2 - Viscoelasticity of Polymeric Materials
 		Extension 8.2a - Small-Amplitude Oscillatory Shear Rheology
