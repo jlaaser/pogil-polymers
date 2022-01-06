@@ -88,6 +88,7 @@ Unreleased - January 5, 2022
 		Activity 9.1 - Regular Solutions & Flory-Huggins Theory
 		Activity 9.2 - Thermodynamics of Phase Separation
 		Activity 9.3 - Phase Diagrams of Polymer Solutions
+
 	
 	The following activites are complete (including the instructor guide), but have not been classroom-tested (or, have been classroom-tested but have not yet been updated following testing):
 	
@@ -96,3 +97,9 @@ Unreleased - January 5, 2022
 	The following activities are included as ``working drafts'' which contain complete student handouts but no instructor guides, and have not been classroom-tested (or, have been classroom-tested but have not yet been updated following testing):
 	
 		n/a - none in this release
+		
+---------------------------------------------------------
+Acknowledgments
+---------------------------------------------------------
+
+This project is supported by the National Science Foundation under award DMR-POL 1846665.
