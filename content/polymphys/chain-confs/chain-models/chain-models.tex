@@ -11,7 +11,7 @@
 \renewcommand{\figpath}{content/polymphys/chain-confs/chain-models/figs}
 \renewcommand{\labelbase}{chain-models}
 
-\begin{activity}{Models for Polymer Chains}
+\begin{activity}{Models for Ideal Polymer Chains}
 
 \begin{instructornotes}
 
@@ -21,7 +21,7 @@
 			\begin{enumerate}
 				\item Describe the properties of random walks relevant for understanding polymer chains
 				\item Identify simple models for polymer chains and describe their similarities and differences
-				\item Express the properties of polymer chains in terms of their characteristic ratio and/or statistical segment length
+				\item Express the properties of polymer chains in terms of their characteristic ratio and/or Kuhn length
 				\item Calculate the radius of gyration for polymer chains, and understand how this quantity scales with changes in a polymer's molecular weight
 			\end{enumerate}
 	
@@ -50,7 +50,7 @@
 	\subsection*{Other notes:}
 	
 		\begin{itemize}
-		\item If you choose to use Exercise {\labelbase:exc:statseg}, please note that it differs from the treatment in Hiemenz \& Lodge, in that $N$ in the equivalent freely jointed chain is \emph{not} equal to the actual degree of polymerization of the polymer.  The definitions in this exercise most closely follow the treatment in section 2.2 of \emph{Polymer Physics} by Rubinstein \& Colby.
+		\item If you choose to use Exercise \ref{\labelbase:exc:statseg}, please note that it most closely follows the treatment in section 2.2 of \emph{Polymer Physics} by Rubinstein \& Colby (in which $N$ in the equivalent freely jointed chain is \emph{not} equal to the actual degree of polymerization of the polymer, and $b$ is the Kuhn length) rather than that in Hiemenz \& Lodge (in which $N$ in the equivalent freely-jointed chain \emph{is} equal to the actual degree of polymerization of the polymer, and the statistical segment length $b$ is not the same as the Kuhn length).  The definitions in this exercise most closely follow
 		\end{itemize}
 
 \end{instructornotes}
@@ -331,10 +331,10 @@
 		
 		\end{enumerate}
 		
-	\question The link length $b$ is called the \emph{statistical segment length}.  Do you expect the statistical segment length have a simple physical interpretation?  Briefly explain your group's reasoning in 2-3 complete sentences.\label{\labelbase:exc:statseginterp}
+	\question The link length $b$ is called the \emph{Kuhn length}.  Do you expect the Kuhn length to have a simple physical interpretation?  Briefly explain your group's reasoning in 2-3 complete sentences.\label{\labelbase:exc:statseginterp}
 	
 		\begin{solution}[1.25in]\instructordisplay{
-			No, the statistical segment length does not have a simple physical interpretation.  The $N$ in this expression is \emph{not} the real degree of polymerization of the chains (see Exercise \ref{\labelbase:exc:statseg}), and $b$ is \emph{not} the actual physical size of the monomers.  They are simply proxies for the properties of the ``closest equivalent'' freely-jointed chain.
+			No, the Kuhn length does not have a simple physical interpretation.  The $N$ in this expression is \emph{not} the real degree of polymerization of the chains (see Exercise \ref{\labelbase:exc:statseg}), and $b$ is \emph{not} the actual physical size of the monomers.  They are simply proxies for the properties of the ``closest equivalent'' freely-jointed chain.
 			}\studentdisplay{}
 		\end{solution}
 	
@@ -438,7 +438,7 @@
 		}\end{solution}
 		\end{enumerate}
 		
-	\exercise \label{\labelbase:exc:statseg} The statistical segment length and the idea of representing a polymer chain as its ``closest equivalent'' freely-jointed chain can be a bit of a confusing concept.  Explore this idea in more detail by doing the following:
+	\exercise \label{\labelbase:exc:statseg} The relationship between a polymer chain and its ``closest equivalent'' freely-jointed chain can be a bit confusing.  Explore this idea in more detail by doing the following:
 	
 		\begin{enumerate}
 			\item Combine your answers to CTQs \ref{\labelbase:ctq:statseg}a and b with the expression for $\langle h^2\rangle$ given in CTQ \ref{\labelbase:ctq:C}, and solve for $N$ and $b$ in terms of $C_\infty$, $n$, $l$, and the maximum end-to-end distance of the polymer chain, $h_{max}$.
@@ -500,10 +500,10 @@
 				
 				\item Compare your answers to parts (a) and (c), and use your results to critique or defend the following statement:
 				
-					\emph{``The number of links in the closest equivalent freely-jointed chain is equal to the actual degree of polymerization of the polymer, and the statistical segment length corresponds to the effective size of a single chemical repeat unit.''}
+					\emph{``The number of links in the closest equivalent freely-jointed chain is equal to the actual degree of polymerization of the polymer, and the Kuhn length corresponds to the effective size of a single chemical repeat unit.''}
 				
 				\begin{solution}\instructordisplay{
-					Based on the numbers calculated in this question, this statement is clearly false.  The actual degree of polymerization is 96, while the number of statistical segments is only 14.  Similarly, the statistical segment length is 17~\AA (1.7~nm), but this is much too large to correspond to a single styrene repeat unit.  Thus, as discussed in CTQ \ref{\labelbase:exc:statseginterp}, the statistical segment length (and number of statistical segments in the closest equivalent freely-jointed chain) DO NOT have a simple physical interpretation in terms of the number and size of the chemical repeat units in the chain.
+					Based on the numbers calculated in this question, this statement is clearly false.  The actual degree of polymerization is 96, while the number of Kuhn segments is only 14.  Similarly, the Kuhn length is 17~\AA (1.7~nm), but this is much too large to correspond to a single styrene repeat unit.  Thus, as discussed in CTQ \ref{\labelbase:exc:statseginterp}, the Kuhn length (and number of Kuhn segments in the closest equivalent freely-jointed chain) DO NOT have a simple physical interpretation in terms of the number and size of the chemical repeat units in the chain.
 				}\end{solution}
 				
 				\end{enumerate}
