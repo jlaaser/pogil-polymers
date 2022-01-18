@@ -64,7 +64,7 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-Unreleased - January 6, 2022
+Unreleased - January 18, 2022
 
 	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
 	
@@ -79,6 +79,7 @@ Unreleased - January 6, 2022
 		Activity 3.4 - Molecular Weight Distributions in Step-Growth Polymerizations
 		Activity 4.1 - Chemistry of Free-Radical Polymerization
 		Activity 4.2 - Kinetics of Free-Radical Polymerization
+		Activity 4.3 - Thermodynamics of Free-Radical Polymerization
 		Activity 5.1 - Atom Transfer Radical Polymerization
 		Activity 6.1 - Copolymerization
 		Activity 7.1 - Models for Ideal Polymer Chains
