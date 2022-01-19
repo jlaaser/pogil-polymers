@@ -9,14 +9,14 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    sodipodi:docname="Model1-PEG.svg"
-   id="svg143"
+   id="svg153"
    version="1.1"
-   height="22.033751mm"
-   width="46.401878mm"
+   height="20.033751mm"
+   width="51.466248mm"
    preserveAspectRatio="xMidYMid"
-   viewBox="135 98.32 175.37719 83.277165">
+   viewBox="135 98.32 194.5181 75.71811">
   <metadata
-     id="metadata149">
+     id="metadata159">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -28,22 +28,22 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs147" />
+     id="defs157" />
   <sodipodi:namedview
-     inkscape:current-layer="svg143"
+     inkscape:current-layer="svg153"
      inkscape:window-maximized="1"
      inkscape:window-y="-6"
      inkscape:window-x="-6"
      inkscape:cy="37.859055"
-     inkscape:cx="83.909055"
-     inkscape:zoom="2.1926275"
+     inkscape:cx="97.259055"
+     inkscape:zoom="1.8753963"
      fit-margin-bottom="2"
      fit-margin-right="2"
      fit-margin-left="2"
      fit-margin-top="2"
      units="mm"
      showgrid="false"
-     id="namedview145"
+     id="namedview155"
      inkscape:window-height="850"
      inkscape:window-width="1368"
      inkscape:pageshadow="2"
@@ -55,7 +55,7 @@
      bordercolor="#666666"
      pagecolor="#ffffff" />
   <clipPath
-     id="40">
+     id="56">
     <rect
        id="rect2"
        height="719.15002"
@@ -65,377 +65,393 @@
   </clipPath>
   <g
      transform="translate(7.5590551,7.5590554)"
-     id="drawing">
-    <rect
-       id="rect5"
-       fill="#ffffff"
-       height="100%"
-       width="100%"
-       y="98.32"
-       x="135" />
+     id="page"
+     clip-path="url(#56)">
     <g
-       clip-path="url(#40)"
-       id="page">
-      <g
-         id="g11">
-        <text
-           id="text9"
-           text-rendering="geometricPrecision"
-           text-anchor="start"
-           xml:space="preserve"><tspan
-             id="tspan7"
-             fill="#000000"
-             font-size="10px"
-             font-family="Arial"
-             y="127.84"
-             x="179.50999">O</tspan></text>
-      </g>
-      <g
-         id="Solid">
-        <path
-           id="path13"
-           shape-rendering="geometricPrecision"
+       id="g11">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text9"><tspan
+           x="179.50999"
+           y="127.84"
+           font-family="Arial"
+           font-size="10px"
            fill="#000000"
-           stroke-linejoin="miter"
-           fill-rule="evenodd"
-           stroke-width="0"
-           stroke="#000000"
-           d="m 152.81,140.01 v 0 l -0.3,-0.18 -0.03,-0.32 26.16,-13.45 0.14,0.26 0.13,0.27 z" />
-      </g>
-      <g
-         id="g18">
-        <path
-           id="path16"
-           shape-rendering="geometricPrecision"
+           id="tspan7">O</tspan></text>
+    </g>
+    <g
+       id="Solid">
+      <path
+         d="m 152.81,140.01 v 0 l -0.3,-0.18 -0.03,-0.32 26.16,-13.45 0.14,0.26 0.13,0.27 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path13" />
+    </g>
+    <g
+       id="g18">
+      <path
+         d="m 187.94,126.9 v 0 l 0.15,-0.26 0.15,-0.26 22.69,13.1 v 0.35 l -0.41,0.11 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path16" />
+    </g>
+    <g
+       id="g22">
+      <path
+         d="m 211.34,139.94 v 0 l -0.41,-0.11 v -0.35 l 27.11,-15.65 0.41,0.11 0.01,0.34 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path20" />
+    </g>
+    <g
+       id="g28">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text26"><tspan
+           x="267.70001"
+           y="143.73"
+           font-family="Arial"
+           font-size="10px"
            fill="#000000"
-           stroke-linejoin="miter"
-           fill-rule="evenodd"
-           stroke-width="0"
-           stroke="#000000"
-           d="m 187.94,126.9 v 0 l 0.15,-0.26 0.15,-0.26 22.69,13.1 v 0.35 l -0.41,0.11 z" />
-      </g>
-      <g
-         id="g22">
-        <path
-           id="path20"
-           shape-rendering="geometricPrecision"
-           fill="#000000"
-           stroke-linejoin="miter"
-           fill-rule="evenodd"
-           stroke-width="0"
-           stroke="#000000"
-           d="m 211.34,139.94 v 0 l -0.41,-0.11 v -0.35 l 27.11,-15.65 0.41,0.11 0.01,0.34 z" />
-      </g>
-      <g
-         id="g26">
-        <path
-           id="path24"
-           shape-rendering="geometricPrecision"
-           fill="#000000"
-           stroke-linejoin="miter"
-           fill-rule="evenodd"
-           stroke-width="0"
-           stroke="#000000"
-           d="m 238.46,124.28 v 0 l -0.01,-0.34 0.42,-0.13 32.72,15.68 0.01,0.34 -0.3,0.19 z" />
-      </g>
-      <g
-         id="g32">
-        <text
-           id="text30"
-           text-rendering="geometricPrecision"
-           text-anchor="start"
-           xml:space="preserve"><tspan
-             id="tspan28"
-             fill="#ff0000"
-             font-size="10px"
-             font-family="Arial"
-             y="156.2"
-             x="200.13">H</tspan></text>
-      </g>
-      <g
-         id="g36">
-        <path
-           id="path34"
-           shape-rendering="geometricPrecision"
-           fill="#000000"
-           stroke-linejoin="miter"
-           fill-rule="evenodd"
-           stroke-width="0"
-           stroke="#000000"
-           d="m 210.52,139.94 v 0 l 0.41,-0.11 v 0.6 l -4.29,7.43 -0.26,-0.15 -0.26,-0.15 z" />
-      </g>
-      <g
-         id="g42">
-        <text
-           id="text40"
-           text-rendering="geometricPrecision"
-           text-anchor="start"
-           xml:space="preserve"><tspan
-             id="tspan38"
-             fill="#ff0000"
-             font-size="10px"
-             font-family="Arial"
-             y="156.2"
-             x="214.53">H</tspan></text>
-      </g>
-      <g
-         id="g46">
-        <path
-           id="path44"
-           shape-rendering="geometricPrecision"
-           fill="#000000"
-           stroke-linejoin="miter"
-           fill-rule="evenodd"
-           stroke-width="0"
-           stroke="#000000"
-           d="m 210.93,140.43 v 0 -0.6 l 0.41,0.11 4.4,7.62 -0.26,0.15 -0.26,0.15 z" />
-      </g>
-      <g
-         id="g52">
-        <text
-           id="text50"
-           text-rendering="geometricPrecision"
-           text-anchor="start"
-           xml:space="preserve"><tspan
-             id="tspan48"
-             fill="#ff0000"
-             font-size="10px"
-             font-family="Arial"
-             y="115.37"
-             x="227.64999">H</tspan></text>
-      </g>
-      <g
-         id="g56">
-        <path
-           id="path54"
-           shape-rendering="geometricPrecision"
-           fill="#000000"
-           stroke-linejoin="miter"
-           fill-rule="evenodd"
-           stroke-width="0"
-           stroke="#000000"
-           d="m 238.45,123.34 v 0 0.6 l -0.41,-0.11 -3.98,-6.89 0.26,-0.15 0.26,-0.15 z" />
-      </g>
-      <g
-         id="g62">
-        <text
-           id="text60"
-           text-rendering="geometricPrecision"
-           text-anchor="start"
-           xml:space="preserve"><tspan
-             id="tspan58"
-             fill="#ff0000"
-             font-size="10px"
-             font-family="Arial"
-             y="115.37"
-             x="242.05">H</tspan></text>
-      </g>
-      <g
-         id="g66">
-        <path
-           id="path64"
-           shape-rendering="geometricPrecision"
-           fill="#000000"
-           stroke-linejoin="miter"
-           fill-rule="evenodd"
-           stroke-width="0"
-           stroke="#000000"
-           d="m 238.87,123.81 v 0 l -0.42,0.13 v -0.6 l 3.87,-6.7 0.26,0.15 0.26,0.15 z" />
-      </g>
-      <g
-         id="g72">
-        <text
-           id="text70"
-           text-rendering="geometricPrecision"
-           text-anchor="start"
-           xml:space="preserve"><tspan
-             id="tspan68"
-             fill="#0000ff"
-             font-size="10px"
-             font-family="Arial"
-             y="150.92999"
-             x="280.47">H</tspan></text>
-      </g>
-      <g
-         id="g76">
-        <path
-           id="path74"
-           shape-rendering="geometricPrecision"
+           id="tspan24">O</tspan></text>
+    </g>
+    <g
+       id="g32">
+      <path
+         d="m 238.46,124.28 v 0 l -0.01,-0.34 0.42,-0.13 28.32,13.57 -0.13,0.27 -0.13,0.27 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path30" />
+    </g>
+    <g
+       id="g38">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text36"><tspan
+           x="200.13"
+           y="156.2"
+           font-family="Arial"
+           font-size="10px"
+           fill="#ff0000"
+           id="tspan34">H</tspan></text>
+    </g>
+    <g
+       id="g42">
+      <path
+         d="m 210.52,139.94 v 0 l 0.41,-0.11 v 0.6 l -4.29,7.43 -0.26,-0.15 -0.26,-0.15 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path40" />
+    </g>
+    <g
+       id="g48">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text46"><tspan
+           x="214.53"
+           y="156.2"
+           font-family="Arial"
+           font-size="10px"
+           fill="#ff0000"
+           id="tspan44">H</tspan></text>
+    </g>
+    <g
+       id="g52">
+      <path
+         d="m 210.93,140.43 v 0 -0.6 l 0.41,0.11 4.4,7.62 -0.26,0.15 -0.26,0.15 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path50" />
+    </g>
+    <g
+       id="g58">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text56"><tspan
+           x="227.64999"
+           y="115.37"
+           font-family="Arial"
+           font-size="10px"
+           fill="#ff0000"
+           id="tspan54">H</tspan></text>
+    </g>
+    <g
+       id="g62">
+      <path
+         d="m 238.45,123.34 v 0 0.6 l -0.41,-0.11 -3.98,-6.89 0.26,-0.15 0.26,-0.15 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path60" />
+    </g>
+    <g
+       id="g68">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text66"><tspan
+           x="242.05"
+           y="115.37"
+           font-family="Arial"
+           font-size="10px"
+           fill="#ff0000"
+           id="tspan64">H</tspan></text>
+    </g>
+    <g
+       id="g72">
+      <path
+         d="m 238.87,123.81 v 0 l -0.42,0.13 v -0.6 l 3.87,-6.7 0.26,0.15 0.26,0.15 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path70" />
+    </g>
+    <g
+       id="g78">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text76"><tspan
+           x="136.44"
+           y="150.92999"
+           font-family="Arial"
+           font-size="10px"
            fill="#0000ff"
-           stroke-linejoin="miter"
-           fill-rule="evenodd"
-           stroke-width="0"
-           stroke="#0000ff"
-           d="m 271.9,140.35 v 0 l -0.3,-0.52 h 0.6 l 7.86,4.54 -0.15,0.26 -0.15,0.26 z" />
-      </g>
-      <g
-         id="g82">
-        <text
-           id="text80"
-           text-rendering="geometricPrecision"
-           text-anchor="start"
-           xml:space="preserve"><tspan
-             id="tspan78"
-             fill="#0000ff"
-             font-size="10px"
-             font-family="Arial"
-             y="150.92999"
-             x="136.44">H</tspan></text>
-      </g>
-      <g
-         id="g86">
-        <path
-           id="path84"
-           shape-rendering="geometricPrecision"
-           fill="#000000"
-           stroke-linejoin="miter"
-           fill-rule="evenodd"
-           stroke-width="0"
-           stroke="#000000"
-           d="m 151.73,139.93 v 0 l 0.78,-0.1 -0.3,0.52 -7.77,4.49 -0.15,-0.26 -0.15,-0.26 z" />
-      </g>
-      <g
-         id="g92">
-        <text
-           id="text90"
-           text-rendering="geometricPrecision"
-           text-anchor="start"
-           xml:space="preserve"><tspan
-             id="tspan88"
-             fill="#0000ff"
-             font-size="10px"
-             font-family="Arial"
-             y="158.13"
-             x="148.91">H</tspan></text>
-      </g>
-      <g
-         id="g96">
-        <path
-           id="path94"
-           shape-rendering="geometricPrecision"
-           fill="#000000"
-           stroke-linejoin="miter"
-           fill-rule="evenodd"
-           stroke-width="0"
-           stroke="#000000"
-           d="m 152.21,140.35 v 0 l 0.3,-0.52 0.3,0.18 v 9.39 h -0.3 -0.3 z" />
-      </g>
-      <g
-         id="g102">
-        <text
-           id="text100"
-           text-rendering="geometricPrecision"
-           text-anchor="start"
-           xml:space="preserve"><tspan
-             id="tspan98"
-             fill="#0000ff"
-             font-size="10px"
-             font-family="Arial"
-             y="140.00999"
-             x="135">H</tspan></text>
-      </g>
-      <g
-         id="g106">
-        <path
-           id="path104"
-           shape-rendering="geometricPrecision"
-           fill="#000000"
-           stroke-linejoin="miter"
-           fill-rule="evenodd"
-           stroke-width="0"
-           stroke="#000000"
-           d="m 152.48,139.51 v 0 l 0.03,0.32 -0.78,0.1 -8.76,-2.34 0.08,-0.29 0.07,-0.29 z" />
-      </g>
-      <g
-         id="g112">
-        <text
-           id="text110"
-           text-rendering="geometricPrecision"
-           text-anchor="start"
-           xml:space="preserve"><tspan
-             id="tspan108"
-             fill="#0000ff"
-             font-size="10px"
-             font-family="Arial"
-             y="158.13"
-             x="268">H</tspan></text>
-      </g>
-      <g
-         id="g116">
-        <path
-           id="path114"
-           shape-rendering="geometricPrecision"
+           id="tspan74">H</tspan></text>
+    </g>
+    <g
+       id="g82">
+      <path
+         d="m 151.73,139.93 v 0 l 0.78,-0.1 -0.3,0.52 -7.77,4.49 -0.15,-0.26 -0.15,-0.26 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path80" />
+    </g>
+    <g
+       id="g88">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text86"><tspan
+           x="148.91"
+           y="158.13"
+           font-family="Arial"
+           font-size="10px"
            fill="#0000ff"
-           stroke-linejoin="miter"
-           fill-rule="evenodd"
-           stroke-width="0"
-           stroke="#0000ff"
-           d="m 271.3,140.02 v 0 l 0.3,-0.19 0.3,0.52 v 9.05 h -0.3 -0.3 z" />
-      </g>
-      <g
-         id="g122">
-        <text
-           id="text120"
-           text-rendering="geometricPrecision"
-           text-anchor="start"
-           xml:space="preserve"><tspan
-             id="tspan118"
-             fill="#0000ff"
-             font-size="10px"
-             font-family="Arial"
-             y="136.53"
-             x="280.47">H</tspan></text>
-      </g>
-      <g
-         id="g126">
-        <path
-           id="path124"
-           shape-rendering="geometricPrecision"
+           id="tspan84">H</tspan></text>
+    </g>
+    <g
+       id="g92">
+      <path
+         d="m 152.21,140.35 v 0 l 0.3,-0.52 0.3,0.18 v 9.39 h -0.3 -0.3 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path90" />
+    </g>
+    <g
+       id="g98">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text96"><tspan
+           x="135"
+           y="140.00999"
+           font-family="Arial"
+           font-size="10px"
            fill="#0000ff"
-           stroke-linejoin="miter"
-           fill-rule="evenodd"
-           stroke-width="0"
-           stroke="#0000ff"
-           d="m 272.2,139.83 v 0 h -0.6 l -0.01,-0.34 8.17,-4.72 0.15,0.26 0.15,0.26 z" />
-      </g>
-      <g
-         id="Bracket">
-        <path
-           id="path128"
-           shape-rendering="geometricPrecision"
-           fill="none"
-           stroke-linejoin="miter"
-           fill-rule="evenodd"
-           stroke-width="0.6"
-           stroke="#000000"
-           d="m 249.75,98.63 a 51.75,51.75 0 0 1 0,51.75" />
-      </g>
-      <g
-         id="g133">
-        <path
-           id="path131"
-           shape-rendering="geometricPrecision"
-           fill="none"
-           stroke-linejoin="miter"
-           fill-rule="evenodd"
-           stroke-width="0.6"
-           stroke="#000000"
-           d="m 175.13,150.38 a 51.75,51.75 0 0 1 0,-51.75" />
-      </g>
-      <g
-         id="g139">
-        <text
-           id="text137"
-           text-rendering="geometricPrecision"
-           text-anchor="start"
-           xml:space="preserve"><tspan
-             id="tspan135"
-             fill="#000000"
-             font-size="10px"
-             font-family="Arial"
-             y="156.38"
-             x="252">n</tspan></text>
-      </g>
+           id="tspan94">H</tspan></text>
+    </g>
+    <g
+       id="g102">
+      <path
+         d="m 152.48,139.51 v 0 l 0.03,0.32 -0.78,0.1 -8.76,-2.34 0.08,-0.29 0.07,-0.29 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path100" />
+    </g>
+    <g
+       id="Bracket">
+      <path
+         d="m 249.75,98.63 a 51.75,51.75 0 0 1 0,51.75"
+         stroke="#000000"
+         stroke-width="0.6"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="none"
+         shape-rendering="geometricPrecision"
+         id="path104" />
+    </g>
+    <g
+       id="g109">
+      <path
+         d="m 175.13,150.38 a 51.75,51.75 0 0 1 0,-51.75"
+         stroke="#000000"
+         stroke-width="0.6"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="none"
+         shape-rendering="geometricPrecision"
+         id="path107" />
+    </g>
+    <g
+       id="g115">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text113"><tspan
+           x="252"
+           y="156.38"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan111">n</tspan></text>
+    </g>
+    <g
+       id="g119">
+      <path
+         d="m 298.5,125.37 v 0 l -0.6,0.04 0.27,-0.54 7.53,-4.96 0.16,0.25 0.17,0.25 z"
+         stroke="#0000ff"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#0000ff"
+         shape-rendering="geometricPrecision"
+         id="path117" />
+    </g>
+    <g
+       id="g125">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text123"><tspan
+           x="306.32001"
+           y="121.38"
+           font-family="Arial"
+           font-size="10px"
+           fill="#0000ff"
+           id="tspan121">H</tspan></text>
+    </g>
+    <g
+       id="g129">
+      <path
+         d="m 297.91,125.75 v 0 l -0.01,-0.34 0.6,-0.04 8.2,4.12 -0.13,0.26 -0.13,0.27 z"
+         stroke="#0000ff"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#0000ff"
+         shape-rendering="geometricPrecision"
+         id="path127" />
+    </g>
+    <g
+       id="g135">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text133"><tspan
+           x="307.17001"
+           y="135.75999"
+           font-family="Arial"
+           font-size="10px"
+           fill="#0000ff"
+           id="tspan131">H</tspan></text>
+    </g>
+    <g
+       id="g139">
+      <path
+         d="m 298.17,124.87 v 0 l -0.27,0.54 -0.31,-0.17 -0.52,-8.62 0.3,-0.02 0.3,-0.02 z"
+         stroke="#0000ff"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#0000ff"
+         shape-rendering="geometricPrecision"
+         id="path137" />
+    </g>
+    <g
+       id="g145">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text143"><tspan
+           x="293.44"
+           y="114.94"
+           font-family="Arial"
+           font-size="10px"
+           fill="#0000ff"
+           id="tspan141">H</tspan></text>
+    </g>
+    <g
+       id="g149">
+      <path
+         d="m 276.25,137.62 v 0 l -0.15,-0.26 -0.14,-0.26 21.63,-11.86 0.31,0.17 0.01,0.34 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path147" />
     </g>
   </g>
 </svg>

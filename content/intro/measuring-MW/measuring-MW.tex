@@ -99,7 +99,7 @@
 
 	One popular experimental method used for end-group analysis is nuclear magnetic resonance (NMR) spectroscopy.
 	
-	In NMR spectroscopy, each unique ``type'' of proton in a polymer has a different chemical shift, and the intensity of the signal measured by the spectrometer is directly proportional to the number of protons of that type.
+	In NMR spectroscopy, each unique ``type'' of proton in a polymer has a different chemical shift, and the intensity of the signal measured by the spectrometer at each chemical shift is directly proportional to the number of protons of the corresponding type.
 
 \end{infobox}
 
@@ -107,7 +107,7 @@
 		
 	\question Poly(ethylene glycol) dimethyl ether has two unique types of protons, as shown below:
 	
-		\centerline{\includegraphics[width=0.3\textwidth]{\figpath/Model1-PEG}}
+		\centerline{\includegraphics[width=0.35\textwidth]{\figpath/Model1-PEG}}
 		
 		\vspace{-8pt}
 		The protons inside the repeat unit (red) are \emph{methylene} protons, while the protons on the end groups (blue) are \emph{methyl} protons.
@@ -144,7 +144,7 @@
 				
 			\item Suppose an NMR measurement on poly(ethylene glycol) dimethyl ether yields the following intensities for the methylene and methyl protons, respectively:
 				\begin{align*}
-					I_{methylene}=120 && \text{and} &&
+					I_{methylene}=90 && \text{and} &&
 					I_{methyl}=3
 				\end{align*}
 				Based on this information, and the approach you explored above, what must the degree of polymerization and the molecular weight of the polymer be?
@@ -152,9 +152,9 @@
 				\emph{For ethylene glycol, the (\ce{CH2CH2O}) repeat unit has mass $M_0=44\text{ g/mol}$.}
 				
 				\begin{solution}[1.5in]
-					Using the calculation from the previous part, we find that $n = (6/4)(120/3) = 60$.
+					Using the calculation from the previous part, we find that $n = (6/4)(90/3) = 45$.
 					
-					Multiplying by 44 g/mol, we obtain $M_n = (44\text{ g/mol})(60) = 2.6\text{ kg/mol}$.
+					Multiplying by 44 g/mol, we obtain $M_n = (44\text{ g/mol})(45) = 2.0\text{ kg/mol}$.
 				\end{solution}
 				
 		\end{enumerate}
@@ -194,7 +194,7 @@
 	
 			\centerline{\includegraphics[width=0.85\textwidth]{\figpath/Model2-PSmz}}
 	
-		Plot the number of chains as a function of mass-to-charge ratio on the following axes.  Make sure to clearly indicate that the number of chains is zero for any m/z values not present in the sample.
+		Plot the mass spectrum that you would measure for this sample (i.e. number of chains as a function of mass-to-charge ratio) on the following axes.  Make sure to clearly indicate that the number of chains is zero for any m/z values not present in the sample.
 		
 			\vspace{12pt}
 			\centerline{\includegraphics[width=0.4\textwidth]{\figpath/Model2-axes-v1}}
@@ -233,7 +233,7 @@
 		\end{align*}
 		where $n_i$ is the number of chains with length $i$ and $M_i$ is the mass of each chain that has length $i$.
 		
-				Using these equations, and the mass spectrum you sketched in the previous part, calculate $M_n$ and $M_w$ for this polymer sample.
+				Using these equations, and the mass spectrum you sketched in the previous part, calculate $M_n$ and $M_w$ for this polymer sample in the space on the next page.
 		\end{enumerate}
 		
 		%(calculation space, cont'd $\rightarrow$)
@@ -266,20 +266,91 @@
 \begin{model}[Size-Exclusion Chromatography]
 \label{\labelbase:mdl:SEC}
 	
-	Another approach to measuring the full distribution of molecular weights is \emph{size-exclusion chromatography} (SEC).
+	Another popular approach to measuring the full distribution of molecular weights is \emph{size-exclusion chromatography} (SEC).
 	In an SEC experiment, a solution of the polymer of interest is passed through a column containing a gel with many small pores:
 	
-	IMAGE
+	\vspace{12pt}
+	\centerline{\includegraphics[width=0.6\textwidth]{\figpath/Model3-SEC}}
 	
-	As depicted in this image, small polymers are able to get into many of the pores in the gel, while large polymers may be excluded from some or all of the pores on the basis of their size.
+	As depicted in this image, small/compact polymer chains are able to get into many of the pores in the gel, while large polymer chains may be excluded from some or all of the pores on the basis of their size.
 
 \end{model}
 
 \begin{ctqs}
 
-	\question Based on the image shown in Model \ref{\labelbase:mdl:SEC}, which type polymer (smaller or larger) travels a longer path as they pass through they gel?
+	\question Based on the image shown in Model \ref{\labelbase:mdl:SEC}, which type polymer (smaller or larger) travels a longer path as it passes through the gel?
 	
-	\question Based on your answer to the previous question, which type of polymer (smaller or larger) do you expect to take longer to make it to the end of the column?
+		\begin{solution}[0.5in]
+			smaller
+		\end{solution}
+	
+	\question Based on your answer to the previous question, which type of polymer (smaller or larger) do you expect to take longer to elute (make it to the end of the column)?
+	
+		\begin{solution}[0.5in]
+			smaller
+		\end{solution}
+	
+\end{ctqs}
+
+\begin{infobox}
+	One of the most common types of detectors for an SEC instrument is a \emph{differential refractometer}.  The signal measured by this detector is proportional to the \emph{total mass} of polymer coming off the column at each elution time.
+\end{infobox}
+
+\clearpage
+\begin{ctqs}
+	
+	\question Suppose a polymer sample contains 1~g of 30~kg/mol polystyrene, and 2~g of 100~kg/mol polystyrene.  On the following axes, sketch the shape of the SEC trace you would expect to measure for this sample.  Make sure to clearly label each peak with the molecular weight of the polymer to which it corresponds.
+	
+		\begin{solution}[2in]
+		\studentdisplay{
+			\vspace{12pt}
+			\centerline{\includegraphics[width=0.5\textwidth]{\figpath/Model3-SECaxes}}
+		}\instructordisplay{
+			\vspace{12pt}
+			\centerline{\includegraphics[width=0.5\textwidth]{\figpath/Model3-SECaxes}}
+		}
+		\end{solution}
+	
+	\question Propose methods that you could use to...
+	
+		\begin{enumerate}
+			\item ... determine a calibration that would allow you to convert the x axis of this plot from elution time to molecular weight:
+	
+				\begin{solution}[1in]
+					You could inject a series of polymers with known molecular weights and plot the resulting elution time vs. molecular weight.  You could then fit this data to an appropriate function(*) to make a calibration curve.
+					
+					(*) Retention time (and retention volume) have a logarithmic dependence on molecular weight, so the correct functional form is typically $V_R = A - B \log M$.
+					
+				\end{solution}
+			
+			\item ... convert the y axis from total mass to number of chains:
+	
+				\begin{solution}[1in]
+					You would divide the total mass of polymer at each elution time by the molecular weight \emph{corresponding to that elution time}.
+				\end{solution}
+			
+			\item ... calculate $M_n$ and $M_w$ from an SEC trace:
+	
+				\begin{solution}[1.5in]
+					Once the axes have been converted to $M_i$ and $n_i$ as described above, you could just use the expressions for $M_n$ and $M_w$ from earlier in the activity, where the sum would be over \emph{each data point} in the SEC trace.
+				\end{solution}
+		
+		\end{enumerate}
+	
+	\clearpage
+	\question The size of a polymer chain in solution depends not only on the mass of the chain, but also on how favorable the polymer/solvent interaction is.  In a ``good'' solvent, a polymer chain will swell/expand to a larger size, while in a ``poor'' solvent, a polymer chain will deswell/contract to a smaller size.
+	
+		Based on this information, do you expect the same calibration to be valid for polymers with different chemical structures?  Briefly explain your group's reasoning in 2-3 complete sentences.		
+	
+			\begin{solution}[1.5in]
+				No.  Suppose the calibration is calculated using a polymer for which the SEC solvent is a good solvent.  If we then analyze a different polymer, for which the SEC solvent is a poor solvent, the chains will be more compact and will take longer to elute from the column than chains of the same molecular weight did when we measured the calibration curve.  As a result, our calibration would determine the molecular weight of the polymer to be much lower than it actually is.
+				
+				While there are ways around this problem (e.g. universal calibration, using a light scattering detector in addition to a differential refractometer, etc.), the calibration should ideally be measured using known standards for each polymer/solvent pair.
+			\end{solution}
+	
+	% \question Would also like a qualitative question about how peak shape relates to dispersity, but am not sure it fits in easily here - save for exercises?
+	
+	% \question Would also like a qualitative question about the relative resolution of SEC vs. MALDI, and fact that SEC can get to higher molecular weights...
 	
 \end{ctqs}
 
@@ -294,9 +365,13 @@
 		
 	% \exercise A question getting students to think about why the TOF part of MALDI-TOF works to separate polymers by mass
 	
+	% \exercise A question getting students to think about how/why the fact that it is easier to ionize smaller chains affects MALDI interpretation
+	
 	\exercise Ionizing hydrophobic polymers such as polystyrene can be difficult.  To solve this problem, the polymers are often complexed with an ion such as silver.
 	
 		How would you expect the presence of a silver ion to change the mass spectrum you sketched in CTQ \ref{\labelbase:ctq:PS-MALDI}?  Briefly explain your reasoning in 2-3 complete sentences.
+		
+	% \exercise The question where we convert the Mn and Mw equations to concentrations for SEC analysis
 	
 \end{exercises}
 
