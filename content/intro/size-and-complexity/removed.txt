@@ -1,0 +1,59 @@
+\begin{infobox}
+
+	If the end-groups of a polymer absorb UV or visible light, then the number of end-groups can be quantified by UV-vis spectroscopy.  In a UV-vis experiment, the measured absorbance, $A$, is related to the concentration of the end groups, $c$, by
+	\begin{equation*}
+		A = \epsilon c l
+	\end{equation*}
+	where $\epsilon$ is the extinction coefficient of the end groups and $l$ is the path length of spectrometer.
+
+\end{infobox}
+
+\begin{ctqs}
+		
+	\question The following polymer contains a trithiocarbonate (S(C=S)S) end-group that can be quantified by UV-vis: \label{\labelbase:ctq:UV-vis}
+	
+		\centerline{\includegraphics[width=0.25\textwidth]{\figpath/model1-PS-raft}}
+		
+		\begin{enumerate}
+			\item Suppose you start with a 2.1~mg sample of this polymer.  How many styrene repeat units would this sample contain?
+			
+				\emph{Hint: remember that for styrene, $M_0=104\text{ g/mol}$.  For the purposes of this question, you can ignore the mass contributed by the end groups.}
+				
+				\begin{solution}[1in]
+					$\frac{2.1\text{ mg}}{104\text{ mg/mmol}} = 0.020\text{ mmol}$
+				\end{solution}
+			
+			\item Suppose you dissolve this sample of polymer in 1.0~mL of chloroform, and find (via UV-vis) that the concentration of trithiocarbonate end groups is $6.7\times 10^{-4}$~M.  How many trithiocarbonate end groups does this data indicate the sample contains?
+			
+				\begin{solution}[1in]
+					\begin{align*}
+						\left(6.7\times 10^{-4}\,\frac{\text{mol}}{\text L}\right)(1.0\text{ mL})\left(\frac{1\text{ L}}{1000\text{ mL}}\right) = 6.7\times 10^{-7}\text{ mol} = 6.7\times 10^{-4}\text{ mmol}
+					\end{align*}
+				\end{solution}
+			
+			\item Using the numbers you calculated in parts (a) and (b), determine the number-average degree of polymerization of this sample.
+			
+				\begin{solution}[0.75in]
+					\begin{equation*}
+						N_n = \frac{0.020\text{ mmol}}{6.7\times 10^{-4}\text{ mmol}} = 30
+					\end{equation*}
+				\end{solution}
+			
+			\item Finally, based on your answer to part (c), and using $M_0 = 104\text{ g/mol}$, what must the number-average molecular weight of this sample be?
+			
+				\begin{solution}[0.5in]
+					\begin{equation*}
+						M_n = M_0 N_n = (104\text{ g/mol})(30) = 3.1\text{ kg/mol}
+					\end{equation*}
+				\end{solution}
+			
+		\end{enumerate}
+	
+\end{ctqs}
+
+
+
+
+
+
+\exercise Could you have determined the molecular weight of the polymer in CTQ \ref{\labelbase:ctq:UV-vis} \emph{without} knowing that $M_0$ for styrene is 104~g/mol?  If so, how?  Briefly explain your reasoning in 2-3 complete sentences.
