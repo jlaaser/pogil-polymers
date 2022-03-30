@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="Model3_figs.svg"
+   id="svg1801"
+   version="1.1"
+   height="28.049892mm"
+   width="116.89931mm"
+   preserveAspectRatio="xMidYMid"
+   viewBox="78.5 31.82 441.82416 106.01534">
+  <metadata
+     id="metadata1807">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1805" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg1801"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-6"
+     inkscape:window-x="-6"
+     inkscape:cy="52.424211"
+     inkscape:cx="220.86293"
+     inkscape:zoom="0.5"
+     fit-margin-bottom="2"
+     fit-margin-right="2"
+     fit-margin-left="2"
+     fit-margin-top="2"
+     units="mm"
+     showgrid="false"
+     id="namedview1803"
+     inkscape:window-height="850"
+     inkscape:window-width="1368"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <clipPath
+     id="157">
+    <rect
+       id="rect1355"
+       height="719.15002"
+       width="539.40002"
+       y="0.30000001"
+       x="0.30000001" />
+  </clipPath>
+  <g
+     transform="translate(6.7529257,6.3942109)"
+     id="page"
+     clip-path="url(#157)">
+    <g
+       id="g1364">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1362"><tspan
+           x="93.169998"
+           y="101.41"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1360">O</tspan></text>
+    </g>
+    <g
+       id="g1370">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1368"><tspan
+           x="118.11"
+           y="87.010002"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1366">O</tspan></text>
+    </g>
+    <g
+       id="Solid">
+      <path
+         d="m 96.77,83.28 v 0 l 0.3,-0.17 0.3,0.17 v 9.32 h -0.3 -0.3 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1372" />
+    </g>
+    <g
+       id="g1377">
+      <path
+         d="m 101.64,100.49 v 0 l 0.15,-0.26 0.15,-0.26 7.6,4.39 v 0.35 0.35 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1375" />
+    </g>
+    <g
+       id="g1381">
+      <path
+         d="m 109.54,105.06 v 0 -0.35 -0.35 l 12.17,-7.02 0.3,0.17 v 0.35 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1379" />
+    </g>
+    <g
+       id="g1385">
+      <path
+         d="m 122.31,97.34 v 0 l -0.3,0.17 -0.3,-0.17 V 88.8 h 0.3 0.3 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1383" />
+    </g>
+    <g
+       id="g1389">
+      <path
+         d="m 117.76,80.31 v 0 l -0.15,0.26 -0.15,0.26 -7.92,-4.57 v -0.35 -0.35 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1387" />
+    </g>
+    <g
+       id="g1393">
+      <path
+         d="m 109.54,75.56 v 0 0.35 0.35 l -12.17,7.02 -0.3,-0.17 v -0.35 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1391" />
+    </g>
+    <g
+       id="g1397">
+      <path
+         d="m 97.07,82.76 v 0 0.35 l -0.3,0.17 -12.32,-7.11 0.15,-0.26 0.15,-0.26 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1395" />
+    </g>
+    <g
+       id="g1401">
+      <path
+         d="m 122.01,97.86 v 0 -0.35 l 0.3,-0.17 12.32,7.11 -0.15,0.26 -0.15,0.26 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1399" />
+    </g>
+    <g
+       id="g1407">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1405"><tspan
+           x="105.64"
+           y="123.01"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1403">O</tspan></text>
+    </g>
+    <g
+       id="g1415">
+      <line
+         x1="110.84"
+         y1="104.71"
+         x2="110.84"
+         y2="114.2"
+         stroke="#000000"
+         stroke-width="0.6"
+         shape-rendering="auto"
+         id="line1409" />
+      <path
+         d="m 108.54,104.48 v 0 l -0.6,-0.35 v 10.07 h 0.6 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1411" />
+      <path
+         d="m 111.14,104.13 v 0 l -0.6,0.35 v 9.72 h 0.6 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1413" />
+    </g>
+    <g
+       id="g1421">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1419"><tspan
+           x="105.64"
+           y="65.410004"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1417">O</tspan></text>
+    </g>
+    <g
+       id="g1429">
+      <line
+         x1="108.24"
+         y1="75.910004"
+         x2="108.24"
+         y2="67.199997"
+         stroke="#000000"
+         stroke-width="0.6"
+         shape-rendering="auto"
+         id="line1423" />
+      <path
+         d="m 110.54,76.14 v 0 l 0.6,0.35 V 67.2 h -0.6 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1425" />
+      <path
+         d="m 107.94,76.49 v 0 l 0.6,-0.35 V 67.2 h -0.6 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1427" />
+    </g>
+    <g
+       id="g1435">
+      <text
+         xml:space="preserve"
+         text-anchor="end"
+         text-rendering="geometricPrecision"
+         id="text1433"><tspan
+           x="93.519997"
+           y="40.27"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1431">RO</tspan></text>
+    </g>
+    <g
+       id="g1441">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1439"><tspan
+           x="102.62"
+           y="40.27"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1437">[M]</tspan></text>
+    </g>
+    <g
+       id="g1445">
+      <path
+         d="m 94.7,36.68 v 0 -0.3 -0.3 h 7 v 0.3 0.3 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1443" />
+    </g>
+    <g
+       id="Dash">
+      <path
+         d="m 107.25,43.25 v 0 l 0.59,-0.06 -0.27,-2.49 -0.3,0.04 -0.29,0.03 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1447" />
+      <path
+         d="m 108.44,54.16 v 0 l 0.59,-0.07 0.27,2.49 -0.29,0.03 -0.3,0.03 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1449" />
+      <path
+         d="m 107.46,45.23 v 0 l 0.27,2.49 0.6,-0.07 -0.27,-2.48 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1451" />
+      <path
+         d="m 107.95,49.69 v 0 l 0.27,2.49 0.6,-0.07 -0.27,-2.48 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1453" />
+    </g>
+    <g
+       id="g1460">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1458"><tspan
+           x="197.42"
+           y="102.16"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1456">O</tspan></text>
+    </g>
+    <g
+       id="g1466">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1464"><tspan
+           x="222.36"
+           y="87.760002"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1462">O</tspan></text>
+    </g>
+    <g
+       id="g1470">
+      <path
+         d="m 201.02,84.03 v 0 l 0.3,-0.17 0.3,0.17 v 9.27 h -0.3 -0.3 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1468" />
+    </g>
+    <g
+       id="g1474">
+      <path
+         d="m 205.84,101.21 v 0 l 0.15,-0.26 0.15,-0.26 7.65,4.42 v 0.35 0.35 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1472" />
+    </g>
+    <g
+       id="g1478">
+      <path
+         d="m 213.79,105.81 v 0 -0.35 -0.35 l 12.17,-7.02 0.3,0.17 v 0.35 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1476" />
+    </g>
+    <g
+       id="g1482">
+      <path
+         d="m 226.56,98.09 v 0 l -0.3,0.17 -0.3,-0.17 V 89.5 h 0.3 0.3 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1480" />
+    </g>
+    <g
+       id="g1486">
+      <path
+         d="m 222.06,81.09 v 0 l -0.15,0.26 -0.15,0.26 -7.97,-4.6 v -0.35 l 0.18,-0.24 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1484" />
+    </g>
+    <g
+       id="g1490">
+      <path
+         d="m 213.3,76.6 v 0 l 0.49,0.06 v 0.35 l -12.17,7.02 -0.3,-0.17 v -0.35 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1488" />
+    </g>
+    <g
+       id="g1494">
+      <path
+         d="m 201.32,83.51 v 0 0.35 l -0.3,0.17 -12.32,-7.11 0.15,-0.26 0.15,-0.26 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1492" />
+    </g>
+    <g
+       id="g1498">
+      <path
+         d="m 226.26,98.61 v 0 -0.35 l 0.3,-0.17 12.32,7.11 -0.15,0.26 -0.15,0.26 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1496" />
+    </g>
+    <g
+       id="g1504">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1502"><tspan
+           x="209.89"
+           y="123.76"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1500">O</tspan></text>
+    </g>
+    <g
+       id="g1512">
+      <line
+         x1="215.09"
+         y1="105.46"
+         x2="215.09"
+         y2="114.9"
+         stroke="#000000"
+         stroke-width="0.6"
+         shape-rendering="auto"
+         id="line1506" />
+      <path
+         d="m 212.79,105.23 v 0 l -0.6,-0.35 v 10.02 h 0.6 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1508" />
+      <path
+         d="m 215.39,104.88 v 0 l -0.6,0.35 v 9.67 h 0.6 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1510" />
+    </g>
+    <g
+       id="g1518">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1516"><tspan
+           x="209.89"
+           y="66.160004"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1514">O</tspan></text>
+    </g>
+    <g
+       id="g1526">
+      <line
+         x1="212.49001"
+         y1="76.660004"
+         x2="212.49001"
+         y2="67.900002"
+         stroke="#000000"
+         stroke-width="0.6"
+         shape-rendering="auto"
+         id="line1520" />
+      <path
+         d="m 214.79,76.89 v 0 l 0.6,0.35 V 67.9 h -0.6 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1522" />
+      <path
+         d="m 212.19,74.7 v 0 l 0.6,0.58 V 67.9 h -0.6 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1524" />
+    </g>
+    <g
+       id="g1532">
+      <text
+         xml:space="preserve"
+         text-anchor="end"
+         text-rendering="geometricPrecision"
+         id="text1530"><tspan
+           x="189.14999"
+           y="53.02"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1528">RO</tspan></text>
+    </g>
+    <g
+       id="g1538">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1536"><tspan
+           x="206.87"
+           y="41.02"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1534">[M]</tspan></text>
+    </g>
+    <g
+       id="g1542">
+      <path
+         d="m 189.96,47.01 v 0 l -0.14,-0.26 -0.14,-0.27 16.36,-8.53 0.14,0.27 0.14,0.26 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1540" />
+    </g>
+    <g
+       id="g1552">
+      <path
+         d="m 211.55,44.46 v 0 l 0.59,-0.06 -0.27,-2.49 -0.3,0.03 -0.29,0.04 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1544" />
+      <path
+         d="m 212.68,54.86 v 0 l 0.6,-0.07 0.27,2.49 -0.3,0.03 -0.3,0.03 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1546" />
+      <path
+         d="m 211.74,46.27 v 0 l 0.27,2.49 0.6,-0.07 -0.27,-2.49 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1548" />
+      <path
+         d="m 212.21,50.56 v 0 l 0.27,2.49 0.6,-0.07 -0.27,-2.48 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1550" />
+    </g>
+    <g
+       id="g1568">
+      <path
+         d="m 190.94,55.04 v 0 l 0.42,-0.43 -1.8,-1.74 -0.21,0.22 -0.21,0.21 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1554" />
+      <path
+         d="m 211.5,74.86 v 0 l 0.41,-0.43 2.06,1.99 -0.18,0.24 -0.49,-0.06 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1556" />
+      <path
+         d="m 192.87,56.9 v 0 l 1.8,1.73 0.41,-0.43 -1.79,-1.74 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1558" />
+      <path
+         d="m 196.59,60.49 v 0 l 1.8,1.74 0.42,-0.44 -1.8,-1.73 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1560" />
+      <path
+         d="m 200.32,64.08 v 0 l 1.8,1.74 0.42,-0.43 -1.8,-1.74 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1562" />
+      <path
+         d="m 204.04,67.68 v 0 l 1.8,1.73 0.42,-0.43 -1.8,-1.74 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1564" />
+      <path
+         d="m 207.77,71.27 v 0 l 1.8,1.74 0.42,-0.44 -1.8,-1.73 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1566" />
+    </g>
+    <g
+       id="Arrow">
+      <path
+         d="m 219.74,69.37 c 4.44,-1.19 7.08,-5.75 5.89,-10.19 -0.82,-3.05 -3.48,-5.5 -6.59,-6.05"
+         stroke="#000000"
+         stroke-width="0.6"
+         fill-rule="evenodd"
+         stroke-linejoin="bevel"
+         fill="none"
+         shape-rendering="geometricPrecision"
+         id="path1570" />
+      <path
+         d="m 215.44,53.29 4.81,1.17 c -1.04,-0.67 -1.05,-1.72 -0.02,-2.4 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         stroke-miterlimit="6.93525"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1572" />
+    </g>
+    <g
+       id="g1579">
+      <path
+         d="m 196.57,56.36 c 3.13,-0.38 5.37,-3.22 4.99,-6.34 -0.21,-1.75 -1.29,-3.38 -2.82,-4.26"
+         stroke="#000000"
+         stroke-width="0.6"
+         fill-rule="evenodd"
+         stroke-linejoin="bevel"
+         fill="none"
+         shape-rendering="geometricPrecision"
+         id="path1575" />
+      <path
+         d="m 193.04,55.64 4.58,1.88 c -0.93,-0.81 -0.78,-1.86 0.35,-2.37 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         stroke-miterlimit="6.94999"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1577" />
+    </g>
+    <g
+       id="g1585">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1583"><tspan
+           x="294.13"
+           y="101.85"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1581">O</tspan></text>
+    </g>
+    <g
+       id="g1591">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1589"><tspan
+           x="319.07001"
+           y="87.449997"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1587">O</tspan></text>
+    </g>
+    <g
+       id="g1595">
+      <path
+         d="m 297.73,83.72 v 0 l 0.3,-0.17 0.3,0.17 V 93 h -0.3 -0.3 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1593" />
+    </g>
+    <g
+       id="g1599">
+      <path
+         d="m 302.54,100.9 v 0 l 0.15,-0.26 0.15,-0.26 7.66,4.42 v 0.35 0.35 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1597" />
+    </g>
+    <g
+       id="g1603">
+      <path
+         d="m 310.5,105.5 v 0 -0.35 -0.35 l 12.17,-7.02 0.3,0.17 v 0.35 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1601" />
+    </g>
+    <g
+       id="g1607">
+      <path
+         d="m 323.27,97.78 v 0 l -0.3,0.17 -0.3,-0.17 V 89.2 h 0.3 0.3 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1605" />
+    </g>
+    <g
+       id="g1611">
+      <path
+         d="m 318.76,80.78 v 0 l -0.15,0.26 -0.15,0.25 -7.96,-4.59 v -0.35 l 0.37,-0.13 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1609" />
+    </g>
+    <g
+       id="g1615">
+      <path
+         d="m 310.01,76.29 v 0 l 0.49,0.06 v 0.35 l -12.17,7.02 -0.3,-0.17 V 83.2 Z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1613" />
+    </g>
+    <g
+       id="g1621">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1619"><tspan
+           x="306.60001"
+           y="123.45"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1617">O</tspan></text>
+    </g>
+    <g
+       id="g1629">
+      <line
+         x1="311.79999"
+         y1="105.15"
+         x2="311.79999"
+         y2="114.6"
+         stroke="#000000"
+         stroke-width="0.6"
+         shape-rendering="auto"
+         id="line1623" />
+      <path
+         d="m 309.5,104.92 v 0 l -0.6,-0.35 v 10.03 h 0.6 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1625" />
+      <path
+         d="m 312.1,104.57 v 0 l -0.6,0.35 v 9.68 h 0.6 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1627" />
+    </g>
+    <g
+       id="g1635">
+      <text
+         xml:space="preserve"
+         text-anchor="end"
+         text-rendering="geometricPrecision"
+         id="text1633"><tspan
+           x="304.22"
+           y="70.07"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1631">RO</tspan></text>
+    </g>
+    <g
+       id="g1639">
+      <path
+         d="m 310.38,75.8 v 0 l 0.12,0.55 -0.49,-0.06 -5.89,-5.9 0.21,-0.21 0.21,-0.21 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1637" />
+    </g>
+    <g
+       id="g1645">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1643"><tspan
+           x="314.54999"
+           y="58.400002"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1641">O</tspan></text>
+    </g>
+    <g
+       id="g1649">
+      <path
+         d="m 310.87,76.22 v 0 l -0.37,0.13 -0.12,-0.55 5.82,-16 0.28,0.1 0.29,0.11 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1647" />
+    </g>
+    <g
+       id="g1653">
+      <path
+         d="m 298.03,83.2 v 0 0.35 l -0.3,0.17 -12.32,-7.11 0.15,-0.26 0.15,-0.26 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1651" />
+    </g>
+    <g
+       id="g1657">
+      <path
+         d="m 322.97,98.3 v 0 -0.35 l 0.3,-0.17 12.32,7.11 -0.15,0.26 -0.15,0.26 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1655" />
+    </g>
+    <g
+       id="g1663">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1661"><tspan
+           x="335.57001"
+           y="58.400002"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1659">[M]</tspan></text>
+    </g>
+    <g
+       id="g1667">
+      <path
+         d="m 323.5,54.8 v 0 -0.3 -0.3 h 11.2 v 0.3 0.3 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1665" />
+    </g>
+    <g
+       id="g1679">
+      <path
+         d="m 334.03,63.8 v 0 l 0.52,0.3 1.25,-2.16 -0.26,-0.15 -0.26,-0.15 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1669" />
+      <path
+         d="m 326.52,76.8 v 0 l 0.52,0.3 -1.25,2.16 -0.26,-0.15 -0.26,-0.15 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1671" />
+      <path
+         d="m 333.09,65.43 v 0 l -1.25,2.16 0.52,0.3 1.25,-2.16 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1673" />
+      <path
+         d="m 330.9,69.22 v 0 l -1.25,2.16 0.52,0.3 1.25,-2.16 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1675" />
+      <path
+         d="m 328.71,73.01 v 0 l -1.25,2.16 0.52,0.3 1.25,-2.16 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1677" />
+    </g>
+    <g
+       id="g1685">
+      <path
+         d="m 326,72.23 c -2.29,-1.4 -5.29,-0.69 -6.7,1.6 -0.69,1.12 -0.89,2.53 -0.55,3.8"
+         stroke="#000000"
+         stroke-width="0.6"
+         fill-rule="evenodd"
+         stroke-linejoin="bevel"
+         fill="none"
+         shape-rendering="geometricPrecision"
+         id="path1681" />
+      <path
+         d="m 328.15,75.11 -2.22,-4.42 c 0.17,1.23 -0.63,1.91 -1.81,1.56 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         stroke-miterlimit="6.92322"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1683" />
+    </g>
+    <g
+       id="g1691">
+      <path
+         d="m 320.37,65.71 c 3.01,1.21 6.44,-0.25 7.65,-3.27 0.69,-1.73 0.49,-3.78 -0.51,-5.35"
+         stroke="#000000"
+         stroke-width="0.6"
+         fill-rule="evenodd"
+         stroke-linejoin="bevel"
+         fill="none"
+         shape-rendering="geometricPrecision"
+         id="path1687" />
+      <path
+         d="m 317.59,63.41 3.15,3.83 c -0.44,-1.16 0.19,-2.01 1.43,-1.93 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         stroke-miterlimit="6.9523"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1689" />
+    </g>
+    <g
+       id="g1697">
+      <text
+         xml:space="preserve"
+         text-anchor="end"
+         text-rendering="geometricPrecision"
+         id="text1695"><tspan
+           x="410.76999"
+           y="87.900002"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1693">RO</tspan></text>
+    </g>
+    <g
+       id="g1701">
+      <path
+         d="m 411.44,86.98 v 0 l 0.15,-0.26 0.15,-0.26 7.61,4.39 v 0.35 0.35 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1699" />
+    </g>
+    <g
+       id="g1705">
+      <path
+         d="m 419.35,91.55 v 0 -0.35 -0.35 l 12.17,-7.02 0.3,0.17 v 0.35 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1703" />
+    </g>
+    <g
+       id="g1711">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1709"><tspan
+           x="440.39001"
+           y="95.099998"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1707">O</tspan></text>
+    </g>
+    <g
+       id="g1715">
+      <path
+         d="m 431.82,84.35 v 0 V 84 l 0.3,-0.17 7.94,4.58 -0.15,0.26 -0.15,0.26 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1713" />
+    </g>
+    <g
+       id="g1719">
+      <path
+         d="m 448.94,88.86 v 0 l -0.15,-0.26 -0.15,-0.26 8.12,-4.69 V 84 84.35 Z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1717" />
+    </g>
+    <g
+       id="g1723">
+      <path
+         d="m 456.76,84.35 v 0 V 84 83.65 l 12.47,7.2 v 0.35 l -0.3,0.17 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1721" />
+    </g>
+    <g
+       id="g1729">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1727"><tspan
+           x="477.79999"
+           y="87.900002"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1725">O</tspan></text>
+    </g>
+    <g
+       id="g1733">
+      <path
+         d="m 469.53,91.37 v 0 l -0.3,-0.17 v -0.35 l 7.73,-4.46 0.15,0.26 0.15,0.26 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1731" />
+    </g>
+    <g
+       id="g1739">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1737"><tspan
+           x="492.76999"
+           y="95.099998"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1735">[M]</tspan></text>
+    </g>
+    <g
+       id="g1743">
+      <path
+         d="m 486.24,86.97 v 0 l 0.15,-0.26 0.15,-0.26 5.72,3.3 -0.15,0.26 -0.15,0.26 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1741" />
+    </g>
+    <g
+       id="g1749">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1747"><tspan
+           x="415.45001"
+           y="109.5"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1745">O</tspan></text>
+    </g>
+    <g
+       id="g1757">
+      <line
+         x1="420.64999"
+         y1="91.199997"
+         x2="420.64999"
+         y2="100.7"
+         stroke="#000000"
+         stroke-width="0.6"
+         shape-rendering="auto"
+         id="line1751" />
+      <path
+         d="m 418.35,90.97 v 0 l -0.6,-0.35 v 10.08 h 0.6 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1753" />
+      <path
+         d="m 420.95,90.62 v 0 l -0.6,0.35 v 9.73 h 0.6 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1755" />
+    </g>
+    <g
+       id="g1761">
+      <path
+         d="m 432.12,83.83 v 0 l -0.3,0.17 -0.3,-0.17 V 69.6 h 0.3 0.3 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1759" />
+    </g>
+    <g
+       id="g1767">
+      <text
+         xml:space="preserve"
+         text-anchor="start"
+         text-rendering="geometricPrecision"
+         id="text1765"><tspan
+           x="452.85999"
+           y="73.5"
+           font-family="Arial"
+           font-size="10px"
+           fill="#000000"
+           id="tspan1763">O</tspan></text>
+    </g>
+    <g
+       id="g1775">
+      <line
+         x1="455.45999"
+         y1="84"
+         x2="455.45999"
+         y2="75.300003"
+         stroke="#000000"
+         stroke-width="0.6"
+         shape-rendering="auto"
+         id="line1769" />
+      <path
+         d="m 457.76,84.23 v 0 l 0.6,0.35 V 75.3 h -0.6 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1771" />
+      <path
+         d="m 455.16,84.58 v 0 l 0.6,-0.35 V 75.3 h -0.6 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1773" />
+    </g>
+    <g
+       id="g1779">
+      <path
+         d="m 468.93,91.37 v 0 l 0.3,-0.17 0.3,0.17 v 14.23 h -0.3 -0.3 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1777" />
+    </g>
+    <g
+       id="g1785">
+      <line
+         x1="169.94"
+         y1="92.809998"
+         x2="147"
+         y2="92.809998"
+         stroke="#000000"
+         stroke-width="0.6"
+         shape-rendering="auto"
+         id="line1781" />
+      <path
+         d="m 180.75,92.81 -13.5,-3.38 c 2.12,1.9 2.12,4.86 0,6.76 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         stroke-miterlimit="6.92897"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1783" />
+    </g>
+    <g
+       id="g1791">
+      <line
+         x1="270.07001"
+         y1="92.809998"
+         x2="247.13"
+         y2="92.809998"
+         stroke="#000000"
+         stroke-width="0.6"
+         shape-rendering="auto"
+         id="line1787" />
+      <path
+         d="m 280.88,92.81 -13.5,-3.38 c 2.12,1.9 2.12,4.86 0,6.76 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         stroke-miterlimit="6.92897"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1789" />
+    </g>
+    <g
+       id="g1797">
+      <line
+         x1="369.44"
+         y1="92.809998"
+         x2="346.5"
+         y2="92.809998"
+         stroke="#000000"
+         stroke-width="0.6"
+         shape-rendering="auto"
+         id="line1793" />
+      <path
+         d="m 380.25,92.81 -13.5,-3.38 c 2.12,1.9 2.12,4.86 0,6.76 z"
+         stroke="#000000"
+         stroke-width="0"
+         fill-rule="evenodd"
+         stroke-linejoin="miter"
+         stroke-miterlimit="6.92897"
+         fill="#000000"
+         shape-rendering="geometricPrecision"
+         id="path1795" />
+    </g>
+  </g>
+</svg>
