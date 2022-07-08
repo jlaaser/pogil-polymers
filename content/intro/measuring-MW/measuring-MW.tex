@@ -34,7 +34,7 @@
 				\item Interpreting graphs and numeric data
 				\item Written and oral communication of reasoning
 			\end{itemize}
-		\item \textbf{Duration:} TBD
+		\item \textbf{Duration:} 60 min, including time for class discussion
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
@@ -138,7 +138,7 @@
 			
 				\begin{solution}[1.25in]
 					\begin{align*}
-						\frac{I_{methylene}}{I_{methyl}} = \frac{4n}{6} && \text{so} && n = \frac{6}{4}\frac{I_{methylene}}{I_{methyl}}
+						\frac{I_{methylene}}{I_{methyl}} = \frac{4n}{6}=\frac{2n}{3} && \text{so} && n = \frac{3}{2}\frac{I_{methylene}}{I_{methyl}}
 					\end{align*}
 				\end{solution}
 				
@@ -152,7 +152,7 @@
 				\emph{For ethylene glycol, each (\ce{CH2CH2O}) repeat unit is composed of a single monomer with mass $M_0=44\text{ g/mol}$.}
 				
 				\begin{solution}[1.5in]
-					Using the calculation from the previous part, we find that $n = (6/4)(90/3) = 45$.
+					Using the calculation from the previous part, we find that $n = (3/2)(90/3) = 45$.
 					
 					Multiplying by 44 g/mol, we obtain $M_n = (44\text{ g/mol})(45) = 2.0\text{ kg/mol}$.
 				\end{solution}
@@ -162,6 +162,17 @@
 		\question Briefly summarize how you could use NMR to determine the molecular weight of a polymer sample, if you are given its chemical structure.
 		
 			\begin{solution}[2in]
+			
+				\begin{enumerate}				
+					\item First, identify at least one unique type of proton on the end group and at least one unique type of proton on the repeat unit.  Count how many of each type of proton there are, making sure to multiply the number for the protons on the repeat unit by $n$.
+				
+					\item Second, look up the chemical shifts for both types of protons and locate the corresponding peaks in the NMR spectrum.  Write down the integrals of the relevant peaks.
+				
+					\item Third, set up an appropriate ratio (as we did in the previous question) and solve for the number of repeat units, $n$.
+				
+					\item Finally, multiply by the molecular weight of the repeat unit to obtain the molecular weight of the polymer.
+				\end{enumerate}
+				 
 			\end{solution}
 		
 		\question It is difficult to determine the intensities of peaks in NMR spectra accurately if they are less than about 1\% of the intensity of the largest peaks.  Do you expect this to place any limits on the range of molecular weights that can be quantified by NMR?  Briefly explain your reasoning in 2-3 complete sentences.
@@ -184,7 +195,7 @@
 	\vspace{12pt}
 	\centerline{\includegraphics[width=0.7\textwidth]{\figpath/Model2-MALDIschematic}}
 	
-	The ionized polymer chains are then passed into a \emph{mass spectrometer}, which separates them by their mass-to-charge ratios, $m/z$.  The resulting mass spectrum contains a peak at each measured mass-to-charge ratio, with the intensity of each peak proportional to the number of chains with that $m/z$. 
+	The ionized polymer chains are then passed into a \emph{mass spectrometer}, which separates them by their mass-to-charge ratios, $m/z$.  The resulting mass spectrum contains a peak at each measured mass-to-charge ratio, with the intensity of each peak proportional to the number of chains with that value of $m/z$. 
 
 \end{model}
 
@@ -196,10 +207,12 @@
 	
 		Plot the mass spectrum that you would measure for this sample (i.e. number of chains as a function of mass-to-charge ratio) on the following axes.  Make sure to clearly indicate that the number of chains is zero for any m/z values not present in the sample.
 		
-			\vspace{12pt}
-			\centerline{\includegraphics[width=0.4\textwidth]{\figpath/Model2-axes-v1}}
+			%\vspace{12pt}
+			\begin{solution}[2in]
+				\studentdisplay{\centerline{\includegraphics[width=0.4\textwidth]{\figpath/Model2-axes-v1}}}
+				\instructordisplay{\centerline{\includegraphics[width=0.4\textwidth]{\figpath/Model2-axes-v1-soln}}}
+			\end{solution}
 			
-	\clearpage
 	\question The mass spectrum you plotted in the previous question should have sharp peaks at three different $m/z$ ratios.
 	
 		\begin{enumerate}
@@ -224,8 +237,10 @@
 		\begin{enumerate}
 			\item Re-draw the mass spectrum you sketched in CTQ \ref{\labelbase:ctq:PS-MALDI} on the following axes:
 		
-			\vspace{12pt}
-			\centerline{\includegraphics[width=0.4\textwidth]{\figpath/Model2-axes-v2}}
+			\begin{solution}[2in]
+				\studentdisplay{\centerline{\includegraphics[width=0.4\textwidth]{\figpath/Model2-axes-v2}}}
+				\instructordisplay{\centerline{\includegraphics[width=0.4\textwidth]{\figpath/Model2-axes-v2-soln}}}
+			\end{solution}
 			
 			\item Recall that the number-average and weight-average molecular weights of a polymer sample can be expressed as
 		\begin{align*}
@@ -248,11 +263,21 @@
 	
 		\begin{enumerate}
 			\item ... the molecular weight and dispersity of a polymer sample?
-		\begin{solution}[2in]
+			
+		\begin{solution}[1.5in]
+		
+			To determine the molecular weight and dispersity of the polymer sample, we would first calculate $M_n$ and $M_w$  using the equations above, where we put in the $m/z$ values as the $M_i$ values and the heights (or intensities) of the peak in place of the corresponding $n_i$ values.  This works because for singly-charged polymers, the mass of the chain is just directly equal to $m/z$, and the intensity of the peaks in MALDI are directly proportional to the number of molecules with the corresponding mass.  We would then just divide $M_w$ by $M_n$ to get the dispersity.
+			
 		\end{solution}
 				
 			\item ... the repeat unit of a polymer if you \emph{did not} already know its structure?
-		\begin{solution}[2in]
+			
+		\begin{solution}[1.5in]
+		
+			To get information about the repeat unit of the polymer, we would need to look at the spacing between the peaks.  The spacing between peaks should be equal to the molecular weight of one repeat unit.
+			
+			Note that this does not give us any information about the \emph{structure} of the repeat unit - for that, we'd need to characterize the polymer by NMR as well - but it would help us narrow down the possibilities by a lot!
+		
 		\end{solution}
 		
 		\end{enumerate}
@@ -262,7 +287,7 @@
 \end{ctqs}
 
 
-
+\clearpage
 \begin{model}[Size-Exclusion Chromatography]
 \label{\labelbase:mdl:SEC}
 	
@@ -307,7 +332,7 @@
 			\centerline{\includegraphics[width=0.5\textwidth]{\figpath/Model3-SECaxes}}
 		}\instructordisplay{
 			\vspace{12pt}
-			\centerline{\includegraphics[width=0.5\textwidth]{\figpath/Model3-SECaxes}}
+			\centerline{\includegraphics[width=0.5\textwidth]{\figpath/Model3-SECaxes-soln}}
 		}
 		\end{solution}
 	
@@ -357,11 +382,48 @@
 
 \begin{exercises}
 
-	% \exercise The UV-VIs problem I removed from the earlier version of the activity
+	\exercise Similar to NMR, UV-vis can also be used to perform end group analysis on polymer samples.  In a UV-vis experiment, the measured absorbance ($A$) of a functional group is
+		\begin{equation*}
+			A = \epsilon c l
+		\end{equation*}
+		where $l$ is the thickness of the sample, $c$ is the concentration of the functional group of interest, and $\epsilon$ is the extinction coefficient of the functional group at the wavelength at which the absorbance is measured.
+		
+		The following polymer, for example, contains a trithiocarbonate group (S(C=S)S,  highlighted in red), which has an extinction coefficient of 18,500~L~mol\textsuperscript{-1}~cm\textsuperscript{-1} at 305~nm:
+		
+			\centerline{\includegraphics[width=0.3\textwidth]{\figpath/Exc-UVvis-polymer}}
+		
+		Suppose a 1.2~mg sample of this polymer is dissolved in 1.0 mL of chloroform and placed in a 1~cm thick sample cell.  If the measured absorbance at 305~nm is 0.85, what must the molecular weight of the polymer be?
+		
+		\begin{solution}\instructordisplay{
+			We first need to solve for the number of end groups in the sample.  Rearranging the equation given in the problem, and using the given values for $A$, $l$, and $\epsilon$, we find that the concentration of end groups was
+			\begin{equation*}
+				c = \frac{A}{\epsilon l} = \frac{0.85}{(18,500\text{ L~mol\textsuperscript{-1}~cm\textsuperscript{-1}})(1\text{ cm})} = 4.6\times10^{-5}\text{ mol/L}
+			\end{equation*}
+			Since the total solution volume was 1~mL, then the total number of end groups was $4.6\times10^{-5}\text{ mmol}$.
+			
+			Next, we need to figure out how many monomers there were in the solution.  Since the styrene unit has a mass of 104 g/mol, the number of monomers in solution is (1.2 mg)/(104 g/mol) = 0.0115 mmol.
+			
+			Then, dividing number of monomers by number of chains, we find that the degree of polymerization is (0.0115 mmol)/($4.6\times10^{-5}\text{ mmol}$) = 250.
+			
+			Finally, multiplying the degree of polymerization by the monomer mass (104 g/mol), we find that the molecular weight of the polymer was (250)(104 g/mol) = 26 kg/mol.
+			
+			Notes:
+				\begin{enumerate}
+					\item In the above solution, we first divided by the mass of the styrene unit and then multiplied by it again.  Since these end up canceling out, we could just take a shortcut, and divide the mass of polymer directly by the number of moles of end groups to obtain the molecular weight - e.g. (1.2~mg)/(0.000046 mmol) = 26 kg/mol.  However, students may find it helpful to write out all the steps (above) to better connect to their understanding of what $M_n$ means.
+					\item Because this molecular weight was obtained by end-group analysis, this is the \emph{number-average} molecular weight, not the weight-average molecular weight.
+				\end{enumerate}
+		}\end{solution}
+		
 	
 	\exercise Another technique used to quantify the molecular weights of polymers is light scattering.  In a light scattering experiment, the intensity of the signal from each polymer chain is proportional to the molecular weight of the chain.
 	
 		Based on this information, do you expect the molecular weight obtained from a light scattering measurement to be $M_n$ or $M_w$?  Explain your reasoning in 2-3 complete sentences.
+		
+		\begin{solution}\instructordisplay{
+			Recall that the average for $M_n$ counts each chain once, while the average for $M_w$ counts each chain once \emph{for each monomer it contains}.  Because the intensity of the signal from each polymer chain in a light scattering measurement is proportional to the molecular weight of the chain, the signal from heavier chains will be larger than that from lighter chains.  
+			
+			As a result, when we use this intensity to calculate the average molecular weight, we will be effectively counting the heavier chains more times (and, since molecular weight is proportional to number of monomers, we will be counting them by an amount that is in fact proportional to how many monomers they contain), and the obtained average molecular weight will be the \emph{weight-average} molecular weight.
+		}\end{solution}
 		
 	% \exercise A question getting students to think about why the TOF part of MALDI-TOF works to separate polymers by mass
 	
@@ -370,6 +432,12 @@
 	\exercise Ionizing hydrophobic polymers such as polystyrene can be difficult.  To solve this problem, the polymers are often complexed with an ion such as silver.
 	
 		How would you expect the presence of a silver ion to change the mass spectrum you sketched in CTQ \ref{\labelbase:ctq:PS-MALDI}?  Briefly explain your reasoning in 2-3 complete sentences.
+		
+		\begin{solution}\instructordisplay{
+			If each chain complexes with a silver ion, then the mass we detect will be (mass of chain + mass of silver ion) rather than just (mass of chain).  Thus, the entire mass spectrun should shift toward higher $m/z$ values by the mass of one silver ion, which is nominally 108 Amu.
+			
+			Some students may note that silver has two stable isotopes (\textsuperscript{107}Ag and \textsuperscript{109}Ag), which are present in approximately equal amounts in naturally-occurring samples.  If we measured the spectrum with a super high resolution mass spectrometer, this means that the spectrum should actually be ``doubled'', with one ``copy'' of the spectrum at 107 mass units higher than the mass of the chains, and another 2 mass units higher.  In practice, however, MALDI instruments don't give high enough resolution to see this effect.
+		}\end{solution}
 		
 	% \exercise The question where we convert the Mn and Mw equations to concentrations for SEC analysis
 	
