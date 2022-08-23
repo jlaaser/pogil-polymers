@@ -64,7 +64,7 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-Unreleased - Aug 16, 2022
+Unreleased - Aug 23, 2022
 
 	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
 	
@@ -92,7 +92,8 @@ Unreleased - Aug 16, 2022
 		Activity 9.1 - Regular Solutions & Flory-Huggins Theory
 		Activity 9.2 - Thermodynamics of Phase Separation
 		Activity 9.3 - Phase Diagrams of Polymer Solutions
-
+		Activity 10.1 - The Glass Transition
+		Activity 10.2 - Measuring Tg and Tm
 	
 	The following activites are complete (including the instructor guide), but have not been classroom-tested (or, have been classroom-tested but have not yet been updated following testing):
 	
@@ -106,4 +107,4 @@ Unreleased - Aug 16, 2022
 Acknowledgments
 ---------------------------------------------------------
 
-This project is supported by the National Science Foundation under award DMR-POL 1846665.
+This material is based upon work supported by the National Science Foundation under Grant Number (DMR-POL 1846665).  Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
