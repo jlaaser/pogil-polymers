@@ -1,0 +1,282 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% (c) 2022 by Jennifer Laaser
+%
+% This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+%
+% The current source for these materials is accessible on Github: https://github.com/jlaaser/pogil-polymers
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\figpath}{content/polymchem/livingpolyms/ideal-living-intro/figs}
+\renewcommand{\labelbase}{ideal-living-intro}
+
+\begin{activity}{Ideal, Living Polymerizations}
+
+\begin{instructornotes}
+	This activity introduces students to concepts related to ideal, living polymerizations.
+	
+	After completing this activity, students will be able to:
+	\begin{enumerate}
+		\item \dots
+	\end{enumerate}
+	
+	\subsection*{Activity summary:}
+	\begin{itemize}
+		\item \textbf{Activity type:} Learning Cycle
+		\item \textbf{Content goals:} Ideal and Living Polymerizations
+		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
+			\begin{itemize}
+				\item ...
+				\item Oral and written communication of reasoning
+			\end{itemize}
+		\item \textbf{Duration:} TBD, including class discussion
+		\item \textbf{Instructor preparation required:}
+			\begin{itemize}
+				\item Model \ref{\labelbase:mdl:poisson} of this activity requires dice (ideally, one die for each student, but one per group will also suffice).  If you do not have dice available for use in class, direct students to an online simulator such as https://freeonlinedice.com/
+			\end{itemize}
+		\item \textbf{Related textbook chapters:}
+			\begin{itemize}
+				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): sections 4.1 and 4.2
+			\end{itemize}
+		%\item \textbf{Facilitation notes:}
+		%	\begin{itemize}
+		%		\item \dots
+		%	\end{itemize}
+	\end{itemize}
+	
+\end{instructornotes}
+
+
+\begin{model}[What Makes a Polymerization ``Ideal'' and ``Living''?]
+	\label{\labelbase:mdl:idealliving}
+
+	Shown below is an illustration of an ``ideal'' chain growth polymerization, in which all chains are initiated at the same time (t=0 s) and all grow at the same rate (1 monomer/s):
+	    
+	    \vspace{6pt}
+	    	\centerline{\includegraphics[width=0.8\textwidth]{\figpath/Model1_ideallivingmodel}}
+	    	
+	    	\emph{Note: for simplicity, unreacted monomers are not shown, but you can assume that there are plenty to allow the reaction to progress.}
+	
+\end{model}
+
+
+\begin{ctqs}
+
+	\question What is the dispersity of the polymer sample obtained at the end of the reaction at t=6~s?
+		
+				\emph{Note: it is ok to answer to this question either by doing a calculation or just by using what you know about the meaning of \PDItext.  If you do the former, show your math. If you choose the latter, include a brief explanation of your reasoning.}
+			
+				\begin{solution}[1.5in]
+				
+					Math answer:
+						\begin{align*}
+							M_n = \frac{\sum_i i n_i}{\sum_i n_i} = \frac{2\times 6}{2} = 6 &&&
+							M_w = \frac{\sum_i i^2 n_i}{\sum_i i n_i} = \frac{2\times 6^2}{2\times 6} = 6\\
+							\PDImath &= \frac{M_w}{M_n} = \frac{6}{6} = 1
+						\end{align*}
+					
+					Conceptual answer:
+					
+						All of the chain lengths are exactly the same, so the dispersity must be 1.
+						
+				\end{solution}
+
+	\question Sketch how the final distribution of chain lengths would be different (at $t=6$~s) in each of the following cases:
+
+		\begin{enumerate}
+
+			\item Both chains grow at 1 monomer/s but the bottom chain does not start growing until t=4~s.
+			
+				\begin{solution}[0.55in]\studentdisplay{
+				}\instructordisplay{
+					\centerline{\includegraphics[width=0.5in]{\figpath/Model1_initiation}}(exact answers may vary depending on how students interpret ``starts growing at t=4'')
+				}
+				\end{solution}
+
+			\item Both chains start growing at t=1 s, but the bottom chain adds monomers twice as fast as the top chain (i.e. the bottom chain adds 2 monomers/s while the top chain still only adds 1 monomer/s).
+			
+				\begin{solution}[0.5in]\studentdisplay{
+				}\instructordisplay{
+					\includegraphics[width=0.75in]{\figpath/Model1_propagation}
+				}
+				\end{solution}
+
+			\item Both chains start growing at t=1 s and grow at a rate of 1 monomer/s, but the top chain stops growing after t=4~s.
+			
+				\begin{solution}[0.5in]\studentdisplay{
+				}\instructordisplay{
+					\includegraphics[width=0.75in]{\figpath/Model1_termination} 
+				}
+				\end{solution}
+				
+		\end{enumerate}
+		
+	\question Based on your group's answers to the previous question, write a short paragraph summarizing what needs to be true about the initiation, propagation, and termination processes in a chain-growth polymerization if you want to obtain a low-dispersity polymer.
+	
+		\begin{solution}[2in]
+			To obtain a low-dispersity polymer, the following conditions must be met: first, all of the chains must initiate at the same time.  Second, all of the chains must grow at the same rate.  And third, none of the chains can terminate early (or, all of them must terminate at the same time.)
+		\end{solution}
+
+\end{ctqs}
+
+\begin{infobox}
+
+	Chain-growth polymerizations that proceed in the absence of irreversible termination and chain-transfer reactions are termed \emph{living} polymerizations.
+	
+	Chain-growth polymerizations in which the chains additionally all start growing at the same time \emph{and} all grow at the same length are termed \emph{ideal} living polymerizations.
+
+\end{infobox}
+
+\begin{ctqs}
+
+	\question Is free-radical polymerization an ideal, living polymerization?  Why or why not?  Explain your group's reasoning in 2-3 complete sentences.
+	
+		\begin{solution}[2in]
+			No, free-radical polymerization is not an ideal, living polymerization.  Most importantly, the propagating chains can terminate at any point during the reaction if they encounter another chain with an active radical on the end, and that termination process is permanent, so free radical polymerization does NOT proceed in the absence of irreversible termination.  Additionally, however, initiation usually takes place over some period of time determined by the initiator's decomposition rate, so the chains also do not all initiate at the same time (even if the active radicals do, generally, grow at about the same rate once they are formed).
+		\end{solution}
+
+\end{ctqs}
+
+%\clearpage
+\begin{model}[Chain Length Distributions in Ideal, Living Polymerizations]
+	\label{\labelbase:mdl:poisson}
+
+		In an ideal, living polymerization, the monomers distribute randomly between the chains.  Simulate this process by doing the following:
+		\begin{enumerate}
+			\item Obtain a cup of dice from your instructor, and distribute one die to each student in your group.
+			\item Roll your die, and add a ``monomer'' to the chain corresponding to the number on the die by drawing a circle at the end of the chain.
+			\item Repeat step 2 until you have added a total of 30 monomers to the chains.  Do this process individually - each person in your group should generate their own distribution of chains.
+		\end{enumerate}
+		
+		\centerline{\includegraphics[width=0.8\textwidth]{\figpath/Model2_blank}}
+	
+\end{model}
+
+\begin{ctqs}
+	
+	\question For the distribution you generated in this simulation, calculate... \label{\labelbase:ctq:simulationcalcs}
+	
+		\begin{enumerate}
+			\item The number-average degree of polymerization:
+			
+				\emph{(Hint: recall that $N_n = \frac{\sum_i i n_i}{\sum_i n_i}$, where $i$ is a chain length and $n_i$ is the number of chains with that length)}
+			
+				\begin{solution}[2in]
+				\end{solution}
+			
+			\clearpage
+			\item The weight-average degree of polymerization \emph{(Similarly, recall that $N_w= \frac{\sum_i i^2 n_i}{\sum_i i n_i}$)}:
+			
+				\begin{solution}[1.5in]
+				\end{solution}
+			
+			\item The dispersity of the distribution, $\PDImath = \frac{N_w}{N_n}$:
+			
+				\begin{solution}[1in]
+				\end{solution}
+			
+		\end{enumerate}
+		
+	\question Your group also could also have worked together and contributed all of your dice rolls to one set of chains.  Determine the lengths of the chains you would have ended up with in this case (i.e. add up the length of everyone's ``chain 1'' to get the length of the long ``chain 1'' you would have obtained, and then do the same for chains 2, 3, etc.) and write them down below.
+		
+		\begin{center}
+			\renewcommand{\arraystretch}{2.5}
+			\begin{tabular}{|l|c|l|c|l|c|}
+				\hline
+				Chain 1: & ~~~~~~~~~~~~~~~~~~ & Chain 2: & ~~~~~~~~~~~~~~~~~~  & Chain 3: & ~~~~~~~~~~~~~~~~~~  \\\hline
+				Chain 4: & ~~~~~~~~~~~~~~~~~~ & Chain 5: & ~~~~~~~~~~~~~~~~~~  & Chain 6: & ~~~~~~~~~~~~~~~~~~  \\\hline
+			\end{tabular}
+		\end{center}
+		
+	\question Calculate $N_n$, $N_w$, and $\PDImath$ for this new, longer distribution of chains, and comment on how the values compare to your the numbers you came up with in CTQ \ref{\labelbase:ctq:simulationcalcs}.
+			
+		\begin{solution}[3in]
+		\end{solution}
+	
+\end{ctqs}
+
+\begin{infobox}
+
+	In the limit of many monomers and many chains, the distribution of chain lengths in an ideal, living polymerization follows the \emph{Poisson distribution},
+	\begin{equation*}
+		x_i = \frac{\bar v^{i-1}e^{-\bar v}}{(i-1)!}
+	\end{equation*}
+	where $\bar v$ is the kinetic chain length, or the number of monomers that have been incorporated into chains divided by the total number of chains.
+	
+	It is possible to show that the dispersity of this distribution is
+	\begin{equation*}
+		\PDImath = 1+\frac{\bar v}{(1+\bar v)^2}
+	\end{equation*}
+
+	\label{\labelbase:infobox:poisson}
+
+\end{infobox}
+
+\begin{ctqs}
+
+	\question Calculate the dispersity expected for each of the following kinetic chain lengths: \label{\labelbase:ctq:poissondispersities}
+	
+		\begin{enumerate}
+		
+			\item $\bar v = 10$:
+			
+				\begin{solution}[0.25in]
+				\end{solution}
+			
+			\item $\bar v = 100$:
+			
+				\begin{solution}[0.25in]
+				\end{solution}
+			
+			\item $\bar v = 1000$:
+			
+				\begin{solution}[0.25in]
+				\end{solution}
+			
+		\end{enumerate}
+		
+	\question One of your classmates looks at the expression for $\PDImath$ given in the information box, above, and says, \emph{``Oh!  When the chains get really long, the dispersity is essentially just $\PDImath = 1+\frac{1}{N_n}$.''}
+	
+		Is your classmate correct?  Explain your group's reasoning in 2-3 complete sentences.
+		
+		\begin{solution}[1.5in]
+		\end{solution}
+		
+	\clearpage
+	\question Based on this expression, what is the limiting value of the dispersity when the chains become infinitely long?
+		
+		\begin{solution}[0.5in]
+			As $\bar v \to \infty$, $\PDImath \to 1$.
+		\end{solution}
+	
+	\question Finally, how does the value calculated in the previous question compare to the limiting values you expect for (a) step-growth polymerizations, and (b) free-radical polymerizations?  Comment briefly on why ideal, living polymerizations might be preferred if you are trying to make a polymer with a well-defined molecular weight.
+		
+		\begin{solution}[1.5in]
+		\end{solution}
+	
+\end{ctqs}
+
+
+
+\begin{exercises}
+
+	\exercise Plot the Poisson distribution (page \pageref{\labelbase:infobox:poisson}) for $\bar v = 10$, 100, and 1000.  Comment on how the plots compare.  Are you at all surprised by their relative shapes, given the dispersities you calculated in CTQ \ref{\labelbase:ctq:poissondispersities}?
+	
+	\exercise Plot the Poisson distribution for an ideal, living polymerization with $\bar v = 100$ on the same axes as plots of the corresponding distributions for (a) a free-radical polymerization that terminates by disproportionation and (b) a free-radical polymerization that terminates by combination, both with the same $\bar v =  100$.  Comment briefly on how the shapes of the curves compare.
+	
+\end{exercises}
+
+
+
+
+%\begin{problems}
+%
+%	\problem First exercise
+%	\problem Second exercise
+%	
+%\end{problems}
+
+
+	
+\end{activity}
