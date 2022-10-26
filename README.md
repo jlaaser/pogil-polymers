@@ -1,6 +1,6 @@
 # pogil-polymers
 Polymers: A Guided Inquiry
-January 2022
+October 2022
 
 ----------------------------------------------------------
 Copyright and License
@@ -64,7 +64,7 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-Unreleased - Aug 23, 2022
+Unreleased - Oct 26, 2022
 
 	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
 	
@@ -82,7 +82,8 @@ Unreleased - Aug 23, 2022
 		Activity 4.2 - Kinetics of Free-Radical Polymerization
 		Activity 4.3 - Thermodynamics of Free-Radical Polymerization
 		Activity 5.1 - Atom Transfer Radical Polymerization
-		Activity 5.2 - Ring-Opening Polymerizations
+		Activity 5.2 - Anionic Polymerization
+		Activity 5.3 - Ring-Opening Polymerizations
 		Activity 6.1 - Copolymerization
 		Activity 7.1 - Models for Ideal Polymer Chains
 		Activity 7.2 - Elasticity of Polymer Chains
