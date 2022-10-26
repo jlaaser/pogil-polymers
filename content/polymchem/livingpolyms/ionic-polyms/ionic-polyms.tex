@@ -67,10 +67,10 @@
 			The initiator anion, R\textsuperscript{-}
 		\end{solution}
 	
-	\question If the reaction proceeds to 100\% conversion (i.e. 100\% of the monomer is used up in the reaction), how would you expect the degree of polymerization of the resulting polymer to be related to the initiator and monomer concentrations, $[M]_0$ and $[M]_0$?
+	\question If the reaction proceeds to 100\% conversion (i.e. 100\% of the monomer is used up in the reaction), how would you expect the degree of polymerization of the resulting polymer to be related to the initiator and monomer concentrations, $[I]_0$ and $[M]_0$?
 	
 		\begin{solution}[0.5in]
-			Number-average degree of polymerization is just number of monomers divided by number of chains.  The number of chains is equal to the number of initiators, so $N_n = \frac{[M]_0}{[M]_0}$
+			Number-average degree of polymerization is just number of monomers divided by number of chains.  The number of chains is equal to the number of initiators, so $N_n = \frac{[M]_0}{[I]_0}$
 		\end{solution}
 	
 	\question One initiator that can be used in anionic polymerization is \emph{sec}-butyllithium, shown below:
@@ -209,13 +209,124 @@
 \end{ctqs}
 
 
-%\begin{exercises}
+\begin{exercises}
 
 %	\exercise exercise re. the cation
 
+	\exercise The initiation reaction in anionic polymerization can be written (simply) as %note: this question should probably eventaully just get turned into Model 3, but I'm going to leave it in the Exercises for now.
+		\begin{equation*}
+			R^- + M \ce{->} RM^-
+		\end{equation*}
+		
+		\begin{enumerate}
+			\item For this reaction to be favorable, which anion must be more stable, R$^-$ or M$^-$?
+			
+				\begin{solution}\instructordisplay{
+					M$^-$ must be more stable.
+				}\end{solution}
+				
+			\item One way to gauge anion stability is to look at the pKa of the conjugate acid.  Recall that the pKa for the following reaction
+					\begin{equation*}
+						RH \ce{<=>} R^- + H^+
+					\end{equation*}
+				is given by 
+					\begin{equation*}
+						pKa = -\log_{10} K_a
+					\end{equation*}
+				where
+					\begin{equation*}
+						K_a = \frac{[R^-][H^+]}{RH}
+					\end{equation*}
+					
+					Based on this information, does a higher pKa indicate that the anion $R^-$ is more or less stable?  Explain your reasoning in 1-2 complete sentences.
+					
+				\begin{solution}\instructordisplay{
+					A higher pKa indicates that the anion R$^-$ is \emph{less} stable.  A higher pKa means that the equilibrium constant $K_a$ is smaller, which in turn means that the protonated species RH is more favored.  By contrast, a lower pKa means that the equilibrium constant $K_a$ is larger, which means that it is more favorable to form the anionic species R$^-$ (which we in turn assume means that the anionic species R$^-$ is more stable).
+				}\end{solution}
+				
+			\item Look up the pKa's of butane and toluene.  Based on these pKa's, do you expect \emph{n}-butyllithium to be an effective initiator for anionic polymerization of styrene?
+			
+				\begin{solution}\instructordisplay{
+					The pKa of the methyl group on butane is approximately 50-60, and that of the methyl group in toluene (which is a good approximation for the conjugate acid of the styryl anion) is about 40.  This means that we \emph{should} be able to initiate polymerization of styrene using n-butyllithium, because the propagating anion formed upon the first monomer addition will be more stable than that of the initiator.
+				}\end{solution}
+				
+			
+			\item Now, suppose you want to synthesize a block copolymer of polystyrene and poly(methyl methacrylate) by directly adding the second monomer to the reaction mixture after polymerization of the first block is complete.  Which order would you need to synthesize the two blocks in, and why?  Justify your reasoning in 2-3 complete sentences.
+			
+				\emph{Hint: you will probably find it helpful to look up the pKa of ethyl acetate.}.
+			
+				\begin{solution}\instructordisplay{
+					You need to polymerize the styrene block first.  Ethyl acetate (again, which provides a good approximation for the conjugate acid of the propagating species in polymerization of MMA) has a pKa of about 25.  This is lower than that  of toluene (our reference for polymerization of styrene), indicating that the propagating anion formed in polymerization of MMA is more stable than that formed in polymerization of styrene.  Thus, a propagating styryl anion will be able to initiate polymerization of MMA, but not the other way around.
+				}\end{solution}
+				
+		\end{enumerate}
+
+	\exercise Nominally, the polymerization rate in an anionic polymerization obeys
+		\begin{equation*}
+			R_p = -\frac{d\text{[M]}}{dt} = k_p\text{[M][P}^-\text{]}
+		\end{equation*}
+		where [M] and [P\textsuperscript{-}] are the concentrations of monomer and anionic chain ends, respectively, and $k_p$ is the propagation rate constant.
+		
+		In most nonpolar solvents, however, the highly polar ionic groups on the ends of the polymer chains often cluster together, and these clusters (or aggregates) exist in equilibrium with the free chains, as show below:
+			\begin{equation*}
+				(P^-)_n \ce{<<=>} n\,\,P^-
+			\end{equation*}
+		When this occurs, only the free chains are able to engage in propagation reactions, and [P\textsuperscript{-}] in the above expression should be replaced by [P\textsuperscript{-}]\textsubscript{free}.
+		
+		Based on this information, do the following:
+		\begin{enumerate}
+			\item Write an expression for the equilibrium constant $K_{dis}$ representing dissociation of the cluster into $n$ free chains, in terms of the concentration of clusters, [(P\textsuperscript{-})\textsubscript{n}], and the concentration of free chains, [P\textsuperscript{-}]\textsubscript{free}.
+				
+				\begin{solution}\instructordisplay{
+					\begin{equation*}
+						K_{dis} = \frac{\text{[P}^-\text{]}^n_{\text{free}}}{\text{[(P}^-\text{)}_n\text{]}}
+					\end{equation*}
+				}\end{solution}
+				
+			\item Solve for the concentration of free chains and use your result to obtain an expression for $R_p$ in terms of $K_{dis}$ and the concentration of clusters.
+				
+				\begin{solution}\instructordisplay{
+					Solving for the concentration of free chains, we find
+					\begin{equation*}
+						\text{[P}^-\text{]}_{\text{free}} = \left(K_{dis}\text{[(P}^-\text{)}_n\text{]}\right)^{1/n}
+					\end{equation*}
+					Substituting this result into the expression for $R_p$, we obtain
+					\begin{equation*}
+						R_p = k_p\text{[M]}\left(K_{dis}\text{[(P}^-\text{)}_n\text{]}\right)^{1/n}
+					\end{equation*}
+				}\end{solution}
+				
+			\item Explain why it might be reasonable to approximate the concentration of clusters as [(P\textsuperscript{-})\textsubscript{n}]$\approx \frac{1}{n}$[P\textsuperscript{-}], where [P\textsuperscript{-}] is the \emph{total} number of anionic chains in the system (whether in a cluster or not).  Once you have convinced yourself this is reasonable, use it to rewrite your expression from the previous part to obtain an expression for $R_p$ in terms of $K_{dis}$ and the total concentration of anionic chains.
+				
+				\begin{solution}\instructordisplay{
+					If the solvent conditions strongly favor clustering of the ions, then most of the chains will be in clusters.  As a result, the total concentration of chains is essentially the number of chains per cluster times the number of clusters, yielding [P\textsuperscript{-}]$=n$[(P\textsuperscript{-})\textsubscript{n}], or [(P\textsuperscript{-})\textsubscript{n}]$\approx \frac{1}{n}$[P\textsuperscript{-}] as desired.
+					
+					Substituting this in to the expression for $R_p$, we obtain
+					\begin{equation*}
+						R_p = k_p\text{[M]}\left(K_{dis} \frac{1}{n}[P\textsuperscript{-}]\right)^{1/n}
+					\end{equation*}
+					With a bit of rearrangement, we can also write this as
+					\begin{equation*}
+						R_p = k_{app} \text{[M]} [P\textsuperscript{-}]^{1/n}
+					\end{equation*}
+					where $k_{app} = k_p\left(\frac{K_{dis}}{n}\right)^{1/n}$
+				}\end{solution}
+				
+			\item Finally, use the results of your analysis to critique or defend the following statement in 2-3 complete sentences:
+			
+			\emph{``Anionic polymerization is typically much faster in nonpolar solvents than it is in polar solvents.''}
+				
+				\begin{solution}\instructordisplay{
+					This statement is \emph{false}.  In nonpolar solvents, clusters do form (so $n > 1$), and the equilibrium constant favors clusters over free chains ($K_{dis}< 1$).  As a result, not only is $k_{app}<k_p$, but also $[P\textsuperscript{-}]^{1/n} < [P\textsuperscript{-}]$.  Both of these effects significantly slow the reaction rate relative to what would be observed in the absence of ion clustering.
+					
+					Note that this change in the kinetics can also have other effects, such as allowing time for monomers at the chain end to isomerize before the next monomer is added, which can affect \emph{cis}-\emph{trans} ratios in (for example) polyisoprene; for discussion of this point, see Section 4.3 of \emph{Polymer Chemistry} by Hiemenz \& Lodge.
+				}\end{solution}
+				
+		\end{enumerate}
+
 %	\exercise question re. expected behavior of a PS-b-PEO block copolymer if dissolved in water, in limit that PS length > EO, PS = EO, PS < EO
 	
-%\end{exercises}
+\end{exercises}
 
 
 %\begin{problems}
