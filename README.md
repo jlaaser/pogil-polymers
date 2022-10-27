@@ -64,7 +64,7 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-Unreleased - Oct 26, 2022
+Unreleased - Oct 27, 2022
 
 	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
 	
@@ -81,9 +81,9 @@ Unreleased - Oct 26, 2022
 		Activity 4.1 - Chemistry of Free-Radical Polymerization
 		Activity 4.2 - Kinetics of Free-Radical Polymerization
 		Activity 4.3 - Thermodynamics of Free-Radical Polymerization
-		Activity 5.1 - Atom Transfer Radical Polymerization
-		Activity 5.2 - Anionic Polymerization
-		Activity 5.3 - Ring-Opening Polymerizations
+		Activity 5.2 - Atom Transfer Radical Polymerization
+		Activity 5.3 - Anionic Polymerization
+		Activity 5.4 - Ring-Opening Polymerizations
 		Activity 6.1 - Copolymerization
 		Activity 7.1 - Models for Ideal Polymer Chains
 		Activity 7.2 - Elasticity of Polymer Chains
@@ -98,7 +98,7 @@ Unreleased - Oct 26, 2022
 	
 	The following activites are complete (including the instructor guide), but have not been classroom-tested (or, have been classroom-tested but have not yet been updated following testing):
 	
-		n/a - none in this release
+		Activity 5.1 - Ideal, Living Polymerizations (note: Model 1 has been classroom tested, but Model 2 has not)
 	
 	The following activities are included as ``working drafts'' which contain complete student handouts but no instructor guides, and have not been classroom-tested (or, have been classroom-tested but have not yet been updated following testing):
 	
