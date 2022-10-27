@@ -26,23 +26,31 @@
      inkscape:zoom="0.59714111"
      inkscape:cx="424.52277"
      inkscape:cy="226.91454"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="559"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      fit-margin-top="2"
      fit-margin-left="2"
      fit-margin-right="2"
      fit-margin-bottom="2" />
   <defs
-     id="defs4885" />
+     id="defs4885">
+    <rect
+       x="716.74851"
+       y="167.4646"
+       width="452.15444"
+       height="251.19691"
+       id="rect3760" />
+  </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(7.4975958,-88.527649)">
+     transform="translate(7.4975958,-88.527649)"
+     sodipodi:insensitive="true">
     <g
        id="g7028"
        transform="translate(-3.7340379)">
@@ -176,5 +184,157 @@
        height="155.99638"
        x="-4.9975958"
        y="91.027649" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="soln">
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7"
+       cx="85.072021"
+       cy="15.951003"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-7"
+       cx="95.706024"
+       cy="17.723337"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-4"
+       cx="85.515106"
+       cy="40.763676"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-4-1"
+       cx="95.262939"
+       cy="43.422176"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-4-6"
+       cx="106.34003"
+       cy="43.422176"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-4-7"
+       cx="124.50645"
+       cy="144.44519"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-4-0"
+       cx="125.8357"
+       cy="19.052589"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-4-65"
+       cx="116.08786"
+       cy="16.394089"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-4-2"
+       cx="106.34003"
+       cy="17.723337"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-4-78"
+       cx="85.515099"
+       cy="66.905594"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-4-06"
+       cx="133.3681"
+       cy="138.68512"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-4-70"
+       cx="85.072021"
+       cy="91.275185"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-4-17"
+       cx="94.37677"
+       cy="93.490608"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-4-8"
+       cx="85.072021"
+       cy="117.8602"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-4-5"
+       cx="94.819855"
+       cy="115.64478"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-4-25"
+       cx="105.01077"
+       cy="117.41711"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-4-3"
+       cx="85.256851"
+       cy="143.91603"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-4-50"
+       cx="95.275604"
+       cy="145.5896"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-4-39"
+       cx="105.01077"
+       cy="140.45744"
+       r="4.9975958" />
+    <circle
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6762-7-4-786"
+       cx="114.31552"
+       cy="144.88828"
+       r="4.9975958" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-9.7478355,8.8616687)"
+       id="text3758"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect3760);fill:#000000;fill-opacity:1;stroke:none"
+       x="162.56836"
+       y="0"><tspan
+         x="779.65137"
+         y="203.95806"
+         id="tspan10103"><tspan
+           style="text-align:center;text-anchor:middle;fill:#ff0000"
+           id="tspan10101">(Note: this is an </tspan></tspan><tspan
+         x="737.16113"
+         y="253.95806"
+         id="tspan10107"><tspan
+           style="text-align:center;text-anchor:middle;fill:#ff0000"
+           id="tspan10105">example distribution </tspan></tspan><tspan
+         x="771.99512"
+         y="303.95806"
+         id="tspan10111"><tspan
+           style="text-align:center;text-anchor:middle;fill:#ff0000"
+           id="tspan10109">for the instructor </tspan></tspan><tspan
+         x="804.89551"
+         y="353.95806"
+         id="tspan10115"><tspan
+           style="text-align:center;text-anchor:middle;fill:#ff0000"
+           id="tspan10113">manual only.)</tspan></tspan></text>
   </g>
 </svg>
