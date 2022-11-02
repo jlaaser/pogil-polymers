@@ -28,14 +28,19 @@
 	\subsection*{Activity summary:}
 	\begin{itemize}
 		\item \textbf{Activity type:} Learning Cycle
-		\item \textbf{Content goals:} Molecular weight and dispersity of polymer samples
+		\item \textbf{Content goals:} See above
 		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
-			written communication, critical thinking, information processing
+			\begin{itemize}
+				\item Analyzing quantitative data
+				\item Interpreting data to infer a general trend
+				\item Written and oral communication of reasoning
+			\end{itemize}
 		\item \textbf{Duration:} 30 min, including time for discussion
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
-				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): section 1.7
+				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge), 2nd ed.: section 1.7
+				\item \emph{Introduction to Polymers} (Young \& Lovell), 3rd ed.: section 1.3
 			\end{itemize}
 	\end{itemize}
 
@@ -44,7 +49,7 @@
 \begin{model}[Calculating Average Chain Lengths]
 \label{\labelbase:mdl:MNandMW}
 
-	Most polymer samples contain a distribution of chain lengths.  Typically, we want to know what the \emph{average} chain length is.  However, there is more than one way that we can compute an average.
+	Most polymer samples contain a distribution of chains of different lengths.  Typically, we want to know what the \emph{average} chain length is.  However, there is more than one way that we can compute an average.
 	
 	Consider the following set of polymer chains:
 	
@@ -86,7 +91,7 @@
 		\end{enumerate}
 	
 	\clearpage
-	\question A more systematic way to calculate the average from the previous problem is to average together the lengths of the chains.
+	\question The average from the previous problem can also be computed by averaging together the lengths of the chains.
 				\label{\labelbase:ctq:Mncalc}
 	
 		\begin{enumerate}
@@ -229,7 +234,7 @@
 					\end{tabular}
 				\end{center}
 	
-	\question Using the values in the last row of this table, and the provided equations, calculate $M_n$ and $M_w$ for the polymer sample shown in Model \ref{\labelbase:mdl:MNandMW}.  Remember that the molecular weight of each monomer is 100~g/mol.
+	\question Using the values in the last row of this table, and the provided equations, calculate $M_n$ and $M_w$ for the polymer sample shown in Model \ref{\labelbase:mdl:MNandMW}.  You may assume that the molecular weight of each monomer is 100~g/mol.
 	
 		\begin{solution}[1.25in]\instructordisplay{
 			\begin{equation*}
@@ -332,9 +337,10 @@
 		
 	\question Can the dispersity ever be less than one?  Briefly justify your answer in 1-2 complete sentences.
 	
-		\begin{solution}[2in]
-			No. Because the weight-average molecular weight is always greater than the number-average molecular weight (see question 8, %\ref{\labelbase:ctq:MWvsMN}), 
+		\begin{solution}[2in]\instructordisplay{
+			No. Because the weight-average molecular weight is always greater than or equal to the number-average molecular weight (see question \ref{\labelbase:ctq:MWvsMN}), 
 			the dispersity will always be greater than or equal to one.
+		}\studentdisplay{~}
 		\end{solution}
 	
 \end{ctqs}
@@ -461,7 +467,7 @@
 								&\sim 1.3\times 10^2\text{ g/mol}
 						\end{align*}
 						
-						Note that the averages in part (b) are both lower than the averages in part (a) because the sample contains proportionately more of the lower-molecular-weight hexane.
+						Note that the averages in part (b) are both lower than the averages in part (a) because the sample contains proportionately more molecules of the lower-molecular-weight hexane.
 					}\end{solution}
 				
 			\end{enumerate}
@@ -486,10 +492,11 @@
 				\item How small would the dispersity need to be for the standard deviation to be less than 10\% of $M_n$?
 					
 					\begin{solution}\instructordisplay{
-					This question is essentially asking, when is $\sigma/M_n >0.1$?  To address this, we just need to rearrange the given equation a bit:
+					This question is essentially asking, when is $\sigma/M_n < 0.1$?  To address this, we just need to rearrange the given equation a bit:
 					\begin{equation*}
 						\PDImath = \left(\frac{\sigma}{M_n}\right)^2 + 1 = 0.1^2 + 1 = 1.01
 					\end{equation*}
+					Thus, the standard deviation in the molecular weights would be less than 10\% of $M_n$ when $\PDImath<1.01$.
 					}\end{solution}
 					
 			\end{enumerate}

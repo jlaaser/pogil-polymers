@@ -20,7 +20,7 @@
 	
 	After completing this activity, students will be able to:
 			\begin{enumerate}
-				\item Use end-group analysis via NMR and UV-Vis to calculate the number-average molecular weight of a polymer
+				\item Use end-group analysis (via NMR) to calculate the number-average molecular weight of a polymer
 				\item Interpret MALDI spectra in terms of the repeat unit mass and frequency of chain lengths, and calculate molecular weights and dispersities of polymer samples from MALDI data
 				\item Qualitatively interpret the relative molecular weights and dispersities of polymers measured by SEC
 			\end{enumerate}
@@ -38,7 +38,8 @@
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
-				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): section 1.8
+				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge), 2nd ed.: sections 1.8 and 9.8
+				\item \emph{Introduction to Polymers} (Young \& Lovell), 3rd ed.: sections 11.5, 14.3, and 14.5
 			\end{itemize}
 		%\item \textbf{Facilitation notes:}
 		%	\begin{itemize}
@@ -82,7 +83,7 @@
 	\question Calculate the average degree of polymerization of the polymer sample depicted in Model \ref{\labelbase:mdl:endgrpanalysis} by dividing your answer to part (b) by your answer from part (a).  If each monomer has a mass of 100~g/mol, what is the average molecular weight of this polymer sample?
 	
 		\begin{solution}[0.5in]
-			degree of polymerizatio: 12/4 = 3
+			degree of polymerization: 12/4 = 3
 			
 			molecular weight: 3(100 g/mol) = 300 g/mol
 		\end{solution}
@@ -149,7 +150,7 @@
 				\end{align*}
 				Based on this information, and the approach you explored above, what must the degree of polymerization and the molecular weight of the polymer be?
 				
-				\emph{For ethylene glycol, each (\ce{CH2CH2O}) repeat unit is composed of a single monomer with mass $M_0=44\text{ g/mol}$.}
+				\emph{Note: for ethylene glycol, each (\ce{CH2CH2O}) repeat unit is composed of a single monomer with mass $M_0=44\text{ g/mol}$.}
 				
 				\begin{solution}[1.5in]
 					Using the calculation from the previous part, we find that $n = (3/2)(90/3) = 45$.
@@ -178,7 +179,7 @@
 		\question It is difficult to determine the intensities of peaks in NMR spectra accurately if they are less than about 1\% of the intensity of the largest peaks.  Do you expect this to place any limits on the range of molecular weights that can be quantified by NMR?  Briefly explain your reasoning in 2-3 complete sentences.
 		
 			\begin{solution}[2in]
-				Yes, this will limit the range of molecular weights that can be quantified by NMR.  If it is difficult to detect intensities of less than 1\%, then practically speaking, it will be difficult to quantify the number of end group protons when there are more than about 100 repeat units (though this limit may be larger or smaller depending on the number of protons contributing to each NMR peak).  For most polymers, this will limit the accessible range of molecular weights to around 10~kg/mol.
+				Yes, this will limit the range of molecular weights that can be quantified by NMR.  If it is difficult to detect intensities of less than 1\%, then practically speaking, it will be difficult to quantify the number of end group protons when there are more than about 100 repeat units (though this limit may be larger or smaller depending on the number of protons contributing to each NMR peak).  For most polymers, this will limit the accessible range of molecular weights to around 10-20~kg/mol.
 			\end{solution}
 	
 \end{ctqs}
@@ -266,7 +267,7 @@
 			
 		\begin{solution}[1.5in]
 		
-			To determine the molecular weight and dispersity of the polymer sample, we would first calculate $M_n$ and $M_w$  using the equations above, where we put in the $m/z$ values as the $M_i$ values and the heights (or intensities) of the peak in place of the corresponding $n_i$ values.  This works because for singly-charged polymers, the mass of the chain is just directly equal to $m/z$, and the intensity of the peaks in MALDI are directly proportional to the number of molecules with the corresponding mass.  We would then just divide $M_w$ by $M_n$ to get the dispersity.
+			To determine the molecular weight and dispersity of the polymer sample, we would first calculate $M_n$ and $M_w$  using the equations above, where we put in the $m/z$ values as the $M_i$ values and the heights (or intensities) of the peaks in place of the corresponding $n_i$ values.  This works because for singly-charged polymers, the mass of the chain is just directly equal to $m/z$, and the intensity of the peaks in MALDI are directly proportional to the number of molecules with the corresponding mass.  We would then just divide $M_w$ by $M_n$ to get the dispersity.
 			
 		\end{solution}
 				
@@ -348,7 +349,7 @@
 					
 				\end{solution}
 			
-			\item ... convert the y axis from total mass to number of chains:
+			\item ... convert the y axis from mass to number of chains:
 	
 				\begin{solution}[1in]
 					You would divide the total mass of polymer at each elution time by the molecular weight \emph{corresponding to that elution time}.
@@ -388,7 +389,7 @@
 		\end{equation*}
 		where $l$ is the thickness of the sample, $c$ is the concentration of the functional group of interest, and $\epsilon$ is the extinction coefficient of the functional group at the wavelength at which the absorbance is measured.
 		
-		The following polymer, for example, contains a trithiocarbonate group (S(C=S)S,  highlighted in red), which has an extinction coefficient of 18,500~L~mol\textsuperscript{-1}~cm\textsuperscript{-1} at 305~nm:
+		The following polymer, for example, contains a trithiocarbonate group (S(C=S)S,  highlighted in red), which has an extinction coefficient of about 18,500~L~mol\textsuperscript{-1}~cm\textsuperscript{-1} at 305~nm:
 		
 			\centerline{\includegraphics[width=0.3\textwidth]{\figpath/Exc-UVvis-polymer}}
 		
@@ -420,9 +421,7 @@
 		Based on this information, do you expect the molecular weight obtained from a light scattering measurement to be $M_n$ or $M_w$?  Explain your reasoning in 2-3 complete sentences.
 		
 		\begin{solution}\instructordisplay{
-			Recall that the average for $M_n$ counts each chain once, while the average for $M_w$ counts each chain once \emph{for each monomer it contains}.  Because the intensity of the signal from each polymer chain in a light scattering measurement is proportional to the molecular weight of the chain, the signal from heavier chains will be larger than that from lighter chains.  
-			
-			As a result, when we use this intensity to calculate the average molecular weight, we will be effectively counting the heavier chains more times (and, since molecular weight is proportional to number of monomers, we will be counting them by an amount that is in fact proportional to how many monomers they contain), and the obtained average molecular weight will be the \emph{weight-average} molecular weight.
+			Recall that the average for $M_n$ counts each chain once, while the average for $M_w$ counts each chain once \emph{for each monomer it contains}.  Because the intensity of the signal from each polymer chain in a light scattering measurement is proportional to the molecular weight of the chain, and because molecular weight is proportional to number of monomers, the light scattering intensity effectively counts each chain once for each monomer it contains.  As a result, the obtained average molecular weight will be the \emph{weight-average} molecular weight.
 		}\end{solution}
 		
 	% \exercise A question getting students to think about why the TOF part of MALDI-TOF works to separate polymers by mass
@@ -434,9 +433,9 @@
 		How would you expect the presence of a silver ion to change the mass spectrum you sketched in CTQ \ref{\labelbase:ctq:PS-MALDI}?  Briefly explain your reasoning in 2-3 complete sentences.
 		
 		\begin{solution}\instructordisplay{
-			If each chain complexes with a silver ion, then the mass we detect will be (mass of chain + mass of silver ion) rather than just (mass of chain).  Thus, the entire mass spectrun should shift toward higher $m/z$ values by the mass of one silver ion, which is nominally 108 Amu.
+			If each chain complexes with a silver ion, then the mass we detect will be (mass of chain + mass of silver ion) rather than just (mass of chain).  Thus, the entire mass spectrun should shift toward higher $m/z$ values by the mass of one silver ion, which is nominally 108 amu.
 			
-			Some students may note that silver has two stable isotopes (\textsuperscript{107}Ag and \textsuperscript{109}Ag), which are present in approximately equal amounts in naturally-occurring samples.  If we measured the spectrum with a super high resolution mass spectrometer, this means that the spectrum should actually be ``doubled'', with one ``copy'' of the spectrum at 107 mass units higher than the mass of the chains, and another 2 mass units higher.  In practice, however, MALDI instruments don't give high enough resolution to see this effect.
+			Some students may note that silver has two stable isotopes (\textsuperscript{107}Ag and \textsuperscript{109}Ag), which are present in approximately equal amounts in naturally-occurring samples.  If we measured the spectrum with a super high resolution mass spectrometer, this means that the spectrum should actually be ``doubled'', with one ``copy'' of the spectrum at 107 mass units higher than the mass of the chains, and another 2 mass units higher.  In practice, however, MALDI instruments don't usually have high enough resolution to see this effect.
 		}\end{solution}
 		
 	% \exercise The question where we convert the Mn and Mw equations to concentrations for SEC analysis
