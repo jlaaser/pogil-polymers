@@ -27,7 +27,7 @@
 	\subsection*{Activity summary:}
 	\begin{itemize}
 		\item \textbf{Activity type:} Learning Cycle
-		\item \textbf{Content goals:} Synthesis of Polymer Networks
+		\item \textbf{Content goals:} See above
 		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
 			\begin{enumerate}
 				\item Linking concepts to derive a key result
@@ -37,7 +37,8 @@
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
-				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): section 10.2
+				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge), 2nd ed.: section 10.2
+				\item \emph{Introduction to Polymers} (Young \& Lovell), 3rd ed.: section 3.3
 			\end{itemize}
 		%\item \textbf{Facilitation notes:}
 		%	\begin{itemize}
@@ -74,7 +75,7 @@
 			\item How many \emph{reactive functional groups} are present in the initial reaction mixture?  For the purposes of this question, count both the A and B reactive groups.
 			
 				\begin{solution}[0.5in]
-					12 (6 from AA-type monomers, 6 from B3-type monomers)
+					12 (6 from AA-type monomers, 6 from B\textsubscript{3}-type monomers)
 				\end{solution}
 				
 			\item What is the average number of functional groups \emph{per monomer} in this reaction mixture?
@@ -106,7 +107,7 @@
 			\item Recall that the extent of reaction, $p$, is the fraction of ``A'' groups that have reacted at any given time.  Calculate the extent of reaction for the state of the reaction that you drew in part (a).
 			
 				\begin{solution}[1.25in]
-					$p = \frac{\text{\# of a groups reacted}}{\text{initial \# of A groups}} = \frac{2}{6} = 0.33$
+					$p = \frac{\text{\# of A groups reacted}}{\text{initial \# of A groups}} = \frac{2}{6} = 0.33$
 				\end{solution}
 				
 			\item Calculate the number-average degree of polymerization by dividing the initial number of molecules by the number of molecules present at this point in the reaction.  Does your answer agree with the value you obtain using $N_n = \frac{1}{1-p}$?  If not, briefly suggest one possible reason for the discrepancy.
@@ -174,7 +175,7 @@
 					2
 				}\end{solution}
 			
-			\item Show that, with this value of $\langle f\rangle$, the Carothers equation simplifies to the version you learned for step-growth polymerizations.
+			\item Show that, with this value of $\langle f\rangle$, the Carothers equation simplifies to the equation for $N_n$ that you derived in Activity 3.\ref{Mn-and-stoich}.
 			
 				\begin{solution}\instructordisplay{
 					When $\langle f\rangle = 2$, $N_n = \frac{2}{2-2p} = \frac{1}{1-p}$, which is the same result we obtained the the previous activity.
@@ -184,7 +185,7 @@
 	\exercise \label{\labelbase:exc:Nn} Derive the relationship on page \pageref{\labelbase:eqn:carothers} by working through the following:
 	
 		\begin{enumerate}
-			\item Suppose that you initially have $n_0$ molecules that have an average of $\langle f\rangle$ reactive groups per monomer.  				Calculate the \emph{total} of reactive functional groups and the \emph{number of ``A'' groups} at the start of the reaction, assuming the reaction is stoichiometrically balanced.
+			\item Suppose that you initially have $n_0$ molecules that have an average of $\langle f\rangle$ reactive groups per monomer.  				Calculate the \emph{total number of reactive functional groups} and the \emph{number of ``A'' groups} at the start of the reaction, assuming the reaction is stoichiometrically balanced.
 			
 			\begin{solution}\instructordisplay{
 				Total number of reactive groups: $n_0 \langle f \rangle$
@@ -195,13 +196,17 @@
 			\item Suppose that at some time later, there are $n$ molecules in the reaction mixture.  Determine how many bond-forming reactions must have occurred to reach this point.  \emph{(Hint: how much does the number of molecules in the reaction change each time a bond-forming reaction happens?)}
 			
 				\begin{solution}\instructordisplay{
-					$n_0 - n$ (each bond-forming reaction reduces the number of molecules by one, so if we have dropped from $n_0$ to $n$ molecules, we must have undergone $n_0-n$ bond-forming reactions)
+					$n_0 - n$ 
+					
+					(To a first approximation, each bond-forming reaction reduces the number of molecules by one, so if we have dropped from $n_0$ to $n$ molecules, we must have undergone $n_0-n$ bond-forming reactions; while this is not strictly true, since formation of loops and/or other reactions between reactive groups that are already part of the same molecule do not reduce the number of molecules present in the reaction mixture, it is a reasonable approximation especially at low extents of reaction.)
 				}\end{solution}
 				
 			\item Determine how many ``A'' groups must have reacted to reach this point.
 			
 				\begin{solution}\instructordisplay{
-					$(n_0-n)$ (each bond-forming reaction uses up one ``A'' group)
+					$(n_0-n)$ 
+					
+					(Each bond-forming reaction uses up one ``A'' group.)
 				}\end{solution}
 				
 			\item Determine the extent of reaction at this point in the reaction.
@@ -219,7 +224,21 @@
 			\item Finally, show that combining your answers to the previous two questions gives the Carothers equation, as desired.
 			
 				\begin{solution}\instructordisplay{
-					WRITE THIS
+					Rearranging the expression for $p$, we have
+					\begin{equation*}
+						p = \frac{2}{\langle f \rangle}\frac{n_0 - n}{n_0} = \frac{\langle f \rangle}{2}\left(1 - \frac{n}{n_0}\right)
+					\end{equation*}
+					Substituting in $\frac{1}{N_n} = \frac{n}{n_0}$, we obtain
+					\begin{equation*}
+						p = \frac{2}{\langle f \rangle}\frac{n_0 - n}{n_0} = \frac{2}{\langle f \rangle}\left(1 - \frac{1}{N_n}\right)
+					\end{equation*}
+					Finally, rearranging, we obtain
+					\begin{align*}
+						\frac{p\langle f \rangle}{2} &= 1-\frac{1}{N_n} \\
+						\frac{1}{N_n} &= 1-\frac{p\langle f \rangle}{2} \\
+						N_n &= \frac{1}{1-\frac{p\langle f \rangle}{2}} = \frac{2}{2-p\langle f \rangle}
+					\end{align*}
+					as desired.
 				}\end{solution}
 		\end{enumerate}
 	

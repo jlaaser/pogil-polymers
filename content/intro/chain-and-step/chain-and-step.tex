@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% (c) 2018 by Jennifer Laaser
+% (c) 2022 by Jennifer Laaser
 %
 % This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 %
@@ -28,9 +28,13 @@
 	\subsection*{Activity summary:}
 	\begin{itemize}
 		\item \textbf{Activity type:} Learning Cycle
-		\item \textbf{Content goals:} Basic polymerization mechanisms
+		\item \textbf{Content goals:} See above
 		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
-			written communication, critical thinking, information processing
+			\begin{itemize}
+				\item Evaluating quantitative data
+				\item Thinking critically about data and proposing how results would differ if conditions of an experiment change
+				\item Written and oral communication of reasoning
+			\end{itemize}
 		\item \textbf{Duration:} 75 minutes, including discussion 
 		
 			\emph{Note: the simulations in Models 1 and 2 (and appropriate clean-up) can generally be completed in about 20 minutes if students skip the intermediate questions.  As long as they complete the tables in CTQs 1 and 7, the remainder of the analysis can be finished in a later class period if necessary.}
@@ -47,7 +51,8 @@
 		
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
-				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): sections 1.4.1, 2.2, and 3.2
+				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge), 2nd ed.: sections 1.4.1, 2.2, and 3.2
+				\item \emph{Introduction to Polymers} (Young \& Lovell), 3rd ed.: sections 2.1 and 2.2
 			\end{itemize}
 	\end{itemize}
 
@@ -58,14 +63,14 @@
 \begin{model}[Chain-Growth Polymerizations]
 \label{\labelbase:mdl:chaingrowth}
 
-	In one important type of polymerization, monomers cannot react with each other; they can only become part of a polymer chain if they react with the ``active'' end of an existing chain.
+	In one important type of polymerization, monomers cannot react directly with each other; instead, they can only become part of a polymer chain if they react with the ``active'' end of an existing chain.
 	
 	Simulate this type of polymerization by doing the following:
 	\begin{enumerate}
 		\item Combine two bags of beads of the same color in your group's bin, and place it where everyone can reach it.
-		\item Start a timer to keep track of the amount of time needed for the simulation.
-		\item As soon as the timer is started, go to your instructor and obtain a special ``initiator'' bead, then return to your desk. \emph{Note: each person in the group needs their own initiator bead!}
-		\item Pick up beads one at a time from your group's bin, and add them to the chain according to the following rules:
+		\item Send one person to your instructor to obtain special ``initiator'' beads, and distribute them among your group. \emph{Note: each person in the group needs their own initiator bead!}
+		\item Have someone in the group start a timer to keep track of the amount of time needed for your group's simulation.
+		\item As soon as the timer is started, begin picking up beads one at a time from your group's bin, and add them to the chain according to the following rules:
 			\begin{itemize}
 				\item Attach the first bead directly to the initiator bead.
 				\item All subsequent beads must be added to the growing end of the chain, \emph{not} to the initiator end.
@@ -159,8 +164,7 @@
 	\begin{enumerate}
 		\item Combine two bags of beads of different colors in your group's bin.  Remove any beads left over from the previous simulation if you have not done so already.
 		\item Set a timer for however much time was required for the polymerization in Model \ref{\labelbase:mdl:chaingrowth}.
-		\item Start the timer!
-		\item Start the polymerization by having each person pick up two beads \emph{of different colors}, connect them, and drop them back into the bin.
+		\item As soon as the timer starts, start the polymerization by having each person pick up two beads \emph{of different colors}, connect them, and drop them back into the bin.
 		\item Continue the polymerization by doing the following:
 			\begin{itemize}
 				\item Pick up two pieces (single beads, or strings of beads - try to choose as randomly as possible!) from the bin.
@@ -195,6 +199,7 @@
 				\answer{15}&\answer{1}&&\\\hline
 				&&&\\\hline
 				&&&\\\hline
+				&&&\\\hline
 				&\answer{(sample data - student answers will vary)}&&\\\hline
 				&&&\\\hline
 				&&&\\\hline
@@ -227,13 +232,13 @@
 			\end{align*}
 			
 			(Note that the dispersity is somewhat lower than the limiting value of 2 for step-growth polymerizations because the extent of reaction is relatively low.)
-		}\end{solution}
+		}\studentdisplay{~}\end{solution}
 	
 	\question Based on your graph from CTQ \ref{\labelbase:ctq:MWDstep}, and the dispersity you calculated in CTQ \ref{\labelbase:ctq:Dstep}, would you characterize the molecular weight distribution generated by this polymerization as ``narrow'' or ``broad''?  %Briefly explain your reasoning.
 	
-		\begin{solution}[1in]\instructordisplay{
+		\begin{solution}[0.75in]\instructordisplay{
 			This molecular weight distribution is not extremely broad (the dispersity is not larger than 2), but it is also not nearly as narrow as the molecular weight distribution generated in Model \ref{\labelbase:mdl:chaingrowth}.  A dispersity of 1.5 is right on the edge of what we typically consider narrow.
-		}\end{solution}
+		}\studentdisplay{~}\end{solution}
 	
 	\question Suppose you had kept going with the simulation until no more  connections could be made.  What would be the result?  Explain your group's reasoning in 2-3 complete sentences.
 	
@@ -290,7 +295,7 @@
 		\exercise In a brief paragraph, describe the key differences between the chain-growth and step-growth polymerization mechanisms.
 		
 		\begin{solution}\instructordisplay{
-			In chain-growth polymerizations, the monomers can only react with the ``active'' end of a polymer chain, while in a step-growth polymerization, they can react directly with each other or with other chains.  The kinetics are also very different: chain growth polymerizations also generate longer chains much more quickly than step-growth polymerizations do.  Finally, the molecular weight distributions are different. At least for the chain-growth process demonstrated in this activity, the molecular weight distribution was sharply peaked at a relatively long chain length, while for the step-growth polymerization the molecular weight distribution was much broader and centered around shorter chain lengths (and, in fact, the most common species in the mixture was unreacted monomer!).
+			In chain-growth polymerizations, the monomers can only react with the ``active'' end of a polymer chain, while in a step-growth polymerization, they can react directly with each other or with other chains.  The kinetics are also very different: chain growth polymerizations generate longer chains much more quickly than step-growth polymerizations do.  Finally, the molecular weight distributions are different. At least for the chain-growth process demonstrated in this activity (which, following the simulation instructions, is essentially an ideal living chain-growth polymerization), the molecular weight distribution was sharply peaked at a relatively long chain length, while for the step-growth polymerization the molecular weight distribution was much broader and centered around shorter chain lengths (and, in fact, the most common species in the mixture was unreacted monomer, or chains of length 1!).
 		}\end{solution}
 		
 		\exercise Summarize the key conditions necessary for a chain-growth polymerization to achieve a narrow molecular weight distribution.

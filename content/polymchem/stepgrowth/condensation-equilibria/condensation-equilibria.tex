@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% (c) 2018 by Jennifer Laaser
+% (c) 2022 by Jennifer Laaser
 %
 % This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 %
@@ -28,14 +28,18 @@
 	\subsection*{Activity summary:}
 	\begin{itemize}
 		\item \textbf{Activity type:} Learning Cycle
-		\item \textbf{Content goals:} Equilibrium effects in condensation polymerizations
+		\item \textbf{Content goals:} See above
 		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
-			written communication, critical thinking, information processing
+			\begin{itemize}
+				\item Linking concepts to derive a key result
+				\item Written and oral communication of reasoning
+			\end{itemize}
 		\item \textbf{Duration:} approx. 45 minutes
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
-				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): Not covered in detail, but some information in sections 2.5 and 2.6
+				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge), 2nd ed.: Not covered in detail, but some information in sections 2.5 and 2.6
+				\item \emph{Introduction to Polymers} (Young \& Lovell), 3rd ed.: Not covered
 			\end{itemize}
 	\end{itemize}
 
@@ -86,7 +90,7 @@
 		
 	\question Plug your values from the equilibrium line of this table into your expression from CTQ \ref{\labelbase:ctq:Keq} to find an expression for $K_{eq}$ in terms of $v_A^0$ and $x$.
 	
-		\emph{Note: your expression from CTQ \ref{\labelbase:ctq:Keq} is written in terms of concentrations, while the values in the table in CTQ \ref{\labelbase:ctq:ICE} are written in terms of numbers of molecules.  In this problem, however, it turns out that things cancel such that you can just directly plug the values from CTQ \ref{\labelbase:ctq:ICE} into the expression from CTQ \ref{\labelbase:ctq:Keq} directly.}
+		\emph{Note: your expression from CTQ \ref{\labelbase:ctq:Keq} is written in terms of concentrations, while the values in the table in CTQ \ref{\labelbase:ctq:ICE} are written in terms of numbers of molecules.  In this problem, however, it turns out that things cancel such that you can just plug the values from CTQ \ref{\labelbase:ctq:ICE} into the expression from CTQ \ref{\labelbase:ctq:Keq} directly.}
 	
 		\begin{solution}[1.05in]
 			\begin{equation*}
@@ -124,7 +128,7 @@
 	
 	\question Finally, recalling that the number-average degree of polymerization is related to $p$ by $N_n = \frac{1}{1-p}$, find an expression for $N_n$ in terms of $K_{eq}$.
 		
-		\begin{solution}[4.5in]
+		\begin{solution}[2.5in]
 			\begin{align*}
 				N_n &= \frac{1}{1-p} \\
 				&= \frac{1}{1-\frac{\sqrt{K_{eq}}}{1+\sqrt{K_{eq}}}}\\
@@ -135,7 +139,7 @@
 		
 \end{ctqs}
 	
-\clearpage % otherwise, this begins awkwardly at the end of one page
+%\clearpage % otherwise, this begins awkwardly at the end of one page
 \begin{model}[Equilibrium in Condensation Polymerizations]
 \label{\labelbase:mdl:K}
 
@@ -149,9 +153,9 @@ Shown below are the bond-forming reactions and range of equilibrium constants fo
 \end{model}
 
 \begin{ctqs}
-		\question Calculate the range of $N_n$ values you would expect for a polyester synthesized under equilibrium conditions.
+		\question Calculate the range of $N_n$ values you would expect to obtain for a polyester synthesized under equilibrium conditions.
 		
-			\begin{solution}[2in]
+			\begin{solution}[1.5in]
 			
 				When $K_{eq}=1$, $N_n = 1+ \sqrt{1} = 2$.
 			
@@ -161,9 +165,9 @@ Shown below are the bond-forming reactions and range of equilibrium constants fo
 			
 			\end{solution}
 		
-		\question Calculate the range of $N_n$ values you would expect for a polyamide synthesized under equilibrium conditions.
+		\question Calculate the range of $N_n$ values you would expect to obtain for a polyamide synthesized under equilibrium conditions.
 		
-			\begin{solution}[2in]
+			\begin{solution}[1.5in]
 			
 				When $K_{eq}=100$, $N_n = 1+ \sqrt{100} = 11$.
 			
@@ -184,23 +188,23 @@ Shown below are the bond-forming reactions and range of equilibrium constants fo
 		
 		\question Can commercial polyesters and polyamides be produced under equilibrium conditions?  Why or why not?
 		
-			\begin{solution}[2in]
+			\begin{solution}[1.5in]
 			
 				No. As seen above, synthesizing these polymers under equilibrium conditions results in degrees of polymerization of less than 50.  This is not long enough for commercial applications requiring degrees of polymerization of 100 or more.
 			
 			\end{solution}
 			
-		\question Propose at least one way that you could increase the degree of polymerization for polymers produced using the reactions shown in Model \ref{\labelbase:mdl:K}.  Explain your proposed solution in 2-3 complete sentences.
+		\question Propose at least one way that you could increase the degree of polymerization for polymers produced using the reactions shown in Model \ref{\labelbase:mdl:K}.  Explain your group's proposed solution in 2-3 complete sentences.
 		
 			\emph{Hint: you will probably want to think about this question in the context of Le Chatelier's principle.}
 		
-			\begin{solution}[2.5in]
+			\begin{solution}[2in]
 			
 				Le Chatelier's principle tells us that if a system in dynamic equilibrium is subjected to some stress, then the equilibrium will shift to relieve that stress.
 				
 				Practically speaking, that means that if we want to push the reaction toward the products (which will help us achieve a higher extent of reaction, and thus produce longer polymer chains), we should remove the small molecule byproduct as it is produced.
 				
-				The easiest way to do this will be to (1) run the reaction in an open system, and (2) run it at high temperature so that the small molecule byproduct (e.g. water) is vaporized and can escape.
+				The easiest way to do this will likely be to (1) run the reaction in an open system, and (2) run it at high temperature so that the small molecule byproduct (e.g. water) is vaporized and can escape.
 			
 			\end{solution}
 		
@@ -251,21 +255,21 @@ PET is produced in a two-step transesterification process, as shown below:
 
 \begin{ctqs}
 	
-	\question Why is the reaction in Step 1 carried out between 150 and 190${}^\circ$C?  Briefly explain your answer in 1-2 complete sentences.
+	\question Why is the reaction in Step 1 carried out between 150 and 190~${}^\circ$C?  Briefly explain your group's answer in 1-2 complete sentences.
 	
-		\begin{solution}[2in]
-			The reaction in Step 1 is carried out between 150 and 190${}^\circ$C so that the methanol produced in the reaction will boil off/exit the system and help push the reaction toward the oligomer product.
+		\begin{solution}[1.25in]
+			The reaction in Step 1 is carried out between 150 and 190~${}^\circ$C so that the methanol produced in the reaction will boil off/exit the system and help push the reaction toward the oligomer product.
 		\end{solution}
 	
-	\question Why is the reaction in Step 2 carried out at 280${}^\circ$C?  Briefly explain your answer in 1-2 complete sentences.
+	\question Why is the reaction in Step 2 carried out at 280~${}^\circ$C?  Briefly explain your group's answer in 1-2 complete sentences.
 	
-		\begin{solution}[2in]
-			The reaction in Step 2 is carried out at 280${}^\circ$C so that the ethylene glycol produced in the reaction will boil off/exit the system and help push the reaction toward the polymer product.
+		\begin{solution}[1.25in]
+			The reaction in Step 2 is carried out at 280~${}^\circ$C so that the ethylene glycol produced in the reaction will boil off/exit the system and help push the reaction toward the polymer product.
 		\end{solution}
 	
-	\question If we attempted to run the reaction in Step 1 at 280${}^\circ$C, would we form the desired polymer? Why or why not?
+	\question If we attempted to run the reaction in Step 1 at 280~${}^\circ$C, would we form the desired polymer? Why or why not?
 	
-		\begin{solution}[2in]
+		\begin{solution}[1.25in]
 			We probably would not form the desired polymer product; this temperature is high enough that much of the ethylene glycol starting material would likely boil off before the reaction could progress significantly toward the desired product.
 		\end{solution}
 		
@@ -367,7 +371,7 @@ PET is produced in a two-step transesterification process, as shown below:
 		
 			\begin{solution}
 				\instructordisplay{
-				If PET is heated in the presence of water, we would expect the ester bonds to hydrolyze, forming terepthalic acid and ethylene glycol:
+				If PET is heated in the presence of water, we would expect the ester bonds to hydrolyze, forming terephthalic acid and ethylene glycol:
 		
 		\centerline{\includegraphics[width=\textwidth]{\figpath/exercises-PEThydrolysis.pdf}}
 				
