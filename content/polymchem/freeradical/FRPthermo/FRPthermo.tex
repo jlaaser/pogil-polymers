@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% (c) 2021 by Jennifer Laaser
+% (c) 2022 by Jennifer Laaser
 %
 % This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 %
@@ -18,7 +18,7 @@
 	
 	After completing this activity, students will be able to:
 	\begin{enumerate}
-		\item Identify signs of the enthalpy and entropy during a propagation step and explain why propagation is considered an \emph{enthalpically-driven} process
+		\item Identify the signs of the enthalpy and entropy changes during a propagation step and explain why propagation is considered an \emph{enthalpically-driven} process
 		\item Explain why there is a certain temperature above which propagation is expected to stop, and calculate this temperature from relevant thermodynamic quantities
 		\item Describe how the reaction rates in a free-radical polymerization are expected to change as the reaction proceeds, and explain how this leads to autoacceleration in polymerizations carried out at high monomer concentrations
 	\end{enumerate}
@@ -26,7 +26,7 @@
 	\subsection*{Activity summary:}
 	\begin{itemize}
 		\item \textbf{Activity type:} Learning Cycle
-		\item \textbf{Content goals:} Thermodynamics of free-radical polymerization
+		\item \textbf{Content goals:} See above
 		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
 			\begin{itemize}
 				\item Interpreting reaction schemes and equations
@@ -37,7 +37,8 @@
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
-				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): section 4.7
+				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge), 2nd ed.: section 4.7
+				\item \emph{Introduction to Polymers} (Young \& Lovell), 3rd ed.: section 4.3.10.1
 			\end{itemize}
 		%\item \textbf{Facilitation notes:}
 		%	\begin{itemize}
@@ -97,7 +98,7 @@
 					Decreases by 1
 				\end{solution}
 			
-			\item Typical enthalpies for C-C and C=C bonds are summarized below:
+			\item Typical enthalpies of formation for C-C and C=C bonds are summarized below:
 				
 				\begin{center}
 					\renewcommand{\arraystretch}{1.5}
@@ -109,7 +110,7 @@
 					\end{tabular}
 				\end{center}
 				
-				Based on this information, calculate the enthalpy change in the propagation reaction shown in Model \ref{\labelbase:mdl:propthermo}.
+				Based on this information, calculate the enthalpy change for the propagation reaction shown in Model \ref{\labelbase:mdl:propthermo}.
 				
 				\begin{solution}[1.25in]
 					\begin{align*}
@@ -157,7 +158,7 @@
 		\begin{solution}[1.25in]
 			This reaction is an enthalpy-driven reaction.  Decreases in entropy are generally unfavorable, so it must be the exothermicity of the reaction that helps make it favorable.
 			
-			Quantitatively, a reaction is favorable when $\Delta G = \Delta H - T\Delta S < 0$.  Here, $\Delta H < 0$ and contributes favorably to making $\Delta G < 0$.  $\Delta S < 0$ means that $T \Delta S > 0$, so the entropic term does \emph{not} contribute favorably to making $\Delta G < 0$.
+			Quantitatively, a reaction is favorable when $\Delta G = \Delta H - T\Delta S < 0$.  Here, $\Delta H < 0$ and contributes favorably to making $\Delta G < 0$.  $\Delta S < 0$ means that $-T \Delta S > 0$, so the entropic term does \emph{not} contribute favorably to making $\Delta G < 0$.
 		\end{solution}
 		
 	\question Is there a temperature above which the propagation reaction will no longer be favorable?  Explain your group's reasoning in 1-2 complete sentences.\label{\labelbase:ctq:ceilingconcept}
@@ -203,7 +204,7 @@
 					\end{equation*}
 				\end{solution}
 	
-	\question In most polymerizations, [\ce{P_n^.}]$\approx$[\ce{P_{n+1}^.}].  Use this approximation to rewrite your equilibrium constant from the previous problem as a function of the equilibrium momonomer concetration, $[M]_{eq}$, only.
+	\question In most polymerizations, [\ce{P_n^.}]$\approx$[\ce{P_{n+1}^.}].  Use this approximation to rewrite your equilibrium constant from the previous problem as a function of the equilibrium monomer concentration, $[M]_{eq}$, only.
 				
 				\begin{solution}[0.5in]
 					\begin{equation*}
@@ -239,7 +240,7 @@
 				\begin{solution}[1.5in]
 					No. Once the reaction consumes enough monomer to reach its equilibrium monomer concentration, then there is no driving force to form more polymer.
 					
-					Note that this does not mean that no propagation steps occur - it just means that depolymerization (reverse of propagation) is happening at exactly the same rate.
+					Note that this does not mean that no propagation steps occur - it just means that depolymerization (reverse of propagation) is happening at exactly the same rate, so there is no \emph{net} consumption of monomer.
 				\end{solution}
 				
 		\end{enumerate}
