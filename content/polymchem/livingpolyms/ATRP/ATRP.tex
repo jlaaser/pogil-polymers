@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% (c) 2021 by Jennifer Laaser
+% (c) 2022 by Jennifer Laaser
 %
 % This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 %
@@ -14,7 +14,7 @@
 \begin{activity}{Atom Transfer Radical Polymerization}
 
 \begin{instructornotes}
-	This activity introduces students to concepts related to controlled radical polymerization via Atom Transfer Radical Polymerization (ATRP).
+	This activity introduces students to concepts related to controlled radical polymerization via atom transfer radical polymerization (ATRP).
 	
 	After completing this activity, students will be able to:
 	\begin{enumerate}
@@ -26,7 +26,7 @@
 	\subsection*{Activity summary:}
 	\begin{itemize}
 		\item \textbf{Activity type:} Learning Cycle
-		\item \textbf{Content goals:} Thermodynamics of free-radical polymerization
+		\item \textbf{Content goals:} See above
 		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
 			\begin{itemize}
 				\item Reading and interpreting reaction mechanisms
@@ -37,7 +37,8 @@
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
-				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): section 4.6
+				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge), 2nd ed.: section 4.6
+				\item \emph{Introduction to Polymers} (Young \& Lovell), 3rd ed.: section 4.5.2
 			\end{itemize}
 		%\item \textbf{Facilitation notes:}
 		%	\begin{itemize}
@@ -51,7 +52,7 @@
 \begin{model}[Key Reactions in ATRP]
 	\label{\labelbase:mdl:ATRPrxns}
 
-	Atom Transfer Radical Polymerization (ATRP) is a popular method for obtaining narrow molecular weight distributions in radical polymerizations.  The key reactions involved in ATRP are:
+	Atom transfer radical polymerization (ATRP) is a popular method for obtaining narrow molecular weight distributions in radical polymerizations.  The key reactions involved in ATRP are:
 	
 	\centerline{\includegraphics[width=\textwidth]{\figpath/Model1_scheme}}
 	
@@ -71,7 +72,7 @@
 				\begin{solution}[1in]
 				
 					No, it is not.  The radicals can still terminate by irreversible disproportionation or combination reactions.
-					ATRP is thus not truly a \emph{living} polymerization; while some people do still refer to it as a living radical polymerization, it is much more appropriately described as a \emph{controlled} radical polymerization.
+					ATRP is thus not truly a \emph{living} polymerization; while some people do still refer to it as a living radical polymerization, it is much more appropriately described as either a \emph{controlled} radical polymerization (commonly used term) or a \emph{reversible-deactivation} radical polymerization (IUPAC preferred).
 				
 				\end{solution}
 			
@@ -79,7 +80,7 @@
 				\begin{equation*}\
 					R_t = 2k_t[\text{P}^\bullet]^2
 				\end{equation*}
-				What needs to be true about the concentration of active radicals, [P$_i^\bullet$], to keep this termination rate as low as possible?
+				What needs to be true about the concentration of active radicals, [P$^\bullet$], to keep this termination rate as low as possible?
 				
 				\begin{solution}[0.9in]
 				
@@ -102,7 +103,7 @@
 				
 				\end{solution}
 			
-			\item What must be true about the value of $K_{ATRP}$ if you want to control the molecular weight of polymers synthesized by ATRP?
+			\item What must be true about the value of the equilibrium constant for this reaction, $K_{ATRP}$, if you want to control the molecular weight of polymers synthesized by ATRP?
 			
 				\begin{solution}[0.9in]
 				
@@ -115,7 +116,7 @@
 \end{ctqs}
 
 \begin{infobox}
-	The structures of several popular ligands used to make catalysts for ATRP, and their equilibrium constants, are:
+	The structures of several popular ligands used to make catalysts for ATRP, and the ATRP equilibrium constants of the resulting catalysts, are:
 	
 	\centerline{\includegraphics[width=0.8\textwidth]{\figpath/ATRP_ligands}}
 \end{infobox}
@@ -166,7 +167,7 @@
 \end{infobox}
 
 \begin{ctqs}
-	\question Draw the structure of the active radical R$^\bullet$ that you expect to be formed when this intiator is activated by the copper catalyst (\emph{hint: remember that the ``X'' in ``RX'' is a stand-in for a halogen atom}):
+	\question Draw the structure of the active radical R$^\bullet$ that you expect to be formed when this intiator is activated by the copper catalyst (\emph{hint: remember that the ``X'' in ``RX'' is a stand-in for a halogen atom}): \label{\labelbase:ctq:ATRPinit}
 	
 		\begin{solution}[0.5in]
 		\instructordisplay{
@@ -208,7 +209,7 @@
 	\question If all goes well, at the end of an ATRP reaction, we isolate (or collect) the ``deactivated'' form of the polymer, $\text{P}_i^\bullet\text{-X}$.
 	
 		\begin{enumerate}
-			\item Draw the structure of the polymer that you would expect to collect at the end of the reaction in CTQ \ref{\labelbase:ctq:ATRPprop}.
+			\item Draw the structure of the polymer that you would expect to collect at the end of the polymerization started in CTQ \ref{\labelbase:ctq:ATRPprop}.
 				
 				\begin{solution}[1.5in]
 		\instructordisplay{
@@ -265,7 +266,7 @@
 		\begin{solution}\instructordisplay{
 			If 0.1~mol of methyl methacrylate is used, and the reaction proceeds to 60\% conversion, then 0.06~mol of monomer will be incorporated into polymer chains.
 			
-			The total number of polymer chains is equal to the number of initiator molecules, i.e. 0.001~mol.  The number-average molecular weight is thus
+			The total number of polymer chains is equal to the number of initiator molecules, i.e. 0.001~mol.  The number-average degree of polymerization is thus
 			\begin{equation*}
 				N_n = \frac{\text{\# monomers}}{\text{\# chains}} = \frac{0.06\text{ mol}}{0.001\text{ mol}} = 60
 			\end{equation*}
@@ -286,7 +287,7 @@
 				Explain, in 2-3 sentences, how you expect a ``long'' radical lifetime to affect the dispersity of the polymer sample.
 		
 		\begin{solution}\instructordisplay{
-			Active radicals staying active for a ``long'' time will increase the dispersity of the polymer.  Achieving narrow dispersities in living polymerizations requires that chains initiate at the same time, that they grow at the same rate, and that the reaction proceeds in the absence of irreversible termination or chain transfer.  If the radical remains activity for a ``long'' time, then a single chain that is activated may add many monomers at once, causing it to grow much faster than the chains that are deactivated.  The requirement that all chains grow at the same rate is thus violated, and the dispersity will increase.
+			Active radicals staying active for a ``long'' time will increase the dispersity of the polymer.  Achieving narrow dispersities in living polymerizations requires that chains initiate at the same time, that they grow at the same rate, and that the reaction proceeds in the absence of irreversible termination or chain transfer.  If the radical remains active for a ``long'' time, then a single chain that is activated may add many monomers at once, causing it to grow much faster than the chains that are deactivated.  The requirement that all chains grow at the same rate is thus violated, and the dispersity will increase.
 			
 			Ideally, for the best dispersity, each chain should add only a single monomer in a given activatation-deactivation step.
 		}\end{solution}
@@ -337,7 +338,7 @@
 				
 			\item Using your answers to the previous parts of this question, critique or defend the following statement in 2-3 complete sentences:
 			
-				\emph{``In ATRP, there is usually a tradeoff between choosing a catalyst that gives a fast enough polymerization to make a useful amount of polymer, and choosing a catalyst that gives good control over the molecular weight distribution.''}
+				\emph{``In ATRP, there is often a tradeoff between choosing a catalyst that gives a fast enough polymerization to make a useful amount of polymer, and choosing a catalyst that gives good control over the molecular weight distribution.''}
 		
 		\begin{solution}\instructordisplay{
 			This statement is generally true.  As noted in part (b), obtaining a good dispersity in an ATRP reaction requires a high value for $k_{deact}$.  However, as seen in part (d), a high value of $k_{deact}$ will significantly slow the polymerization.
