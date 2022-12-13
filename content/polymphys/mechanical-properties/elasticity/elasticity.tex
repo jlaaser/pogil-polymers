@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% (c) 2019 by Jennifer Laaser
+% (c) 2022 by Jennifer Laaser
 %
 % This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 %
@@ -26,21 +26,25 @@
 	\subsection*{Activity summary:}
 	\begin{itemize}
 		\item \textbf{Activity type:} Learning Cycle
-		\item \textbf{Content goals:} Tensile Properties of Polymer Networks
+		\item \textbf{Content goals:} See above
 		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
 			\begin{enumerate}
 				\item Linking concepts to derive a key result
-				\item Communication (written and oral) of reasoning
+				\item Written and oral communication of reasoning
 			\end{enumerate}
 		\item \textbf{Duration:} 35-40 minutes, including time for class discussion
+			\begin{itemize}
+				\item If you are short on time, presenting the results from CTQs 1-3 in a mini lecture (or having students do these questions as a warm-up before class) and then having students start the activity at CTQ 4 also works well
+			\end{itemize}
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
-				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): section 10.5
+				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge), 2nd ed.: section 10.5
+				\item \emph{Introduction to Polymers} (Young \& Lovell), 3rd ed.: section 21.3
 			\end{itemize}
 		\item \textbf{Instructor notes:}
 			\begin{itemize}
-				\item In Model 2, the given relationships for stress and strain are the \emph{engineering} stress and engineering strain, not the true stress and true strain.
+				\item In Model 2, the given relationships for stress and strain are the engineering stress and engineering strain, not the true stress and true strain.
 			\end{itemize}
 	\end{itemize}
 	
@@ -50,14 +54,14 @@
 \begin{model}[Stretching a Piece of Polymer]
 	\label{\labelbase:mdl:macrostretch}
 	
-	A simple model for the deformation of a macroscopic piece of polymer is shown below:
+	A simple model for the deformation of a macroscopic piece of a polymer is shown below:
 	
 	\vspace{6pt}
 	\centerline{\includegraphics[width=0.7\textwidth]{\figpath/Model1_extension.pdf}}
 	
-	Usually, because we would like to look at properties that don't depend on the exact dimensions of the sample we are studying, we work in terms of the \emph{ratios} of the final dimensions of the sample to the initial dimensions.
+	Usually, because we would like to look at properties that don't depend on the exact dimensions of the sample we are studying, we work in terms of the ratios of the final dimensions of the sample to its initial dimensions.
 	
-	For the sample shown above, the extension ratios are:
+	For the sample shown above, the \emph{extension ratios} are:
 	\begin{align*}
 		\lambda_x = \frac{L_x}{L_0} && \lambda_y = \frac{L_y}{L_0} && \lambda_z = \frac{L_z}{L_0}
 	\end{align*}
@@ -106,7 +110,7 @@
 		
 		\end{enumerate}
 		
-	\question The specific type of deformation illustrated in Model \ref{\labelbase:mdl:macrostretch} is an \emph{uniaxial} extension, in which the material is only stretched in on direction.
+	\question The specific type of deformation illustrated in Model \ref{\labelbase:mdl:macrostretch} is an \emph{uniaxial} extension, in which the material is only stretched in one direction.
 	
 		Suppose we stretch the material in the $x$ direction by ratio $\lambda_x \equiv \lambda$.  
 		
@@ -117,7 +121,7 @@
 						Qualitatively, if the material is stretched along the $x$ direction, its dimensions in the $y$ and $z$ directions must decrease to maintain a constant volume.
 					\end{solution}
 				
-				\item Assuming $\lambda_x \equiv \lambda$, find expressions for $\lambda_y$ and $\lambda_z$ (in terms of $\lambda$) that ensure that the equation you derived in CTQ \ref{\labelbase:ctq:equalvolumes2} is satisfied.
+				\item Assuming $\lambda_x \equiv \lambda$, find expressions for $\lambda_y$ and $\lambda_z$ (in terms of $\lambda$) that ensure that the relationship you derived in CTQ \ref{\labelbase:ctq:equalvolumes2} is satisfied.
 		
 				\emph{Hint: you may assume that $\lambda_y = \lambda_z$.}
 				
@@ -146,12 +150,12 @@
 
 	As you have learned, when a single strand of polymer is stretched from end-to-end distance $h_0$ to end-to-end distance $h$, its change in entropy is 
 			\begin{equation*}
-				\Delta S_{strand} = -k\left(\frac{3}{2Nb^2}\right)(h^2 - h_0^2)
+				\Delta S_{strand} = -k_B\left(\frac{3}{2Nb^2}\right)(h^2 - h_0^2)
 			\end{equation*}
 	Combining this result with your answer to CTQ \ref{\labelbase:ctq:affinedef}, it is possible to show that under uniaxial deformation,
 	
 		\begin{equation*}	
-				\Delta S_{strand} = -\frac{k}{2}\left(\lambda^2 + \frac{2}{\lambda} - 3\right)
+				\Delta S_{strand} = -\frac{k_B}{2}\left(\lambda^2 + \frac{2}{\lambda} - 3\right)
 			\label{\labelbase:eqn:delSstranduniaxial}
 		\end{equation*}
 			
@@ -164,7 +168,7 @@
 			\begin{solution}[1.25in]
 				\begin{align*}
 					\Delta S_{network} &= v_e \Delta S_{strand}\\
-						&= -\frac{v_e k}{2}\left(\lambda^2 + \frac{2}{\lambda} - 3\right)
+						&= -\frac{v_e k_B}{2}\left(\lambda^2 + \frac{2}{\lambda} - 3\right)
 				\end{align*}
 			\end{solution}
 		
@@ -175,10 +179,10 @@
 			\begin{solution}[2.5in]
 			
 				\begin{align*}
-					f &= -\frac{T}{L_0}\frac{\partial}{\partial \lambda} \left(-\frac{v_e k}{2}\left(\lambda^2 + \frac{2}{\lambda} - 3\right)\right)\\
-						&= \frac{T}{L_0}\frac{v_e k}{2}\frac{\partial}{\partial \lambda} \left(\left(\lambda^2 + \frac{2}{\lambda} - 3\right)\right)\\
-						&= \frac{v_e k T}{2 L_0}\left(2\lambda - \frac{2}{\lambda^2} \right)\\
-						&= \frac{v_e k T}{L_0}\left(\lambda - \frac{1}{\lambda^2} \right)
+					f &= -\frac{T}{L_0}\frac{\partial}{\partial \lambda} \left(-\frac{v_e k_B}{2}\left(\lambda^2 + \frac{2}{\lambda} - 3\right)\right)\\
+						&= \frac{T}{L_0}\frac{v_e k_B}{2}\frac{\partial}{\partial \lambda} \left(\left(\lambda^2 + \frac{2}{\lambda} - 3\right)\right)\\
+						&= \frac{v_e k_B T}{2 L_0}\left(2\lambda - \frac{2}{\lambda^2} \right)\\
+						&= \frac{v_e k_B T}{L_0}\left(\lambda - \frac{1}{\lambda^2} \right)
 				\end{align*}
 			\end{solution}
 	
@@ -193,6 +197,7 @@
 		\text{stress:} && \sigma = \frac{\text{force}}{\text{initial cross-sectional area}} = \frac{f}{L_0^2} \\
 		\text{strain:} && \epsilon = \frac{\text{change in length}}{\text{initial length}} = \frac{L-L_0}{L_0}
 	\end{align*}
+	where $L$ is the length of the material along the direction of deformation (i.e. $L = \lambda L_0$).
 	
 \end{model}
 
@@ -202,7 +207,7 @@
 	
 		\begin{solution}[0.8in]
 			\begin{equation*}
-				\sigma = kT\frac{v_e}{L_0^3}\left(\lambda - \frac{1}{\lambda^2}\right)
+				\sigma = k_BT\frac{v_e}{L_0^3}\left(\lambda - \frac{1}{\lambda^2}\right)
 			\end{equation*}
 		\end{solution}
 
@@ -231,7 +236,7 @@
 \begin{infobox}
 	For small deformations ($\lambda$ close to 1), it is possible to show that
 	\begin{equation*}
-		E \approx 3kT\frac{v_e}{V}
+		E \approx 3k_BT\frac{v_e}{V}
 		\label{\labelbase:eqn:youngsmodulus}
 	\end{equation*}
 	where $v_e$ is the total number of elastically-effective strands, and $V$ is the volume of the sample.
@@ -301,7 +306,7 @@
 			
 				\begin{solution}\instructordisplay{
 					\begin{equation*}
-						\sigma = kT\frac{v_e}{L_0^3}\left(\lambda - \frac{1}{\lambda^2}\right)
+						\sigma = k_BT\frac{v_e}{L_0^3}\left(\lambda - \frac{1}{\lambda^2}\right)
 					\end{equation*}
 					and
 					\begin{equation*}
@@ -309,7 +314,7 @@
 					\end{equation*}
 					so
 					\begin{equation*}
-						E = \frac{\sigma}{\epsilon} = \frac{kT\frac{v_e}{L_0^3}\left(\lambda - \frac{1}{\lambda^2}\right)}{\lambda - 1}
+						E = \frac{\sigma}{\epsilon} = \frac{k_BT\frac{v_e}{L_0^3}\left(\lambda - \frac{1}{\lambda^2}\right)}{\lambda - 1}
 					\end{equation*}
 				}\end{solution}
 			
@@ -317,8 +322,8 @@
 			
 				\begin{solution}\instructordisplay{
 					\begin{align*}
-						\lim_{\lambda\to 1} E &= kT\frac{v_e}{L_0^3} \lim_{\lambda\to 1} \frac{\lambda - \frac{1}{\lambda^2}}{\lambda - 1}\\
-							&= kT\frac{v_e}{L_0^3} \lim_{\lambda\to 1} \frac{\lambda^3 - 1}{\lambda^3 - \lambda^2}
+						\lim_{\lambda\to 1} E &= k_BT\frac{v_e}{L_0^3} \lim_{\lambda\to 1} \frac{\lambda - \frac{1}{\lambda^2}}{\lambda - 1}\\
+							&= k_B T\frac{v_e}{L_0^3} \lim_{\lambda\to 1} \frac{\lambda^3 - 1}{\lambda^3 - \lambda^2}
 					\end{align*}
 					If we simply substitute in $\lambda=1$, the fraction becomes $0/0$, which we can't evaluate.  Recalling that L'H\^opital's rule tells us that
 					\begin{equation*}
@@ -326,20 +331,20 @@
 					\end{equation*}
 					we find
 					\begin{align*}
-						\lim_{\lambda\to 1} E &= kT\frac{v_e}{L_0^3} \lim_{\lambda\to 1} \frac{\frac{d}{d\lambda}\left(\lambda^3 - 1\right)}{\frac{d}{d\lambda}\left(\lambda^3 - \lambda^2\right)} \\
-							&= kT\frac{v_e}{L_0^3} \lim_{\lambda\to 1} \frac{3\lambda^2}{3\lambda^2 - 2\lambda}\\
-							&= kT\frac{v_e}{L_0^3} \lim_{\lambda\to 1} \frac{3\lambda}{3\lambda - 2}
+						\lim_{\lambda\to 1} E &= k_BT\frac{v_e}{L_0^3} \lim_{\lambda\to 1} \frac{\frac{d}{d\lambda}\left(\lambda^3 - 1\right)}{\frac{d}{d\lambda}\left(\lambda^3 - \lambda^2\right)} \\
+							&= k_BT\frac{v_e}{L_0^3} \lim_{\lambda\to 1} \frac{3\lambda^2}{3\lambda^2 - 2\lambda}\\
+							&= k_BT\frac{v_e}{L_0^3} \lim_{\lambda\to 1} \frac{3\lambda}{3\lambda - 2}
 					\end{align*}
 				}\end{solution}
 				\begin{solution}\instructordisplay{
 					This final expression no longer has a denominator that goes to zero if we substitute in $\lambda =1$, so doing so, we obtain
 					\begin{align*}
-						\lim_{\lambda\to 1} E &= kT\frac{v_e}{L_0^3}\frac{3\lambda}{3 - 2}\\
-							&= 3kT\frac{v_e}{L_0^3}
+						\lim_{\lambda\to 1} E &= k_BT\frac{v_e}{L_0^3}\frac{3}{3 - 2}\\
+							&= 3k_BT\frac{v_e}{L_0^3}
 					\end{align*}
 					Finally, recalling that $V = L_0^3$, we obtain
 					\begin{align*}
-						\lim_{\lambda\to 1} E &= 3kT\frac{v_e}{V}
+						\lim_{\lambda\to 1} E &= 3k_BT\frac{v_e}{V}
 					\end{align*}
 					as desired.
 				}\end{solution}

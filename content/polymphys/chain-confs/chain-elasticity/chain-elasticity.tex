@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% (c) 2019 by Jennifer Laaser
+% (c) 2022 by Jennifer Laaser
 %
 % This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 %
@@ -15,12 +15,12 @@
 
 \begin{instructornotes}
 
-	This activity introduces students to the concept of elasticity of polymer chains.
+	This activity introduces students to concepts related to the elasticity of polymer chains.
 	
 	After completing this activity, students will be able to:
 			\begin{enumerate}
-				\item Explain how the force to extend a chain is related to the free energy of the chain
-				\item Explain what an ideal elastomer is, and identify situations in which a polymer might or might not be well-described as one
+				\item Explain how the force required to extend a chain is related to the free energy of the chain
+				\item Explain what an ideal elastomer is, and identify situations in which a polymer might or might not be well-described as an ideal elastomer
 				\item Calculate the force required to extend a polymer chain under small deformations
 				\item Explain why polymer chains are referred to as ``entropic springs''
 			\end{enumerate}
@@ -29,7 +29,7 @@
 	\subsection*{Activity summary:}
 	\begin{itemize}
 		\item \textbf{Activity type:} Learning Cycle
-		\item \textbf{Content goals:} Basics of Chain Elasticity
+		\item \textbf{Content goals:} See above
 		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
 			\begin{itemize}
 				\item Connecting key relationships to derive a result
@@ -43,7 +43,9 @@
 			\end{itemize}
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
-				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): Sections 6.7, 10.4, and 10.5.1
+				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge), 2nd ed.: Sections 6.7, 10.4, and 10.5.1
+				\item \emph{Introduction to Polymers} (Young \& Lovell), 3rd ed.: Sections 21.2 and 21.3.1
+				\item \emph{Polymer Physics} (Rubinstein \& Colby): Section 2.6
 			\end{itemize}
 	\end{itemize}
 
@@ -58,13 +60,13 @@
 	\begin{equation*}
 		dU = dq + dw
 	\end{equation*}
-	where $dq$ is the amount of heat transferred to the system and $dw$ is the amount of work done on the system.  We also know that the work done on a system is
+	where $dq$ is the amount of heat transferred to the system and $dw$ is the amount of work done on the system.  We also know that the work required to deform a material is
 	\begin{equation*}
 		dw = f\,dL - P\,dV
 	\end{equation*}
-	where $f$ is the force acting on the material, $dL$ is the change in its length (the distance over which the force acts), $P$ is pressure, and $dV$ is change in volume.
+	where $f$ is the force acting on the material, $dL$ is the change in its length (the distance over which the force acts), $P$ is pressure, and $dV$ is the change in the material's volume.
 	
-	Using these relationships (see Exercise \ref{\labelbase:exc:dG}), it is possible to show that the change in Gibbs free energy is
+	Using these relationships (see Exercise \ref{\labelbase:exc:dG}), it is possible to show that the change in Gibbs free energy as a material is deformed is
 	\begin{equation*}
 		dG = f\,dL + V\,dP - S\,dT
 	\end{equation*}
@@ -75,35 +77,25 @@
 
 \begin{ctqs}
 
-	\question Recall that for a function of three variables, $f(x,y,z)$, we can write
+	\question Since the Gibbs free energy is a function of pressure ($P$), temperature ($T$), and the length of the material ($L$), we can also write:
 		\begin{equation*}
-			df = \left(\frac{\partial f}{\partial x}\right)_{y,z}dx + 
-				\left(\frac{\partial f}{\partial y}\right)_{x,z}dy +
-				\left(\frac{\partial f}{\partial z}\right)_{x,y}dz
-		\end{equation*}
-		Write an analogous expression for $dG$, assuming that G is a function of pressure ($P$), temperature ($T$), and the length $L$ of the material.
-		
-		\begin{solution}[1in]\instructordisplay{
-			\begin{equation*}
 				dG = \left(\frac{\partial G}{\partial P}\right)_{T,L}dP + 
 					\left(\frac{\partial G}{\partial T}\right)_{P,L}dT +
 					\left(\frac{\partial G}{\partial L}\right)_{T,P}dL
 			\end{equation*}
-		}\end{solution}
-		
-	\question Compare your expression from the previous question to that given in Model 1.  What derivatives must each of the following values be equal to?
+		Compare this expression to that given in Model \ref{\labelbase:mdl:delG}.  Based on this comparison, what derivatives must each of the following values be equal to?
 	
 		\begin{enumerate}
 			\item $f=$ \label{\labelbase:ctq:fderiv}
-				\begin{solution}[0.5in]
+				\begin{solution}[0.25in]
 					$f = \left(\frac{\partial G}{\partial L}\right)_{T,P}$
 				\end{solution}
 			\item $V=$
-				\begin{solution}[0.5in]
+				\begin{solution}[0.25in]
 					$\left(\frac{\partial G}{\partial P}\right)_{T,L}$
 				\end{solution}
 			\item $S=$
-				\begin{solution}[0.5in]
+				\begin{solution}[0.25in]
 					$S=  -\left(\frac{\partial G}{\partial T}\right)_{P,L}$ (note the negative sign)
 				\end{solution}
 		\end{enumerate}
@@ -112,7 +104,7 @@
 	
 		Substitute this expression into your answer to CTQ \ref{\labelbase:ctq:fderiv} and simplify to obtain an expression for $f$ in terms of $\left(\frac{dH}{dL}\right)_{P,T}$ and $\left(\frac{dS}{dL}\right)_{P,T}$.  \emph{(Hint: for the $TS$ term, remember that $T$ is constant!)}
 		
-		\begin{solution}[1.5in]\instructordisplay{
+		\begin{solution}[1.25in]\instructordisplay{
 			\begin{align*}
 				f &= \left(\frac{\partial G}{\partial L}\right)_{T,P}\\
 					&= \left(\frac{\partial}{\partial L}(H-TS)\right)_{T,P}\\
@@ -134,13 +126,14 @@
 
 \begin{ctqs}
 
-	\question Using this information, write an expression for $f$ only in terms of the temperature, $T$, entropy, $S$, and length of the sample, $L$.
+	\question Using this information, write an expression for the force $f$ required to deform an ideal elastomer in terms of only the temperature ($T$), entropy ($S$), and length of the sample ($L$).
 		
 		\begin{solution}[0.75in]\instructordisplay{
+			No significant change in enthalpy with changes in length means $\frac{\partial H}{\partial L} \approx 0$.  Thus,
 			\begin{align*}
 				f = - T\left(\frac{\partial S}{\partial L}\right)_{T,P}
 			\end{align*}
-		}\end{solution}
+		}\studentdisplay{~}\end{solution}
 	
 	\question Determine whether or not each of the following systems is likely to behave as an ideal elastomer.  Briefly note your group's reasoning for each case.
 	
@@ -149,7 +142,7 @@
 			
 				\emph{Hint: what is likely to start happening to the bond lengths and bond angles in this case?}
 		
-				\begin{solution}[0.75in]
+				\begin{solution}[1in]
 					Not likely to be an ideal elastomer - as bond lengths and bond angles distort, enthalpy will increase.
 				\end{solution}
 				
@@ -157,14 +150,14 @@
 			
 				\emph{Hint: polystyrene is hydrophobic.}
 		
-				\begin{solution}[0.75in]
+				\begin{solution}[01in]
 					Not likely to be an ideal elastomer - there will be an enthalpic cost to pull the hydrophobic repeat units out of the globule and hydrate them.  (Note: hydrophobic hydration also has a significant entropic component from the water molecules, but the enthalpic component is key for this question.)
 				\end{solution}
 			
 			\item A chain of poly(n-butyl acrylate) stretched gently in a network of other poly(n-butyl acrylate) chains
 		
-				\begin{solution}[0.75in]
-					Reasonably likely to be an ideal elastomer - it is not being stretched to the limit, and the environment of the monomers is not changing.
+				\begin{solution}[01in]
+					Reasonably likely to be an ideal elastomer - it is not being stretched to its limit, and the environment surrounding the chain (and thus the energetics of the polymer-environment interaction) is not changing.
 				\end{solution}
 		\end{enumerate}	
 	
@@ -189,22 +182,22 @@
 \begin{ctqs}
 	\question Suppose that, in the initial state, the are $\Omega_i$ possible configurations of the chain that give end-to-end vector $\vec h_0$.  What is the entropy of this state?
 	
-		\emph{Hint: remember that $S = k\ln\Omega$.}
+		\emph{Hint: remember that $S = k_B\ln\Omega$.}
 		
 		\begin{solution}[0.25in]
-			$S_i = k\ln\Omega_i$
+			$S_i = k_B\ln\Omega_i$
 		\end{solution}
 	
 	\question Suppose that in the final stretched state, there are $\Omega_f$ possible configurations of the chain that give end-to-end vector $\vec h$.  What is the entropy of this state?
 		
 		\begin{solution}[0.25in]
-			$S_i = k\ln\Omega_f$
+			$S_f = k_B\ln\Omega_f$
 		\end{solution}
 	
 	\question Write an expression for the change in entropy that results from this stretching process, $\Delta S$, in terms of $\Omega_i$ and $\Omega_f$. \label{\labelbase:ctq:delS}
 		
 		\begin{solution}[0.75in]
-			$\Delta S = S_f - S_i = k\ln\Omega_f - k\ln\Omega_i = k\ln\frac{\Omega_f}{\Omega_i}$
+			$\Delta S = S_f - S_i = k_B\ln\Omega_f - k_B\ln\Omega_i = k_B\ln\frac{\Omega_f}{\Omega_i}$
 		\end{solution}
 	
 \end{ctqs}
@@ -221,7 +214,7 @@
 	
 	Combining this expression with your answer to CTQ \ref{\labelbase:ctq:delS}, it is possible to show that the entropy change for a chain extended from end-to-end vector $\vec h_0$ to end-to-end vector $\vec h$ is
 	\begin{equation*}
-		\Delta S = \frac{3 k}{2 Nb^2}\left( h_0^2 - h^2 \right)
+		\Delta S = \frac{3 k_B}{2 Nb^2}\left( h_0^2 - h^2 \right)
 	\end{equation*}
 	
 \end{infobox}
@@ -235,13 +228,13 @@
 		Using this expression, evaluate the force $f$ that it takes to stretch the chain to length $h$.
 		\label{\labelbase:forcechain}
 		
-		\begin{solution}[2.5in]\instructordisplay{
+		\begin{solution}[2in]\instructordisplay{
 			\begin{align*}
 				f &= -T\left(\frac{d\Delta S}{dh}\right) \\
-				  &= -T\left(\frac{d}{dh} \frac{3 k}{2 Nb^2}\left( h_0^2 - h^2 \right) \right) \\
-				  &= -T \frac{3 k}{2 Nb^2} \left(\frac{d}{dh} \left( h_0^2 - h^2 \right) \right) \\
-				  &= \frac{-3 k T}{2 Nb^2} (-2h)\\
-				  &= \frac{3 k T}{Nb^2} h
+				  &= -T\left(\frac{d}{dh} \frac{3 k_B}{2 Nb^2}\left( h_0^2 - h^2 \right) \right) \\
+				  &= -T \frac{3 k_B}{2 Nb^2} \left(\frac{d}{dh} \left( h_0^2 - h^2 \right) \right) \\
+				  &= \frac{-3 k_B T}{2 Nb^2} (-2h)\\
+				  &= \frac{3 k_B T}{Nb^2} h
 			\end{align*}
 		}\end{solution}
 		
@@ -254,14 +247,14 @@
 		\begin{enumerate}
 			\item Which variable in your answer to CTQ \ref{\labelbase:forcechain} is analogous to the length of the spring, $x$?
 		
-				\begin{solution}[0.75in]
+				\begin{solution}[0.25in]
 					$h$
 				\end{solution}
 			
 			\item Which collection of variables in your answer to CTQ \ref{\labelbase:forcechain} gives the spring constant, $k$?
 		
-				\begin{solution}[0.75in]
-					$\frac{3kT}{Nb^2}$
+				\begin{solution}[0.25in]
+					$\frac{3k_BT}{Nb^2}$
 				\end{solution}
 			
 		\end{enumerate}

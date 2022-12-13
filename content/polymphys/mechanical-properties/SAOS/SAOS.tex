@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% (c) 2019 by Jennifer Laaser
+% (c) 2022 by Jennifer Laaser
 %
 % This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 %
@@ -28,20 +28,22 @@
 	\subsection*{Activity summary:}
 	\begin{itemize}
 		\item \textbf{Activity type:} Learning Cycle
-		\item \textbf{Content goals:} Explaining SAOS experiments
+		\item \textbf{Content goals:} See above
 		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
 			\begin{itemize}
 				\item Interpreting equations in terms of physical behavior
 				\item Reading and interpreting graphs
+				\item Oral and written communication of reasoning
 			\end{itemize}
 		\item \textbf{Duration:} approx. 30 min
 		\item \textbf{Instructor preparation required:} 
 			\begin{itemize}
-				\item n/a
+				\item None beyond knowledge of relevant content
 			\end{itemize}
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
-				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): Sections 11.2.4 and 11.8
+				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge), 2nd ed.: Sections 11.2.4 and 11.8
+				\item \emph{Introduction to Polymers} (Young \& Lovell), 3rd ed.: Sections 20.4 and 20.5, but mostly focused on dynamic mechanical analysis rather than rheology
 			\end{itemize}
 	\end{itemize}
 
@@ -84,16 +86,16 @@
 		
 		\question In this experiment, the strain is proportional to $\sin(\omega t)$.  
 			\begin{enumerate}
-				\item Which coefficient, $G'$ or $G''$, tells you how much of the response is directly proportional to the applied strain?
+				\item Which coefficient, $G'$ or $G''$, tells you how much of the stress is directly proportional to the applied strain?
 	
 					\begin{solution}[1.1in]
-						$G'$ is in the term that goes as $\sin(\omega t)$, so $G'$ is the coefficient that tells us how much of the response is directly proportional to the applied strain.
+						$G'$ is in the term that goes as $\sin(\omega t)$, so $G'$ is the coefficient that tells us how much of the stress is directly proportional to the applied strain.
 					\end{solution}
 		
 		\item Does this coefficient tell you about the elastic response of the material, or the viscous response of the material?
 	
 					\begin{solution}[1.1in]
-						The elastic response is directly proportional to the applied strain, so this coefficient tells us about the elastic response.
+						The stress for an elastic solid is directly proportional to the applied strain, so this coefficient tells us about the elastic response of the material.
 					\end{solution}
 					
 			\end{enumerate}
@@ -102,17 +104,17 @@
 		
 			\begin{enumerate}
 		
-				\item Which coefficient, $G'$ or $G''$, tells you how much of the response is proportional to the strain rate?
+				\item Which coefficient, $G'$ or $G''$, tells you how much of the stress is proportional to the strain rate?
 	
 					\begin{solution}[1.1in]
-						The $G''$ term is proportional to $\cos(\omega t)$, so $G''$ tells us about the portion of the response that is proportional to strain rate.
+						The $G''$ term is proportional to $\cos(\omega t)$, so $G''$ tells us about the portion of the stress that is proportional to strain rate.
 					\end{solution}
 		
 				\item Does this coefficient tell you about the elastic response of the material, or the viscous response of the material?
 	
 					\begin{solution}[1.1in]
 					
-						The viscous response is proportional to the strain rate, so this coefficient tells us about the viscous repsonse.
+						The stress for a viscous liquid is proportional to the strain rate, so this coefficient tells us about the viscous response.
 					
 					\end{solution}
 					
@@ -142,7 +144,7 @@
 		\vspace{0.1in}	
 		\centerline{\includegraphics[width=0.4\textwidth]{\figpath/model2-maxwellplot}}
 	
-	Note that both axes of this graph are plotted on a log scale; the x axis has been scaled by the characteristic relaxation time, $\tau$, and the y axis has been scaled by the modulus, $G_0$.
+	Note that both axes of this graph are plotted on a log scale, and that to make the plot ``universal'', the frequencies along the x axis have been scaled by the characteristic relaxation time, $\tau$, and the moduli along the y axis have been scaled by $G_0$.
 	
 \end{model}
 
@@ -194,7 +196,7 @@
 			
 				\begin{solution}[1in]
 				
-					High-frequency measurements correspond to fast timescales, because it takes very little time time for a single oscillation to take place.
+					High-frequency measurements correspond to fast timescales, because it takes very little time for a single oscillation to take place.
 				
 				\end{solution}
 					
@@ -254,7 +256,7 @@
 
 \exercise Consider the polymer characterized in the following plot:
 				
-		\centerline{\includegraphics[width=0.6\textwidth]{\figpath/exercise-maxwellexample.jpg}}
+		\centerline{\includegraphics[width=0.4\textwidth]{\figpath/exercise-maxwellexample.pdf}}
 		
 		\begin{enumerate}
 		

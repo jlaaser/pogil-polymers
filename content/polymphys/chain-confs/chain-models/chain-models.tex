@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% (c) 2021 by Jennifer Laaser
+% (c) 2022 by Jennifer Laaser
 %
 % This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 %
@@ -15,7 +15,7 @@
 
 \begin{instructornotes}
 
-	This activity introduces students to the concept of conformations of polymer chains.
+	This activity introduces students to basic concepts related to conformations of polymer chains.
 	
 	After completing this activity, students will be able to:
 			\begin{enumerate}
@@ -29,7 +29,7 @@
 	\subsection*{Activity summary:}
 	\begin{itemize}
 		\item \textbf{Activity type:} Learning Cycle
-		\item \textbf{Content goals:} Basics of Chain Conformations
+		\item \textbf{Content goals:} See above
 		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
 			\begin{itemize}
 				\item Interpreting mathematical equations in terms of physical behavior
@@ -42,15 +42,16 @@
 			\end{itemize}
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
-				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): Sections 6.1-6.3
+				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge), 2nd ed.: Sections 6.1-6.3
 				\item \emph{Polymer Physics} (Rubinstein \& Colby): Chapter 2
+				\item \emph{Introduction to Polymers} (Young \& Lovell), 3rd ed.: Section 10.3
 			\end{itemize}
 	\end{itemize}
 	
 	\subsection*{Other notes:}
 	
 		\begin{itemize}
-		\item If you choose to use Exercise \ref{\labelbase:exc:statseg}, please note that it most closely follows the treatment in section 2.2 of \emph{Polymer Physics} by Rubinstein \& Colby (in which $N$ in the equivalent freely jointed chain is \emph{not} equal to the actual degree of polymerization of the polymer, and $b$ is the Kuhn length) rather than that in Hiemenz \& Lodge (in which $N$ in the equivalent freely-jointed chain \emph{is} equal to the actual degree of polymerization of the polymer, and the statistical segment length $b$ is not the same as the Kuhn length).  The definitions in this exercise most closely follow
+		\item If you choose to use Exercise \ref{\labelbase:exc:statseg}, please note that it most closely follows the treatment in section 2.2 of \emph{Polymer Physics} by Rubinstein \& Colby (in which $N$ in the equivalent freely jointed chain is \emph{not} equal to the actual degree of polymerization of the polymer, and $b$ is the Kuhn length) rather than that in Hiemenz \& Lodge (in which $N$ in the equivalent freely-jointed chain \emph{is} equal to the actual degree of polymerization of the polymer, and the statistical segment length $b$ is not the same as the Kuhn length).
 		\end{itemize}
 
 \end{instructornotes}
@@ -102,7 +103,7 @@
 				
 				\begin{solution}[1in]
 				
-					$\frac{1}{2}\frac{1}{2} = \frac{1}{4}$
+					$\frac{1}{2}\cdot\frac{1}{2} = \frac{1}{4}$
 				
 				\end{solution}
 				
@@ -110,7 +111,7 @@
 				
 				\begin{solution}[1in]
 				
-					$\frac{1}{2}\frac{1}{2} = \frac{1}{4}$
+					$\frac{1}{2}\cdot\frac{1}{2} = \frac{1}{4}$
 					
 				\end{solution}
 			
@@ -120,7 +121,7 @@
 				
 				\begin{solution}[1in]
 				
-					There are two possible paths: $0\to 1\to 0$ and $0 \to -1 \to 0$.  Each occurs with probability $\frac{1}{2}\frac{1}{2} = \frac{1}{4}$ for a total probability of $2\cdot\frac{1}{4} = \frac{1}{2}$.
+					There are two possible paths: $0\to 1\to 0$ and $0 \to -1 \to 0$.  Each occurs with probability $\frac{1}{2}\cdot\frac{1}{2} = \frac{1}{4}$ for a total probability of $2\cdot\frac{1}{4} = \frac{1}{2}$.
 				
 				\end{solution}
 			
@@ -188,7 +189,7 @@
 			\item Why is $\langle x \rangle$ not a particularly useful way to describe the properties of a polymer chain?  Explain your group's reasoning in 1-2 complete sentences.
 				
 				\begin{solution}[1.5in]
-					No, $\langle x \rangle$ (which is the average position of the end of the chain) is not a particularly useful way to describe the chain's properties because it always comes to zero and does not depend on the number of steps in the chain.  
+					$\langle x \rangle$ (which is the average position of the end of the chain) is not a particularly useful way to describe the chain's properties because it always comes to zero and does not depend on the number of steps in the chain.  
 					
 					Qualitatively, this is because there is an equal probability of finding the end of the chain to the right and to the left, so the average always just ends up right in the middle no matter how ``large'' the chain actually is.
 				\end{solution}
@@ -239,7 +240,7 @@
 	
 	Real polymers, however, are not freely-jointed, because chemical bonds cannot, realistically, bend to any arbitrary angle.
 	
-	Two models for polymer chains that are more chemically-reasonable are:
+	Two models for polymer chains that are more chemically reasonable are:
 	
 	\begin{enumerate}
 		\item The \emph{freely-rotating} chain.  In this model, the bond angle $\theta$ is fixed, but the rotation angle $\phi$ can take any value:
@@ -312,24 +313,25 @@
 	
 	\question The equations given in Model \ref{\labelbase:mdl:chainmodels} express the chain dimensions in terms of the number of bonds $n$ and the bond length $l$.  However, it is often also useful to describe a polymer in terms of the ``closest equivalent'' freely-jointed chain. \label{\labelbase:ctq:statseg}
 	
-		\begin{enumerate}
-			\item  If the ``closest equivalent'' freely-jointed chain has $N$ links of length $b$, how long would the chain be if it were fully extended? \label{\labelbase:ctq:Nb}
-	
-		\begin{solution}[0.75in]
-			\begin{equation*}
-				h_{max} = Nb
-			\end{equation*}
-		\end{solution}
-			
-			\item What would the mean-square end-to-end distance of the chain be? \label{\labelbase:ctq:Nb2}
+%		\begin{enumerate}
+%			\item  
+			If the ``closest equivalent'' freely-jointed chain has $N$ links of length $b$, what would the mean-square end-to-end distance of the chain be? \label{\labelbase:ctq:Nb2}
 	
 		\begin{solution}[0.75in]
 			\begin{equation*}
 				\langle h^2 \rangle = Nb^2
 			\end{equation*}
 		\end{solution}
-		
-		\end{enumerate}
+			
+%			\item How long would this chain be if it were fully extended? \label{\labelbase:ctq:Nb}
+%	
+%		\begin{solution}[0.75in]
+%			\begin{equation*}
+%				h_{max} = Nb
+%			\end{equation*}
+%		\end{solution}
+%		
+%		\end{enumerate}
 		
 	\question The link length $b$ is called the \emph{Kuhn length}.  Do you expect the Kuhn length to have a simple physical interpretation?  Briefly explain your group's reasoning in 2-3 complete sentences.\label{\labelbase:exc:statseginterp}
 	
@@ -338,7 +340,7 @@
 			}\studentdisplay{}
 		\end{solution}
 	
-	\question Finally, in many experiments, it is easier to measure the \emph{radius of gyration} for a polymer chain (the mean square distance between the monomers and the polymer's center of mass), $R_g$.  For the ideal chains described in Model \ref{\labelbase:mdl:chainmodels}, it can be shown that
+	\question Finally, in many experiments, it is easier to measure the \emph{radius of gyration} of a polymer chain (the root mean square distance between the monomers and the polymer's center of mass), $R_g$, than it is to measure its mean-square end-to-end distance, $\langle h^2\rangle$.  For the ideal chains described in Model \ref{\labelbase:mdl:chainmodels}, it can be shown that
 		\begin{equation*}
 			\langle R_g^2\rangle = \frac{\langle h^2\rangle}{6}
 		\end{equation*}
@@ -372,7 +374,7 @@
 %	...
 %\end{model}
 	
-	
+\clearpage
 \begin{exercises}
 	\exercise Of the chain models shown in Models \ref{\labelbase:mdl:chainmodels}, which one would you expect to be most appropriate for describing the conformations of a polyethylene chain?  Briefly defend your reasoning in 2-3 complete sentences.  Then, substitute in appropriate values of $n$, $l$, and (if appropriate) $\theta$ and $\phi$ to estimate the radius of gyration for a polyethylene chain with a molecular weight of 700~kg/mol.
 	
@@ -441,10 +443,19 @@
 	\exercise \label{\labelbase:exc:statseg} The relationship between a polymer chain and its ``closest equivalent'' freely-jointed chain can be a bit confusing.  Explore this idea in more detail by doing the following:
 	
 		\begin{enumerate}
-			\item Combine your answers to CTQs \ref{\labelbase:ctq:statseg}a and b with the expression for $\langle h^2\rangle$ given in CTQ \ref{\labelbase:ctq:C}, and solve for $N$ and $b$ in terms of $C_\infty$, $n$, $l$, and the maximum end-to-end distance of the polymer chain, $h_{max}$.
+		
+			\item Determine the length that the ``closest equivalent'' freely-jointed chain containing $N$ links of length $b$ would have if it were fully extended. \label{\labelbase:ctq:Nb}
+	
+			\begin{solution}\instructordisplay{
+				\begin{equation*}
+					h_{max} = Nb
+				\end{equation*}
+			}\end{solution}
+			
+			\item Combine your answer to the above question with the equation from from CTQ \ref{\labelbase:ctq:statseg} and the expression for $\langle h^2\rangle$ given in CTQ \ref{\labelbase:ctq:C}, and solve for $N$ and $b$ in terms of $C_\infty$, $n$, $l$, and the maximum end-to-end distance of the polymer chain, $h_{max}$.
 				
 				\begin{solution}\instructordisplay{
-					In CTQ \ref{\labelbase:ctq:statseg}b, we wrote
+					In CTQ \ref{\labelbase:ctq:statseg}, we wrote
 					\begin{equation*}
 						\langle h^2 \rangle = Nb^2
 					\end{equation*}
@@ -452,7 +463,7 @@
 					\begin{equation*}
 						C_\infty n l^2 = Nb^2
 					\end{equation*}
-					From CTQ \ref{\labelbase:ctq:statseg}a, we also know that $h_{max} = Nb$, so
+					From the previous part of this question, we also know that $h_{max} = Nb$, so
 					\begin{align*}
 						C_\infty n l^2 &= h_{max} b\\
 						b & = \frac{C_\infty n l^2}{h_{max}}
@@ -503,7 +514,7 @@
 					\emph{``The number of links in the closest equivalent freely-jointed chain is equal to the actual degree of polymerization of the polymer, and the Kuhn length corresponds to the effective size of a single chemical repeat unit.''}
 				
 				\begin{solution}\instructordisplay{
-					Based on the numbers calculated in this question, this statement is clearly false.  The actual degree of polymerization is 96, while the number of Kuhn segments is only 14.  Similarly, the Kuhn length is 17~\AA (1.7~nm), but this is much too large to correspond to a single styrene repeat unit.  Thus, as discussed in CTQ \ref{\labelbase:exc:statseginterp}, the Kuhn length (and number of Kuhn segments in the closest equivalent freely-jointed chain) DO NOT have a simple physical interpretation in terms of the number and size of the chemical repeat units in the chain.
+					Based on the numbers calculated in this question, this statement is clearly false.  The actual degree of polymerization is 96, while the number of Kuhn segments is only 14.  Similarly, the Kuhn length is 17~\AA\ (1.7~nm), but this is much too large to correspond to a single styrene repeat unit.  Thus, as discussed in CTQ \ref{\labelbase:exc:statseginterp}, the Kuhn length (and number of Kuhn segments in the closest equivalent freely-jointed chain) DO NOT have a simple physical interpretation in terms of the number and size of the chemical repeat units in the chain.
 				}\end{solution}
 				
 				\end{enumerate}
