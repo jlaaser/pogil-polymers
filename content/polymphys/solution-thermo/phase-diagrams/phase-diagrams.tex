@@ -27,18 +27,19 @@
 	\subsection*{Activity summary:}
 	\begin{itemize}
 		\item \textbf{Activity type:} Learning Cycle
-		\item \textbf{Content goals:} Phase diagrams of polymer solutions
+		\item \textbf{Content goals:} See above %Phase diagrams of polymer solutions
 		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
 			\begin{itemize}
 				\item Reading and interpreting graphs
 				\item Extrapolating from given data
-				\item Expressing ideas in writing
+				\item Written and oral communication of reasoning
 			\end{itemize}
 		\item \textbf{Duration:} 60 minutes, including class discussion
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
-				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): sections 7.5.4 and 7.5.5, and parts of section 7.6
+				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge), 2nd ed.: sections 7.5.4 and 7.5.5, and parts of section 7.6
+				\item \emph{Introduction to Polymers} (Young \& Lovell), 3rd ed.: not covered in detail
 			\end{itemize}
 	\end{itemize}
 
@@ -118,7 +119,7 @@
 
 
 \begin{ctqs}
-	\question Estimate the critical temperature for the polymer whose phase diagram you drew in question \ref{\labelbase:ctq:plotT}:
+	\question Estimate the critical temperature for the polymer whose phase diagram you drew in question \ref{\labelbase:ctq:plotT}.
 	
 		\begin{solution}[0.25in]
 		
@@ -208,13 +209,13 @@
 
 \begin{ctqs}
 	
-	\question What happens to the value of $\chi_c$ when the chains are only a single monomer ($N=1$)?
+	\question What is the value of $\chi_c$ when the chains are only a single monomer long (i.e. when $N=1$)?
 	
 		\begin{solution}[0.75in]
 			When $N=1$, $\chi_c = 2$
 		\end{solution}
 	
-	\question What happens to the value of $\chi_c$ when the chains become infinitely long ($N\to\infty$)?	
+	\question What is the value of $\chi_c$ when the chains are infinitely long (i.e. when $N\to\infty$)?	
 	
 		\begin{solution}[0.75in]
 			When $N\to\infty$, $\chi_c = \frac{1}{2}$.
@@ -283,13 +284,13 @@
 				Then set this expression equal to zero and solve for $\phi_{1,c}$, the composition at the critical point.
 			
 				\begin{solution}\instructordisplay{
-					The Flory-Huggins expression for hte free energy of a polymer solution is 
+					The Flory-Huggins expression for the free energy of a polymer solution is 
 					\begin{equation*}
-						\frac{\Delta G_{mix}}{kT} = \phi_1\phi_2\chi + \phi_1\ln\phi_1 + \frac{\phi_2}{N}\ln\phi_2
+						\frac{\Delta G_{mix}}{k_B T} = \phi_1\phi_2\chi + \phi_1\ln\phi_1 + \frac{\phi_2}{N}\ln\phi_2
 					\end{equation*}
 					Noting that $\phi_2 = 1-\phi_1$, this expression can alternately be written
 					\begin{equation*}
-						\frac{\Delta G_{mix}}{kT} = \phi_1(1-\phi_1)\chi + \phi_1\ln\phi_1 + \frac{(1-\phi_1)}{N}\ln(1-\phi_1)
+						\frac{\Delta G_{mix}}{k_B T} = \phi_1(1-\phi_1)\chi + \phi_1\ln\phi_1 + \frac{(1-\phi_1)}{N}\ln(1-\phi_1)
 					\end{equation*}
 					Taking the first derivative, we obtain
 					\begin{align*}
@@ -311,7 +312,7 @@
 					
 					Setting this expression equal to zero and rearranging, we obtain
 					\begin{align*}
-						\frac{1}{N}\frac{1}{(1-\phi_1)^2} &= \frac{1}{\phi_1}\\
+						\frac{1}{N}\frac{1}{(1-\phi_1)^2} &= \frac{1}{\phi_1^2}\\
 						\frac{1}{\sqrt{N}}\frac{1}{1-\phi_1} &= \frac{1}{\phi_1}\\
 						\sqrt{N}(1-\phi_1) &= \phi_1\\
 						\phi_1(1+\sqrt{N}) &= \sqrt{N}\\
@@ -413,7 +414,7 @@
 			\item Estimate the interaction parameter, $\chi$, for this polymer mixture at the critical point.
 			
 				\begin{solution}\instructordisplay{
-					The interaction parameter at the critical point,a gain from the information box on page \pageref{\labelbase:eqn:phi1c}, is
+					The interaction parameter at the critical point, again from the information box on page \pageref{\labelbase:eqn:phi1c}, is
 					\begin{equation*}
 						\chi_c = \frac{1}{2}\left(\frac{1}{N} + \frac{2}{\sqrt{N}} + 1\right)
 					\end{equation*}
@@ -451,10 +452,10 @@
 			
 		\end{enumerate}
 		
-	\exercise What do you expect would happen if you prepared a polymer solution at a very high temperature and then rapidly cooled the mixture to a temperature below its critical point?
+	\exercise What do you expect would happen if you prepared a polymer solution at a very high temperature and then rapidly cooled the mixture to a temperature below its critical point?  Explain your reasoning in 2-3 complete sentences.
 			
 				\begin{solution}\instructordisplay{
-					Depending on the composition of the mixture, some or all of the polymer might precipitate out of solution as the temperature is changed such that you move from the one-phase region fo the phase diagram into the two-phase region of the diagram.
+					Depending on the composition of the mixture, some or all of the polymer might precipitate out of solution as the temperature is changed such that you move from the one-phase region of the phase diagram into the two-phase region of the diagram.
 					
 					Note that if the polymer has a broad molecular weight distribution, the higher molecular weight fraction will crash out of solution first, while some of the lower molecular weight polymers may remain in solution, depending on the final temperature.
 				}\end{solution}
