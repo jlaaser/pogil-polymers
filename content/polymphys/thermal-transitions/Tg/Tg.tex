@@ -14,29 +14,31 @@
 \begin{activity}{The Glass Transition}
 
 \begin{instructornotes}
-	This activity introduces students to concepts related to glass transitions of polymer materials.
+	This activity introduces students to concepts related to glass transitions of polymeric materials.
 	
 	After completing this activity, students will be able to:
 	\begin{enumerate}
 		\item Explain the free volume picture of the glass transition, including how the free and occupied volumes of a material change with temperature and why the material eventually hits a point at which the free volume can no longer decrease
 		\item Explain how the glass transition temperature of a polymer depends on the polymer's molecular weight
-		\item Explain how the glass transition temperature of a polymer depends on the stiffness, sidechain bulkiness or flexibility, and tacticity
+		\item Explain how the glass transition temperature of a polymer depends on the stiffness, sidechain bulkiness or flexibility, and tacticity of the polymer
 	\end{enumerate}
 	
 	\subsection*{Activity summary:}
 	\begin{itemize}
 		\item \textbf{Activity type:} Learning Cycle
-		\item \textbf{Content goals:} Glass Transitions of Polymer Materials
+		\item \textbf{Content goals:} See above %Glass Transitions of Polymer Materials
 		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
 			\begin{enumerate}
+				\item Interpreting schematics and equations
 				\item Linking concepts to derive a key result
-				\item Communication (written and oral) of reasoning
+				\item Written and oral communication of reasoning
 			\end{enumerate}
 		\item \textbf{Duration:} 60-75 minutes, including time for class discussion
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
-				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge): sections 12.4 and 12.6
+				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge), 2nd ed.: sections 12.4 and 12.6
+				\item \emph{Introduction to Polymers} (Young \& Lovell), 3rd ed.: sections 16.2 and 16.3
 			\end{itemize}
 		%\item \textbf{Instructor notes:}
 		%	\begin{itemize}
@@ -54,7 +56,7 @@
 	
 	\centerline{\includegraphics[width=0.65\textwidth]{\figpath/Model1_FreeVolume}}
 	
-	In this image, the shaded circles represent the \textit{occupied volume} of the polymers, which reflects their van der Waals radii plus the space required for chemical bonds to vibrate.  The white area represents the \emph{free volume} of the material, which is the space available for the molecules to rotate and translate.
+	In this image, the shaded circles represent the \textit{occupied volume} of the polymers, which reflects their van der Waals radii plus the space required for their chemical bonds to vibrate.  The white area represents the \emph{free volume} of the material, which is the space available for the polymer chains to rotate and translate.
 	
 \end{model}
 
@@ -129,12 +131,12 @@
 
 \begin{ctqs}
 		
-	\question Are these expressions consistent with pictures shown in Model \ref{\labelbase:mdl:freevolume} and the trend you predicted in CTQ \ref{\labelbase:ctq:viscosityconcept}?  Briefly explain your group's reasoning.
+	\question Are these expressions consistent with the pictures shown in Model \ref{\labelbase:mdl:freevolume} and the trend you predicted in CTQ \ref{\labelbase:ctq:viscosityconcept}?  Briefly explain your group's reasoning.
 			
 				\begin{solution}[2in]
 					Yes.  Students may look at this a couple of different ways:
 					
-					First, as shown in the model, the free volume decreases much more quickly than the occupied volume, so $V_{occ}/V_f$ gets big as the free volume decreases.  Since this term is in the exponent in the first equation for $\eta$, the exponential term (and thus the viscosity) also get larger as the free volume increases, consistent with the prediction from the previous question.
+					First, as shown in the model, the free volume decreases much more quickly than the occupied volume, so $V_{occ}/V_f$ gets big as the free volume decreases.  Since this term is in the exponent in the first equation for $\eta$, the exponential term (and thus the viscosity) also gets larger as the free volume increases, consistent with the prediction from the previous question.
 					
 					Second, if students prefer to think about the temperature dependence, they will note that as $T$ decreases toward the Vogel temperature, the denominator in the exponent becomes small ($T-T_0\to 0$), so the exponent again becomes large ($B/(T-T_0) \to \infty$).  This again means that the viscosity increases significantly as the temperature (and free volume) decrease toward $T_0$.
 				\end{solution}
@@ -142,7 +144,7 @@
 	\clearpage
 	\question At some temperature, the relaxation time of the material will become so slow that the polymers are effectively unable to keep rearranging to find higher-density/lower free-volume configurations.  After this point, further decreases in the temperature will not significantly change the free volume of the polymer. \label{\labelbase:ctq:traptemp}
 	
-		Based on this information, propose a revised version of your plot from CTQ \ref{\labelbase:ctq:VTplot1} that more accurately depicts changes in the free volume and total volume of a real polymer material.  Make sure the transition temperature is clearly labeled.
+		Based on this information, propose a revised version of your plot from CTQ \ref{\labelbase:ctq:VTplot1} that more accurately depicts the temperature dependence of the free volume and the total volume of a real polymer material.  Make sure the transition temperature is clearly labeled.
 	
 		\vspace{0.25in}
 	
@@ -166,7 +168,7 @@
 			\item Temperatures far below the transition temperature:
 			
 				\begin{solution}[0.5in]
-					At temperatures far below the transition temperature, the polymer is essentially trapped in a single shape and should be solid-like.
+					At temperatures far below the transition temperature, the polymer chains are essentially trapped and cannot flow or rearrange, so the material should be solid-like.
 				\end{solution}
 			
 		\end{enumerate}
@@ -177,11 +179,13 @@
 		
 		Why do you think the authors make this claim?  Explain your group's reasoning in 1-2 complete sentences.
 			
-				\begin{solution}[1.5in]
+				\begin{solution}[1.75in]
 				
 					The polymer's $T_g$ determines whether the polymer will be liquid-like or solid-like at the application temperature.  If you want your polymer to be flexible or liquid-like, you need to choose a polymer whose $T_g$ is well below the temperature at which it will be used.  On the other hand, if you want your polymer to be rigid or solid-like, you need to choose a polymer whose $T_g$ is well above the temperature at which it will be used.
 					
 					A useful example is the use of poly(lactide) as a material for making plastic cups.  PLA's $T_g$ is approximately 60~$^\circ$C.  If you put a cold drink in a PLA cup, it will be just fine - the temperature of the drink is below the $T_g$ of the cup material so the cup will be just fine and hold its shape.  If you put a hot drink in a PLA cup, however, watch out - a hot drink that is served at 70 to 80~$^\circ$C will cause the cup to soften and ``melt'' because it will take the cup material above its $T_g$.
+					
+					Note: the quoted statement comes from chapter 12 of \emph{Polymer Chemistry} by Hiemenz \& Lodge.
 				
 				\end{solution}
 	
@@ -279,26 +283,26 @@
 
 \begin{ctqs}
 	
-	\question Based on the structures shown in series 1, what can you infer about how the \emph{stiffness of the polymer's backbone} affects their glass transition temperatures?  Propose a reason for the observed trend.
+	\question Based on the structures shown in series 1, what can you infer about how the \emph{stiffness of a polymer's backbone} affects its glass transition temperature?  Propose a reason for the observed trend.
 	
 		\begin{solution}[0.75in]
 			Increasing the stiffness of the backbone typically increases the $T_g$ of the polymer.  This is because stiffer polymers have a harder time rearranging and will become trapped/frozen in place at higher temperatures than more flexible polymers will.
 		\end{solution}
 	
 
-	\question Based on the structures shown in series 2, what can you infer about how the \emph{bulkiness of the polymer's sidechains} affects their glass transition temperatures?  Propose a reason for the observed trend.
+	\question Based on the structures shown in series 2, what can you infer about how the \emph{bulkiness of a polymer's sidechains} affects its glass transition temperature?  Propose a reason for the observed trend.
 	
 		\begin{solution}[0.75in]
 			Increasing the bulkiness of a polymer's sidechain typically also increases the polymer's $T_g$.  Again, bulkier sidechains need more space to be able to rearrange, so polymers with bulky sidechains will become trapped/frozen in place at higher temperatures than polymers with smaller or more flexible sidechains.
 		\end{solution}
 	
-	\question Based on the structures shown in series 3, what can you infer about how the \emph{flexibility of the polymer's sidechains} affects their glass transition temperatures?  Propose a reason for the observed trend.
+	\question Based on the structures shown in series 3, what can you infer about how the \emph{flexibility of a polymer's sidechains} affects its glass transition temperature?  Propose a reason for the observed trend.
 	
 		\begin{solution}[0.75in]
 			Adding small, flexible sidechains to a polymer typically \emph{decreases} its $T_g$.  This is for much the same reason as chain ends do, as discussed in Model 2 - the small, flexible sidechains essentially act as impurities that increase the free volume of the material.  (Note, however, that long, aliphatic sidechains can reverse this trend once they become long enough to crystalize).
 		\end{solution}
 		
-	\question Based on the structures shown in series 4, what can you infer about how the \emph{stereochemistry of the polymers} affects their glass transition temperatures?  Propose a reason for the observed trend.
+	\question Based on the structures shown in series 4, what can you infer about how the \emph{stereochemistry of a polymer} affects its glass transition temperature?  Propose a reason for the observed trend.
 	
 		\begin{solution}[1in]
 			Typically, for alkyl acrylates, $T_{g,isotactic}<T_{g,atactic}<T_{g,syndiotactic}$.  The reason for this behavior is complicated, but it is thought to arise from changes to the steric barriers for rotation that result in effective stiffening of the chains (see e.g. DOIs 10.1021/ma990888f and 10.1021/acs.macromol.8b01099, which discuss this effect for polypropylene).  Students probably will not get this point, but should have an interesting discussion!
@@ -357,7 +361,7 @@
 	
 	%\exercise walk students through deriving/justifying the molecular weight dependence of $T_g$ a la the treatment in Young and Lovell section 16.3
 	
-	\exercise Empirically, it is found that the $T_g$ of polymer blends and copolymers typically obey the Fox equation, which for a two-component blend can be expressed as\footnote{A more general form of this equation, for blends containing more than two components, is $\frac{1}{T_{g,mix}} = \sum_i \frac{w_i}{T_{g,i}}$, where $w_i$ is the weight fraction of component $i$ and $T_{g,i}$ is its $T_g$.}
+	\exercise Empirically, it is found that the $T_g$'s of polymer blends and copolymers typically obey the Fox equation, which for a two-component blend can be expressed as\footnote{A more general form of this equation, for blends containing more than two components, is $\frac{1}{T_{g,mix}} = \sum_i \frac{w_i}{T_{g,i}}$, where $w_i$ is the weight fraction of component $i$ and $T_{g,i}$ is its $T_g$.}
 		\begin{equation*}
 			\frac{1}{T_{g,mix}} = \frac{w_A}{T_{g,A}} + \frac{w_B}{T_{g,B}}
 		\end{equation*}
