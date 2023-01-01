@@ -1,6 +1,6 @@
 # pogil-polymers
 Polymers: A Guided Inquiry
-October 2022
+December 2022
 
 ----------------------------------------------------------
 Copyright and License
@@ -64,7 +64,7 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-Unreleased - Oct 27, 2022
+v0.4.0 - December 31, 2022
 
 	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
 	
