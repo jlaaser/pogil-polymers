@@ -64,14 +64,14 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-v0.4.0 - December 31, 2022
+unreleased - January 7, 2023
 
 	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
 	
 		Activity 1.1 - From Molecules to Polymers
 		Activity 1.2 - With Increasing Size Comes Increasing Complexity
-		Activity 1.3 - Molecular Weight and Dispersity
-		Activity 1.4 - Measuring Molecular Weight
+		Activity 1.4 - Molecular Weight and Dispersity
+		Activity 1.5 - Measuring Molecular Weight
 		Activity 2.1 - Introduction to Polymerization Mechanisms
 		Activity 3.1 - Chemistries of Step-Growth Polymerizations
 		Activity 3.2 - Degree of Polymerization in Step-Growth Polymerizations
@@ -100,9 +100,9 @@ v0.4.0 - December 31, 2022
 	
 		Activity 5.1 - Ideal, Living Polymerizations (note: Model 1 has been classroom tested, but Model 2 has not)
 	
-	The following activities are included as ``working drafts'' which contain complete student handouts but no instructor guides, and have not been classroom-tested (or, have been classroom-tested but have not yet been updated following testing):
+	The following activities are included as ``working drafts'' which contain complete student handouts but no or incomplete instructor guides, and have not been classroom-tested (or, have been classroom-tested but have not yet been updated following testing):
 	
-		n/a - none in this release
+		Actvity 1.3 - Polymer Nomenclature
 		
 ---------------------------------------------------------
 Acknowledgments
