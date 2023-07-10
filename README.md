@@ -1,12 +1,12 @@
 # pogil-polymers
 Polymers: A Guided Inquiry
-December 2022
+July 2023
 
 ----------------------------------------------------------
 Copyright and License
 ----------------------------------------------------------
 
-Current version (c) 2022 Jennifer Laaser
+Current version (c) 2023 Jennifer Laaser
 
 Except where otherwise noted, this work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
@@ -64,12 +64,13 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-unreleased - January 7, 2023
+unreleased - July 10, 2023
 
 	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
 	
 		Activity 1.1 - From Molecules to Polymers
 		Activity 1.2 - With Increasing Size Comes Increasing Complexity
+		Activity 1.3 - Polymer Nomenclature
 		Activity 1.4 - Molecular Weight and Dispersity
 		Activity 1.5 - Measuring Molecular Weight
 		Activity 2.1 - Introduction to Polymerization Mechanisms
@@ -102,7 +103,7 @@ unreleased - January 7, 2023
 	
 	The following activities are included as ``working drafts'' which contain complete student handouts but no or incomplete instructor guides, and have not been classroom-tested (or, have been classroom-tested but have not yet been updated following testing):
 	
-		Actvity 1.3 - Polymer Nomenclature
+		n/a - none in this release
 		
 ---------------------------------------------------------
 Acknowledgments
