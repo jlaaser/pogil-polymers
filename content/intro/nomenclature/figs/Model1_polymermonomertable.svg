@@ -7,7 +7,7 @@
    viewBox="0 0 171.96121 73.647629"
    version="1.1"
    id="svg12005"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="Model1_polymermonomertable.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,19 +23,21 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.74118967"
-     inkscape:cx="286.70124"
-     inkscape:cy="80.276348"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="559"
+     inkscape:zoom="0.905042"
+     inkscape:cx="287.27948"
+     inkscape:cy="98.890438"
+     inkscape:window-width="1440"
+     inkscape:window-height="890"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      fit-margin-top="2"
      fit-margin-left="2"
      fit-margin-right="2"
-     fit-margin-bottom="2" />
+     fit-margin-bottom="2"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs12002" />
   <g
@@ -90,6 +92,17 @@
        font-family="Arial"
        id="text192"
        style="stroke-width:0.0176389">CN</text>
+    <text
+       x="78.997459"
+       y="146.18907"
+       stroke="none"
+       fill="#000000"
+       font-style="normal"
+       font-weight="normal"
+       font-size="3.52777px"
+       font-family="Arial"
+       id="text192-5"
+       style="stroke-width:0.0176389">H</text>
     <path
        stroke="none"
        fill="#000000"
