@@ -7,7 +7,7 @@
    viewBox="-2 -2 93.346 77.484001"
    version="1.1"
    id="svg1454"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    sodipodi:docname="Model1_axes.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,17 +24,36 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.67521728"
-     inkscape:cx="223.63172"
-     inkscape:cy="231.77724"
-     inkscape:window-width="1440"
-     inkscape:window-height="890"
-     inkscape:window-x="-6"
-     inkscape:window-y="-6"
+     inkscape:zoom="1.2646927"
+     inkscape:cx="223.37442"
+     inkscape:cy="232.07219"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="559"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer3"
+     inkscape:pageshadow="2" />
   <defs
      id="defs1451">
+    <rect
+       x="220.66971"
+       y="156.9865"
+       width="189.56861"
+       height="57.759185"
+       id="rect12717" />
+    <rect
+       x="-79.974257"
+       y="383.58023"
+       width="177.72057"
+       height="112.55636"
+       id="rect6500" />
+    <rect
+       x="54.313047"
+       y="250.41608"
+       width="15.294176"
+       height="42.822865"
+       id="rect2256" />
     <marker
        style="overflow:visible"
        id="marker1968"
@@ -73,12 +92,37 @@
          d="M 5.77,0 -2.88,5 V -5 Z"
          id="path135" />
     </marker>
+    <rect
+       x="-79.974258"
+       y="383.58023"
+       width="177.72057"
+       height="112.55636"
+       id="rect6500-5" />
+    <rect
+       x="-79.974258"
+       y="383.58023"
+       width="177.72057"
+       height="112.55636"
+       id="rect6500-9" />
+    <rect
+       x="-79.974258"
+       y="383.58023"
+       width="177.72057"
+       height="112.55636"
+       id="rect6500-5-9" />
+    <rect
+       x="220.66971"
+       y="156.9865"
+       width="189.5686"
+       height="57.759186"
+       id="rect12717-1" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-46.0152,-100.32073)">
+     transform="translate(-46.0152,-100.32073)"
+     sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#000000;stroke-width:0.710999;marker-start:url(#TriangleStart);marker-end:url(#marker1968)"
        d="m 58.385527,103.05633 v 61.52032 h 74.451343"
@@ -107,5 +151,96 @@
          y="106.38134">M<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan2057">n</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="catalyzed soln"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 12.890269,54.034431 81.463872,18.376157"
+       id="path877" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-2,-2)"
+       id="text2254"
+       style="font-size:32px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect2256)"><tspan
+         x="54.3125"
+         y="322.43285"
+         id="tspan4782"><tspan
+           style="font-family:Arial;-inkscape-font-specification:Arial;fill:#ff0000"
+           id="tspan4780">0</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,30.131632,-36.482727)"
+       id="text6498"
+       style="font-size:32px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect6500)"><tspan
+         x="-79.974609"
+         y="412.77465"
+         id="tspan4786"><tspan
+           style="fill:#ff0000"
+           id="tspan4784">0</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,26.260735,-51.711229)"
+       id="text6498-8"
+       style="font-size:32px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect6500-5)"><tspan
+         x="-79.974609"
+         y="412.77465"
+         id="tspan4790"><tspan
+           style="fill:#ff0000"
+           id="tspan4788">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-11.796229,-2.3918492)"
+       id="text12715"
+       style="font-size:18.6667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect12717)"><tspan
+         x="220.66992"
+         y="174.01652"
+         id="tspan4800"><tspan
+           style="fill:#ff0000"
+           id="tspan4792">slope = M</tspan><tspan
+           style="font-size:65%;baseline-shift:sub"
+           id="tspan4794">0</tspan><tspan
+           style="fill:#ff0000"
+           id="tspan4796">k[A]</tspan><tspan
+           style="font-size:65%;baseline-shift:sub;fill:#ff0000"
+           id="tspan4798">0</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1968)"
+       d="m 58.042583,38.586276 c 2.7197,-3.138115 1.255247,-6.903852 1.255247,-6.903852"
+       id="path16218" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="uncatalyzed soln">
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 12.890269,54.034431 c 0,0 8.459111,-13.866239 21.734344,-20.339628 C 58.16309,22.216759 81.463872,18.376157 81.463872,18.376157"
+       id="path877-1"
+       sodipodi:nodetypes="csc" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,30.131632,-36.482727)"
+       id="text6498-5"
+       style="font-size:32px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect6500-9)"><tspan
+         x="-79.974609"
+         y="412.77465"
+         id="tspan4804"><tspan
+           style="fill:#ff0000"
+           id="tspan4802">0</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,26.260735,-51.711229)"
+       id="text6498-8-9"
+       style="font-size:32px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect6500-5-9)"><tspan
+         x="-79.974609"
+         y="412.77465"
+         id="tspan4808"><tspan
+           style="fill:#ff0000"
+           id="tspan4806">1</tspan></tspan></text>
   </g>
 </svg>

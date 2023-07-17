@@ -19,7 +19,9 @@
 	
 	After completing this activity, students will be able to:
 			\begin{enumerate}
-				\item \dots
+				\item Explain the mechanistic features of step-growth polymerizations that lead to catalyzed or un-catalyzed kinetics
+				\item Use information about how extent of reaction and/or molecular weight changes with time to determine whether a polymerization is catalyzed or un-catalyzed
+				\item Calculate the expected molecular weight of a step-growth polymer at a given reaction time
 			\end{enumerate}
 	
 			
@@ -29,15 +31,17 @@
 		\item \textbf{Content goals:} See above
 		\item \textbf{Process goals:} %https://pogil.org/uploads/attachments/cj54b5yts006cklx4hh758htf-process-skills-official-pogil-list-2015-original.pdf
 			\begin{itemize}
-				%\item Linking concepts to derive a key result
+				\item Interpreting chemical structures and reaction schemes
+				\item Representing quantitative relationships in both equations and graphs
+				\item Linking concepts to derive a key result
 				\item Written and oral communication of reasoning
 			\end{itemize}
-		\item \textbf{Duration:} TBD %approx. 45 minutes
+		\item \textbf{Duration:} approx. 50 minutes
 		\item \textbf{Instructor preparation required:} none beyond knowledge of relevant content
 		\item \textbf{Related textbook chapters:}
 			\begin{itemize}
 				\item \emph{Polymer Chemistry} (Hiemenz \& Lodge), 2nd ed.: sections 2.2.3 and 2.3
-				\item \emph{Introduction to Polymers} (Young \& Lovell), 3rd ed.: \dots 
+				\item \emph{Introduction to Polymers} (Young \& Lovell), 3rd ed.: section 3.2.2.3
 			\end{itemize}
 	\end{itemize}
 
@@ -71,7 +75,7 @@
 			Bimolecular reactions are reactions in which two molecules come together to participate in a reaction.  Because two reactant molecules participate in this reaction, it is bimolecular.
 		\end{solution}
 	
-	\question Propose an appropriate expression describing how the rate at which ``A'' reactive groups are used up depends on the rate constant and the concentrations of both reactive species.
+	\question Propose an appropriate expression describing how the rate at which ``A'' reactive groups are used up (e.g. $\frac{d[A]}{dt}$) depends on the rate constant and the concentrations of both reactive species.
 		\label{\labelbase:ctq:proposeratelaw}
 		
 		\begin{solution}[1in]
@@ -79,12 +83,15 @@
 				\frac{d[A]}{dt} = -k[A][B]
 			\end{equation*}
 			(negative because A groups are used up as the reaction progresses)
+			
+			Note: some students may be more familiar with writing rate laws in the form $R = k[A][B]$ and may be thrown off by the $\frac{d[A]}{dt}$ notation.  In this case, it is useful to remind them that $\frac{d[A]}{dt}$ is just the rate $R$.
+			
 		\end{solution}
 		
 \end{ctqs}
 
 \begin{infobox}
-	It is possible to show (see Exercise \ref{\labelbase:exc:catinteratelaw}) that, if the reaction is stoichiometrically balanced and has an initial concentration of ``A'' groups of $[A]_0$, the concentration of unreacted ``A'' groups changes as
+	It is possible to show (see Exercise \ref{\labelbase:exc:catinteratelaw}) that, if the reaction is stoichiometrically balanced and has an initial concentration of ``A'' groups of $[A]_0$, the concentration of \emph{unreacted} ``A'' groups changes as
 	\begin{equation*}
 		[A] = \frac{[A]_0}{1 + k[A]_0 t}
 	\end{equation*}	
@@ -94,24 +101,32 @@
 
 \begin{ctqs}
 
-	\question Using this information, derive appropriate expressions describing how...
+	\question Using this information, determine...
 	
 		\begin{enumerate}
-			\item ... the extent of reaction, $p$, changes with time:
+			\item ... what \emph{fraction} of the ``A'' groups remain unreacted at time $t$:
 			
-				\begin{solution}[2.5in]
-					The extent of reaction is the fraction of A groups that \emph{have} reacted.  If the initial concentration of A groups was $[A]_0$ and the current concentration of A groups is $[A]$, then the concentration that have reacted is $[A]_0 - [A]$ and the fraction that have reacted is this number divided by the original number, or
-					
-					\begin{align*}
-						p &= \frac{[A]_0-[A]}{[A]_0} \\
-						  &= 1 - \frac{[A]}{[A]_0}\\
-						  &= 1- \frac{1}{1 + k[A]_0 t}
-					\end{align*}
+				\begin{solution}[1in]
+					If the initial concentration of A groups was $[A]_0$ and the current concentration of A groups is $[A]$, then the fraction that remain unreacted is this number divided by the original number, or
+					\begin{equation*}
+						\frac{[A]}{[A]_0} = \frac{1}{1 + k[A]_0 t}
+					\end{equation*}
 				\end{solution}
 			
-			\item ... the number-average degree of polymerization, $N_n$, changes with time: \label{\labelbase:ctq:catNn}
+			\item ... what fraction of the ``A'' groups have \emph{reacted} by time $t$:
 			
-				\begin{solution}[2in]
+				\begin{solution}[1in]
+					The fraction that \emph{has} reacted is just 1-(fraction that have not reacted), or
+					\begin{equation*}
+						1- \frac{[A]}{[A]_0} = 1-\frac{1}{1 + k[A]_0 t}
+					\end{equation*}
+				\end{solution}
+		
+			\item ... the expected number-average degree of polymerization, $N_n$, at time $t$: \label{\labelbase:ctq:catNn}
+			
+				\emph{(Hint: the fraction you calculated in part (b) is just the extent of reaction, $p$!)}
+			
+				\begin{solution}[1.75in]
 					\begin{align*}
 						N_n &= \frac{1}{1-p}\\
 							&= \frac{1}{1-\left(1- \frac{1}{1 + k[A]_0 t}\right)}\\
@@ -124,7 +139,15 @@
 	
 	\question Based on the equation you derived above, sketch a plot of how the molecular weight of the polymers you expect to obtain in a step-growth reaction will change with time:
 	
-		\centerline{\includegraphics[width=0.4\textwidth]{\figpath/Model1_axes}}
+		\begin{solution}[2in]
+		\studentdisplay{		
+			\centerline{\includegraphics[width=0.4\textwidth]{\figpath/Model1_axes}}
+		}\instructordisplay{
+			\centerline{\includegraphics[width=0.3\textwidth]{\figpath/Model1_axes_catsoln}}
+			
+			(note the extra factor of $M_0$ in the slope, since the question asks for molecular weight rather than $N_n$!)
+		}
+		\end{solution}		
 
 \end{ctqs}
 	
@@ -155,11 +178,13 @@
 		\question Based on your answer to the previous two questions, explain, in 1-2 complete sentences, why this reaction is referred to as an \emph{acid-catalyzed} esterification.
 		
 			\begin{solution}[1.75in]
+				The acid catalyzes the reaction (it is required to make the reaction go but is not used up in the reaction since it is regenerated at the end).  Hence, it is an acid-catalyzed reaction.
 			\end{solution}
 			
 		\question How many different molecules must come together for this reaction to proceed?
 		
 			\begin{solution}[0.5in]
+				3 (carboxylic acid, alcohol, AND the acid HA)
 			\end{solution}
 		
 		\question Explain, in 1-2 complete sentences, why the kinetics of this reaction should obey
@@ -170,7 +195,8 @@
 			
 			where [COOH], [OH], and [HA] are the concentrations of the carboxylic acid, alcohol, and acid catalyst, respectively.\label{\labelbase:ctq:fisherratelaw}
 			
-				\begin{solution}[2.5in]
+				\begin{solution}[1.5in]
+					This is essentially a termolecular (or trimolecular) reaction that depends on three different reactants coming together.  If the concentration of any one of the reactants is decreased, it will be harder for these three reactants to find each other and the overall rate will slow down.  Thus, the rate law needs to contain the concentration of each of the species.
 				\end{solution}
 		
 \end{ctqs}
@@ -186,17 +212,17 @@
 		\begin{enumerate}
 			\item Briefly explain why, in this case, it is reasonable to assume that [HA] is constant over the entire course of the reaction.
 			
-				\begin{solution}[1.5in]
+				\begin{solution}[0.5in]
+					When the acid is NOT one of the reactants, it is not used up, so its concentration will not change.
 				\end{solution}
 			
-			\clearpage
 			\item Critique or defend the following statement in 2-3 complete sentences:
 			
 				``The rate law for a catalyzed step-growth polymerization can effectively be simplified to $\frac{d[COOH]}{dt} = - k_c [COOH][OH]$, and the degree of polymerization grows linearly with time as in the bimolecular reaction shown in Model \ref{\labelbase:mdl:simple}.''
 			
-				\begin{solution}[2in]
+				\begin{solution}[1.5in]
 				
-				TRUE - if [HA] is constant then we can just let $k_c = k[HA]$ and the expression from CTQ 10 just reduces to the expression given in the statement.
+				This statement is correct.  If [HA] is constant then we can just let $k_c = k[HA]$ and the expression from CTQ 10 just reduces to the expression given in the statement.
 				
 				\end{solution}
 				
@@ -208,7 +234,7 @@
 				
 			\item  What rate law do you obtain if you replace [HA] in the expression given in CTQ \ref{\labelbase:ctq:fisherratelaw} with [COOH]?
 			
-				\begin{solution}[0.5in]	
+				\begin{solution}[0.75in]	
 					\begin{equation*}
 						\frac{d[\text{COOH}]}{dt} = - k \text{[COOH]}^2\text{[OH]}
 					\end{equation*}
@@ -216,13 +242,13 @@
 		
 			\item What happens to the concentration of COOH groups as the reaction progresses?
 			
-				\begin{solution}[0.5in]	
+				\begin{solution}[0.75in]	
 					[COOH] decreases as COOH groups are used up to form ester bonds.
 				\end{solution}
 			
 			\item Based on your answers to the previous two questions, what do you expect to happen to the reaction rate as the reaction progresses?
 			
-				\begin{solution}[0.5in]	
+				\begin{solution}[0.75in]	
 					Because the rate depends on the square of the COOH concentration, the reaction rate will slow down substantially as the concentration of COOH groups decreases.
 				\end{solution}
 			
@@ -245,19 +271,27 @@
 
 	\question Using this information, find an expression for how the number average degree of polymerization, $N_n$, changes with time in a self-catalyzed step-growth polymerization.
 	
-		\begin{solution}[1in]
+		\begin{solution}[1.25in]
 			\begin{equation*}
-				N_n = \sqrt{1 + 2k_u [A]_0^2 t}
+				N_n = \frac{1}{1-p} = \sqrt{1 + 2k_u [A]_0^2 t}
 			\end{equation*}
 		\end{solution}
 		
-	\question Based on the equation you derived above, sketch a plot of how the molecular weight of the polymers you expect to obtain in a step-growth reaction will change with time:
+	\question Based on the equation you derived in the previous question, sketch a plot of how the molecular weight of the polymers you expect to obtain in a step-growth reaction will change with time:
 	
-		\centerline{\includegraphics[width=0.4\textwidth]{\figpath/Model1_axes}}
+		\begin{solution}[2in]
+		\studentdisplay{		
+			\centerline{\includegraphics[width=0.4\textwidth]{\figpath/Model1_axes}}
+		}\instructordisplay{
+			\centerline{\includegraphics[width=0.4\textwidth]{\figpath/Model1_axes_uncatsoln}}
+		}
+		\end{solution}		
 		
 	\question Which type of polymerization (catalyzed or uncatalyzed) do you expect to produce higher molecular weight polymers in a given amount of time?  Explain your group's reasoning in 2-3 complete sentences.
 	
 		\begin{solution}[2in]
+		
+			Generally, catalyzed reactions go more quickly than un-catalyzed reactions, so the catalyzed polymerization should produce higher molecular weight polymers in a given amount of time.  This is reflected in the expressions for $N_n$ derived above - for the catalyzed reaction, the degree of polymerization (and thus molecular weight) increase linearly with time, while for the uncatalyzed reaction, the square root dependence means that the increase in molecular weight slows down with time as more and more of the COOH is used up.
 		\end{solution}
 
 \end{ctqs}
@@ -267,26 +301,110 @@
 
 		\exercise In Model \ref{\labelbase:mdl:simple}, the ``A'' and ``B'' reactive groups were shown without depicting what species they were attached to.  However, these species could be on the ends of monomers, oligomers, or long polymer chains. %add graphic?
 		What assumption has to be made about the reactivities of the functional groups on these different species for the rate law you proposed in CTQ \ref{\labelbase:ctq:proposeratelaw} (and the expression you derived for $N_n$ in CTQ \ref{\labelbase:ctq:catNn}) to correctly describe the kinetics of the entire reaction?  Explain your reasoning in 2-3 complete sentences.
+		
+			\begin{solution}\instructordisplay{
+				For the rate law in CTQ \ref{\labelbase:ctq:proposeratelaw} to hold, we had to assume that all ``A'' and ``B'' reactive groups are equally likely to react, regardless of what species they are attached to (that is, an ``A'' group on a monomer has exactly the same probability of reacting as an ``A'' group on a polymer chain, etc.).  This is the \emph{principle of equal reactivity}, which is assumed in many analyses of polymerization kinetics.
+			}\end{solution}
 			
 		\exercise Derive the integrated rate law for stoichiometrically-balanced, catalyzed step-growth polymerizations (shown on page \pageref{\labelbase:infobox:catintegrated}) by doing the following: \label{\labelbase:exc:catinteratelaw}
 		
 			\begin{enumerate}
 				\item Explain why, if the reaction is stoichiometrically balanced, it must be true that $[A]=[B]$ throughout the \emph{entire} course of the reaction.  Then, use this information to rewrite your expression from CTQ \ref{\labelbase:ctq:proposeratelaw} in terms of the concentration of A groups only.
 				
+					\begin{solution}\instructordisplay{
+						Every reaction uses up one ``A'' and one ``B''.  If the numbers of A's and B's are equal to start, and they change in exactly the same way throughout the reaction, then their concentrations will be equal throughout the entire course of the reaction.
+						
+						Following this reasoning, we can assume $[A]=[B]$ and substitute $[B]$ with $[A]$ in the expression proposed in CTQ \ref{\labelbase:ctq:proposeratelaw}.  Doing so, we obtain
+						\begin{equation*}
+							\frac{d[A]}{dt} = -k[A]^2
+						\end{equation*}
+					}\end{solution}
+				
 				\item Rearrange your equation into the form $f([A])\,d[A] = g(t)\,dt$ and then integrate both sides.
+				
+					\begin{solution}\instructordisplay{
+						Rearranging the equation from the previous part, we obtain
+						\begin{align*}
+							\frac{1}{[A]^2}d[A] = -k dt
+						\end{align*}
+						Integrating both sides, we obtain
+						\begin{align*}
+							\int \frac{1}{[A]^2}d[A] &= \int -k dt \\
+							\frac{-1}{[A]} &= -kt + C\\
+							\frac{1}{[A]} &= kt + C
+						\end{align*}
+						where we have combined the integration constants from both sides into a single constant on the right-hand-side of the equation.
+						
+						(Note: students can also do this as a definite integral; in this case, the integration limits on the left side should be from $[A]_0$ to $[A](t)$ and on the right side should be from $0$ to $t$, and students will not need to do the step of applying the initial condition in the next question.)
+					}\end{solution}
 				
 				\item Finally, apply the initial condition that $[A]=[A]_0$ at $t=0$ and show that your answer rearranges to the form shown in the Information box on page \pageref{\labelbase:infobox:catintegrated}.
 			\end{enumerate}
-			
-		\exercise Extend the process from the above question to derive...
-			
-			\begin{enumerate}
-				\item ... the rate law for stoichiometrically-balanced, un-catalyzed step-growth polymerizations (shown on page \pageref{\labelbase:info:uncatintrate}).
 				
-				\item ... the rate law for a stoichiometrically-\emph{unbalanced} catalyzed step-growth polymerization that starts with A and B reactive group concentrations of $[A]_0$ and $[B]_0$, respectively.
-			\end{enumerate}
+					\begin{solution}\instructordisplay{
+						If $[A]=[A]_0$ at $t=0$, then we must have
+						\begin{align*}
+							\frac{1}{[A]_0} &= k\cdot 0 + C \\
+							C &= \frac{1}{[A]_0}
+						\end{align*}
+						Putting this value of $C$ back into our equation, we have
+						\begin{align*}
+							\frac{1}{[A]} &= kt + \frac{1}{[A]_0} \\
+							[A] &= \frac{1}{kt + \frac{1}{[A]_0}} \\
+								&= \frac{[A]_0}{kt[A]_0 + 1}
+						\end{align*}
+						which is equivalent to the expression given on page \pageref{\labelbase:infobox:catintegrated}, as desired. 
+						
+					}\end{solution}
 			
-		%\exercise The kinetic scheme shown in Model \ref{\labelbase:mdl:simple} is somewhat over-simplified.  In practice, most step-growth reactions can be thought of as proceeding through formation of a ``caged'' intermediate, where the A and B reactive groups 
+		\exercise Extend the process from the above question to derive the rate law for stoichiometrically-balanced, un-catalyzed step-growth polymerizations (shown on page \pageref{\labelbase:info:uncatintrate}).
+				
+					\begin{solution}\instructordisplay{
+						For the un-catalyzed polymerization, 
+						\begin{equation*}
+							\frac{d[\text{COOH}]}{dt} = - k \text{[COOH]}^2\text{[OH]}
+						\end{equation*}
+						Letting $[COOH]\equiv [A]$ and $[OH]\equiv[B]$, and setting $[A]=[B]$ following the same reasoning as in the previous question, we obtain
+						\begin{equation*}
+							\frac{d[A]}{dt} = - k [A]^2[B] = -k[A]^3
+						\end{equation*}
+						Rearranging and integrating, we obtain
+						\begin{align*}
+							\frac{1}{[A]^3} d[A] &= -k dt \\
+							\int \frac{1}{[A]^3} d[A] &= \int -k dt \\
+							\frac{-1}{2[A]^2} &= -kt + C\\
+							\frac{1}{2[A]^2} &= kt + C
+						\end{align*}
+					}\end{solution}
+					\begin{solution}\instructordisplay{
+						Applying the initial condition $[A]_0=0$ at $t=0$, we obtain
+						\begin{align*}
+							\frac{1}{2[A]_0^2} &= C 
+						\end{align*}
+						so
+						\begin{align*}
+							\frac{1}{2[A]^2} &= kt + \frac{1}{2[A]_0^2} \\
+							\frac{1}{[A]^2} &= 2kt + \frac{1}{[A]_0^2}
+						\end{align*}
+						as desired.
+						
+						Note: the question did not specifically ask for the expression in terms of $p$, but again, $p=1-\frac{[A]}{[A]_0}$ so
+						\begin{align*}
+							p &= 1-\frac{[A]}{[A]_0} \\
+							1-p &= \frac{[A]}{[A]_0} \\
+							\frac{1}{1-p} &= \frac{[A]_0}{[A]}\\
+							\frac{1}{(1-p)^2} &= \left(\frac{[A]_0}{[A]}\right)^2\\
+							 &= [A]_0^2\left(2k_u t + \frac{1}{[A]_0^2}\right)\\
+								&= 1+ 2k_u[A]_0^2 t
+						\end{align*}
+						as desired.
+					}\end{solution}
+				
+				% could also the rate law for a stoichiometrically-\emph{unbalanced} catalyzed step-growth polymerization that starts with A and B reactive group concentrations of $[A]_0$ and $[B]_0$, respectively....
+			
+		%\exercise The kinetic scheme shown in Model \ref{\labelbase:mdl:simple} is somewhat over-simplified.  In practice, most step-growth reactions can be thought of as proceeding through formation of a ``caged'' intermediate, where the A and B reactive groups ...
+		
+		%\exercise add a question about the relative kinetics of ring formation, and why step-growth polyms are usually performed in bulk (e.g. to promote bimolecular rxn over unimolecular rxn)?
 		
 \end{exercises}
 	
