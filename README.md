@@ -1,12 +1,12 @@
 # pogil-polymers
 Polymers: A Guided Inquiry
-December 2022
+July 2023
 
 ----------------------------------------------------------
 Copyright and License
 ----------------------------------------------------------
 
-Current version (c) 2022 Jennifer Laaser
+Current version (c) 2023 Jennifer Laaser
 
 Except where otherwise noted, this work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
@@ -64,7 +64,7 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-v0.4.0 - December 31, 2022
+Unreleased - July 18, 2023
 
 	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
 	
@@ -78,6 +78,7 @@ v0.4.0 - December 31, 2022
 		Extension 3.2a - Synthesis of Polymer Networks by Step-Growth Reactions
 		Activity 3.3 - Equilibrium in Condensation Polymerizations
 		Activity 3.4 - Molecular Weight Distributions in Step-Growth Polymerizations
+		Activity 3.5 - Kinetics of Step-Growth Polymerizations
 		Activity 4.1 - Chemistry of Free-Radical Polymerization
 		Activity 4.2 - Kinetics of Free-Radical Polymerization
 		Activity 4.3 - Thermodynamics of Free-Radical Polymerization
