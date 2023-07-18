@@ -64,7 +64,7 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-unreleased - July 10, 2023
+Unreleased - July 18, 2023
 
 	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
 	
@@ -79,6 +79,7 @@ unreleased - July 10, 2023
 		Extension 3.2a - Synthesis of Polymer Networks by Step-Growth Reactions
 		Activity 3.3 - Equilibrium in Condensation Polymerizations
 		Activity 3.4 - Molecular Weight Distributions in Step-Growth Polymerizations
+		Activity 3.5 - Kinetics of Step-Growth Polymerizations
 		Activity 4.1 - Chemistry of Free-Radical Polymerization
 		Activity 4.2 - Kinetics of Free-Radical Polymerization
 		Activity 4.3 - Thermodynamics of Free-Radical Polymerization
