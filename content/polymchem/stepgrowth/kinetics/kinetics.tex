@@ -20,7 +20,8 @@
 	After completing this activity, students will be able to:
 			\begin{enumerate}
 				\item Explain the mechanistic features of step-growth polymerizations that lead to catalyzed or un-catalyzed kinetics
-				\item Use information about how extent of reaction and/or molecular weight changes with time to determine whether a polymerization is catalyzed or un-catalyzed
+				\item Describe how the molecular weight of polymers produced in step-growth polymerizations changes with time for both catalyzed and uncatalyzed polymerizations
+				%\item Use information about how extent of reaction and/or molecular weight changes with time to determine whether a polymerization is catalyzed or un-catalyzed
 				\item Calculate the expected molecular weight of a step-growth polymer at a given reaction time
 			\end{enumerate}
 	
@@ -52,7 +53,7 @@
 \begin{model}[A Simple Step-Growth Reaction]
 \label{\labelbase:mdl:simple}
 
-	The key reaction in a step-growth polymerization is the reaction of an ``A'' functional group with a ``B'' functional group to form an ab bond:
+	The key reaction in a step-growth polymerization is the reaction of an ``A'' functional group with a ``B'' functional group to form an ``ab'' bond:
 	
 	\centerline{\includegraphics[width=0.7\textwidth]{\figpath/Model1_rxn}}
 	
@@ -75,7 +76,7 @@
 			Bimolecular reactions are reactions in which two molecules come together to participate in a reaction.  Because two reactant molecules participate in this reaction, it is bimolecular.
 		\end{solution}
 	
-	\question Propose an appropriate expression describing how the rate at which ``A'' reactive groups are used up (e.g. $\frac{d[A]}{dt}$) depends on the rate constant and the concentrations of both reactive species.
+	\question Propose an expression describing how the rate at which ``A'' reactive groups are used up (e.g. $\frac{d[A]}{dt}$) depends on the rate constant $k$ and the concentrations of both reactive species.
 		\label{\labelbase:ctq:proposeratelaw}
 		
 		\begin{solution}[1in]
@@ -113,7 +114,7 @@
 					\end{equation*}
 				\end{solution}
 			
-			\item ... what fraction of the ``A'' groups have \emph{reacted} by time $t$:
+			\item ... what fraction of the ``A'' groups \emph{have reacted} by time $t$:
 			
 				\begin{solution}[1in]
 					The fraction that \emph{has} reacted is just 1-(fraction that have not reacted), or
@@ -137,7 +138,7 @@
 			
 		\end{enumerate}
 	
-	\question Based on the equation you derived above, sketch a plot of how the molecular weight of the polymers you expect to obtain in a step-growth reaction will change with time:
+	\question Based on the equation you derived above, sketch a plot of how the molecular weight of the polymers formed in a step-growth polymerization should depend on the reaction time:
 	
 		\begin{solution}[2in]
 		\studentdisplay{		
@@ -195,14 +196,14 @@
 			
 			where [COOH], [OH], and [HA] are the concentrations of the carboxylic acid, alcohol, and acid catalyst, respectively.\label{\labelbase:ctq:fisherratelaw}
 			
-				\begin{solution}[1.5in]
+				\begin{solution}[1.25in]
 					This is essentially a termolecular (or trimolecular) reaction that depends on three different reactants coming together.  If the concentration of any one of the reactants is decreased, it will be harder for these three reactants to find each other and the overall rate will slow down.  Thus, the rate law needs to contain the concentration of each of the species.
 				\end{solution}
 		
 \end{ctqs}
 
 \begin{infobox}
-	In Fisher esterifications such as the reaction shown in Model \ref{\labelbase:mdl:esterification}, the acidic protons required to catalyze the reaction can be supplied either by an added acid, such as sulfuric acid, or by other carboxylic acids present in the reaction mixture.
+	In Fischer esterifications such as the reaction shown in Model \ref{\labelbase:mdl:esterification}, the acidic protons required to catalyze the reaction can be supplied either by an added acid, such as sulfuric acid, or by other carboxylic acids present in the reaction mixture.
 \end{infobox}
 
 \begin{ctqs}
@@ -210,7 +211,7 @@
 	\question When the acidic proton is supplied by an added acid, we refer to the polymerization as a ``catalyzed'' step-growth polymerization.
 	
 		\begin{enumerate}
-			\item Briefly explain why, in this case, it is reasonable to assume that [HA] is constant over the entire course of the reaction.
+			\item Briefly explain why, if the acid is something like \ce{H2SO4}, it is reasonable to assume that [HA] is constant over the entire course of the reaction.
 			
 				\begin{solution}[0.5in]
 					When the acid is NOT one of the reactants, it is not used up, so its concentration will not change.
@@ -218,11 +219,11 @@
 			
 			\item Critique or defend the following statement in 2-3 complete sentences:
 			
-				``The rate law for a catalyzed step-growth polymerization can effectively be simplified to $\frac{d[COOH]}{dt} = - k_c [COOH][OH]$, and the degree of polymerization grows linearly with time as in the bimolecular reaction shown in Model \ref{\labelbase:mdl:simple}.''
+				``The rate law for a catalyzed step-growth polymerization can effectively be simplified to $\frac{d[COOH]}{dt} = - k_c [COOH][OH]$, which means that the degree of polymerization will grows linearly with time.''
 			
-				\begin{solution}[1.5in]
+				\begin{solution}[1.75in]
 				
-				This statement is correct.  If [HA] is constant then we can just let $k_c = k[HA]$ and the expression from CTQ 10 just reduces to the expression given in the statement.
+				This statement is correct.  If [HA] is constant then we can just let $k_c = k[HA]$ and the expression from CTQ 10 reduces to the expression given in the statement.  This rate law then has exactly the same form as the rate law investigated in Model 1, so all of the same conclusions drawn in that analysis - including the linear growth of $N_n$ - hold.
 				
 				\end{solution}
 				
@@ -269,7 +270,7 @@
 
 \begin{ctqs}
 
-	\question Using this information, find an expression for how the number average degree of polymerization, $N_n$, changes with time in a self-catalyzed step-growth polymerization.
+	\question Using this information, derive an expression for how the number average degree of polymerization, $N_n$, changes with time in an uncatalyzed step-growth polymerization.
 	
 		\begin{solution}[1.25in]
 			\begin{equation*}
@@ -277,7 +278,7 @@
 			\end{equation*}
 		\end{solution}
 		
-	\question Based on the equation you derived in the previous question, sketch a plot of how the molecular weight of the polymers you expect to obtain in a step-growth reaction will change with time:
+	\question Based on the equation you derived in the previous question, sketch a plot of how the molecular weight of the polymers formed in an uncatalyzed step-growth polymerization should depend on the reaction time:
 	
 		\begin{solution}[2in]
 		\studentdisplay{		
@@ -299,7 +300,7 @@
 
 \begin{exercises}
 
-		\exercise In Model \ref{\labelbase:mdl:simple}, the ``A'' and ``B'' reactive groups were shown without depicting what species they were attached to.  However, these species could be on the ends of monomers, oligomers, or long polymer chains. %add graphic?
+		\exercise In Model \ref{\labelbase:mdl:simple}, the ``A'' and ``B'' reactive groups were shown without depicting which species they were attached to.  However, these species could be on the ends of monomers, oligomers, or long polymer chains. %add graphic?
 		What assumption has to be made about the reactivities of the functional groups on these different species for the rate law you proposed in CTQ \ref{\labelbase:ctq:proposeratelaw} (and the expression you derived for $N_n$ in CTQ \ref{\labelbase:ctq:catNn}) to correctly describe the kinetics of the entire reaction?  Explain your reasoning in 2-3 complete sentences.
 		
 			\begin{solution}\instructordisplay{
@@ -357,7 +358,7 @@
 						
 					}\end{solution}
 			
-		\exercise Extend the process from the above question to derive the rate law for stoichiometrically-balanced, un-catalyzed step-growth polymerizations (shown on page \pageref{\labelbase:info:uncatintrate}).
+		\exercise Extend the process from the above question to derive the integrated rate law for stoichiometrically-balanced, un-catalyzed step-growth polymerizations (shown on page \pageref{\labelbase:info:uncatintrate}).
 				
 					\begin{solution}\instructordisplay{
 						For the un-catalyzed polymerization, 
