@@ -1,0 +1,36 @@
+<molecule formalCharge="-12">
+ <crystal>
+  <scalar title="a" units="units:angstrom">7.400000</scalar>
+  <scalar title="b" units="units:angstrom">4.930000</scalar>
+  <scalar title="c" units="units:angstrom">2.534000</scalar>
+  <scalar title="alpha" units="units:degree">90.000000</scalar>
+  <scalar title="beta" units="units:degree">90.000000</scalar>
+  <scalar title="gamma" units="units:degree">90.000000</scalar>
+ </crystal>
+ <atomArray>
+  <atom id="a1" elementType="C" formalCharge="-3" xFract="0.288000" yFract="0.185000" zFract="0.250000"/>
+  <atom id="a2" elementType="C" formalCharge="-3" xFract="0.212000" yFract="0.315000" zFract="0.750000"/>
+  <atom id="a3" elementType="C" formalCharge="-3" xFract="0.712000" yFract="0.703000" zFract="0.750000"/>
+  <atom id="a4" elementType="C" formalCharge="-3" xFract="0.788000" yFract="0.815000" zFract="0.250000"/>
+  <atom id="a5" elementType="H" xFract="0.408087" yFract="0.074380" zFract="0.344873"/>
+  <atom id="a6" elementType="H" xFract="0.189824" yFract="0.049710" zFract="0.086222"/>
+  <atom id="a7" elementType="H" xFract="0.310176" yFract="0.450289" zFract="0.913776"/>
+  <atom id="a8" elementType="H" xFract="0.091913" yFract="0.425620" zFract="0.655129"/>
+  <atom id="a9" elementType="H" xFract="0.618435" yFract="0.544154" zFract="0.659798"/>
+  <atom id="a10" elementType="H" xFract="0.643814" yFract="0.860675" zFract="0.961064"/>
+  <atom id="a11" elementType="H" xFract="0.856186" yFract="0.657324" zFract="0.038937"/>
+  <atom id="a12" elementType="H" xFract="0.881565" yFract="0.973846" zFract="0.340202"/>
+ </atomArray>
+ <bondArray>
+  <bond atomRefs2="a1 a2" order="1"/>
+  <bond atomRefs2="a4 a3" order="1"/>
+  <bond atomRefs2="a1 a5" order="1"/>
+  <bond atomRefs2="a1 a6" order="1"/>
+  <bond atomRefs2="a2 a7" order="1"/>
+  <bond atomRefs2="a2 a8" order="1"/>
+  <bond atomRefs2="a3 a9" order="1"/>
+  <bond atomRefs2="a3 a10" order="1"/>
+  <bond atomRefs2="a4 a11" order="1"/>
+  <bond atomRefs2="a4 a12" order="1"/>
+ </bondArray>
+</molecule>
