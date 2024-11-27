@@ -56,7 +56,7 @@
 	\RequirePackage{mdframed}
 	\RequirePackage{fancyhdr}
 	\RequirePackage{memhfixc}	% fix hyperref in memoir class
-	\RequirePackage{comment}	% necessary for hiding answers in student version
+	\RequirePackage{environ}	% necessary for hiding answers in student version
 	\RequirePackage[T1]{fontenc}	% necessary to display symbol for dispersity
 	\RequirePackage{lmodern}	% fix use of bitmap fonts when runnign T1 encoding
 	
@@ -223,26 +223,20 @@
 
 % set up environment for INSTRUCTOR NOTES
 
-	\newenvironment{instructornotes}{%
-		% before code:
-		\color{red}
-		\subsection*{Instructor Notes:}
-	}{%
-		% after code:
+	\NewEnviron{instructornotes}{
 		\ifbool{instructorguide}{%
+			\color{red}
+			\subsection*{Instructor Notes:}
+			\BODY
 			\clearpage
 			\color{black}
 			\ifbool{isbook}{%
 				\section*{Activity~\arabic{chapter}.\arabic{activity}: \activitytitle}
-    		}{%
-    			\section*{\activitytitle}
-    		}
-    	}{}
-	}
-	
-	\ifbool{instructorguide}{%
-	}{%
-		\excludecomment{instructornotes}
+    			}{%
+    				\section*{\activitytitle}
+    			}
+		}{%
+		}
 	}
 
 % set up environment for warmups
@@ -343,35 +337,59 @@
 		\newcommand{\studentdisplay}[1]{\csdef{showstudent}{#1}}
 		\newcommand{\instructordisplay}[1]{\csdef{showinstructor}{#1}}
 
-	\newenvironment{solution}[1][]{%
-		\begin{minipage}[t][#1][c]{\linewidth}
-		\setlength{\parskip}{0.5em}
+%	\newenvironment{solution}[1][]{%
+%		\begin{minipage}[t][#1][c]{\linewidth}
+%		\setlength{\parskip}{0.5em}
+%		\ifbool{instructorguide}{%
+%			\color{red}
+%		}{%
+%			\color{white}
+%		}
+%	}{%
+%		\ifbool{instructorguide}{%
+%			\csuse{showinstructor}
+%			\color{black}
+%		}{%
+%			\color{black}
+%			\csuse{showstudent}
+%		}
+%		\end{minipage}
+%	}
+
+	\NewEnviron{solution}[1][0pt]{
+		\dimdef{\solnlength}{#1}
+		\dimdef{\zerodim}{0pt}
+		\ifbool{instructorguide}{%
+			\ifdimequal{\solnlength}{\zerodim}{%
+				\begin{minipage}[t][][c]{\linewidth}
+			}{%
+				\begin{minipage}[t][#1][c]{\linewidth}
+			}
+		}{%
+			\begin{minipage}[t][#1][c]{\linewidth}
+		}
 		\ifbool{instructorguide}{%
 			\color{red}
-		}{%
-			\color{white}
-		}
-	}{%
-		\ifbool{instructorguide}{%
+			\BODY
 			\csuse{showinstructor}
 			\color{black}
-		}{%
-			\color{black}
-			\csuse{showstudent}
+    		}{%
+    			\csuse{showstudent}
 		}
 		\end{minipage}
 	}
 	
 	
-	
 	\newcommand{\answer}[1]{
 		\ifbool{instructorguide}{%
 			\color{red}%
+			#1
 		}{%
 			\color{white}%
 			\renewcommand{\includegraphics}[2][]{~}
+			~
 		}%
-		#1\color{black}%
+		\color{black}%
 	}
 	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
