@@ -333,30 +333,8 @@
 	}
 	
 % set up environment for answer spaces
-		
-		\newcommand{\studentdisplay}[1]{\csdef{showstudent}{#1}}
-		\newcommand{\instructordisplay}[1]{\csdef{showinstructor}{#1}}
 
-%	\newenvironment{solution}[1][]{%
-%		\begin{minipage}[t][#1][c]{\linewidth}
-%		\setlength{\parskip}{0.5em}
-%		\ifbool{instructorguide}{%
-%			\color{red}
-%		}{%
-%			\color{white}
-%		}
-%	}{%
-%		\ifbool{instructorguide}{%
-%			\csuse{showinstructor}
-%			\color{black}
-%		}{%
-%			\color{black}
-%			\csuse{showstudent}
-%		}
-%		\end{minipage}
-%	}
-
-	\NewEnviron{solution}[1][0pt]{
+	\NewEnviron{solution}[2][0pt]{
 		\dimdef{\solnlength}{#1}
 		\dimdef{\zerodim}{0pt}
 		\ifbool{instructorguide}{%
@@ -371,10 +349,9 @@
 		\ifbool{instructorguide}{%
 			\color{red}
 			\BODY
-			\csuse{showinstructor}
 			\color{black}
     		}{%
-    			\csuse{showstudent}
+    			#2
 		}
 		\end{minipage}
 	}
