@@ -356,7 +356,7 @@ To incorporate the energetics of intermolecular interactions into our model, we 
 			$8w_{12}-4w_{11}-4w_{22}$
 		\end{solution}
 	
-	\question Explain, in 1-2 complete sentences, why $\Delta w = w_{12} - \frac{w_{11}}{2} - \frac{w_{22}}{2}$ (called the ``exchange energy'') can be interpreted as the energetic cost for breaking up interactions between like molecules to create new interactions between un-like molecules.
+	\question Explain, in 1-2 complete sentences, why $\Delta w = w_{12} - \frac{w_{11}}{2} - \frac{w_{22}}{2}$ (called the ``exchange energy'') can be interpreted as the energetic cost for breaking up interactions between like molecules to create new interactions between un-like molecules.\label{\labelbase:ctq:deltaw}
 	
 		\begin{solution}[2.25in]{}
 			The molecules start only surrounded by neighbors of the same type.  Every time we create a new ``1-2'' interaction, it requires us to remove (break apart) some of the interactions between like molecules, which requires an energy input of $w_{11}$ or $w_{22}$ per interaction that we break apart. We then gain energy $w_{12}$ as we create the new interactions.  The factor of 1/2 is necessary because we essentially have to break half of a 1-1 interaction and half of a 1-2 interaction to create a single new 1-2 interaction.
@@ -389,7 +389,7 @@ It is possible to show (see Exercise \ref{\labelbase:exc:mixingenthalpy}) that, 
 				\end{equation*}
 			\end{solution}
 
-			\item Recalling that $\Delta G = \Delta H - T\Delta S$, combine this expression with your answer from question \ref{ctq:Smixed} to find an expression for $\Delta G_{mix}^{(int)}$.
+			\item Recalling that $\Delta G = \Delta H - T\Delta S$, combine this expression with your answer from CTQ \ref{ctq:Smixed} to find an expression for $\Delta G_{mix}^{(int)}$.
 			
 			\begin{solution}[0.5in]{}
 				\begin{align*}
@@ -643,33 +643,31 @@ In polymers, however, this is no longer true: the monomers are linked together i
 			\item there are $m_1$ molecules of type 1 that each have $z$ neighbors of type 1; and
 			\item there are also $m_2$ molecules of type 2 that each have $z$ neighbors of type 2.
 		\end{itemize}
-		In this state...
-			
-				\begin{enumerate} 
-				
-					\item What is the total energy of the interactions between type-1 molecules and their neighbors?
-					
-						\begin{solution}{}
-							 $m_1 z w_{11}$
-							 
-							 (Each type-1 molecule has $z$ interactions with its neighbors, and the energy of each of those interactions is $w_{11}$.  So the energy for a single type-1 molecule interacting with its neighbors is $zw_{11}$.  To get the total energy of \emph{all} type-1 molecules interacting with their neighbors, we just multiply by the number of molecules, $m_1$, yielding a total interaction energy of $m_1 z w_{11}$.)
-						\end{solution}
-				
-					\item What is the total energy of the interactions between type-2 molecules and their neighbors?
-					
-						\begin{solution}{}
-							 $m_2 z w_{22}$
-						\end{solution}
-				
-					\item What is the total energy (enthalpy) of the initial state, $H_{initial}$?
+		What is the total energy (enthalpy) of this state?
 		
-					\begin{solution}{}
-						$H_{initial} = m_1 z w_{11} + m_2 z w_{22}$
+		\begin{solution}{}
+			In this state, each type-1 molecule has $z$ interactions with its neighbors, and the energy of each of those interactions is $w_{11}$.  The energy for a single type-1 molecule interacting with its neighbors is thus $zw_{11}$.
+			To get the total energy of \emph{all} type-1 molecules interacting with their neighbors, multiply by the number of molecules, $m_1$.
 			
-						Note to instructors: this value is actually off by a factor of two, because we are double-counting most of the interactions; we will correct for this later on. 
-					\end{solution}	
+~			
 			
-				\end{enumerate}
+			Thus, the total energy of the interactions between type-1 molecules and their neighbors is
+			\begin{equation*}
+				m_1 z w_{11}
+			\end{equation*}
+			Similarly, the total energy of the interactions between type-2 molecules and their neighbors is 
+			\begin{equation*}
+				m_2 z w_{22}
+			\end{equation*}
+			
+			Putting these together, the total enthalpy of this initial state is
+			\begin{equation*}
+			H_{initial} = m_1 z w_{11} + m_2 z w_{22}
+			\end{equation*}
+			
+			Note that as written this value is actually off by a factor of two, because we are double-counting most of the interactions, but we will correct for this later on.
+			
+		\end{solution}
 
 	\item In the final state (after mixing),
 	
@@ -677,36 +675,54 @@ In polymers, however, this is no longer true: the monomers are linked together i
 			\item Each of the $m_1$ type-1 molecules is surrounded by $x_1 z$ type-1 molecules and $x_2 z$ type-2 molecules
 			\item Each of the $m_2$ type-2 molecules is surrounded by $x_2 z$ type-2 molecules and $x_1 z$ type-1 molecules.
 		\end{itemize}
-		In this state...
+		What is the total enthalpy of this state?
 		
-		\begin{enumerate}
-			\item What is the total energy of the interactions between type-1 molecules and their neighbors?
-			
-				\begin{solution}{}
-					$m_1(x_1 z w_{11} + x_2 z w_{12}) = m_1 x_1 z w_{11} + m_1 x_2 z w_{12}$
-				\end{solution}
-				
-			\item What is the total energy of the interactions between type-2 molecules and their neighbors?
-			
-				\begin{solution}{}
-					$m_2(x_1 z w_{12} + x_2 z w_{22}) = m_2 x_1 z w_{12} + m_2 x_2 z w_{22}$
-				\end{solution}
-				
-			\item What is the total energy (enthalpy) of the mixed state, $H_{mixed}$?
-			
-				\begin{solution}{}
-				
-					$H_{mixed} = m_1 x_1 z w_{11} + m_1 x_2 z w_{12} + m_2 x_1 z w_{12} + m_2 x_2 z w_{22}$
-				
-				\end{solution}
-				
-		\end{enumerate}
+		\begin{solution}{}
+			Following similar reasoning as in the previous part, the total energy of interaction of a single type-1 molecule with its neighbors is
+			\begin{equation*}
+				x_1 z w_{11} + x_2 z w_{12}
+			\end{equation*}
+			Multiplying by the total number of type-1 molecules ($m_1$), we obtain
+			\begin{equation*}
+				m_1(x_1 z w_{11} + x_2 z w_{12})
+			\end{equation*}
+			Similarly, the energy of total energy of interactions of type-2 molecules with their neighbors is
+			\begin{equation*}
+				m_2(x_1 z w_{12} + x_2 z w_{22})
+			\end{equation*}
+			Putting these together, the total enthalpy of the mixed state is
+			\begin{equation*}
+				H_{mixed} = m_1 x_1 z w_{11} + m_1 x_2 z w_{12} + m_2 x_1 z w_{12} + m_2 x_2 z w_{22}
+			\end{equation*}
+		\end{solution}
 		
-	\item Combine your answers to the previous two parts to find an expression for the enthalpy of mixing, $\Delta H_{mix} = H_{mixed} - H_{initial}$, in terms of $m_1$, $m_2$, $w_{11}$, $w_{22}$, $w_{12}$, and $z$.  Then, use the definition of $\Delta w$ given in the exercise to simplify your answer and remove the individual $w_{11}$, $w_{22}$, and $w_{12}$ terms.
+	\item Combine your answers to the previous two parts to find an expression for the enthalpy of mixing, $\Delta H_{mix} = H_{mixed} - H_{initial}$.  Substitute in appropriate expressions for $x_1$ and $x_2$ in terms of $m_1$ and $m_2$.  Then, show that (with appropriate rearrangement), your expression can be rewritten as
+			\begin{align*}
+				\Delta H_{mix} &= \frac{m_1 m_2 z}{m_1+m_2} 2\Delta w
+			\end{align*}
+			where $\Delta w = w_{12}-\frac{w_{11}}{2} - \frac{w_{22}}{2}$ as given in CTQ \ref{\labelbase:ctq:deltaw}.
 	
 		\begin{solution}{}
 		
-			NEED TO UPDATE THIS
+			Combining our answers to the previous two parts, we obtain
+			\begin{align*}
+				\Delta H_{mix} &= (m_1 x_1 z w_{11} + m_1 x_2 z w_{12} + m_2 x_1 z w_{12} + m_2 x_2 z w_{22}) - (m_1 z w_{11} + m_2 z w_{22})\\
+				&= m_1(x_1-1)zw_{11} + (m_1 x_2 + m_2 x_1)z w_{12} + m_2 (x_2-1) z w_{22}
+			\end{align*}
+			Because $x_1+x_2 = 1$, $x_1-1 = -x_2$ and $x_2-1=-x_1$.  Substituting these in, we obtain
+			\begin{align*}
+				\Delta H_{mix} &= -m_1 x_2 zw_{11} + (m_1 x_2 + m_2 x_1)z w_{12} - m_2 x_1 z w_{22}
+			\end{align*}
+			Then, using the definitions of $x_1$ and $x_2$ (i.e. $x_1 = \frac{m_1}{m} = \frac{m_1}{m_1+m_2}$ and similar for $x_2$) we obtain
+			\begin{align*}
+				\Delta H_{mix} &= \frac{1}{m_1+m_2}\left(-m_1 m_2 z w_{11} + (m_1 m_2 + m_2 m_1) z w_{12} - m_2 m_1 z w_{22}\right)\\
+				&=\frac{m_1 m_2 z}{m_1+m_2}( 2 w_{12} - w_{11} - w_{22})
+			\end{align*}
+			Finally, substituting in the definition of $\Delta w$, we obtain
+			\begin{align*}
+				\Delta H_{mix} &= \frac{m_1 m_2 z}{m_1+m_2} 2\Delta w
+			\end{align*}
+			as desired.
 		
 		\end{solution}
 		
@@ -714,7 +730,17 @@ In polymers, however, this is no longer true: the monomers are linked together i
 	
 		\begin{solution}{}
 		
-			NEED TO UPDATE THIS
+			To correct for both of these issues, we would need to:
+			\begin{enumerate}
+				\item Divide by 2 (to correct for the double counting), and 
+				\item Divide by another factor of $m=m_1+m_2$ (to make the expression intensive rather than extensive).
+			\end{enumerate}
+			Doing so, we obtain
+			\begin{align*}
+				\Delta H_{mix}^{(int)} &= \frac{m_1}{m_1+m_2}\frac{m_2}{m_1+m_2}z\Delta w \\
+				&= x_1 x_2 z \Delta w
+			\end{align*}
+			which is exactly the expression given on page \pageref{\labelbase:eqn:Hmix}.
 		
 		\end{solution}
 		
