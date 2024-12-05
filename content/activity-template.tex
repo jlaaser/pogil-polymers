@@ -9,8 +9,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \renewcommand{\figpath}{content}
+\renewcommand{\labelbase}{labelbase}
 
 \begin{activity}[Activity Template]
+\label{\labelbase}
 
 \begin{instructornotes}
 	Here is some information for the instructor about doing this activity.
@@ -33,6 +35,7 @@
 
 
 \begin{model}[ABC]
+\label{\labelbase:mdl:MODEL1}
 
 	Here is the first model for students to consider
 
@@ -46,24 +49,22 @@
 
 \begin{ctqs}
 
-	\question First question?
+	\question First question?  I can reference Model \ref{\labelbase:mdl:MODEL1} using a appropriate ref command.
 	
-		\begin{solution}[1in]
+		\begin{solution}[1in]{}
 		\end{solution}
 		
 	\question Second question?
 	
-		\begin{solution}[1in]
+		\begin{solution}[1in]{}
 			Here is a dummy answer in the solution space.
 		\end{solution}
 		
 	\question Third question?
 	
-		\begin{solution}[1in]
-		
-			\studentdisplay{Here is something we show only when we process the student version.}
+		\begin{solution}[1in]{Here is something we show only when we process the student version.}
 			
-			\instructordisplay{Here is something we show only when we process the instructor version.}
+			Here is what we show when we process the instructor version.
 			
 		\end{solution}
 
@@ -72,6 +73,7 @@
 
 
 \begin{model}[DEF]
+\label{\labelbase:mdl:MODEL2}
 
 	Here is a second model for students to consider.
 
@@ -81,12 +83,12 @@
 
 	\question First question?
 	
-		\begin{solution}
+		\begin{solution}[1in]{}
 		\end{solution}
 	
 	\question Second question?
 	
-		\begin{solution}
+		\begin{solution}{}
 		
 			Here's a solution environment that doesn't have a height set, but does have content.
 			
@@ -111,11 +113,11 @@
 \begin{ctqs}
 
 	\question First question?
-		\begin{solution}[1in]
+		\begin{solution}[1in]{}
 		\end{solution}
 	
 	\question Second question?
-		\begin{solution}[1in]
+		\begin{solution}[1in]{}
 		\end{solution}
 \end{ctqs}
 

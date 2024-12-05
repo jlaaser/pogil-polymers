@@ -80,25 +80,25 @@ or, more concisely,
 		\begin{enumerate}
 			\item How many monomers came together to form this molecule (that is, what is its degree of polymerization)?
 			
-				\begin{solution}[0.5in]
+				\begin{solution}[0.5in]{}
 					3
 				\end{solution}
 				
 			\item How many \emph{unreacted} `A' groups are in this molecule?
 			
-				\begin{solution}[0.5in]
+				\begin{solution}[0.5in]{}
 					1
 				\end{solution}
 				
 			\item How many \emph{reacted} `a' groups are in this molecule?
 			
-				\begin{solution}[0.5in]
+				\begin{solution}[0.5in]{}
 					2
 				\end{solution}
 				
 			\item What is the probability of forming an AbabaB trimer?
 			
-				\begin{solution}[0.5in]
+				\begin{solution}[0.5in]{}
 					$P(AbabaB) = p^\text{number of reacted a groups}(1-p)^\text{number of unreacted A groups} = p^2(1-p)^1 = p^2(1-p)$
 				\end{solution}
 				
@@ -110,19 +110,19 @@ or, more concisely,
 		
 			\item How many \emph{unreacted} `A' groups are in this molecule?
 			
-				\begin{solution}[0.5in]
+				\begin{solution}[0.5in]{}
 					1
 				\end{solution}
 				
 			\item How many \emph{reacted} `a' groups are in this molecule?
 			
-				\begin{solution}[0.5in]
+				\begin{solution}[0.5in]{}
 					i-1
 				\end{solution}
 				
 			\item What is the probability of forming a molecule with degree of polymerization $i$?
 			
-				\begin{solution}[1in]
+				\begin{solution}[1in]{}
 					$P(i-mer) = p^\text{number of reacted a groups}(1-p)^\text{number of unreacted A groups} = p^{i-1}(1-p)^1 = p^{i-1}(1-p)$
 				\end{solution}
 			
@@ -141,7 +141,7 @@ or, more concisely,
 	
 		``The fraction of molecules, $x_i$, that have degree of polymerization $i$ is \line(1,0){50}.''
 	
-		\begin{solution}[0.5in]
+		\begin{solution}[0.75in]{}
 		
 			$x_i = p^{i-1}(1-p)$
 			
@@ -177,26 +177,24 @@ or, more concisely,
 
 	\question Plot the data given in Model \ref{\labelbase:mdl:dist} on the following axes.  Make sure to use a different symbol for points corresponding to $p=0.5$ than for the points corresponding to $p=0.9$.
 	
-		\begin{solution}[3.25in]
-			\studentdisplay{
+		\begin{solution}[3.25in]{%
 				\centerline{\includegraphics[width=0.8\textwidth]{\figpath/model2-xi-axes.pdf}}
 			}
-			\instructordisplay{
 				\centerline{\includegraphics[width=0.8\textwidth]{\figpath/model2-xi-plotted.pdf}}
-			}
+			
 		\end{solution}
 	
 	\clearpage
 	\question How are the plots for $p=0.5$ and $p=0.9$ similar, and how are they different?  Briefly describe your observations in 2-3 complete sentences.
 	
-		\begin{solution}[2in]
+		\begin{solution}[2in]{}
 		
 			Both of these plots decrease exponentially toward zero with increasing values of $i$.  However, the plot for $p=0.5$ decreases much faster, and a higher fraction of the molecules have very short chain lengths, than in the case where $p=0.9$.
 		\end{solution}
 	
 	\question What is the \emph{most probable} chain length for each value of $p$?  Briefly explain your answer in 1-2 complete sentences.
 	
-		\begin{solution}[2in]
+		\begin{solution}[2in]{}
 		
 			The most probable chain length is just the one with the highest value of $x_i$.  Thus, the most probable chain length is $i=1$ for both values of $p$.
 		
@@ -204,7 +202,7 @@ or, more concisely,
 	
 	\question Can the fraction of chains with length $i+1$ ever be \emph{greater} than the fraction of chains with length $i$?  Justify your answer in 2-3 complete sentences.
 	
-		\begin{solution}[1.5in]
+		\begin{solution}[1.5in]{}
 		
 			No, the fraction of chains with length $i+1$ can never be greater than the mole fraction of chains with length $i$.  This is because for each additional monomer, we pick up another factor of $p$; since $p$ is always less than one, $x_{i+1}$ will always be less than $x_i$.
 			
@@ -235,7 +233,7 @@ or, more concisely,
 \begin{ctqs}
 		\question Calculate the dispersity for a step-growth reaction with extent of reaction $p$.
 		
-			\begin{solution}[1.25in]
+			\begin{solution}[1.25in]{}
 			
 				\begin{equation*}
 					\PDImath = \frac{M_w}{M_n} = \frac{M_0\frac{1+p}{1-p}}{M_0\frac{1}{1-p}} = 1+p
@@ -245,7 +243,7 @@ or, more concisely,
 			
 		\question What is the value of the dispersity when $p=0$?  Briefly comment on whether or not this answer makes sense.
 		
-			\begin{solution}[1.5in]
+			\begin{solution}[1.5in]{}
 			
 				When $p=0$, $\PDImath=1+0 = 1$.  This does make sense: when the extent of reaction is zero, no reactions have taken place, and the reaction mixture contains only monomers.  Since all of the molecules in the mixture are thus identical (and exactly the same size), the dispersity is 1 - the mixture is perfectly monodisperse.
 			
@@ -254,7 +252,7 @@ or, more concisely,
 			
 		\question What is the value of the dispersity when $p=1$?
 		
-			\begin{solution}[1in]
+			\begin{solution}[1in]{}
 			
 				When $p=1$, $\PDImath=1+1=2$.  This is an important limit: the limiting dispersity for a step-growth polymerization is 2.
 			
@@ -264,7 +262,7 @@ or, more concisely,
 			
 		\question Can the dispersity of a polymer produced by a step-growth polymerization ever be greater than 2?  Briefly defend your answer in 1-2 complete sentences.
 		
-			\begin{solution}[1.5in]
+			\begin{solution}[1.5in]{}
 			
 				Following the argument presented in this exercise, no, the dispersity of a polymer produced by step-growth polymerization can never be greater than 2, because $p$ can never be greater than 1. 
 				
@@ -282,22 +280,20 @@ or, more concisely,
 			\begin{enumerate}
 				\item What must the extent of reaction have been in this polymerization?
 		
-					\begin{solution}
-					\instructordisplay{
+					\begin{solution}{}
 						\begin{equation*}
 							p = \text{\DJ}-1 = 1.86-1 = 0.86
 						\end{equation*}
-					}
+					
 					\end{solution}
 					
 				\item What would you expect the number-average degree of polymerization of this polymer to be?
 		
-					\begin{solution}
-					\instructordisplay{
+					\begin{solution}{}
 						\begin{equation*}
 							N_n = \frac{1}{1-p} = \frac{1}{1-0.86} = 7.1
 						\end{equation*}
-					}
+					
 					\end{solution}
 			\end{enumerate}
 			
@@ -312,7 +308,7 @@ or, more concisely,
 					\end{equation*}
 					\emph{One of these quantities was derived in this exercise - how can you obtain the other?  Think back to what you learned in your activity on degree of polymerization about how the number of molecules is related to number of unreacted A groups!}
 					
-					\begin{solution}\instructordisplay{
+					\begin{solution}{}
 					
 						The fraction of molecules that have length $i$ is just $x_i = \left(p^{i-1}(1-p)\right)$, as derived in this activity.
 						
@@ -326,7 +322,7 @@ or, more concisely,
 			&= p^{i-1}(1-p)^2v_A^0
 	\end{align*}
 	
-					}\end{solution}
+					\end{solution}
 					
 					
 				\item Next, plugging this expression into our equation for $M_n$, we obtain
@@ -339,7 +335,7 @@ or, more concisely,
 						M_n = M_0 \frac{{\sum_i i p^{i-1}}}{\frac{1}{p}\sum_i p^i}
 					\end{equation*}
 					
-					\begin{solution}\instructordisplay{
+					\begin{solution}{}
 						We can simplify the expression for $M_n$ by realizing that any multiplicative terms that do not depend on $i$ can be pulled out of the sum:
 						\begin{equation*}
 							M_n = M_0\frac{(1-p)^2\sum_i p^{i-1} i }{(1-p)^2\sum_i p^{i-1}} = M_0\frac{\sum_i p^{i-1} i }{\sum_i p^{i-1}}
@@ -349,7 +345,7 @@ or, more concisely,
 							M_n = M_0\frac{\sum_i p^{i-1} i }{\sum_i p^{i-1}} = M_0\frac{\sum_i p^{i-1} i }{\frac{1}{p}\sum_i p^{i}}
 						\end{equation*}
 						
-					}\end{solution}
+					\end{solution}
 					
 				\item The denominator of this expression is just a geometric series.  Recall that if $p < 1$, then 
 		
@@ -359,21 +355,21 @@ or, more concisely,
 			
 					Substitute this expression into your equation for $M_n$ and simplify.
 					
-					\begin{solution}\instructordisplay{
+					\begin{solution}{}
 						\begin{align*}
 							M_n &= M_0\frac{\sum_i p^{i-1} i }{\frac{1}{p}\sum_i p^{i}}\\
 								&= M_0\frac{\sum_i p^{i-1} i }{\frac{1}{p}\frac{p}{1-p}}\\
 								&= M_0 (1-p)\sum_i p^{i-1} i 
 						\end{align*}
 						
-					}\end{solution}
+					\end{solution}
 			
 				\item The remaining sum can be calculated by differentiating both sides of the equation for $\sum_i p^i$ with respect to $p$.  Carry out this differentiation to show that
 						\begin{equation*}
 							\sum_{i=1}^{\infty} ip^{i-1} = \frac{1}{(1-p)^2}
 						\end{equation*}
 				
-					\begin{solution}\instructordisplay{
+					\begin{solution}{}
 						Left-hand side:
 						\begin{align*}
 							\frac{d}{dp} \sum_{i=1}^{\infty} p^i &= \sum_{i=1}^{\infty} \frac{d}{dp} p^i\\
@@ -397,19 +393,19 @@ or, more concisely,
 							\sum_{i=1}^{\infty} ip^{i-1} = \frac{1}{(1-p)^2}
 						\end{equation*}
 						
-					}\end{solution}
+					\end{solution}
 					
 				\item Finally, substitute this expression into $M_n$ and show that you obtain the expected solution.
 				
 				
-					\begin{solution}\instructordisplay{
+					\begin{solution}{}
 						\begin{align*}
 							M_n &= M_0 (1-p)\sum_i p^{i-1} i \\
 								&= M_0 (1-p)\frac{1}{(1-p)^2} \\
 								&= M_0 \frac{1}{1-p}
 						\end{align*}
 						as expected.
-					}\end{solution}
+					\end{solution}
 				
 			\end{enumerate}
 			
