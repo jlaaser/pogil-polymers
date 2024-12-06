@@ -340,8 +340,10 @@
 		\ifbool{instructorguide}{%
 			\ifdimequal{\solnlength}{\zerodim}{%
 				\begin{minipage}[t][][c]{\linewidth}
+				\setlength{\parskip}{6pt}
 			}{%
 				\begin{minipage}[t][#1][c]{\linewidth}
+				\setlength{\parskip}{6pt}
 			}
 		}{%
 			\begin{minipage}[t][#1][c]{\linewidth}
