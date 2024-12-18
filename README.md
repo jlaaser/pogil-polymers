@@ -89,6 +89,7 @@ Unreleased - December 18, 2024
 		Activity 6.1 - Copolymerization
 		Activity 7.1 - Models for Ideal Polymer Chains
 		Activity 7.2 - Elasticity of Polymer Chains
+		Extension 7.2a - Elasticity of Real Chains
 		Activity 8.1 - Elasticity of Polymer Networks
 		Activity 8.2 - Viscoelasticity of Polymeric Materials
 		Extension 8.2a - Small-Amplitude Oscillatory Shear Rheology
