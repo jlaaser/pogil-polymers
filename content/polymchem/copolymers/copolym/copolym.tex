@@ -332,7 +332,6 @@
 
 \end{ctqs}
 
-\vspace{0.5in}
 \begin{model}[Feed Ratios]
 	\label{\labelbase:mdl:feedratios}
 	
@@ -350,47 +349,68 @@
 
 \end{model}
 
-\clearpage
 \begin{ctqs}
-	\question \label{\labelbase:ctq:f1F1plot} A plot of $F_1$ vs. $f_1$ is shown below for $r_1 = 4$, $r_2=0.25$: 
+	\question Consider a reaction mixture that contains 1~M of monomer $M_1$ and 1~M of monomer $M_2$.  What is the feed ratio, $f_1$, in this reaction mixture?
+	
+		\begin{solution}[0.5in]{}
+			The feed ratio is the fraction of monomers that are type $M_1$.  Since the reaction mixture contains equal concentrations of $M_1$ and $M_2$, half of the monomers are $M_1$, so $f_1=0.5$.
+		\end{solution}
+	
+	\question Suppose the monomers have reactivity ratios $r_1=4$ and $r_2=0.25$.  What is the composition of the polymer that is formed at the feed ratio calculated in the previous question?
+	
+		\begin{solution}[1in]{}
+			Using $f_1=0.5$ and $f_2=1-f_1 = 0.5$, we obtain
+			\begin{equation*}
+				F_1 = \frac{4\cdot 0.5^2 + 0.5^2}{4\cdot 0.5^2+2\cdot 0.5^2 + 0.25\cdot 0.5^2} = 0.8
+			\end{equation*}
+		\end{solution}
+	
+	\question Why, for this set of reactivity ratios, is $F_1 > f_1$?  Explain your group's reasoning in 2-3 complete sentences.
+	
+		\emph{Hint: think about what the given values of $r_1$ and $r_2$ say about which type of monomer will be more likely to add onto the end of the polymer chain!}
+	
+		\begin{solution}[1.5in]{}
+			$r_1>1$ means that a chain currently ending in $M_1$ will be more likely to add an $M_1$ as the next monomer than to add an $M_2$.  $r_2<1$ means that a chain currently ending in $M_2$ will \emph{also} be more likely to add an $M_1$ than an $M_2$.  Thus, the chain will always prefer to add an $M_1$ than an $M_2$, and the composition of the polymer will be enriched in monomer 1 relative to the feed.
+		\end{solution}
+
+	\question \label{\labelbase:ctq:f1F1plot} A plot of $F_1$ vs. $f_1$ is shown below for the reactivity ratios given above ($r_1 = 4$ and $r_2=0.25$): 
 	
 		\vspace{3pt}
 		\centerline{\includegraphics[width=0.35\textwidth]{\figpath/Model3_r1-4_r2-0,25.pdf}}
 	
-		Qualitatively, why should $r_1 = 4$, $r_2=0.25$ generate this shape of plot?  Briefly explain your reasoning in 1-2 complete sentences.
+		Is this plot consistent with your answer to the previous question?  Briefly comment on any similarities or differences.
 				
 		\begin{solution}[1.5in]{}
-			As discussed in Model \ref{\labelbase:mdl:kinetics}, $r_1=4$ and $r_2=0.25$ indicate that chains ending in either monomer type will always prefer to add a new monomer of type 1.  As a consequence, the polymer composition will always be enriched in monomer 1 relative to the feed, so $F_1$ will always be greater than $f_1$.
+			Yes, this plot is qualitatively consistent with the answer to the previous question.  As discussed above, $r_1=4$ and $r_2=0.25$ corresponds to a reaction in which it will always be more favorable to add a $M_1$ onto the growing chain if there is one available.  For these reactivity ratios, we should thus find that $F_1$ is \emph{always} greater than $f_1$, which is exactly what is shown in the plot.
 		\end{solution}
 		
-	\question Consider a reaction mixture that contains exactly 50\% $M_1$ monomers and 50\% $M_2$ monomers.
+	\question Consider a reaction mixture with reactivity ratios $r_1 = 4$ and $r_2=0.25$ that starts at $f_1=0.5$. \label{\labelbase:ctq:compositionshift}
 	
 		\begin{enumerate}
-			\item What is the value of $f_1$ for this reaction mixture?
 			
-				\begin{solution}[0.5in]{}
-					exactly 50\% of the monomers are type 1, so $f_1=0.5$
-				\end{solution}
-			
-			\item Assuming the reactivity ratios are the same as in CTQ \ref{\labelbase:ctq:f1F1plot}, what fraction of the monomers \emph{in the polymer} will be type $M_1$?
-			
-				\begin{solution}[0.5in]{}
-					0.8 (students can either calculate this using the equation in the Model, or estimate off the plot)
-				\end{solution}
-			
-			\item As the reaction goes, what will happen to the concentration of monomer $M_1$ left in solution?
+			\item As the reaction progresses, what will happen to the concentration of monomer $M_1$ left in solution?
 				
-				\begin{solution}[1in]{}
+				\begin{solution}[0.5in]{}
 					Because $M_1$ is being preferentially incorporated into the polymer, the concentration of $M_1$ left in solution will decrease (more so than the concentration of $M_2$ will)
 				\end{solution}
-			\item Predict how the values of $f_1$ and $F_1$ are likely to change over time in this reaction.
 				
-				\begin{solution}[1in]{}
-					As the amount of $M_1$ decreases, the value of $f_1$ will decrease.  The value of $F_1$ will then also decrease over time - the composition of the polymer will gradually shift to contain fewer $M_1$ (and more $M_2$) monomers.
-					
-					Exercise \ref{\labelbase:exc:compshift} asks students to think through how this composition drift will affect the composition and/or sequence of the resulting polymers.
+			\item As monomer $M_1$ is used up, what happens to the value of the feed ratio, $f_1$?
+				
+				\begin{solution}[0.5in]{}
+					As $M_1$ is used up, the fraction of monomer 1 in solution decreases, so $f_1$ decreases.
 				\end{solution}
 			
+			\item As the feed ratio changes, what happens to the composition of the polymer (i.e. what happens to $F_1$)?
+			
+				\begin{solution}[0.5in]{}
+					As $f_1$ decreases, $F_1$ also decreases.
+				\end{solution}
+			
+			\item Explain, in 1-2 complete sentences, why the composition of the polymer produced in a compolymerization with $r_1$ and $r_2 \neq 1$ is usually found to change over time.
+			
+				\begin{solution}[1in]{}
+					When the reactivity ratios are not 1, the growing chains will prefer to add one monomer over the other at most values of the feed ratio.  This leads to the polymer being enriched that monomer - which in turn depletes the reaction mixture of that monomer.  This changes the value of $f_1$, which in turn changes the value of $F_1$, or the composition of the polymer being produced.
+				\end{solution}
 			
 		\end{enumerate}
 		
@@ -412,7 +432,7 @@
 			
 			\item Using your answer to the previous question, propose a method that you could use to determine the reactivity ratios for a pair of monomers if given values of $F_1$ corresponding to a range of different $f_1$ values.
 			
-				\begin{solution}[2in]{}
+				\begin{solution}[1in]{}
 					A simple way to find $r_1$ and $r_2$ would be to plot $\frac{f_1(1-2F_1)}{F_1(1-f_1)}$ vs  $\left(\frac{f_1^2(F_1-1)}{F_1(1-f_1)^2}\right)$ and fit the data to a line.  The slope of the line would be $r_1$ and the intercept would be $r_2$.
 				\end{solution}
 		\end{enumerate}
@@ -459,7 +479,7 @@
 			\end{solution}
 		\end{enumerate}
 	
-	\exercise In CTQ \ref{\labelbase:ctq:f1F1plot}, you predicted how the values of $f_1$ and $F_1$ are likely to change over the course of a reaction.  For the reactivity ratios described in that question, do the following: \label{\labelbase:exc:compshift}
+	\exercise In CTQ \ref{\labelbase:ctq:compositionshift}, you predicted how the values of $f_1$ and $F_1$ are likely to change over the course of a reaction.  For the reactivity ratios described in that question, do the following: \label{\labelbase:exc:compshift}
 	
 		\begin{enumerate}
 			\item Briefly describe the characteristics of the polymer that you expect to obtain if the polymerization is carried out under free radical conditions.
