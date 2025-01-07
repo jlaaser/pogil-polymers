@@ -1,12 +1,12 @@
 # pogil-polymers
 Polymers: A Guided Inquiry
-July 2023
+December 2024
 
 ----------------------------------------------------------
 Copyright and License
 ----------------------------------------------------------
 
-Current version (c) 2023 Jennifer Laaser
+Current version (c) 2024 Jennifer Laaser
 
 Except where otherwise noted, this work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
@@ -64,7 +64,7 @@ Github:	github.com/jlaaser
 Release Notes
 ---------------------------------------------------------
 
-Unreleased - July 18, 2023
+Unreleased - December 18, 2024
 
 	The following activities are complete (including the instructor guides), and have been classroom-tested and revised:
 	
@@ -89,14 +89,17 @@ Unreleased - July 18, 2023
 		Activity 6.1 - Copolymerization
 		Activity 7.1 - Models for Ideal Polymer Chains
 		Activity 7.2 - Elasticity of Polymer Chains
+		Extension 7.2a - Elasticity of Real Chains
 		Activity 8.1 - Elasticity of Polymer Networks
 		Activity 8.2 - Viscoelasticity of Polymeric Materials
 		Extension 8.2a - Small-Amplitude Oscillatory Shear Rheology
 		Activity 9.1 - Regular Solutions & Flory-Huggins Theory
 		Activity 9.2 - Thermodynamics of Phase Separation
 		Activity 9.3 - Phase Diagrams of Polymer Solutions
-		Activity 10.1 - The Glass Transition
-		Activity 10.2 - Measuring Tg and Tm
+		Activity 10.1 - Fundamentals of Scattering
+		Activity 10.2 - Static and Dynamic Light Scattering
+		Activity 11.1 - The Glass Transition
+		Activity 11.2 - Measuring Tg and Tm
 	
 	The following activites are complete (including the instructor guide), but have not been classroom-tested (or, have been classroom-tested but have not yet been updated following testing):
 	
